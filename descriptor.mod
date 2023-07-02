@@ -1,0 +1,15 @@
+version="1.0 DEV"
+tags={
+	"Alternative History"
+	"Graphics"
+	"Ideologies"
+	"Events"
+	"National Focuses"
+	"Map"
+	"Technologies"
+}
+name="Pax Britannica: Mast in Flames"
+replace_path="common/countries"
+replace_path="common/country_tags"
+replace_path="common/bookmarks"
+supported_version="1.12.14"

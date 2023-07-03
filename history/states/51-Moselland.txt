@@ -1,0 +1,31 @@
+
+state={
+	id=51
+	name="STATE_51"
+	resources={
+		steel=54.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6469 10 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 3
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+	manpower=4127588
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

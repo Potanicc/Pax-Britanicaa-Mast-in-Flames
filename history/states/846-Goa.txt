@@ -1,0 +1,20 @@
+state={
+	id=846
+	name="STATE_846"
+	history = {
+		owner = MAR
+		add_core_of = MAR
+		buildings = {
+			infrastructure = 1
+			1273 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		1273
+	}
+	manpower = 321931
+	state_category = town
+	buildings_max_level_factor=1.000
+}

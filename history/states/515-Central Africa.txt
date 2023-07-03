@@ -1,0 +1,21 @@
+
+state={
+	id=515
+	name="STATE_515"
+
+	history={
+		owner = BAF
+		#add_core_of = BAF
+		#add_core_of = SOK
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		4913 10754 10868 10917 
+	}
+	manpower=44602
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

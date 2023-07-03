@@ -1,0 +1,26 @@
+state={ 
+	id=799
+	name="Jefferson"
+	manpower = 158423
+	resources={
+		oil=1
+		grain=9
+	}
+	
+	state_category = rural
+
+	history={
+		owner = GRN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10640 3
+		}
+		add_core_of = GRN
+	}
+
+	provinces={
+		4723 7780 10640 13297
+	}
+}

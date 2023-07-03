@@ -1,0 +1,40 @@
+
+state={
+	id=500
+	name="STATE_500"
+
+        resources={
+                grain = 15
+	        }
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 7
+			10980 = {
+				naval_base = 7
+
+			}
+
+		}
+		victory_points = {
+			10980 16 
+		}
+		victory_points = {
+			7476 3
+		}
+
+	}
+
+	provinces={
+		2167 2185 5172 7476 8148 8190 8210 8226 10432 10980 12334 12438 12479 12977 12996 
+	}
+	manpower=6665500
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

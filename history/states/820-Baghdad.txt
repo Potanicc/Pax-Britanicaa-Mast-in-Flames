@@ -1,0 +1,32 @@
+state={
+	id=820
+	name="STATE_820"
+	resources={
+		oil=22.000
+	}
+
+	history={
+		owner = SYR
+		victory_points = {
+			2097 15 
+		}
+		victory_points = {
+			13282 1 
+		}
+
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = SYR
+	}
+
+	provinces={
+	    12046 2097 12855 13282
+	}
+	manpower=1784962
+	buildings_max_level_factor=1.000
+	state_category=large_town 
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=469
+	name="STATE_469"
+	manpower = 865605
+	
+	state_category = rural
+
+        resources={
+                grain = 14
+	        }
+
+	history={
+		owner = LAK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = LAK
+	}
+
+	provinces={
+		1788 3481 3769 4739 9669 10552 10611 10656 11440 12593 12603 12663 
+	}
+}

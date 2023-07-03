@@ -1,0 +1,24 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = BAF
+		#add_core_of = BAF
+		#add_core_of = VOL
+		victory_points = {
+			2056 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1975 2056 10900 12707 
+	}
+	manpower=926016
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

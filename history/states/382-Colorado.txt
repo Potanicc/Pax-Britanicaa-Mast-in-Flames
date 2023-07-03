@@ -1,0 +1,28 @@
+
+state={ #quivira alta
+	id=382
+	name="STATE_382"
+	manpower = 1837554
+	resources={
+		oil=2
+		grain=40
+	}
+	
+	state_category = town
+
+	history={
+		owner = GRN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			12024 5
+		}
+		add_core_of = GRN
+	}
+
+	provinces={
+		4871 4814 10532 12024 
+	}
+}

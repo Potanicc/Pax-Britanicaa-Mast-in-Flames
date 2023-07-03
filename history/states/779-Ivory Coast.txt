@@ -1,0 +1,18 @@
+
+state={
+	id=779
+	name="STATE_779" # Honduran Miskito
+	manpower = 15202
+	
+	state_category = pastoral
+	history={
+		owner = HON
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		13206
+	}
+}

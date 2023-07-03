@@ -1,0 +1,42 @@
+
+state={
+	id=158
+	name="STATE_158"
+	manpower = 4765476
+	
+	state_category = metropolis
+	resources={
+		steel=34
+		aluminium=21
+		tungsten = 2
+                grain = 13
+	}
+
+	history={
+set_state_flag = ITA_socialists
+		owner = IST
+		victory_points = {
+			6788 10 
+		}
+		victory_points = {
+			6780 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+			6788 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ITA
+		add_core_of = IST
+
+	}
+
+	provinces={
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
+	}
+}

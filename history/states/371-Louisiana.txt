@@ -1,0 +1,41 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		oil=66.000
+	}
+
+	history={
+		owner = ACD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 5
+			7552 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = ACD
+		victory_points = {
+			7552 10 
+		}
+		victory_points = {
+			4507 3 
+		}
+		victory_points = {
+			12401 2
+		}
+
+	}
+
+	provinces={
+		1528 1643 4507 4535 7552 12313 12398 12401 
+	}
+	manpower=2101592
+	buildings_max_level_factor=1.000
+	state_category=city
+}

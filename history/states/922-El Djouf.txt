@@ -1,0 +1,29 @@
+
+state={
+	id=922
+	name="STATE_922"
+
+	resources={
+		grain = 2
+	}
+
+	history={
+		owner = WAF
+		add_core_of = WAF
+		#add_core_of = MOR
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			13237 25 
+		}
+	}
+
+	provinces={
+		1901 13234 13235 13236 13237 
+	}
+	manpower=331050
+	buildings_max_level_factor=1.000
+	state_category=town 
+}

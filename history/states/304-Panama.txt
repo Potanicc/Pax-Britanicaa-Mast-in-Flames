@@ -1,0 +1,32 @@
+
+state={
+	id=304
+	name="STATE_304"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = PEF
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			4980 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			4980 1 
+		}
+
+	}
+
+	provinces={
+		4980 11108 
+	}
+	manpower=467459
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

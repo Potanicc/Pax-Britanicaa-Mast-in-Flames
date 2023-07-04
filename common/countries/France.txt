@@ -1,0 +1,6 @@
+
+
+graphical_culture = french_gfx
+graphical_culture_2d = french_2d	 
+
+color = { 45 70 125 }

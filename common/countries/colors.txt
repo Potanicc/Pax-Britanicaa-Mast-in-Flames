@@ -1,0 +1,7 @@
+
+#Don't paste stuff at the top or else this entire file might break
+
+FRA = {
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
+}

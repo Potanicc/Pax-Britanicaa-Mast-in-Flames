@@ -1,4 +1,6 @@
 ## Which dumbass named this file Panama Canal
+## I didn't add the previous comment but which dumbass named this file Panama Canal
+
 state={
 	id=685
 	name="STATE_685"
@@ -6,7 +8,6 @@ state={
 	history={
 		owner = FRA
 		add_core_of = FRA
-		set_demilitarized_zone = yes
 		victory_points = {
 			5291 3
 		}

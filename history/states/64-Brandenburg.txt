@@ -24,7 +24,7 @@ state={
 			air_base = 6
 
 		}
-		add_claim_of = GLF
+		add_claim_by = GLF
 	}
 
 	provinces={

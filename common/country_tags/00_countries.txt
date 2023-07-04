@@ -24,4 +24,5 @@ TIB = "countries/Tibet.txt"
 KOR = "countries/Korea.txt"
 HMK = "countries/Hami Khanate.txt"
 
-GLF = "countries/German National Liberation Front"
+GNL = "countries/German National Liberation Front.txt"
+DRR = "countries/Danish Royal Resistance.txt" #Used for Kiel revolt

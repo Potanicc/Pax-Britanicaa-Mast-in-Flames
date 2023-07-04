@@ -23,6 +23,7 @@ ZHT = "countries/Zheltorossiya.txt" #I would be glad if someone explained where 
 TIB = "countries/Tibet.txt"
 KOR = "countries/Korea.txt"
 HMK = "countries/Hami Khanate.txt"
+KCZ = "countries/Kiel Canal Zone.txt"
 
 GNL = "countries/German National Liberation Front.txt"
 DRR = "countries/Danish Royal Resistance.txt" #Used for Kiel revolt

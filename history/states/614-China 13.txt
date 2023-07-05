@@ -7,15 +7,14 @@ state={
 	state_category = town
 
 	history={
-		owner = CHI
-		add_core_of = CHI
+		owner = RCA
 		buildings = {
 			infrastructure = 4
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
+	add_core_of = RCA
+	add_core_of = CHI
+	
 	}
 
 	provinces={

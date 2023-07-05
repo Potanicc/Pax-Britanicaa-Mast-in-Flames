@@ -11,8 +11,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = HOL
-		add_core_of = FLA
+		owner = FRA
 		victory_points = { 516 30 }
 		victory_points = { 6598 30 }
 		victory_points = { 6560 5 }
@@ -32,7 +31,8 @@ state={
 		
 		add_extra_state_shared_building_slots = 2
 		
-		add_core_of = HOL
+		add_core_of = FRA
+		add_claim_by = HOL
 	}
 
 	provinces={

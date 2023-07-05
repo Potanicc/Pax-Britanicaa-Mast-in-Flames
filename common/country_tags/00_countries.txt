@@ -19,11 +19,13 @@ JPE = "countries/Japanese Empire.txt"
 PRS = "countries/Prussia.txt"
 RCA = "countries/Revolutionary Chinese Association.txt"
 UIA = "countries/United Islamic Armies.txt"
-ZHT = "countries/Zheltorossiya.txt" #I would be glad if someone explained where this name comes from
+ZHT = "countries/Zheltorossiya.txt"
 TIB = "countries/Tibet.txt"
 KOR = "countries/Korea.txt"
 HMK = "countries/Hami Khanate.txt"
 KCZ = "countries/Kiel Canal Zone.txt"
+SCZ = "countries/Suez Canal Zone.txt"
+CHI = "countries/Empire of China.txt"
 
 GNL = "countries/German National Liberation Front.txt"
 DRR = "countries/Danish Royal Resistance.txt" #Used for Kiel revolt

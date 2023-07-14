@@ -29,6 +29,7 @@ CHI = "countries/Empire of China.txt"
 DPV = "countries/German Pacific Administration.txt"
 SCA = "countries/SCA Orthodox.txt"
 SCJ = "countries/SCA Japanese Faction.txt"
+ALM = "countries/Allemania.txt"
 
 GNL = "countries/German National Liberation Front.txt"
 DRR = "countries/Danish Royal Resistance.txt" #Used for Kiel revolt

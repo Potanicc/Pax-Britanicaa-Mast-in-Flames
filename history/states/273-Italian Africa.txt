@@ -1,0 +1,24 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	impassable = yes
+
+	history={
+		owner = BAF
+		#add_core_of = BAF
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		12022 
+	}
+	manpower=17633
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

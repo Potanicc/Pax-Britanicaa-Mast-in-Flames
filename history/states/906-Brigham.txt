@@ -1,0 +1,24 @@
+
+state={
+	id=906
+	name="STATE_906"
+
+	history={
+		owner = SHO
+		add_core_of = SHO
+		victory_points = {
+			12535 3 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1663 7756 9695 12535 13153 13277 13278 13279 13296
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

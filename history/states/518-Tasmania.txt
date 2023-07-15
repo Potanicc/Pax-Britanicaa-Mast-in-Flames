@@ -1,0 +1,31 @@
+state=
+{
+	id=518
+	name="STATE_518"
+	manpower = 224000
+
+	resources={
+                grain = 2
+				steel = 6
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = DAS
+		add_core_of = FST
+		victory_points = {
+			2189 1 
+		}
+		buildings = {
+			infrastructure = 5
+			2189 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		2183 2189 5181 5187 10665 12645
+	}
+}

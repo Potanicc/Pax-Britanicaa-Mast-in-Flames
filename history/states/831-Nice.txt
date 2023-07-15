@@ -1,0 +1,24 @@
+state={
+	id=831
+	name="STATE_831"
+	history = { 
+		set_state_flag = ITA_socialists
+		owner = IST
+		add_core_of = ITA
+		add_core_of = IST
+		add_core_of = FRA		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		}
+		victory_points = {
+			9909 5.0 
+		}
+	}
+	provinces={
+		3959 9909 
+	}
+	manpower = 241916	
+	state_category = town
+	buildings_max_level_factor=1.000
+}

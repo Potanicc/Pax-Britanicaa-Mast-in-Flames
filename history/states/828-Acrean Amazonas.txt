@@ -1,0 +1,21 @@
+state= {
+	id=828
+	name="STATE_828"
+	manpower = 243753
+	state_category = town
+
+	resources={
+        rubber = 35
+	}
+
+	history= {
+		owner = ACR
+		add_core_of = ACR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces= {
+		8185 8254 12965 
+	}
+}

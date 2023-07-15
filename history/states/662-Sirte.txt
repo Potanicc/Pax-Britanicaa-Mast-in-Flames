@@ -1,0 +1,27 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = BAF
+		#add_core_of = BAF
+		buildings = {
+			infrastructure = 2
+            10785 = {
+				bunker = 2
+			}
+		}
+		victory_points = {
+			10785 1 
+		}
+
+	}
+
+	provinces={
+		4057 7076 10785 13231 
+	}
+	manpower=13213
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

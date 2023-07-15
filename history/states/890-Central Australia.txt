@@ -1,0 +1,14 @@
+state={
+	id=890
+	name="STATE_890"
+	history={
+		owner = NBT
+		add_core_of = NBT
+	}
+	provinces={
+		11013 12992
+	}
+	manpower=20
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

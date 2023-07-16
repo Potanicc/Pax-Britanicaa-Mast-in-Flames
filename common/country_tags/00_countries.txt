@@ -266,7 +266,7 @@ MLW = "countries/Malawi.txt"
 NMB = "countries/Namibia.txt"
 RWA = "countries/Rwanda.txt"
 SOM = "countries/Somalia.txt"
-WGR = "countries/West Germany.txt"
+WGR = "countries/West Germany.txt" #Not used in the mod
 SWK = "countries/Sarawak.txt"
 WTA = "countries/West Thrace.txt"
 ROA = "countries/Ultranat Russia.txt"
@@ -312,7 +312,6 @@ DRZ = "countries/Druze.txt"
 UAE = "countries/United Arab Emirates.txt"
 KUW = "countries/Kuwait.txt"
 SCA = "countries/Second Continental Army.txt"
-FFI = "countries/Free Finland.txt"
 OCT = "countries/Occitania.txt"
 NRM = "countries/Normandy.txt"
 BRG = "countries/Burgundy.txt"
@@ -347,6 +346,11 @@ MIT = "countries/Maritime.txt"
 KKK = "countries/Klu Klux Klan.txt"
 FSM = "countries/Micronesia.txt"
 ATX = "countries/American Texas.txt"
+
+#tags below this line are from PB:MIF
+#----------------------------------------------------------
+DRR = "countries/Danish Royal Resistance.txt" #used for Kiel revolt
+SRB = "countries/Sorbia.txt"
 
 #do not edit below this line
 #----------------------------------------------------------

@@ -8,14 +8,14 @@ state={
 		575 11483 11606 
 	}
 	history={
-		owner = WLA
+		owner = FRA
 		buildings = {
 			infrastructure = 7
 			575 = {
 				naval_base = 5
 			}
 		}
-		add_claim_by = FRA
+		add_core_of = FRA
 		add_core_of = WLA
 		victory_points = {
 			575 10

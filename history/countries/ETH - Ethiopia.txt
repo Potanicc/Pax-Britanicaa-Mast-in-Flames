@@ -1,0 +1,129 @@
+﻿starting_train_buffer = 2
+capital = 271
+
+oob = "NA_1936"
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 256 }
+add_to_array = { PB_accepted_cultures = 256 }
+add_to_array = { PB_accepted_cultures = 255 }
+add_to_array = { PB_accepted_cultures = 257 }
+add_to_array = { PB_accepted_cultures = 259 }
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+add_ideas = {
+	PB_ETH_Rising_Sun
+	PB_ETH_Rastafarians
+	PB_ETH_Coup_Legacy
+
+	PB_Absolute_Monarchy
+	PB_NI_Order
+	PB_Govidea_State_Capitalism
+	PB_No_Voting
+	PB_State_Press
+	PB_Public_Meetings_Monitored
+	PB_Patriarchal_Society
+	PB_Limited_Autonomy
+	PB_Law_Standard_Policing
+	PB_No_Limit_Workday
+	PB_No_Healthcare
+	PB_Basic_Education
+	PB_No_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Widespread_Poverty
+	PB_Agrarianism
+	PB_Significant_Illiteracy
+	PB_Stagnating_Growth
+	PB_Pre_Great_War_Army
+	PB_Uncivilized_Nation
+}
+
+set_politics = {
+	ruling_party = ds
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ni = 25
+	ds = 58
+	rc = 8
+	cn = 5
+	lb = 4
+	an = 0
+	ss = 0
+	jc = 0
+}
+
+create_country_leader = {
+	name = "Haile Selassie"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_ETH_Haile_Selassie.dds"
+	ideology = DS_VARIANT_02
+}
+
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = NI_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = CN_VARIANT_01
+}
+
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = AN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = SS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = JC_VARIANT_01
+}

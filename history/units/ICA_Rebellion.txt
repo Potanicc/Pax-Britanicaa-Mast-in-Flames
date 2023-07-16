@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Infantry Division"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	### Army High Command ###
+	division = {
+		name = "Infantry Division"
+		location = 11237
+		division_template = "Infantry Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Infantry Division"
+		location = 9310
+		division_template = "Infantry Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Infantry Division"
+		location = 11371
+		division_template = "Infantry Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Infantry Division"
+		location = 3396
+		division_template = "Infantry Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+
+	}
+}

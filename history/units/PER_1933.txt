@@ -1,0 +1,129 @@
+﻿
+division_template = {
+	name = "Berīgād-e qazzāq"		# Qajar Bodyguard (Russian Influnece) Brigade
+
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry= { x = 1 y = 2 }
+	}
+	support = {
+  	      recon = { x = 0 y = 0 }
+		  artillery = { x = 0 y = 1 }
+ 	}
+}
+
+division_template = {
+	name = "Tribe Armies"		# Armies by invididual tribes to insert their independence
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "South Persia Rifles"		# British Create Army Units
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+  	      recon = { x = 0 y = 0 }
+		  artillery = { x = 0 y = 1 }
+ 	}
+}
+
+
+
+units = {
+	division= {	
+		name = "Berīgād-e qazzāq"
+		location = 10837
+		division_template = "Berīgād-e qazzāq"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Bakhtiyaris Tribes"
+		location = 1922
+		division_template = "Tribe Armies"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Qashqais Tribes"
+		location = 12832
+		division_template = "Tribe Armies"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.85
+
+	}
+	division= {	
+		name = "Turkmans Tribe"
+		location = 7573
+		division_template = "Tribe Armies"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.85
+
+	}
+	division= {	
+		name = "Kurdish Tribes"
+		location = 9816
+		division_template = "Tribe Armies"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.5
+
+	}
+
+	division= {	
+		name = "Shahsavens Tribes"
+		location = 12793
+		division_template = "Tribe Armies"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.4
+
+	}
+	division= {	
+		name = "Baluchis Tribes"
+		location = 13082
+		division_template = "Tribe Armies"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "South Persia Rifles"
+		location = 5089
+		division_template = "South Persia Rifles"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+}	
+
+##### Starting Production #####
+instant_effect = { 
+    add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PER"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+}	

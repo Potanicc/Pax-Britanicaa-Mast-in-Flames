@@ -1,0 +1,182 @@
+﻿##################
+# WEAPONS OF MASS DESTRUCTION EVENTS
+##################
+
+add_namespace = chembio
+
+country_event = {		#Chemical Weapons Production - Chemical Leak
+	id = chembio.1
+	title = chembio.1.t
+	desc = chembio.1.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.1.a
+
+		add_political_power = -50
+
+		add_manpower = -50
+	}
+}
+
+country_event = {		#Biological Weapons Production - Minor Outbreak
+	id = chembio.2
+	title = chembio.2.t
+	desc = chembio.2.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.2.a
+
+		add_political_power = -50
+
+		add_manpower = -50
+	}
+}
+
+country_event = {		#Biological Weapons Production - Enemy Biological Attack Minor
+	id = chembio.3
+	title = chembio.3.t
+	desc = chembio.3.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.3.a
+	}
+}
+
+country_event = {		#Chemical Weapons Attack
+	id = chembio.4
+	title = chembio.4.t
+	desc = chembio.4.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.4.a
+	}
+}
+
+country_event = {		#Biological Weapons - Advanced Enemy Biological Attack - Secondary Spread
+	id = chembio.5
+	title = chembio.5.t
+	desc = chembio.5.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.5.a
+
+		add_political_power = -50
+
+		add_to_variable = {
+			var = global.doomsday_counter
+			value = 1
+		}
+
+		ROOT = {
+			every_neighbor_country = {
+				limit = {
+					NOT = {
+						has_idea = PB_Advanced_Biological_Agents_Secondary_Infection
+					}
+				}
+				country_event = {
+					id = chembio.5
+					days = 25
+				}	
+			}
+		}
+	}
+}
+
+country_event = {		#Biological Weapons - Enemy Biological Attack Escalation
+	id = chembio.6
+	title = chembio.6.t
+	desc = chembio.6.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.6.a
+
+		add_political_power = -50
+
+		add_timed_idea = {
+			idea = PB_Advanced_Biological_Agents_Deployed
+			days = 365
+		}
+
+		ROOT = {
+			every_neighbor_country = {
+				limit = {
+					NOT = {
+						has_idea = PB_Advanced_Biological_Agents_Secondary_Infection
+					}
+				}
+				country_event = {
+					id = chembio.5
+					days = 14
+				}	
+			}
+		}
+
+		if = {
+			limit = {
+				has_global_flag = PB_Global_Bioweapons_Deployed_Initial
+			}
+			set_variable = {
+				var = global.doomsday_counter
+				value = 1
+			}
+			set_global_flag = PB_Global_Pandemic_Crisis_Initiated
+		}
+	}
+}
+
+country_event = {		#Biological Weapons Production - Enemy Biological Attack Major
+	id = chembio.7
+	title = chembio.7.t
+	desc = chembio.7.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.7.a
+
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = PB_Global_Pandemic_Crisis_Initiated
+				}
+			}
+			country_event = {
+				id = chembio.6
+				days = 7
+			}	
+		}
+	}
+}
+
+country_event = {		#Biological Weapons Production - Enemy Biological Attack Major
+	id = chembio.8
+	title = chembio.8.t
+	desc = chembio.8.d
+	picture = GFX_report_PB_Gas_Masks
+
+	is_triggered_only = yes
+
+	option = {
+		name = chembio.8.a
+	}
+}

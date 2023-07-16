@@ -1,0 +1,114 @@
+﻿starting_train_buffer = 2
+capital = 378
+
+oob = "CAL_1933"
+
+set_country_flag = Megacorp_Standard_Oil
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 130 }
+add_to_array = { PB_accepted_cultures = 130 }
+add_to_array = { PB_accepted_cultures = 127 }
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	#early_fighter = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+set_stability = 0.8
+set_war_support = 0.5
+
+set_research_slots = 3
+
+set_convoys = 74
+
+add_ideas = {
+	PB_Idea_Untamed_Frontier
+	PB_CAL_Revolutionary_Legacy
+	PB_CAL_Dreams_of_Unification
+	PB_CAL_Oil_Boom
+	PB_CAL_California_Agriculture
+	PB_RGD_Revolution_Legacy
+
+	PB_Revolutionary_Republic
+	PB_NI_Revolution
+	PB_Govidea_Communal_Economy
+	PB_Universal_Citizenship
+	PB_Free_Press
+	PB_Public_Meetings_Allowed
+	PB_Total_Gender_Equality
+	PB_Affirmitive_Action
+	PB_Law_Community_Outreach
+	PB_8_Hour_Workday
+	PB_Trinket_Healthcare
+	PB_Universal_Higher
+	PB_Limited_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Significant_Poverty
+	PB_Semi_Industrialized
+	PB_Significant_Illiteracy
+	PB_Stagnating_Growth
+	PB_Great_War_Military
+	PB_Fully_Westernized
+}
+
+set_popularities = {
+	ni = 0
+	ds = 0
+	rc = 2
+	cn = 26
+	lb = 19
+	an = 2
+	ss = 49
+	jc = 2
+}
+set_politics = {
+	ruling_party = ss
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = CAL_emiliano_zapata_salazar
+recruit_character = CAL_josé_antonio_urquiza
+recruit_character = CAL_no_leader
+recruit_character = CAL_pancho_villa
+recruit_character = CAL_eufemio_zapata
+recruit_character = CAL_gildardo_magaña
+recruit_character = CAL_rubén_jaramillo
+recruit_character = CAL_otilio_montaño_sánchez
+recruit_character = CAL_nicolás_rodríguez_carrasco
+recruit_character = CAL_margarita_neri
+
+CAL = {
+	add_opinion_modifier = { 
+		target = MEX modifier = former_imperial_subjects 
+	} 
+}

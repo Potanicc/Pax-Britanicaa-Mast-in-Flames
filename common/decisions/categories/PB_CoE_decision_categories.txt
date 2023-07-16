@@ -1,0 +1,20 @@
+PB_CoE_Conference_of_Europe = {
+	icon = GFX_decision_cat_PB_European_Conference
+	allowed = {
+		always = {
+			no
+		}
+	}
+	visible = {
+		ENG = { 
+			AND = {
+				has_country_flag = FRA_ENG_WW2_VICTOR
+				has_country_flag = RUS_ENG_WW2_VICTOR
+			}
+		}
+	}
+
+	picture = GFX_decision_cat_coe
+
+	priority = 1000
+}

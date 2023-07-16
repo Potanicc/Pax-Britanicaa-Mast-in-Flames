@@ -1,0 +1,2182 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14
+	}
+
+	### GOVERNMENT TYPES ###
+
+	spriteType = {
+		name = "GFX_idea_PB_Parliamentary_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Parliamentary_Republic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Parliamentary_Monarchy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Parliamentary_Monarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Absolute_Monarchy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Absolute_Monarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Presidential_Dictatorship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Presidential_Dictatorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Bourgeois_Dictatorship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Bourgeois_Dictatorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Military_Government"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Military_Government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Revolutionary_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Revolutionary_Republic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Ultranationalist_Dictatorship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Ultranationalist_Dictatorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Prussian_Constitutionalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Prussian_Constitutionalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Colonial_Government"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Colonial_Government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Puppet_Government"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Puppet_Government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Celestial_Empire"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Celestial_Empire.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Workers_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Workers_Republic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Tribal_Confederacy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Tribal_Confederacy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Raider_State"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Raider_State.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_IRO_Bandit_Army"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_IRO_Bandit_Army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Holy_See"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Holy_See.dds"
+	}
+
+	### NATIONAL IDENTITIES ###
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Liberty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Liberty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Order"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Order.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Equality"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Equality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Revanchism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Revanchism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Revolution"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Revolution.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Imperialism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Imperialism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_British_Exceptionalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_British_Exceptionalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_German_Efficiency"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_German_Efficiency.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Russian_Stoicism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Russian_Stoicism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_French_Revanchism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_French_Revanchism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Japanese_Militarism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Japanese_Militarism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_American_Idealism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_American_Idealism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_NI_Chinese_Resilience"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_NI_Chinese_Resilience.dds"
+	}
+
+        spriteType = {
+		name = "GFX_idea_PB_Prussian_Fatalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Prussian_Fatalism.dds"
+	}
+
+	### DOMESTIC POLICIES ###
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Voting"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Voting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Single_Party_State"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Single_Party_State.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Weighted_Wealth"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Weighted_Wealth.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Universal_Suffrage"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Universal_Suffrage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_State_Press"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_State_Press.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Limited_Censorship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Limited_Censorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Free_Press"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Free_Press.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Universal_Citizenship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Universal_Citizenship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Limited_Disenfranchisement"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Limited_Disenfranchisement.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Aristocratic_Democracy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Aristocratic_Democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Managed_Democracy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Managed_Democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Single_Party_State"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Single_Party_State.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Voting"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Voting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Public_Meetings_Allowed"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Public_Meetings_Allowed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Public_Meetings_Monitored"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Public_Meetings_Monitored.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Public_Meetings_Banned"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Public_Meetings_Banned.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Augmentation_No_Legislation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_augmentation_no_laws.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Augmentation_Enforced"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_augmentation_enforced.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Augmentation_Encouraged"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_augmentation_encouraged.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Augmentation_Banned"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_augmentation_banned.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Augmentation_Apotheosis"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_augmentation_apotheosis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Affirmitive_Action"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Affirmitive_Action.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Significant_Autonomy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Significant_Autonomy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Limited_Autonomy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Limited_Autonomy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Racial_Segregation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Racial_Segregation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Racial_Hierarchy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Racial_Hierarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Racial_Hierarchy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Racial_Hierarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Total_Gender_Equality"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Total_Gender_Equality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Full_Womens_Equality"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Full_Womens_Equality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Limited_Womens_Rights"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Limited_Womens_Rights.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Womens_Legal_Protections"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Womens_Legal_Protections.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Patriarchal_Society"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Patriarchal_Society.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Law_Community_Outreach"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Law_Community_Outreach.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Law_Prev_Policing"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Law_Prev_Policing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Law_Standard_Policing"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Law_Standard_Policing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Law_Intimidation_Policing"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Law_Intimidation_Policing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Law_Secret_Police"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Law_Secret_Police.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_8_Hour_Workday"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_8_Hour_Workday.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_12_Hour_Workday"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_12_Hour_Workday.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_14_Hour_Workday"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_14_Hour_Workday.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_18_Hour_Workday"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_18_Hour_Workday.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Limit_Workday"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Limit_Workday.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Universal_Healthcare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Universal_Healthcare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Trinket_Healthcare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Trinket_Healthcare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Basic_Healthcare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Basic_Healthcare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Healthcare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Healthcare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Universal_Higher"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Universal_Higher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Universal_Basic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Universal_Basic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Basic_Education"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Basic_Education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Formal_Education"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Formal_Education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generous_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Generous_Welfare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Limited_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Limited_Welfare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Basic_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Basic_Welfare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_No_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_No_Welfare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Slavery_Abolished"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Slavery_Abolished.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Penal_Slavery"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Penal_Slavery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Slavery_Allowed"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Slavery_Allowed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Limited_Poverty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Limited_Poverty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Significant_Poverty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Significant_Poverty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Widespread_Poverty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Widespread_Poverty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Rampant_Poverty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Rampant_Poverty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Overwhelming_Poverty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Overwhelming_Poverty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Post_Industrial"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Post_Industrial.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Industrialized"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Industrialized.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Semi_Industrialized"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Semi_Industrialized.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Agrarianism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Agrarianism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Subsistence_Agriculture"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Subsistence_Agriculture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Illiteracy_Abolished"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Illiteracy_Abolished.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Minor_Illiteracy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Minor_Illiteracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Significant_Illiteracy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Significant_Illiteracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Rampant_Illiteracy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Rampant_Illiteracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Overwhelming_Illiteracy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Overwhelming_Illiteracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Strong_Consumer_Confidence"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Strong_Consumer_Confidence.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Middling_Consumer_Confidence"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Middling_Consumer_Confidence.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Stagnating_Growth"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Stagnating_Growth.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Market_Underperformance"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Market_Underperformance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Market_Panic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Market_Panic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Market_Apocalypse"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Market_Apocalypse.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Free_Market_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Free_Market_Capitalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Mixed_Market_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Mixed_Market_Capitalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Welfare_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Welfare_Capitalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_State_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_State_Capitalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Planned_Economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Planned_Economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Communal_Economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Communal_Economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Fully_Westernized"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Fully_Westernized.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Partially_Westernized"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Partially_Westernized.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Uncivilized_Nation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Uncivilized_Nation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Fully_Modern_Military"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Fully_Modern_Military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Semi_Modern_Military"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Semi_Modern_Military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Great_War_Military"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Great_War_Military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Pre_Great_War_Army"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Pre_Great_War_Army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Sociogenetics_Allowed"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Sociogenetics_Allowed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Sociogenetics_Banned"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Sociogenetics_Banned.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Sociogenetics_Enforced"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Sociogenetics_Enforced.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Sociogenetics_Normalized"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Sociogenetics_Normalized.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Sociogenetics_Racial"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Sociogenetics_Racial.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Sociogenetics_Malthusian"
+		texturefile = "gfx/interface/ideas/Government_Ideas/PB_Sociogenetics_Malthusian.dds"
+	}
+
+	### MINISTERS - HEAD OF GOVERNMENT ###
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Douglas_Haig_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Douglas_Haig_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Anthony_Eden_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Anthony_Eden_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Samuel_Hoare_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Samuel_Hoare_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_David_Margesson_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_David_Margesson_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Herbert_Samuel_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Herbert_Samuel_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Willie_Gallacher_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Willie_Gallacher_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Harry_Pollitt_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Harry_Pollitt_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Oswald_Mosley_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Oswald_Mosley_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Clement_Attlee_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Clement_Attlee_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Maraget_Bondfield_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Maraget_Bondfield_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Hastings_Russell_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Hastings_Russell_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Rotha_Lintorn_Orman"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Rotha_Lintorn_Orman.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_JFC_Fuller_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_JFC_Fuller_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Edward_VIII_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Edward_VIII_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Archibald_Ramsay_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Archibald_Ramsay_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Bill_Alexander_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Bill_Alexander_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BAF_PB_evelyn_baring"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/BAF_PB_evelyn_baring.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Ernst_Starhemberg"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Ernst_Starhemberg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Moeller_Bruck"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Arthur_Bruck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Wilhelm_Keitel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Wilhelm_Keitel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Heinrich_Himmler"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Heinrich_Himmler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Anton_Dressler"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Anton_Dressler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Jaroslav_Krejci"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Jaroslav_Krejci.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Hjalmar_Schacht"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Hjalmar_Schacht.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Arthur_Straubenburg"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Arthur_Straubenburg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Gottfried_Haberler"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Gottfried_Haberler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Franz_Blucher"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Franz_Blucher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Walther_Rathenau"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Walther_Rathenau.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Gustav_Stresemann"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Gustav_Stresemann.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Joseph_Goebbels"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Joseph_Goebbels.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Helene_Stocker"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Helene_Stocker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Johann_Koplenig"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Johann_Koplenig.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Adolf_Brand"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Adolf_Brand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DAF_PB_Wilhelm_Groener"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/DAF_PB_Wilhelm_Groener.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Erich_Muhsam"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Erich_Muhsam.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Codreanu_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/ROM_PB_Codreanu_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Gheorghe_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/ROM_PB_Gheorghe_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Ion_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/ROM_PB_Ion_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Goga_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/ROM_PB_Goga_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Ion_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/ROM_PB_Ion_IAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Ion_2_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/ROM_PB_Ion_2_IAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_PB_Gheorghe_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/ROM_PB_Gheorghe_IAM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Calvin_Coolidge_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_Calvin_Coolidge_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Charles_Hughes_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_Charles_Hughes_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_R_B_Bennett_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_R_B_Bennett_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_John_W_Davis_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_John_W_Davis_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_J_S_Woodsworth_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_J_S_Woodsworth_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_John_Curtin_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_John_Curtin_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_John_Blackmore_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/America/AME_PB_John_Blackmore_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_WAC_Bennett_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/America/AME_PB_WAC_Bennett_FM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Louis_Even_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/America/AME_PB_Louis_Even_IM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_William_Aberhart_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/America/AME_PB_William_Aberhart_EM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_PB_Bohm_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Hungary/HUN_PB_Bohm_HOG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_PB_Vago_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Hungary/HUN_PB_Vago_IM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_PB_Garbai_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Hungary/HUN_PB_Garbai_FM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_PB_Dezso_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Hungary/HUN_PB_Dezso_EM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_PB_Rakosi"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Hungary/HUN_PB_Rakosi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Vladimir_Purishkevich_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Russia/RUS_Vladimir_Purishkevich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Ernst_Thalmann_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Germany/GER_PB_Ernst_Thalmann.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Arthur_Harris_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Arthur_Harris_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_IRO_PB_Ned_Kelly_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/IRO_PB_Ned_Kelly_HOG.dds"
+	}
+
+	### MINISTERS - ECONOMY MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Robert_Forgan_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Robert_Forgan_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_William_Edward_David_Allen_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_William_Edward_David_Allen_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Frank_Cyril_Tiarks_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Frank_Cyril_Tiarks_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Alliott_Verdon_Roe_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Alliott_Verdon_Roe_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Oliver_Stanley_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Oliver_Stanley_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Ronald_Cross_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Ronald_Cross_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Tom_Horabin_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Tom_Horabin_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Gwilym_Lloyd_George_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Gwilym_Lloyd_George_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_John_Maynard_Keynes_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_John_Maynard_Keynes_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Oswald_Mosley_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Oswald_Mosley_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_John_Strachey_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_John_Strachey_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Arthur_Horner_ECM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/ENG_PB_Arthur_Horner_ECM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BAF_PB_Donald_Charles_Cameron"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Britain/BAF_PB_Donald_Charles_Cameron.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Karl_Liebknecht"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Germany/GER_PB_Karl_Liebknecht.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Alfred_Hugenberg"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Germany/GER_PB_Alfred_Hugenberg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AME_PB_Herbert_Hoover_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/America/AME_PB_Herbert_Hoover_EM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Earle_Paege_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/America/AME_PB_Earle_Paege_EM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_William_King_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/America/AME_PB_William_King_EM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Jack_Holloway_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/America/AME_PB_Jack_Holloway_EM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Georgy_Katzman_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Russia/RUS_Georgy_Katzman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Rudolf_Hilferding_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Germany/GER_PB_Rudolf_Hilferding.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Julius_Curtis_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Germany/GER_PB_Julius_Curtis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DAF_PB_Heinrich_Schnee"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Germany/DAF_PB_Heinrich_Schnee.dds"
+	}
+
+	### MINISTERS - FOREIGN MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Neville_Chamberlain_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Britain/ENG_PB_Neville_Chamberlain_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_James_Stanhope_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_James_Stanhope_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Joseph_Grimond_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Joseph_Grimond_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Percy_Harris_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Percy_Harris_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Clement_Attlee_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Britain/ENG_PB_Clement_Attlee_HOG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_George_Barnes_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_George_Barnes_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Edward_Allen_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Edward_Allen_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Patrick_Boyle_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Patrick_Boyle_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Arthur_Harris_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Arthur_Harris_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Jeffrey_Hamm_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Jeffrey_Hamm_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Cynthia_Curzon_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Cynthia_Curzon_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BAF_PB_Frederick_Lugard"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Britain/BAF_PB_Frederick_Lugard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Phil_Piratin_FAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/ENG_PB_Phil_Piratin_FAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_PB_Hermann_Muller"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Germany/GER_PB_Hermann_Muller.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_PB_Willy_Hellpach"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Germany/GER_PB_Willy_Hellpach.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_PB_Konstantin_Neurath"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Germany/GER_PB_Konstantin_Neurath.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DAF_PB_Otto_Grotewohl"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Germany/DAF_PB_Otto_Grotewohl.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Robert_Menzies_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/America/AME_PB_Robert_Menzies_FM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Charles_Evans_Hughes_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/America/AME_PB_Charles_Evans_Hughes_FM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Harry_Hopkins_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/America/AME_PB_Harry_Hopkins_FM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Thomas_Douglas_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/America/AME_PB_Thomas_Douglas_FM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Sergei_Trufanov_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Russia/RUS_Sergei_Trufanov.dds"
+	}
+
+	### MINISTERS - INTERNAL MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_John_Simon_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Britain/ENG_PB_John_Simon_IAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Samuel_Hoare_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Britain/ENG_PB_Samuel_Hoare_IAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_James_Ede_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Britain/ENG_PB_James_Ede_IAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_Alliott_Verdon_Roe_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Britain/ENG_PB_Alliott_Verdon_Roe_IAM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_PB_BH_Hart_IAM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Britain/ENG_PB_BH_Hart_IAM.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_BAF_PB_Alan_Burns"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Britain/BAF_PB_Alan_Burns.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_PB_Otto_Wels"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Germany/GER_PB_Otto_Wels.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_PB_Carl_Vaugoin"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Germany/GER_PB_Carl_Vaugoin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_PB_Wilhelm_Kulz"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Germany/GER_PB_Wilhelm_Kulz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_PB_Franz_Guertner"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Germany/GER_PB_Franz_Guertner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DAF_PB_Theodor_Seitz"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Germany/DAF_PB_Theodor_Seitz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Ray_Lyman_Wilbur_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/America/AME_PB_Ray_Lyman_Wilbur_IM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_John_G_Sargent_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/America/AME_PB_John_G_Sargent_IM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Joe_Collings_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/America/AME_PB_Joe_Collings_IM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_PB_Jack_Beasley_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/America/AME_PB_Jack_Beasley_IM.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Nikolai_Markov_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Russia/RUS_Nikolai_Markov.dds"
+	}
+
+	### MINISTERS - SPECIAL INTEREST MINISTERS ###
+
+	#spriteType = {
+	#	name = "GFX_idea_ENG_PB_Bertrand_Russell_SIM"
+	#	texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Britain/ENG_PB_Bertrand_Russell_SIM.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_idea_ENG_PB_Cosmo_Gordon_SIM"
+	#	texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Britain/ENG_PB_Cosmo_Gordon_SIM.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_idea_ENG_PB_William_Allen_SIM"
+	#	texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Britain/ENG_PB_William_Allen_SIM.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_idea_ENG_PB_Frank_Tiarks_SIM"
+	#	texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Britain/ENG_PB_Frank_Tiarks_SIM.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_idea_RUS_Lavr_Kornilov_SIM"
+	#	texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Russia/RUS_Lavr_Kornilov.dds"
+	#}
+
+	### TECH TEAMS - GENERIC ###
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Tank_Developer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Tank_Developer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Inf_Equipment_Developer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Inf_Equipment_Developer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Air_Equipment_Developer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Air_Equipment_Developer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Sea_Equipment_Developer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Sea_Equipment_Developer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Electronics_Equipment_Developer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Electronics_Equipment_Developer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Industrial_Developer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Industrial_Developer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Enfield_Contract"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Enfield_Contract.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_MAS_Contract"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_MAS_Contract.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Beretta_Contract"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Beretta_Contract.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Mauser_Contract"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Mauser_Contract.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Tula_Contract"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Tula_Contract.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Generic_Tokyo_Arsenal_Contract"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Generic/PB_Generic_Tokyo_Arsenal_Contract.dds"
+	}
+
+	### TECH TEAMS - BRITISH ###
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Vickers_Armstrongs"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Vickers_Armstrongs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Royal_Arms_Ltd"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Royal_Arms_Ltd.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Royal_Arms_Ltd_Manchester"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Royal_Arms_Ltd_Manchester.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Maxwell_Automotives"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Maxwell_Automotives.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Cammell_Laird"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Cammell_Laird.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Harland_Wolff"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Harland_Wolff.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_John_Brown_Company"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_John_Brown_Company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Scapa_Flow_Committee"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Scapa_Flow_Committee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Avro_Airworks"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Avro_Airworks.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_De_Havilland"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_De_Havilland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Supermarine"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Supermarine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Fairey"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Fairey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_RSAF_Enfield"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_RSAF_Enfield.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Royal_Arsenal"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_Royal_Arsenal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_AIOC"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_AIOC.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_ICAS"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_ICAS.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_English_Electric"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_English_Electric.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_ENG_IBC"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Britain/PB_ENG_IBC.dds"
+	}
+
+	### TECH TEAMS - German ###
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Porsche"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Porsche.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Steyr_Daimler_Puch"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Steyr_Daimler_Puch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_CKD"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_CKD.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Opel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Opel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Germaniawerft"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Germaniawerft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Hannover_Developments"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Hannover_Developments.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Skoda_Dockyards"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Skoda_Dockyards.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Skoda_Special"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Skoda_Special.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Heinkel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Heinkel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Messerschmitt"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Messerschmitt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Junkers"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Junkers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_CKD_Praga"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_CKD_Praga.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Mauser"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Mauser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Skoda_Arms"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Skoda_Arms.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_IG_Farben"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_IG_Farben.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Krupp"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Krupp.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_GER_Sinnesloschen"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Germany/PB_GER_Sinnesloschen.dds"
+	}
+
+	### TECH TEAMS - France ###
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Panhard"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_Panhard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Renault"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_Renault.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Amx"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_APX.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Somua"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_SOMUA.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Acl"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_ACL.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Fcm"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_FCM.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_ACF"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_ACF.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_ACF_Special"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_ACF_SUB.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Sncac"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_SNCAC.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Sncan"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_SNCAN.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Sncaso"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_SNCASO.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Sncao"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_SNCAO.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Schneider"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_Schneider.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Fuel_Commision"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_FUEL.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Famh"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_FAMH.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Special_Experiments"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/France/PB_FRA_SP_Zombies.dds"
+	}
+
+	### TECH TEAMS - United Commonwealth ###
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Edison_Electric"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Edison_Electric.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_IBM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_IBM.dds"
+	}
+
+	### TECH TEAMS - Mexico ###
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Panhard"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Panhard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Steyr"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Steyr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Mendoza"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Mendoza.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_SIG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_SIG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Ramirez"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Ramirez.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Astimar"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Astimar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Talleres"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Talleres.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_EIEC"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_EIEC.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Standard_Oil"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Standard_Oil.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_MEX_Green_Complex"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/Mexico/PB_MEX_Green_Complex.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PB_AME_Maynard_Rifling"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Maynard_Rifling.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Sharps_Rifle_Company"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Sharps_Rifle_Company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Winchester_Rifles"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Winchester_Rifles.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Vickers_American"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Vickers_American.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Maxwell_Motors"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Maxwell_Motors.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Ford_Company"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Ford_Company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Union_Standard_Oil"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Union_Standard_Oil.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_Fairchild_Aircraft"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_Fairchild_Aircraft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Dolbear_Bell"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Dolbear_Bell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Bureau_of_Technology"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Bureau_of_Technology.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Trinity_Committee"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Trinity_Committee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Donald_Wills_Douglas"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Donald_Wills_Douglas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Howard_Hughes"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Howard_Hughes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Walt_Disney"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Walt_Disney.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PB_AME_Robert_Heinlein"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Tech_Teams/America/PB_AME_Robert_Heinlein.dds"
+	}
+
+	### High Command - Testing ###
+
+
+    spriteType = {
+		name = "GFX_idea_PB_ROM_Ion_Antonescu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ecu_edmundo_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ECU_Edmundo"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ecu_edmundo_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Antonescu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_antonescu_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Samsonovici"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_samsonovici_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Ioanitiu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_alexandru_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Dumitrescu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_dumitrescu_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Avramescu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_avramescu_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Gheorghe"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_mihail_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Gheorghe"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_mihail_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Racovita"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_racovita_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Steflea"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_steflea_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ROM_Steflea"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_steflea_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_horia_macellariuu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_horia_macellariuu_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_eugeniu_savulescu"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/rom_eugeniu_savulescu_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Heydrich"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_reinhard_heydrich_navy_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Raeder"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_erich_raeder_navy_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Richthofen"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_manfred_richthofen_air_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Goering"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_hermann_goering_air_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Nimitz"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_nimitz_navy_theorist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Lutjens"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_lutjens_navy_theorist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Lothar"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_lothar_richthofen_air_theorist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Udet"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_ernst_udet_air_theorist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Keitel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_wilhem_keitel_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Rommel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_erwin_rommel_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Rundstedt"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_gerd_rundstedt_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Mackensen"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_august_mackensen_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Jansa"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_jansa_army_theorist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Model"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_model_army_theorist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Zehner"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_zehner_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Guderian"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_guderian_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Paulus"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_paulus_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Bey"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_beys_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Canaris"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_canaris_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Carls"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_carls_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Greim"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_greim_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Wever"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_wever_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_GER_Stumpff"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ger_stumpff_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Keith_Park"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_keith_park_air_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Edgar_Hewitt"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_edgar_hewitt_air_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Dudley_Pound"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_dudley_pound_navy_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Ernle_Chatfield"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_ernle_chatfield_navy_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Lord_Gort"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_lord_gort_army_chief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_John_Dill"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_john_dill_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ENG_Archibald_Wavell"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/eng_archibald_wavell_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_BAF_George_Giffard"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/baf_george_giffard_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IST_Rudolfo_Graziani"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ist_rudolfo_graziani_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IST_Soldarelli"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ist_mario_soldarelli_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IST_Bardelli"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ist_umberto_bardelli_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IST_Gambara"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ist_gastone_gambara_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ITA_Emilio_Bono"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ita_emilio_bono_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ITA_Messe"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ita_giovanni_messe_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ITA_Ambrosio"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ita_vittorio_ambrosio_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_ITA_Reverberi"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ita_luigi_reverberi_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Franco"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_fransico_franco_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Carlos"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_carlos_asensio_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Llano"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_gonzalo_llano_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Llopis"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_manuel_llopis_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Mola"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_emilio_mola_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Astray"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_jose_astray_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Juan_Blanco"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_juan_blanco_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_SPR_Jose_Sanjurjo"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/spr_jose_sanjurjo_high_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Winkelmann"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_winkelman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Reijnders"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_reijnders.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Voorst"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_voorst.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Seyffard"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_seyffard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Poorten"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_poorten.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Jacob_Herberts"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_jacob_herberts.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Alphonse_Juin"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_juin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Victor_Schweis"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_schweis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Georges_Catroux"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_george.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Louis_Esperey"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_louis_franchet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Jean_Abrial"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_jean_abrial.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Emile_Muselier"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_emile_muselier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Henri_Blehaut"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_henri_blehaut.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Jean_Decoux"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_jean_decoux.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Gabriel_Auphan"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_gabriel_auphan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Rene_Godfrey"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_rene_godfrey.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Philippe_Kieffer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_philippe_kieffer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Joseph_Bares"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_joseph_bares.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Victor_Denain"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_victor_denain.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Joseph_Vuillemin"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_joseph_vuillemin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Martin_Valin"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_martin_valin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Pierre_Pouyade"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_pierre_pouyade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Jean_Jannekeyn"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_jeane_jannekeyn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_FRA_Don_Marchetti"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/fra_don_marchetti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Johan_Furstner"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_johan_furstner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_HOL_Conrad_Helfrich"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_conrad_helfrich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_Karel_Doorman"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/hol_karel_doorman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Corlett"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_charles_corlett.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Marshall"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_george_marshall.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Craig"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_malin_craig.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_PB_AME_Clark"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_mark_clark.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Patton"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_george_patton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Courtney"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_courtney_hodges.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Wedemeyer"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_wedemeyer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Bradley"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_bradley.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AME_john_mccain_slew"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_slew.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AME_wilder_baker"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_baker.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AME_Caleb_Haynes"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_haynes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AME_Harold_Mcc"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_harold.dds"
+	}
+    spriteType = {
+		name = "GFX_portrait_AME_Husband_Kimmel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_husband_kimmel.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AME_charles_lockwood"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_charles_lockwood.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Foulois"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_foulois.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_AME_Frank_Andrews"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/ame_frank_andrews.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IRO_Kelly"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/iro_ned_kelly.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IRO_Machinge_Gun"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/iro_george_kelly.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IRO_William_Jones"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/iro_william_jones.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IRO_John_Dillinger"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/iro_john_dillinger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IRO_Eddie_Bentz"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/iro_eddie_bentz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_IRO_Albert_Bates"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/iro_albert_bates.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_VIC_Morshead"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/vic_morshead.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_RAJ_Irwin"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/raj_irwin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_RAJ_Chetwode"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/raj_chetwode.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_BFE_Wingate"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/bfe_wingate.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_BFE_Savory"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/bfe_savory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_QUE_Vanier"
+		texturefile = "gfx/interface/ideas/Government_Ideas/High Command/que_vanier.dds"
+	}
+} 

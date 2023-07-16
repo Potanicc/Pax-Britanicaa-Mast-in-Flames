@@ -1,0 +1,477 @@
+﻿##################
+# CAPTURED CITIES EVENTS 
+##################
+
+add_namespace = PBCity
+
+news_event = {		#Fall of Madrid to American Commonwealth
+	id = PBCity.2
+	title = PBCity.2.t
+	desc = PBCity.2.d
+	picture = GFX_PB_news_event_PBNews_Fall_of_Madrid
+	major = yes
+	
+	trigger = {
+		41 = { is_controlled_by = USA }
+		41 = { is_owned_by = SPR }
+		FRA = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_madrid_usa }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_madrid_usa
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.2.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = SPR
+			}
+		}
+	}
+	option = {
+		name = PBCity.2.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = PBCity.2.c
+		trigger = { TAG = SPR }
+	}
+}
+
+news_event = {		#Fall of Moscow to Germany
+	id = PBCity.3
+	title = PBCity.3.t
+	desc = PBCity.3.d
+	picture = GFX_news_event_fall_of_moscow_ger
+	major = yes
+	
+	trigger = {
+		219 = { is_controlled_by = GER }
+		219 = { is_owned_by = RUS }
+		FRA = { has_war_with = GER }
+		NOT = { has_global_flag = fall_of_moscow_ger }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_moscow_ger
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.3.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = PBCity.3.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = PBCity.3.c
+		trigger = { TAG = RUS }
+	}
+}
+
+news_event = {		#Fall of Paris - Generic
+	id = PBCity.4
+	title = PBCity.4.t
+	desc = PBCity.4.d
+	picture = GFX_PB_news_event_PBNews_Fall_of_Paris
+	major = yes
+	
+	trigger = {
+		16 = { 
+			is_owned_by = FRA 
+
+			NOT = {
+				is_controlled_by = FRA 
+			}
+		}
+
+		FRA = { 
+			has_war = yes
+		}
+
+		NOT = { has_global_flag = fall_of_paris_generic}
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_paris_generic
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.4.a
+		trigger = {
+			NOT = {
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = PBCity.4.b
+		trigger = { TAG = FRA }
+	}
+}
+
+news_event = {		#Fall of London - Generic
+	id = PBCity.5
+	title = PBCity.5.t
+	desc = PBCity.5.d
+	picture = GFX_PB_news_event_PBNews_Fall_of_London
+	major = yes
+	
+	trigger = {
+		126 = { 
+			is_owned_by = ENG 
+
+			NOT = {
+				is_controlled_by = ENG
+			}
+		}
+
+		ENG = { 
+			has_war = yes
+		}
+
+		NOT = { has_global_flag = fall_of_london_generic}
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_london_generic
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.5.a
+		trigger = {
+			NOT = {
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = PBCity.5.b
+		trigger = { TAG = ENG }
+	}
+}
+
+news_event = {		#Fall of Frankfurt - Generic
+	id = PBCity.6
+	title = PBCity.6.t
+	desc = PBCity.6.d
+	picture = GFX_PB_news_event_PBNews_Fall_of_Frankfurt
+	major = yes
+	
+	trigger = {
+		55 = { 
+			is_owned_by = GER 
+
+			NOT = {
+				is_controlled_by = GER
+			}
+		}
+
+		GER = { 
+			has_war = yes
+		}
+
+		NOT = { has_global_flag = fall_of_frankfurt_generic}
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_frankfurt_generic
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.6.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = PBCity.6.b
+		trigger = { TAG = GER }
+	}
+}
+
+news_event = {		#Fall of Tokyo - Generic
+	id = PBCity.7
+	title = PBCity.7.t
+	desc = PBCity.7.d
+	picture = GFX_PB_news_event_PBNews_Fall_of_Tokyo
+	major = yes
+	
+	trigger = {
+		282 = { 
+			is_owned_by = JAP 
+
+			NOT = {
+				is_controlled_by = JAP
+			}
+		}
+
+		JAP = { 
+			has_war = yes
+		}
+
+		NOT = { has_global_flag = fall_of_tokyo_generic}
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_tokyo_generic
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.7.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = PBCity.7.b
+		trigger = { TAG = JAP }
+	}
+}
+
+country_event = {		#Fall of Melbourne - Second American Revolution
+	id = PBCity.8
+	title = PBCity.8.t
+	desc = PBCity.8.d
+	picture = GFX_report_PB_American_City_Burning
+	
+	trigger = {
+		tag = SCA
+		AME = {
+			has_capitulated = no
+		}
+		261 = { 
+			is_owned_by = AME 
+			is_controlled_by = SCA
+		}
+		SCA = { 
+			has_war_with = AME
+		}
+		NOT = { has_global_flag = fall_of_melbourne_rev}
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = fall_of_melbourne_rev
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.8.a
+		261 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+	}
+}
+
+country_event = {		#Fall of Baltimore - Second American Revolution
+	id = PBCity.9
+	title = PBCity.9.t
+	desc = PBCity.9.d
+	picture = GFX_report_PB_American_City_Burning
+	
+	trigger = {
+		tag = SCA
+		AME = {
+			has_capitulated = no
+		}
+		361 = { 
+			is_owned_by = AME 
+			is_controlled_by = SCA
+		}
+		SCA = { 
+			has_war_with = AME
+		}
+		NOT = { has_global_flag = fall_of_baltimore_rev}
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = fall_of_baltimore_rev
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.9.a
+		361 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+	}
+}
+
+country_event = {		#Fall of Philadelphia - Second American Revolution
+	id = PBCity.10
+	title = PBCity.10.t
+	desc = PBCity.10.d
+	picture = GFX_report_PB_American_City_Burning
+	
+	trigger = {
+		tag = SCA
+		AME = {
+			has_capitulated = no
+		}
+		360 = { 
+			is_owned_by = AME 
+			is_controlled_by = SCA
+		}
+		SCA = { 
+			has_war_with = AME
+		}
+		NOT = { has_global_flag = fall_of_philadelphia_rev}
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = fall_of_philadelphia_rev
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.10.a
+		360 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+	}
+}
+
+country_event = {		#Fall of New York - Second American Revolution
+	id = PBCity.11
+	title = PBCity.11.t
+	desc = PBCity.11.d
+	picture = GFX_report_PB_American_City_Burning
+	
+	trigger = {
+		tag = SCA
+		AME = {
+			has_capitulated = no
+		}
+		811 = { 
+			is_owned_by = AME 
+			is_controlled_by = SCA
+		}
+		SCA = { 
+			has_war_with = AME
+		}
+		NOT = { has_global_flag = fall_of_new_york_rev}
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = fall_of_new_york_rev
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.11.a
+		811 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+	}
+}
+
+country_event = {		#Fall of Boston - Second American Revolution
+	id = PBCity.12
+	title = PBCity.12.t
+	desc = PBCity.12.d
+	picture = GFX_report_PB_American_City_Burning
+	
+	trigger = {
+		tag = SCA
+		AME = {
+			has_capitulated = no
+		}
+		813 = { 
+			is_owned_by = AME 
+			is_controlled_by = SCA
+		}
+		SCA = { 
+			has_war_with = AME
+		}
+		NOT = { has_global_flag = fall_of_boston_rev}
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = fall_of_boston_rev
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = PBCity.12.a
+		813 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+	}
+}

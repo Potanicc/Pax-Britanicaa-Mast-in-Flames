@@ -1,0 +1,305 @@
+RUS_leader_checker_stuff = {
+	if = {
+		limit = {
+			# ALEXI CHECKER
+			has_country_leader = {
+				name = "Alexi"
+				ruling_only = yes
+			}
+		}
+		random_list = {
+			1 = {
+				#The Black Hundreds raid a village with supposed traitors, bad things follow
+				country_event = Russian_flavour.21
+				set_country_flag = RUS_alexi_event_1
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_1
+				}
+			}
+			1 = {
+				#Alexi orders posters and broadcasts to fan the Anglo-German Hatred
+				country_event = Russian_flavour.22
+				set_country_flag = RUS_alexi_event_2
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_2
+				}
+			}
+			1 = {
+				#Alexi looks at the newest batch of Landships under his command
+				country_event = Russian_flavour.23
+				set_country_flag = RUS_alexi_event_3
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_3
+				}
+			}
+			1 = {
+				#Alexi vows to never be as such a failure as his father
+				country_event = Russian_flavour.24
+				set_country_flag = RUS_alexi_event_4
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_4
+				}
+			}
+			1 = {
+				#Officers start encourging more brutal tactics amongst their troops
+				country_event = Russian_flavour.25
+				set_country_flag = RUS_alexi_event_5
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_5
+				}
+			}
+			1 = {
+				#Anastasia and Alexi talk
+				country_event = Russian_flavour.26
+				set_country_flag = RUS_alexi_event_6
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_6
+				}
+			}
+			1 = {
+				#An event about Vladimir Purishkevich (HOG)
+				country_event = Russian_flavour.27
+				set_country_flag = RUS_alexi_event_7
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_7
+				}
+			}
+			1 = {
+				#Alexi and his Council discuss the future plans of Russia
+				country_event = Russian_flavour.28
+				set_country_flag = RUS_alexi_event_8
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_8
+				}
+			}
+			1 = {
+				#Alexi talks to his people and tell them to prepare for war
+				country_event = Russian_flavour.29
+				set_country_flag = RUS_alexi_event_9
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_9
+				}
+			}
+			1 = {
+				#a Russian village is burning for hiding suspected traitors
+				country_event = Russian_flavour.30
+				set_country_flag = RUS_alexi_event_10
+				modifier = {
+					factor = 0
+					has_country_flag = RUS_alexi_event_10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				# KIRILL CHECKER
+				has_country_leader = {
+					name = "Kirill"
+					ruling_only = yes
+				}
+			}
+			random_list = {
+				1 = {
+					#Kirill is intrested in Lysenko's Science
+					country_event = Russian_flavour.31
+					set_country_flag = RUS_kirill_event_1
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_1
+					}
+				}
+				1 = {
+					#Kirill purges the Black Hundreds
+					country_event = Russian_flavour.32
+					set_country_flag = RUS_kirill_event_2
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_2
+					}
+				}
+				1 = {
+					#Kirill lets the nobles who support get bigger business
+					country_event = Russian_flavour.33
+					set_country_flag = RUS_kirill_event_3
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_3
+					}
+				}
+				1 = {
+					#Anastasia and Kirill have a nice talk
+					country_event = Russian_flavour.34
+					set_country_flag = RUS_kirill_event_4
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_4
+					}
+				}
+				1 = {
+					#A new ship in his name is launched
+					country_event = Russian_flavour.35
+					set_country_flag = RUS_kirill_event_5
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_5
+					}
+				}
+				1 = {
+					#Kirill's programs get more people in church
+					country_event = Russian_flavour.36
+					set_country_flag = RUS_kirill_event_6
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_6
+					}
+				}
+				1 = {
+					#Kirill is sad about what happened to Alexi for Nicholas's sake
+					country_event = Russian_flavour.37
+					set_country_flag = RUS_kirill_event_7
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_7
+					}
+				}
+				1 = {
+					#An event about Mikhail Rodzianko (the HOG)
+					country_event = Russian_flavour.38
+					set_country_flag = RUS_kirill_event_8
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_8
+					}
+				}
+				1 = {
+					#The Tsar Prepares his people for war
+					country_event = Russian_flavour.39
+					set_country_flag = RUS_kirill_event_9
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_9
+					}
+				}
+				1 = {
+					#Officers all across Russia prepare for the eventual war
+					country_event = Russian_flavour.40
+					set_country_flag = RUS_kirill_event_10
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_kirill_event_10
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				# ALEXANDRA CHECKER
+				has_country_leader = {
+					name = "Alexandra"
+					ruling_only = yes
+				}
+			}
+			random_list = {
+				1 = {
+					#a new grand cathedral is under construction in Moscow
+					country_event = Russian_flavour.41
+					set_country_flag = RUS_alexandra_event_1
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_1
+					}
+				}
+				1 = {
+					#Commissars are used to ensure Russia's soldiers are Zelous in their duty 
+					country_event = Russian_flavour.42
+					set_country_flag = RUS_alexandra_event_2
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_2
+					}
+				}
+				1 = {
+					# Tesla locks himself in his lab for weeks at a time developing new tech for Russia
+					country_event = Russian_flavour.43
+					set_country_flag = RUS_alexandra_event_3
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_3
+					}
+				}
+				1 = {
+					#Alexandra and Anastasia meet and talk about Russia
+					country_event = Russian_flavour.44
+					set_country_flag = RUS_alexandra_event_4
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_4
+					}
+				}
+				1 = {
+					#Rasputin is in the background making sure things go smoothly
+					country_event = Russian_flavour.45
+					set_country_flag = RUS_alexandra_event_5
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_5
+					}
+				}
+				1 = {
+					#New technological horrors are being produced made of flesh and metal, bodyhorror shit
+					country_event = Russian_flavour.46
+					set_country_flag = RUS_alexandra_event_6
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_6
+					}
+				}
+				1 = {
+					#The Tsarina takes a look back at everything she's lost
+					country_event = Russian_flavour.47
+					set_country_flag = RUS_alexandra_event_7
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_7
+					}
+				}
+				1 = {
+					#Every day it feels like Russia is modernising and becoming completly unrecognisable 
+					country_event = Russian_flavour.48
+					set_country_flag = RUS_alexandra_event_8
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_8
+					}
+				}
+				1 = {
+					#using newly disriputed radios the Tsarina gives a speech about the coming holy crusade against international decadence 
+					country_event = Russian_flavour.49
+					set_country_flag = RUS_alexandra_event_9
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_9
+					}
+				}
+				1 = {
+					#Officer's find themselves not really liking the direction Russia is going
+					country_event = Russian_flavour.50
+					set_country_flag = RUS_alexandra_event_10
+					modifier = {
+						factor = 0
+						has_country_flag = RUS_alexandra_event_10
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,763 @@
+capital = 16
+
+oob = "FRA_1933"
+
+set_fuel_ratio = 0.4
+starting_train_buffer = 2
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 7 }
+add_to_array = { PB_accepted_cultures = 7 }
+add_to_array = { PB_accepted_cultures = 8 }
+add_to_array = { PB_accepted_cultures = 6 }
+add_to_array = { PB_accepted_cultures = 9 }
+add_to_array = { PB_accepted_cultures = 13 }
+add_to_array = { PB_accepted_cultures = 10 }
+
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "FRA_1933_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			basic_small_airframe = 1
+			basic_medium_airframe = 1
+			basic_large_airframe = 1
+	}		
+	else = {
+		set_air_oob = "FRA_1933_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			naval_bomber1 = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			CAS1 = 1
+			strategic_bomber1 = 1
+		}
+	}
+}
+
+
+# Starting tech
+set_technology = {
+	tech_automat_great_war = 1
+	basic_train = 1
+	infantry_rations = 1
+	infantry_weapons1930 = 1
+	infantry_weapons1933 = 1
+	tech_military_police = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	set_naval_oob = "FRA_1933_naval_legacy"
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		panzerschiffe = 1
+		pre_dreadnoughts = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		sonar = 1
+		basic_cruiser_armor_scheme = 1
+	}
+	set_naval_oob = "FRA_1933_Naval"
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_country_flag = FRA_Pacte_De_Unity_In_Recession
+set_country_flag = Tag_in_French_Sphere
+set_country_flag = PB_content_country
+
+clamp_variable = {
+	var = FRA_PDU_Member_States
+	min = 1
+	max = 999
+}
+
+add_to_leading_coalition_ds = yes
+add_to_farright_coalition_ni = yes
+add_to_farright_coalition_ds = yes
+ban_party_rc = yes
+ban_party_an = yes
+ban_party_cn = yes
+ban_party_lb = yes
+ban_party_ss = yes
+ban_party_jc = yes
+
+create_intelligence_agency = {
+	name = "Milice française"
+}
+
+set_research_slots = 4
+
+set_stability = 1
+set_war_support = 0.15
+
+set_convoys = 200
+
+add_manpower = 220000
+
+create_faction = REV
+
+FRA = {
+	add_opinion_modifier = {
+		target = GER
+		modifier = great_war_bitterness
+	}
+	add_opinion_modifier = {
+		target = ENG
+		modifier = great_war_bitterness
+	}
+}
+
+set_variable = {
+	var = FRA_GLFP
+	value = 72
+}
+
+set_variable = {
+	var = FRA_unemployment_variable
+	value = 7
+}
+
+set_variable = {
+	var = FRA_Factionalism
+	value = 0.61
+}
+
+set_variable = {
+	var = FRA_Nationalistic_Fervour
+	value = 0.33
+}
+
+PB_Set_Max_State_Focus = yes
+
+add_ideas = {
+	FRA_Med_Factionalism_Idea
+	FRA_Low_Nationalistic_Fervour_Idea
+	
+	PB_FRA_Crumbling_Coalition
+	PB_FRA_Bitter_Revanchism
+	PB_FRA_Public_Security
+	PB_FRA_Military_SP_Rivalry_Balanced
+
+	PB_NI_French_Revanchism
+	PB_Single_Party_State
+	PB_Fully_Westernized
+	PB_Market_Underperformance
+	PB_Govidea_State_Capitalism
+	PB_Basic_Education
+	PB_Presidential_Dictatorship
+	PB_Basic_Healthcare
+	PB_Industrialized
+	PB_14_Hour_Workday
+	PB_Minor_Illiteracy
+	PB_Great_War_Military
+	PB_Racial_Segregation
+	PB_Rampant_Poverty
+	PB_State_Press
+	PB_Public_Meetings_Monitored 
+	PB_Law_Intimidation_Policing
+	PB_Augmentation_No_Legislation
+	PB_Sociogenetics_Normalized
+	PB_Basic_Welfare
+	PB_No_Womens_Legal_Protections
+
+	FRA_PB_jean_mayol 
+	FRA_PB_robert_brasillach_FM
+	FRA_PB_andre_grisoni_EM
+	FRA_PB_pierre_pucheu_IM
+
+	MGC_Paris1
+}
+
+set_politics = {
+	ruling_party = ds
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+FRA = {
+	set_country_flag = FRA_Charles_Nogues_Militarists
+	set_country_flag = FRA_Joseph_Darnand_SP
+}
+
+set_popularities = {
+	ni = 24
+	ds = 58
+	rc = 15
+	cn = 1
+	lb = 0
+	an = 0
+	ss = 0
+	jc = 2
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Jeannie Yvonne Ghislaine Rousseau"
+		GFX = GFX_Portrait_FRA_Jeannie_Yvonne_Ghislaine_Rousseau
+		traits = { operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { FRA }
+	}
+	create_operative_leader = {
+		name = "Marie Madeleine Fourcade"
+		GFX = GFX_Portrait_FRA_Marie_Madeleine_Fourcade
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { FRA }
+	}
+	create_operative_leader = {
+		name = "Pierre Brossolette"
+		GFX = GFX_Portrait_FRA_Pierre_Brossolettee
+		traits = { operative_well_groomed operative_master_interrogator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = no
+		nationalities = { FRA }
+	}
+	create_operative_leader = {
+		name = "Henri Frenay"
+		GFX = GFX_Portrait_FRA_Henri_Frenay
+		traits = { operative_well_groomed operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = no
+		nationalities = { FRA }
+	}
+	create_operative_leader = {
+		name = "Jean Moulin"
+		GFX = GFX_Portrait_FRA_Jean_Moulin
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { FRA ENG }
+	}
+}
+
+
+# CHARACTERS
+recruit_character = FRA_Hubert_Lyautey
+recruit_character = FRA_Maurice_Gamelin
+recruit_character = FRA_Henri_Giraud
+recruit_character = FRA_Maxime_Weygand
+recruit_character = FRA_Jean_Tassigny
+recruit_character = FRA_Francois_Darlan
+recruit_character = FRA_Laurent_Eynac
+recruit_character = FRA_Felix_dHerelle
+recruit_character = FRA_Alphonse_Juin
+recruit_character = FRA_Victor_Schweisguth
+recruit_character = FRA_Georges_Catroux
+recruit_character = FRA_Louis_Esperey
+recruit_character = FRA_Jean_Abrial
+recruit_character = FRA_Emile_Muselier
+recruit_character = FRA_Henri_Blehaut
+recruit_character = FRA_Gabriel_Auphan
+recruit_character = FRA_Jean_Decoux
+recruit_character = FRA_Rene_Godfrey
+recruit_character = FRA_Philippe_Kieffer
+recruit_character = FRA_Joseph_Bares
+recruit_character = FRA_Victor_Denain
+recruit_character = FRA_Joseph_Vuillemin
+recruit_character = FRA_Martin_Valin
+recruit_character = FRA_Pierre_Pouyade
+recruit_character = FRA_Jean_Jannekeyn
+recruit_character = FRA_Don_Marchetti
+recruit_character = FRA_jacques_doriot
+recruit_character = FRA_françois_de_la_rocque
+recruit_character = FRA_charles_de_gaulle
+recruit_character = FRA_rené_coty
+recruit_character = FRA_léon_blum
+recruit_character = FRA_benoit_frachon
+recruit_character = FRA_charles_noguès
+recruit_character = FRA_théophile_marie_brébant
+recruit_character = FRA_claire_lee_chennault
+recruit_character = FRA_charles_huntziger
+recruit_character = FRA_alphonse_joseph_georges
+recruit_character = FRA_paul_legentilhomme
+recruit_character = FRA_alphonse_pierre_juin
+recruit_character = FRA_daniel_ney_delchingen
+
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	create_equipment_variant = {
+		name = "Frejus Class"
+		type = ship_hull_submarine_1
+		#name_group = ENG_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Francia Class"
+		type = ship_hull_heavy_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Voltaire Class"
+		type = ship_hull_heavy_1
+		#name_group = ENG_BC_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Gaulle Class"
+		type = ship_hull_cruiser_1
+		#name_group = ENG_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Fantasque Class"
+		type = ship_hull_light_2
+		#name_group = ENG_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Foudre Class"
+		type = ship_hull_cruiser_2
+		#name_group = ENG_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+	else = {
+		create_equipment_variant = {
+			name = "Frejus Class"
+			type = submarine_1
+			parent_version = 0
+		}
+		create_equipment_variant = {
+			name = "Francia Class"
+			type = battleship_1
+			parent_version = 0
+		}
+		create_equipment_variant = {
+			name = "Voltaire Class"
+			type = battleship_1
+			parent_version = 0
+		}
+		create_equipment_variant = {
+			name = "Gaulle Class"
+			type = battle_cruiser_1
+			parent_version = 0
+		}
+		create_equipment_variant = {
+			name = "Fantasque Class"
+			type = destroyer_1
+			parent_version = 0
+		}
+		create_equipment_variant = {
+			name = "Foudre Class"
+			type = light_cruiser_1
+			parent_version = 0
+		}
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "FT mod. 31"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "FT Char Cannon"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "H-35" #due to similar design this also covers R-35
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 4
+		}
+		icon = "GFX_FRA_basic_light_tank_medium"
+	}
+	create_equipment_variant = {
+		name = "FCM 32" #due to similar design this also covers R-35
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_auto_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = smoke_launchers
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_FRA_light_BCA_camo"
+	}
+	create_equipment_variant = {
+		name = "Char B1" 
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_howitzer
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_small_cannon
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 4
+		}
+		icon = "GFX_FRA_basic_heavy_tank_medium"
+	}
+
+	create_equipment_variant = {
+		name = "SOUMUA S35" 
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_medium_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 5
+		}
+		icon = "GFX_FRA_improved_medium_tank_medium"
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "Br. 19" #
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_FRA_CAS1_medium"
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "NiD 62" #
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "D.500" #
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_FRA_light_plane_2_medium"
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "D.371" #
+		type = cv_small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_FRA_light_plane_2_medium"
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "PL.7" #
+		type = cv_small_plane_naval_bomber_airframe_0
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_FRA_naval_bomber1_medium"
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "D.510" #also covers D.501
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_FRA_light_plane_2_medium"
+		obsolete = yes
+	}
+    create_equipment_variant = {
+		name = "D.520" 
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = aircraft_cannon_1_1x
+			fixed_auxiliary_weapon_slot_1 = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_FRA_light_plane_3_medium"
+	}
+	create_equipment_variant = {
+		name = "Latécoère 296" #
+		type = small_plane_naval_bomber_airframe_0
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = floats
+		}
+		icon = "GFX_FRA_naval_bomber1_medium"
+	}
+	create_equipment_variant = {
+		name = "Amiot 143" #
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_FRA_early_bomber_medium"
+	}
+	create_equipment_variant = {
+		name = "F.222" #
+		type = large_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = large_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = empty
+			engine_type_slot = engine_2_4x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_FRA_strategic_bomber1_medium"
+	}
+	create_equipment_variant = {
+		name = "M.B. 200" #
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = empty
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		obsolete = yes
+	}
+}

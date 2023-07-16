@@ -1,0 +1,116 @@
+﻿starting_train_buffer = 2
+capital = 920
+
+set_country_flag = Megacorp_Carnegie_Steel
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+}
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 217 }
+add_to_array = { PB_accepted_cultures = 217 }
+
+add_ideas = {
+	CoF_Prince_George
+    PB_WAF_Native_Reservation_Zones
+    PB_WAF_White_Oasis
+
+	PB_Aristocratic_Democracy
+	PB_Fully_Westernized
+	PB_Middling_Consumer_Confidence
+	PB_Govidea_Mixed_Market_Capitalism
+	PB_Basic_Education
+	PB_Parliamentary_Monarchy
+	PB_Basic_Healthcare
+	PB_Semi_Industrialized
+	PB_14_Hour_Workday
+	PB_Significant_Illiteracy
+	PB_Great_War_Military
+	PB_Racial_Segregation
+	PB_NI_Order
+	PB_Significant_Poverty
+	PB_Limited_Censorship
+	PB_Public_Meetings_Monitored
+	PB_Law_Intimidation_Policing
+	PB_Basic_Welfare
+	PB_Limited_Womens_Rights
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = lb
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    ni = 0
+    ds = 0
+    rc = 4
+    cn = 29
+    lb = 45
+    an = 13
+    ss = 9
+    jc = 0
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = NI_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = DS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = CN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Margaret Carnegie"
+	desc = ""
+	picture = "gfx/leaders/WAF/Portrait_WAF_Margaret_Carnegie.dds"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = SS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = JC_VARIANT_01
+}
+

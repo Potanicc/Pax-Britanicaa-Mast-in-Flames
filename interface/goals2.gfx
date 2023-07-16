@@ -1,0 +1,143 @@
+spriteTypes = {	
+
+	SpriteType = {
+        name = "GFX_RAJ_Question_Foreign_Policy"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_Question_Foreign_Policy.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_ENG_bigbenburning"
+        texturefile = "gfx/interface/goals/The New Order/goal_ENG_bigbenburning.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_The_Red_Constitution"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_The_Red_Constitution.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_National_Land_Reform"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_National_Land_Reform.dds"
+    }
+    
+	SpriteType = {
+        name = "GFX_goal_RAJ_Workers_Paradise"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_Workers_Paradise.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_GER_balkan_initiative"
+        texturefile = "gfx/interface/goals/The New Order/GFX_GER_balkan_initiative.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_GER_burn_the_blacklist"
+        texturefile = "gfx/interface/goals/The New Order/GFX_GER_burn_the_blacklist.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_establish_secret_service"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_establish_secret_service.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_ENG_bobbies"
+        texturefile = "gfx/interface/goals/The New Order/goal_ENG_bobbies.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_focus_purge_bureaucracy"
+        texturefile = "gfx/interface/goals/The New Order/focus_purge_bureaucracy.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_Start_The_Government"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_Start_The_Government.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_The_Government_Established"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_The_Government_Established.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_rich_help_others"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_rich_help_others.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_reluctant_cooperation"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_reluctant_cooperation.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_religious_peace"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_religious_peace.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_reform_the_milita"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_reform_the_milita.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_intergrate_the_militia"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_intergrate_the_militia.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_India_Nurture_Heavy_Industry"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_India_Nurture_Heavy_Industry.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_RAJ_India_Worker_Rights"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_India_Worker_Rights.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_RAJ_rifles_guns_cannons"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_rifles_guns_cannons.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_RAJ_The_Education"
+        texturefile = "gfx/interface/goals/The New Order/RAJ_The_Education.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_goal_ENG_home_defense"
+        texturefile = "gfx/interface/goals/The New Order/goal_ENG_home_defense.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ITA_naval_planes"
+        texturefile = "gfx/interface/goals/ROTG_goals/GFX_ITA_naval_planes.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GER_improved_cruiser_models"
+        texturefile = "gfx/interface/goals/ROTG_goals/GER_improved_cruiser_models.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GER_naval_investments"
+        texturefile = "gfx/interface/goals/ROTG_goals/GER_naval_investments.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_URL_Healthy_Rations"
+        texturefile = "gfx/interface/goals/The New Order/URL_Healthy_Rations.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_URL_Study_Logistics"
+        texturefile = "gfx/interface/goals/The New Order/URL_study_logistics.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_GER_The_scandinavians"
+        texturefile = "gfx/interface/goals/The New Order/GER_The_scandinavians.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_GER_a_merchant_navy"
+        texturefile = "gfx/interface/goals/ROTG_goals/GER_a_merchant_navy.dds"
+    }
+}

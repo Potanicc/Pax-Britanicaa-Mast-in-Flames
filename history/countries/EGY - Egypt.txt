@@ -1,0 +1,113 @@
+﻿starting_train_buffer = 2
+capital = 446
+
+oob = "EGY_1933"
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+
+	radio_detection = 1
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+set_country_flag = PB_Client_State
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 216 }
+add_to_array = { PB_accepted_cultures = 216 }
+add_to_array = { PB_accepted_cultures = 253 }
+
+add_ideas = {
+	
+
+	PB_Absolute_Monarchy
+	PB_NI_Order
+	PB_Govidea_State_Capitalism
+	PB_No_Voting
+	PB_State_Press
+	PB_Public_Meetings_Monitored
+	PB_Patriarchal_Society
+	PB_Limited_Autonomy
+	PB_Law_Standard_Policing
+	PB_No_Limit_Workday
+	PB_No_Healthcare
+	PB_Basic_Education
+	PB_No_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Widespread_Poverty
+	PB_Agrarianism
+	PB_Significant_Illiteracy
+	PB_Stagnating_Growth
+	PB_Great_War_Military
+	PB_Uncivilized_Nation
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = ds
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    ni = 5
+    ds = 16
+    rc = 10
+    cn = 56
+    lb = 8
+    an = 3
+    ss = 1
+    jc = 1
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_EGY_Faud.dds"
+	ideology = NI_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_EGY_Faud.dds"
+	ideology = DS_VARIANT_06
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_EGY_Faud.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_EGY_Faud.dds"
+	ideology = CN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_EGY_Faud.dds"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Fuad I"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_EGY_Faud.dds"
+	ideology = SS_VARIANT_01
+}

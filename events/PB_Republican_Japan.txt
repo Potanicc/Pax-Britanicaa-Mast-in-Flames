@@ -1,0 +1,60 @@
+﻿##################
+# REPUBLICAN JAPAN EVENTS 
+##################
+
+add_namespace = repjap
+
+country_event = {		#Japan invades Russia - No ROC
+	id = repjap.1
+	title = repjap.1.t
+	desc = repjap.1.d
+	picture = GFX_report_PB_Conference3
+
+	trigger = {
+		original_tag = JAP
+		ROC = {
+			exists = no
+		}
+		RUS = {
+			has_war_with = GER
+		}
+		NOT = {
+			has_global_flag = RUS_JAP_Russian_Invasion
+		}
+	}
+
+	immediate = {
+		set_global_flag = RUS_JAP_Russian_Invasion
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = { #NOT APPLICABLE
+		name = repjap.1.a
+
+		ai_chance = {
+			factor = 50
+		}
+
+		add_political_power = 25
+
+		JAP = {
+			declare_war_on = {
+				target = RUS
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+
+			declare_war_on = {
+				target = MAN
+				type = annex_everything
+			}
+		}
+	}
+}

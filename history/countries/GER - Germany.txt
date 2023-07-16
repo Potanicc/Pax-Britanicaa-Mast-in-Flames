@@ -1,0 +1,1019 @@
+﻿capital = 55
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1933"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1933_nsb"
+}
+
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "GER_1933_naval_mtg"
+	else = {
+		set_naval_oob = "GER_1933_naval"
+	}
+}
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.5
+
+add_manpower = -100000 # For German Pacific Soldiers
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 21 }
+add_to_array = { PB_accepted_cultures = 21 }
+add_to_array = { PB_accepted_cultures = 17 }
+add_to_array = { PB_accepted_cultures = 14 }
+add_to_array = { PB_accepted_cultures = 16 }
+add_to_array = { PB_accepted_cultures = 18 }
+add_to_array = { PB_accepted_cultures = 19 }
+add_to_array = { PB_accepted_cultures = 22 }
+add_to_array = { PB_accepted_cultures = 24 }
+
+
+# Starting tech
+set_technology = {
+	tech_automat_great_war = 1
+	infantry_weapons1930 = 1
+	infantry_weapons1933 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	infantry_rations = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		basic_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		panzerschiffe = 1
+		pre_dreadnoughts = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GER_1933_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+		}
+	else = {
+		set_air_oob = "GER_1933_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+		}
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	add_ideas = state_restricts_the_military_spirit
+}
+
+create_intelligence_agency = {
+	name = "Evidenzbüro"
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Klaus Fuchs"
+		GFX = GFX_Portrait_GER_Klaus_Fuchs
+		traits = { operative_master_interrogator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = no
+		nationalities = { GER }
+	}
+	create_operative_leader = {
+		name = "Erich Gimpel"
+		GFX = GFX_Portrait_GER_Erich_Gimpel
+		traits = { operative_seducer operative_infiltrator operative_linguist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = no
+		nationalities = { GER }
+	}
+	create_operative_leader = {
+		name = "Einheit 1773"
+		GFX = GFX_Portrait_GER_Razor_Spy
+		traits = { operative_razormaiden operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GER }
+	}
+}	
+
+set_stability = 0.5
+set_war_support = 0.8
+set_research_slots = 4
+
+set_convoys = 275
+
+set_variable = {
+	var = rhine_unrest_stability_variable
+	value = -0.04
+}
+set_variable = {
+	var = rhine_unrest_political_power_variable
+	value = -0.04
+}
+set_variable = {
+	var = hannover_unrest_stability_variable
+	value = -0.04
+}
+set_variable = {
+	var = hannover_unrest_political_power_variable
+	value = -0.04
+}
+
+set_variable = {
+	var = frankfurt_unrest_stability_variable
+	value = -0.04
+}
+set_variable = {
+	var = frankfurt_unrest_political_power_variable
+	value = -0.04
+}
+
+set_variable = {
+	var = elsass_unrest_stability_variable
+	value = -0.04
+}
+set_variable = {
+	var = elsass_unrest_political_power_variable
+	value = -0.04
+}
+
+set_variable = {
+	var = brandenburg_unrest_stability_variable
+	value = -0.04
+}
+set_variable = {
+	var = brandenburg_unrest_political_power_variable
+	value = -0.04
+}
+
+set_variable = {
+	var = saxony_unrest_stability_variable
+	value = -0.06
+}
+set_variable = {
+	var = saxony_unrest_political_power_variable
+	value = -0.06
+}
+
+set_variable = {
+	var = bavaria_unrest_stability_variable
+	value = -0.04
+}
+set_variable = {
+	var = bavaria_unrest_political_power_variable
+	value = -0.04
+}
+
+set_variable = {
+	var = austria_unrest_stability_variable
+	value = -0.05
+}
+set_variable = {
+	var = austria_unrest_political_power_variable
+	value = -0.05
+}
+
+set_variable = { var = Germany_Rhineland_Unrest value = 20 }
+set_variable = { var = Germany_Brandenburg_Unrest value = 15 }
+set_variable = { var = Germany_Bavaria_Unrest value = 15 }
+set_variable = { var = Germany_Saxony_Unrest value = 25 }
+set_variable = { var = Germany_Hannover_Unrest value = 15 }
+set_variable = { var = Germany_Frankfurt_Unrest value = 5 }
+set_variable = { var = Germany_Elsass_Unrest value = 20 }
+set_variable = { var = Germany_Austria_Unrest value = 15 }
+
+PB_Set_Max_State_Focus = yes
+
+set_country_flag = PB_content_country
+set_country_flag = Tag_in_German_Sphere
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+
+	set_autonomy = {
+	    target = DAS
+	    autonomous_state = autonomy_PB_Autonomous_Colony
+	    freedom_level = 0.5
+    }
+	set_autonomy = {
+	    target = DAF
+	    autonomous_state = autonomy_PB_Autonomous_Colony
+	    freedom_level = 0.5
+    }
+	set_autonomy = {
+	    target = SDW
+	    autonomous_state = autonomy_PB_Autonomous_Colony
+	    freedom_level = 0.5
+    }
+	else = {
+		puppet = DAS
+		puppet = DAF
+		puppet = SDW
+	}
+}
+
+
+add_ideas = {
+	PB_Prussian_Constitutionalism
+	PB_NI_German_Efficiency
+	PB_Universal_Citizenship
+	PB_Fully_Westernized
+	PB_Market_Underperformance
+	PB_Govidea_Mixed_Market_Capitalism
+	PB_Universal_Basic
+	PB_Basic_Healthcare
+	PB_Industrialized
+	PB_12_Hour_Workday
+	PB_Minor_Illiteracy
+	PB_Great_War_Military
+	PB_Limited_Autonomy
+	PB_Widespread_Poverty
+	PB_Free_Press
+	PB_Public_Meetings_Allowed
+	PB_Law_Standard_Policing
+	PB_Augmentation_No_Legislation
+	PB_Sociogenetics_Normalized
+	PB_Limited_Welfare
+	PB_Limited_Womens_Rights
+
+    GER_PB_Gustav_Stresemann
+    GER_PB_Karl_Liebknecht
+    GER_PB_Hermann_Muller
+    GER_PB_Wilhelm_Kulz
+
+	PB_GER_Economic_Depression
+	PB_GER_Libertine_Culture
+	PB_GER_Political_Gridlock
+	PB_GER_Political_Violence_0
+	PB_GER_Great_War_Victor
+	PB_CHI_Extraterritorial_Dividends
+
+	#PB_GER_Rhineland_Unrest_Normal
+	#PB_GER_Saxony_Unrest_Moderate
+	#PB_GER_Hannover_Unrest_Normal
+	#PB_GER_Brandenburg_Unrest_Normal
+	#PB_GER_Bavaria_Unrest_Normal
+	#PB_GER_Elsass_Unrest_Normal
+	#PB_GER_Frankfurt_Unrest_Normal
+	#PB_GER_Austria_Unrest_Normal
+
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Rhineland_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Hannover_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Frankfurt_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Elsass_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Brandenburg_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Saxony_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Bavaria_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Bavaria_Unrest
+}
+
+add_dynamic_modifier = {
+	modifier = PB_GER_Modifier_Austria_Unrest
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	9 = {
+		add_dynamic_modifier = { modifier = czech_agitation }
+	}
+	75 = {
+		add_dynamic_modifier = { modifier = czech_agitation }
+	}
+	28 = {
+		add_dynamic_modifier = { modifier = french_terrorism }
+	}
+}
+
+GER = { 
+	add_opinion_modifier = { 
+		target = FRA modifier = great_war_bitterness 
+	} 
+
+	add_opinion_modifier = { 
+		target = RUS modifier = great_war_bitterness 
+	}
+
+	add_opinion_modifier = { 
+		target = ENG modifier = great_war_allies 
+	}
+}
+
+set_politics = {
+	ruling_party = lb
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ni = 5
+	ds = 0
+	rc = 16
+	cn = 5
+	lb = 32
+	an = 0
+	ss = 40
+	jc = 2
+}
+
+add_to_leading_coalition_lb = yes
+add_to_center_coalition_ss = yes
+add_to_center_coalition_lb = yes
+ban_party_ni = yes
+
+
+recruit_character = GER_reinhard_heydrich
+recruit_character = GER_erich_raeder
+recruit_character = GER_hetzer_nimitz
+recruit_character = GER_gunther_lutjens
+recruit_character = GER_richthofen
+recruit_character = GER_goering
+recruit_character = GER_ernst_udet
+recruit_character = GER_lothar_richthofen
+recruit_character = GER_wilhelm_keitel
+recruit_character = GER_erwin_rommel
+recruit_character = GER_gerd_rundstedt
+recruit_character = GER_august_mackensen
+recruit_character = GER_Maximilian_Gruenthe
+recruit_character = GER_Josef_Dietrich
+recruit_character = GER_Erich_von_Manstein
+recruit_character = GER_walter_model
+recruit_character = GER_alfred_jansa
+recruit_character = GER_Wilhelm_Zehner
+recruit_character = GER_Heinz_Guderian
+recruit_character = GER_Friedrich_Paulus
+recruit_character = GER_Erich_Bey
+recruit_character = GER_Wilhelm_Canaris
+recruit_character = GER_Rolf_Carls
+recruit_character = GER_Robert_Greim
+recruit_character = GER_Walther_Wever
+recruit_character = GER_Hans_Stumpff
+recruit_character = GER_Frederic_Joliot_Curie
+recruit_character = GER_rudolf_ii
+recruit_character = GER_erich_ludendorff
+recruit_character = GER_arthur_arz_von_straußenburg
+recruit_character = GER_eduard_von_böhmermolli
+recruit_character = GER_joseph_von_habsburglothringen
+recruit_character = GER_hans_von_seeckt
+recruit_character = GER_lothar_rendulic
+recruit_character = GER_franz_böhme
+recruit_character = GER_engelbert_dollfuss
+recruit_character = GER_miklós_horthy
+recruit_character = GER_theodor_schulz
+
+
+DAS = {
+    set_politics = {
+        ruling_party = ds
+        last_election = "1936.1.1"
+        election_frequency = 48
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ni = 5
+        ds = 16
+        rc = 10
+        cn = 56
+        lb = 8
+        an = 3
+        ss = 1
+        jc = 1
+    }
+
+	set_country_flag = Tag_in_German_Sphere
+}
+
+DAF = {
+    set_politics = {
+        ruling_party = ds
+        last_election = "1936.1.1"
+        election_frequency = 48
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ni = 5
+        ds = 16
+        rc = 10
+        cn = 56
+        lb = 8
+        an = 3
+        ss = 1
+        jc = 1
+    }
+
+	set_country_flag = Tag_in_German_Sphere
+}
+
+SDW = {
+    set_politics = {
+        ruling_party = ds
+        last_election = "1936.1.1"
+        election_frequency = 48
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ni = 5
+        ds = 16
+        rc = 10
+        cn = 56
+        lb = 8
+        an = 3
+        ss = 1
+        jc = 1
+    }
+
+	set_country_flag = Tag_in_German_Sphere
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	### Ship Variants ###
+	## 1936 Start ##
+	# Light Cruisers #
+	create_equipment_variant = {
+		name = "Prag Class"
+		type = light_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 2
+			ship_engine_upgrade = 2
+			ship_gun_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+		obsolete = yes
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "Deutschland Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 2
+		}
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Österreich Class"
+		type = ship_hull_cruiser_panzerschiff
+		#name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+        	fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+    	}
+	}
+	create_equipment_variant = {
+		name = "Type 24 Class"
+		type = ship_hull_light_1
+		#name_group = GER_TB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1933 Class"
+		type = ship_hull_light_2
+		#name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Zerstörer 1933A Class"
+		type = ship_hull_light_2
+		#name_group = GER_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Type II Class"
+		type = ship_hull_submarine_1
+		#name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Prag Class"
+		type = ship_hull_cruiser_1
+		#name_group = GER_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Emden Class"
+		type = ship_hull_cruiser_1
+		#name_group = GER_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_light_medium_battery_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Bremse Class"
+		type = ship_hull_cruiser_1
+		#name_group = GER_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Ferdinand Class"			
+		type = ship_hull_cruiser_coastal_defense_ship
+		#name_group = GER_CDS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_light_medium_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Leipzig Class"
+		type = ship_hull_cruiser_2
+		#name_group = GER_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Admiral Hipper Class"
+		type = ship_hull_cruiser_2
+		#name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Scharnhorst Class"
+		type = ship_hull_heavy_2
+		#name_group = GER_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Österreich Class"
+		type = ship_hull_heavy_1
+		#name_group = GER_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "Leichttraktor"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 2
+		}
+		obsolete = yes
+		icon = "GFX_gwtank_medium"
+	}
+	create_equipment_variant = {
+		name = "Landschiff I Ausf. a"
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 1
+		}
+		icon = "GFX_GER_basic_light_tank_medium"
+	}	
+}	
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	create_equipment_variant = {
+		name = "Ju 86"
+		type = tac_bomber_equipment_0
+		upgrades = {
+			plane_tac_bomb_upgrade = 5
+			plane_range_upgrade = 5
+			plane_engine_upgrade = 5
+			plane_reliability_upgrade = 5
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Do 17"
+		type = tac_bomber_equipment_0
+		upgrades = {
+			plane_tac_bomb_upgrade = 5
+			plane_range_upgrade = 1
+			plane_engine_upgrade = 1
+			plane_reliability_upgrade = 5
+		}
+		obsolete = yes
+	}
+}
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+
+	create_equipment_variant = {
+		name = "Do 23"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_auxiliary_weapon_slot_2 = empty
+			fixed_auxiliary_weapon_slot_3 = empty
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = empty
+			special_type_slot_2 = empty
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Ju 86"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_auxiliary_weapon_slot_2 = empty
+			fixed_auxiliary_weapon_slot_3 = empty
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+			special_type_slot_2 = fuel_tanks_medium
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "He 111"
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_2 = empty
+			fixed_auxiliary_weapon_slot_3 = empty
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+			special_type_slot_2 = lmg_defense_turret_2x
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		icon = "GFX_GER_tactical_bomber1_medium"
+	}
+	
+	create_equipment_variant = {
+		name = "Do 17"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = small_bomb_bay
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		icon = "GFX_GER_medium_plane_1_medium"
+	}
+
+	create_equipment_variant = {
+		name = "He 51" #also covers Ar 68
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Hs 123"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Bf 109 D"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_GER_fighter1_medium"
+	}
+	create_equipment_variant = {
+		name = "Ju 87"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_GER_CAS1_medium"
+	}
+	create_equipment_variant = {
+		name = "Do 22"
+		type = small_plane_naval_bomber_airframe_1
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = floats
+		}
+		icon = "GFX_GER_naval_bomber1_medium"
+	}
+}

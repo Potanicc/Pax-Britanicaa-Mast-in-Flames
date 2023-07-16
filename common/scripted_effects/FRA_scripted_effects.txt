@@ -1,0 +1,1239 @@
+PB_FRA_unemployment_variable_minus0.05 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_minus0.05_tt
+	subtract_from_variable = {
+		var = FRA_unemployment_variable
+		value = 0.05
+	}
+}
+
+PB_FRA_unemployment_variable_minus0.1 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_minus0.1_tt
+	subtract_from_variable = {
+		var = FRA_unemployment_variable
+		value = 0.1
+	}
+}
+
+PB_FRA_unemployment_variable_minus0.25 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_minus0.25_tt
+	subtract_from_variable = {
+		var = FRA_unemployment_variable
+		value = 0.25
+	}
+}
+
+PB_FRA_unemployment_variable_minus0.5 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_minus0.5_tt
+	subtract_from_variable = {
+		var = FRA_unemployment_variable
+		value = 0.5
+	}
+}
+
+PB_FRA_unemployment_variable_minus1 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_minus1_tt
+	subtract_from_variable = {
+		var = FRA_unemployment_variable
+		value = 1
+	}
+}
+
+PB_FRA_unemployment_variable_plus0.1 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_plus0.1_tt
+	add_to_variable = {
+		var = FRA_unemployment_variable
+		value = 0.1
+	}
+}
+
+PB_FRA_unemployment_variable_plus0.25 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_plus0.25_tt
+	add_to_variable = {
+		var = FRA_unemployment_variable
+		value = 0.25
+	}
+}
+
+PB_FRA_unemployment_variable_plus0.5 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_plus0.5_tt
+	add_to_variable = {
+		var = FRA_unemployment_variable
+		value = 0.5
+	}
+}
+
+PB_FRA_unemployment_variable_plus1 = {
+	custom_effect_tooltip = PB_FRA_unemployment_variable_plus1_tt
+	add_to_variable = {
+		var = FRA_unemployment_variable
+		value = 1
+	}
+}
+
+PB_FRA_england_invest = {
+	OBR = {
+		random_list = {
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+						NOT = {
+							state = 123
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						NOT = {
+							state = 123
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						NOT = {
+							state = 123
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						NOT = {
+							state = 123
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_wales_invest = {
+	WLS = {
+		random_list = {
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_scotland_invest = {
+	SCO = {
+		random_list = {
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_ireland_invest = {
+	IRE = {
+		random_list = {
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_cornwall_invest = {
+	CON = {
+		random_list = {
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+						state = 123
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						state = 123
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						state = 123
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						state = 123
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_cornwall_defence_invest = {
+	CON = {
+		random_list = {
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						bunker < 10
+						state = 123
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1 = {
+				random_owned_controlled_state = {
+					limit = {
+						coastal_bunker < 10
+						state = 123
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 2
+						instant_build = yes
+						province = {
+							limit_to_coastal = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_westphalia_invest = {
+	random_list = {
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_south_germany_invest = {
+	random_list = {
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_austria_invest = {
+	random_list = {
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_hanover_invest = {
+	random_list = {
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			HAN = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			MGE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_italy_invest = {
+	random_list = {
+		1 = {
+			IST = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			IST = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			IST = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			IST = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_denmark_invest = {
+	random_list = {
+		1 = {
+			SCH = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			SCH = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			SCH = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			SCH = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_norway_invest = {
+	random_list = {
+		1 = {
+			NOR = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			NOR = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			NOR = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			NOR = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+PB_FRA_sweden_invest = {
+	random_list = {
+		1 = {
+			SWE = {
+				random_owned_controlled_state = {
+					limit = {
+						infrastructure < 10
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			SWE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			SWE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		1 = {
+			SWE = {
+				random_owned_controlled_state = {
+					limit = {
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+FRA_leader_checker_stuff = {
+	if = {
+		limit = {
+			# DORIOT CHECKER
+			has_country_leader = {
+				name = "Jacques Doriot"
+				ruling_only = yes
+			}
+		}
+		random_list = {
+			1 = {
+				#pov you are being indoctrinated in school
+				country_event = French_flavour.32
+				set_country_flag = FRA_doriot_event_1
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_1
+				}
+			}
+			1 = {
+				#pov Doriot is making a Hitler style speech (think nuremberg rally)
+				country_event = French_flavour.33
+				set_country_flag = FRA_doriot_event_2
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_2
+				}
+			}
+			1 = {
+				#pov you are german (intense laugh)
+				country_event = French_flavour.35
+				set_country_flag = FRA_doriot_event_4
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_4
+				}
+			}
+			1 = {
+				#a formely poor french man remembers those difficult times after WW1 and how thanks to Doriots measures he became rich
+				country_event = French_flavour.36
+				set_country_flag = FRA_doriot_event_5
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_5
+				}
+			}
+			1 = {
+				#a student asks why the Frankish empire is so important
+				country_event = French_flavour.37
+				set_country_flag = FRA_doriot_event_6
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_6
+				}
+			}
+			1 = {
+				#a catholic priest laments the growing secularisation of france
+				country_event = French_flavour.38
+				set_country_flag = FRA_doriot_event_7
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_7
+				}
+			}
+			1 = {
+				#a new french family moves into a formerly German household
+				country_event = French_flavour.39
+				set_country_flag = FRA_doriot_event_8
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_8
+				}
+			}
+			1 = {
+				#an event about Victor Barthélemy (he's the HOG)
+				country_event = French_flavour.40
+				set_country_flag = FRA_doriot_event_9
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_9
+				}
+			}
+			1 = {
+				#Doriot is being informed about how Paris is cool and London will be cringe
+				country_event = French_flavour.41
+				set_country_flag = FRA_doriot_event_10
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_10
+				}
+			}
+			1 = {
+				#Jacobin story arc start
+				country_event = French_flavour.4
+				set_country_flag = FRA_doriot_event_11
+				modifier = {
+					factor = 0
+					has_country_flag = FRA_doriot_event_11
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				# MUARRAS CHECKER
+				OR = {
+					has_country_leader = {
+						name = "Charles Muarras"
+						ruling_only = yes
+					}
+					has_country_leader = {
+						name = "Jean I"
+						ruling_only = yes
+					}
+				}
+			}
+			random_list = {
+				1 = {
+					#Muarras is in his new throne room being very happie
+					country_event = French_flavour.42
+					set_country_flag = FRA_muarras_event_1
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_1
+					}
+				}
+				1 = {
+					#Nobles being very happy about being nobles 
+					country_event = French_flavour.43
+					set_country_flag = FRA_muarras_event_2
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_2
+					}
+				}
+				1 = {
+					#The remnants of Armand's faction are getting purged one by one 
+					country_event = French_flavour.45
+					set_country_flag = FRA_muarras_event_4
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_4
+					}
+				}
+				1 = {
+					#A group gathering of the King's Camelots an OTL monarchist organization 
+					country_event = French_flavour.46
+					set_country_flag = FRA_muarras_event_5
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_5
+					}
+				}
+				1 = {
+					#A Priest is delivering a Sermon and it is packed
+					country_event = French_flavour.47
+					set_country_flag = FRA_muarras_event_6
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_6
+					}
+				}
+				1 = {
+					#Maurras is actually deaf, this solves that
+					country_event = French_flavour.49
+					set_country_flag = FRA_muarras_event_8
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_8
+					}
+				}
+				1 = {
+					#an event about Raphaël Alibert (the HOG)
+					country_event = French_flavour.50
+					set_country_flag = FRA_muarras_event_9
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_9
+					}
+				}
+				1 = {
+					#Maurras drinks with his friend Maurice Pujo and their successes
+					country_event = French_flavour.51
+					set_country_flag = FRA_muarras_event_10
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_10
+					}
+				}
+				1 = {
+					#Jacobin story arc start
+					country_event = French_flavour.4
+					set_country_flag = FRA_muarras_event_11
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_muarras_event_11
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				# ARMAND CHECKER
+				has_country_leader = {
+					name = "Inessa Armand"
+					ruling_only = yes
+				}
+			}
+			random_list = {
+				1 = {
+					#A German worker is struggling to join a union because racism
+					country_event = French_flavour.53
+					set_country_flag = FRA_armand_event_2
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_2
+					}
+				}
+				1 = {
+					# Revolutionary Feminism i guess
+					country_event = French_flavour.54
+					set_country_flag = FRA_armand_event_3
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_3
+					}
+				}
+				1 = {
+					#A school girl is learning about Jeanne d'arc and that's cool
+					country_event = French_flavour.55
+					set_country_flag = FRA_armand_event_4
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_4
+					}
+				}
+				1 = {
+					#WW2 soviet tactics + French army = Oh god they're shooting us with baguettes
+					country_event = French_flavour.56
+					set_country_flag = FRA_armand_event_5
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_5
+					}
+				}
+				1 = {
+					#Formation of Paramilitaries (check Soviet Internal Troops for references)
+					country_event = French_flavour.57
+					set_country_flag = FRA_armand_event_6
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_6
+					}
+				}
+				1 = {
+					#an event about Hubert Lagardelle (HOG, one of the founders of OTL national syndicalism)
+					country_event = French_flavour.59
+					set_country_flag = FRA_armand_event_8
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_8
+					}
+				}
+				1 = {
+					#Armand talks with Simone de Beauvoir a fellow Feminist
+					country_event = French_flavour.60
+					set_country_flag = FRA_armand_event_9
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_9
+					}
+				}
+				1 = {
+					#a Moscow Victory Day Parade but France
+					country_event = French_flavour.61
+					set_country_flag = FRA_armand_event_10
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_10
+					}
+				}
+				1 = {
+					#Armand straight up shoots Benoit Frachon, no story arc for u
+					country_event = French_flavour.73
+					set_country_flag = FRA_armand_event_11
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_armand_event_11
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				# MILITARY CHECKER
+				OR = {
+					has_country_leader = {
+						name = "Charles Noguès"
+						ruling_only = yes
+					}
+					has_country_leader = {
+						name = "Claire Chennault"
+						ruling_only = yes
+					}
+					has_country_leader = {
+						name = "Maxime Weygand"
+						ruling_only = yes
+					}
+				}
+			}
+			random_list = {
+				1 = {
+					#Massive military parades are occurring  all around france
+					country_event = French_flavour.62
+					set_country_flag = FRA_military_event_1
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_military_event_1
+					}
+				}
+				1 = {
+					#Basically a meeting about france going back to basics around its revanchism
+					country_event = French_flavour.63
+					set_country_flag = FRA_military_event_2
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_military_event_2
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				# MILITARY CHECKER
+				OR = {
+					has_country_leader = {
+						name = "Joseph Darmand"
+						ruling_only = yes
+					}
+					has_country_leader = {
+						name = "Xavier Vallat"
+						ruling_only = yes
+					}
+					has_country_leader = {
+						name = "Gabrielle Chanel"
+						ruling_only = yes
+					}
+				}
+			}
+			random_list = {
+				1 = {
+					#a bunch of soldiers sacrificing an animal for good fortune
+					country_event = French_flavour.66
+					set_country_flag = FRA_SP_event_1
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_SP_event_1
+					}
+				}
+				1 = {
+					#a bunch of people are disappearing spook!
+					country_event = French_flavour.67
+					set_country_flag = FRA_SP_event_2
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_SP_event_2
+					}
+				}
+				1 = {
+					#event about SP men purging some military men
+					country_event = French_flavour.68
+					set_country_flag = FRA_SP_event_3
+					modifier = {
+						factor = 0
+						has_country_flag = FRA_SP_event_3
+					}
+				}
+			}
+		}
+	}
+}

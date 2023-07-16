@@ -1,338 +1,28 @@
 ideologies = {
 
-	ultranationalist = {
-
+	ni = {
+	
 		types = {
-
-			conservatism = {
+		
+			NI_VARIANT_01 = { #BASELINE
 			}
 
-			liberalism = {
+			NI_VARIANT_02 = { #ULTRANATIONALISM
 			}
 
-			socialism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-
-		color = { 0 0 255 }
-
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-
-		can_host_government_in_exile = yes
-
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
-		}
-
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
-	}
-
-	despotic = {
-
-		types = {
-
-			conservatism = {
+			NI_VARIANT_03 = { #NATIONAL SYNDICALISM
 			}
 
-			liberalism = {
+			NI_VARIANT_04 = { #CLERICAL ULTRANATIONALISM
 			}
 
-			socialism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-
-		color = { 0 0 255 }
-
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-
-		can_host_government_in_exile = yes
-
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
-		}
-
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
-	}
-
-	reactionary = {
-
-		types = {
-
-			conservatism = {
+			NI_VARIANT_05 = { #REVOLUTIONARY ULTRANATIONALISM
 			}
 
-			liberalism = {
-			}
-
-			socialism = {
+			NI_VARIANT_06 = { #NEO COLONIALISM
 			}
 		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-
-		color = { 0 0 255 }
-
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-
-		can_host_government_in_exile = yes
-
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
-		}
-
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
-	}
-
-	conservative = {
-
-		types = {
-
-			conservatism = {
-			}
-
-			liberalism = {
-			}
-
-			socialism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-
-		color = { 0 0 255 }
-
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-
-		can_host_government_in_exile = yes
-
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-			embargo_cost_factor = -0.5
-			embargo_threshold_factor = -0.5
-		}
-
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
-	}
-
-
-	liberal = {
-
-		types = {
-
-			marxism = {
-			}
-
-			leninism = {
-			}
-
-			stalinism = {
-			}
-
-			anti_revisionism = {
-			}
-
-			anarchist_communism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-
-		color = { 255 0 0 }
-
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-
-		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
-
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-
-		can_collaborate = yes
-
-		modifiers = {
-			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_threshold_factor = 0.5
-		}
-
-		faction_modifiers = {
-
-		}
-
-	}
-
-	state_socialist = {
-
-		types = {
-
-			nazism = {
-			}
-
-			gen_nazism = {
-			}
-
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-
-			rexism = {
-			}
-		}
-
+		
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"
 			"FACTION_NAME_FASCIST_2"
@@ -340,155 +30,482 @@ ideologies = {
 			"FACTION_NAME_FASCIST_4"
 			"FACTION_NAME_FASCIST_5"
 		}
-
-		color = { 150 75 0 }
-
+		
+		color = { 49 79 79 }
+		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
-
+		
 		rules = {
-			can_force_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
 			can_send_volunteers = yes
-			can_puppet = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
-
-		can_collaborate = yes
-
+		
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_cost_factor = 1
+			join_faction_tension = 0.20
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
-		ai_ideology_wanted_units_factor = 1.65
+		ai_neutral = yes
+ 
 	}
 
-	jacobin = {
-
+    ds = {
+	
 		types = {
-
-			despotism  = {
+			
+			DS_VARIANT_01 = {#GENERIC DESPOTISM
 			}
 
-			oligarchism  = {
+			DS_VARIANT_02 = {#ABSOLUTE MONARCHY
 			}
 
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			DS_VARIANT_03 = {#PAN-AFRICAN NATIONALISM
 			}
 
-			moderatism = {
+			DS_VARIANT_04 = {#PAN-ARAB NATIONALISM
 			}
 
-			centrism = {
+			DS_VARIANT_05 = { #TECHNOCRACY
+			}
+
+			DS_VARIANT_06 = { #AUTHORITARIAN DEMOCRACY
+			}
+
+			DS_VARIANT_07 = { #BOLIVARIAN DEMOCRACY
+			}
+
+			DS_VARIANT_08 = { #DOMINANT PARTY DEMOCRACY - DESPOTIST
 			}
 		}
-
+		
 		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 110 110 110 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 1.01
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_neutral = yes
+ 
+	}
+	
+
+    rc = {
+	
+		types = {
+			
+			RC_VARIANT_01 = { #GENERIC
+			}
+
+			RC_VARIANT_02 = { #RELIGIOUS FUNDAMENTALISTS
+			}
+
+			RC_VARIANT_03 = { #ETHNO-NATIONALISM
+			}
+
+			RC_VARIANT_04 = { #DOMINANT PARTY DEMOCRACY - REACTIONARY
+			}
+
+			RC_VARIANT_05 = { #SOCIAL CREDIT
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 76 64 64 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 
-		color = { 124 124 124 }
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 1.01
+		}
+				
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_neutral = yes
+ 
+	}
 
+	an = {
+	
+		types = {
+			
+			AN_VARIANT_01 = { #BASELINE
+			}
 
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
+			AN_VARIANT_02 = { #MARKET CONSERVATIVE
+			}
 
+			AN_VARIANT_03 = { #Fordism
+			}
+
+			AN_VARIANT_04 = { #DOMINANT PARTY DEMOCRACY - ANLIB
+			}
+
+			AN_VARIANT_05 = { #EDISONIAN CONSERVATIVE
+			}
+
+			AN_VARIANT_06 = { #CORPORATOCRACY
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 119 106 49 }
+		
 		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 1.01
+			lend_lease_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_neutral = yes
+	}
+
+	cn = {
+	
+		types = {
+			
+			CN_VARIANT_01 = { #BASELINE
+			}
+
+			CN_VARIANT_02 = { #RIGHT POPULISM
+			}
+
+			CN_VARIANT_03 = { #PROGRESSIVE CONSERVATIVE
+			}
+
+			CN_VARIANT_04 = { #Dominant Party Democracy - Conservative
+			}
+
+			CN_VARIANT_05 = { #FISCAL CONSERVATISM
+			}
+
+			CN_VARIANT_06 = { #ZIONISM
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 50 74 119 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 1.01
+			lend_lease_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_neutral = yes
+ 
+	}
+
+    lb = {
+	
+		types = {
+			
+			LB_VARIANT_01 = { #BASELINE
+			}
+
+			LB_VARIANT_02 = { #Dominant Party Democracy - Liberal
+			}	
+
+			LB_VARIANT_03 = { #National Liberalism
+			}	
+
+			LB_VARIANT_04 = { #Classical Liberalism
+			}	
+
+			LB_VARIANT_05 = { #Guangdong Liberalism
+			}
+
+			LB_VARIANT_06 = { #Market Liberalism
+			}
+
+			LB_VARIANT_07 = { #Islamic Liberalism
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 119 90 49 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 1.01
+			lend_lease_tension = 0.50
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_neutral = yes
+
+	}
+
+    ss = {
+	
+        types = {
+            SS_VARIANT_01 = { #GENERIC
+
+            }
+
+            SS_VARIANT_02 = { #ANARCHISM
+
+            }
+
+            SS_VARIANT_03 = { #SUCCDEMS
+
+            }
+
+            SS_VARIANT_04 = { #Agrarian Socialism
+
+            }
+
+            SS_VARIANT_05 = { #KAUTSKYISM
+
+            }
+
+            SS_VARIANT_06 = { #PAN ARAB SOCIALISM
+
+            }
+
+            SS_VARIANT_07 = { #PAN AFRICAN SOCIALISM
+
+            }
+
+            SS_VARIANT_08 = { #Dominant Party Democracy - Socialist
+
+            }
+
+            SS_VARIANT_09 = { #Labour Socialist
+
+            }
+
+            SS_VARIANT_10 = { #Labour Zionism
+
+            }
+        }
+    
+        dynamic_faction_names = {
+            "FACTION_NAME_DEMOCRATIC_1"
+            "FACTION_NAME_DEMOCRATIC_2"
+            "FACTION_NAME_DEMOCRATIC_3"
+            "FACTION_NAME_DEMOCRATIC_4"
+            "FACTION_NAME_DEMOCRATIC_5"
+            "FACTION_NAME_DEMOCRATIC_6"
+        }		
+    
+        color = { 119 49 49 }
+        
+        rules = {
+            can_declare_war_on_same_ideology = yes
+            can_force_government = no
+            can_send_volunteers = yes
+            can_puppet = no
+            can_lower_tension = no
+            can_only_justify_war_on_threat_country = no
+            can_guarantee_other_ideologies = yes
+            can_join_factions = no
+        }
+
+        can_host_government_in_exile = yes
+        
+        modifiers = {
+            generate_wargoal_tension = 1.00
+            join_faction_tension = 1.01
+            lend_lease_tension = 0.20
+            guarantee_tension = 0.25
+            annex_cost_factor = 0.5
+        }
+        
+        faction_modifiers = {
+            faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+        }
+        ai_neutral = yes
+
+            
+    }
+
+    jc = {
+		
+		types = {
+			
+			JC_VARIANT_01 = {
+			}
+
+			JC_VARIANT_02 = { #ANARCHISM
+			}
+
+			JC_VARIANT_03 = { #REVOLUTIONARY IMPERIALISM
+			}
+
+			JC_VARIANT_04 = { #NATIONAL JACOBINISM
+			}
+
+			JC_VARIANT_05 = { #CLASSICAL JACOBINISM
+			}
+
+			JC_VARIANT_06 = { #KINGORO-HASHIMOTO THOUGHT
+			}
+
+			JC_VARIANT_07 = { #Social Banditry
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		color = { 99 8 8 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
 		}
 
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			join_faction_tension = 0.80
 		}
-
-		faction_modifiers = {
-		}
-
-		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
-	}
-
-	anarchist = {
-
-		types = {
-
-			despotism  = {
-			}
-
-			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-
-			moderatism = {
-			}
-
-			centrism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-
-		color = { 124 124 124 }
-
-
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = no
-		}
-
+		
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
+			puppet_cost_factor = -0.3
 		}
-
+		
 		faction_modifiers = {
+			
 		}
 
-		ai_neutral = yes #
-		ai_ideology_wanted_units_factor = 1.15
+		ai_neutral = yes
+
 	}
 }

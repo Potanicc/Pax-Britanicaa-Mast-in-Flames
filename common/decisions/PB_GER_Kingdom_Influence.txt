@@ -1,0 +1,486 @@
+PB_GER_Kingdom_Influence = {
+	GER_Offer_Concessions = {
+		icon = influence_cold_war
+		available = {
+            custom_trigger_tooltip = {
+				tooltip = GER_All_Unrest_Condition_Twentyfive_tt
+			AND = {
+				check_variable = {
+					Germany_Rhineland_Unrest > 25
+				}
+				check_variable = {
+					Germany_Brandenburg_Unrest > 25
+				}
+				check_variable = {
+					Germany_Bavaria_Unrest > 25
+				}
+				check_variable = {
+					Germany_Saxony_Unrest > 25
+				}
+				check_variable = {
+					Germany_Hannover_Unrest > 25
+				}
+				check_variable = {
+					Germany_Austria_Unrest > 25
+				}
+				check_variable = {
+					Germany_Elsass_Unrest > 25
+				}
+				check_variable = {
+					Germany_Frankfurt_Unrest > 25
+				}
+			}
+		    }
+		}
+		cost = 125
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.05
+			industrial_capacity_factory = -0.1
+		}
+		days_remove = 10
+		days_re_enable = 120
+		remove_effect = {
+
+			custom_effect_tooltip = GER_All_Unrest_Reduce_Fiveteen_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Rhineland_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Brandenburg_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Bavaria_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Saxony_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Hannover_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Austria_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Elsass_Unrest
+					value = -15
+				}
+
+				add_to_variable = {
+					var = Germany_Frankfurt_Unrest
+					value = -15
+				}
+			}
+		}
+	}
+
+	GER_Emergency_Meetings = {
+		icon = generic_political_discourse
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_All_Unrest_High_tooltip
+				AND = {
+					check_variable = {
+						Germany_Rhineland_Unrest > 50
+					}
+					check_variable = {
+						Germany_Brandenburg_Unrest > 50
+					}
+					check_variable = {
+						Germany_Bavaria_Unrest > 50
+					}
+					check_variable = {
+						Germany_Saxony_Unrest > 50
+					}
+					check_variable = {
+						Germany_Hannover_Unrest > 50
+					}
+					check_variable = {
+						Germany_Austria_Unrest > 50
+					}
+					check_variable = {
+						Germany_Elsass_Unrest > 50
+					}
+					check_variable = {
+						Germany_Frankfurt_Unrest > 50
+					}
+				}
+			}
+		}
+		cost = 175
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.1
+			industrial_capacity_factory = -0.2
+		}
+		days_remove = 10
+		days_re_enable = 250
+		remove_effect = {
+
+			custom_effect_tooltip = GER_All_Unrest_Reduce_TwentyFive_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Rhineland_Unrest
+					value = -20
+				}
+
+				add_to_variable = {
+					var = Germany_Brandenburg_Unrest
+					value = -20
+				}
+
+				add_to_variable = {
+					var = Germany_Bavaria_Unrest
+					value = -20
+				}
+
+				add_to_variable = {
+					var = Germany_Saxony_Unrest
+					value = -20
+				}
+
+				add_to_variable = {
+					var = Germany_Hannover_Unrest
+					value = -20
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_the_Rhineland = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Rhineland_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Rhineland_Unrest > 5
+					}
+				}
+			}
+		}
+
+		cost = rhineland_cost
+
+		highlight_states = { 
+		highlight_state_targets = { state = 909 }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Rhineland_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Rhineland_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Brandenburg = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Brandenburg_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Brandenburg_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 64 }
+		}
+
+		cost = brandenburg_cost
+
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Brandenburg_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Brandenburg_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Bavaria = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Bavaria_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Bavaria_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 52 }
+		}
+
+		cost = bavaria_cost
+
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Bavaria_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Bavaria_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Saxony = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Saxony_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Saxony_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 65 }
+		}
+
+		cost = saxony_cost
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Saxony_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Saxony_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Hannover = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Hannover_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Hannover_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 59 }
+		}
+
+		cost = hannover_cost
+		ai_will_do = {
+		#	factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Hannover_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Hannover_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Austria = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Austria_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Austria_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 4 }
+		}
+
+		cost = austria_cost
+
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Austria_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Austria_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Elsass = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Elsass_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Elsass_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 28 }
+		}
+
+		cost = elsass_cost
+
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Elsass_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Elsass_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+
+	GER_Concessions_to_Frankfurt = {
+		icon = infiltrate_state
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = PB_GER_Frankfurt_Unrest_tooltip
+				OR = {
+					check_variable = {
+						Germany_Frankfurt_Unrest > 5
+					}
+				}
+			}
+		}
+
+		highlight_states = { 
+		highlight_state_targets = { state = 55 }
+		}
+
+		cost = frankfurt_cost
+
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+		#	political_power_gain = -0.15
+		}
+		days_remove = 15
+		days_re_enable = 60
+		remove_effect = {
+
+			custom_effect_tooltip = GER_Frankfurt_Unrest_Reduce_Ten_tt
+
+			GER = {
+				add_to_variable = {
+					var = Germany_Frankfurt_Unrest
+					value = -10
+				}
+			}
+		}
+	}
+}

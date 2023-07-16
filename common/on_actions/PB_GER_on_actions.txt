@@ -1,0 +1,1336 @@
+on_actions = {
+	#RhenishUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Rhineland_Unrest > 50 }
+							check_variable = { Germany_Rhineland_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = rhine_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = rhine_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Rhineland_Unrest < 50 }
+							check_variable = { Germany_Rhineland_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = rhine_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = rhine_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Rhineland_Unrest < 25 }
+							check_variable = { Germany_Rhineland_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = rhine_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = rhine_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Rhineland_Unrest < 25 }
+							check_variable = { Germany_Rhineland_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = rhine_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = rhine_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Rhineland_Unrest < 50 }
+							check_variable = { Germany_Rhineland_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = rhine_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = rhine_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization 
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}     
+						OR = {
+						    check_variable = { Germany_Rhineland_Unrest > 50 }
+							check_variable = { Germany_Rhineland_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = rhine_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = rhine_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+
+				}
+		}
+    }
+	#HannoverUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Hannover_Unrest > 50 }
+							check_variable = { Germany_Hannover_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = hannover_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = hannover_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Hannover_Unrest < 50 }
+							check_variable = { Germany_Hannover_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = hannover_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = hannover_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Hannover_Unrest < 25 }
+							check_variable = { Germany_Hannover_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = hannover_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = hannover_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Hannover_Unrest < 25 }
+							check_variable = { Germany_Hannover_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = hannover_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = hannover_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Hannover_Unrest < 50 }
+							check_variable = { Germany_Hannover_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = hannover_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = hannover_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization     
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						} 
+						OR = {
+						    check_variable = { Germany_Hannover_Unrest > 50 }
+							check_variable = { Germany_Hannover_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = hannover_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = hannover_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+	#FrankfurtUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Frankfurt_Unrest > 50 }
+							check_variable = { Germany_Frankfurt_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = frankfurt_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = frankfurt_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Frankfurt_Unrest < 50 }
+							check_variable = { Germany_Frankfurt_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = frankfurt_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = frankfurt_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Frankfurt_Unrest < 25 }
+							check_variable = { Germany_Frankfurt_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = frankfurt_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = frankfurt_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Frankfurt_Unrest < 25 }
+							check_variable = { Germany_Frankfurt_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = frankfurt_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = frankfurt_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Frankfurt_Unrest < 50 }
+							check_variable = { Germany_Frankfurt_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = frankfurt_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = frankfurt_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization   
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}   
+						OR = {
+						    check_variable = { Germany_Frankfurt_Unrest > 50 }
+							check_variable = { Germany_Frankfurt_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = frankfurt_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = frankfurt_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+	#ElsassUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Elsass_Unrest > 50 }
+							check_variable = { Germany_Elsass_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = elsass_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = elsass_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Elsass_Unrest < 50 }
+							check_variable = { Germany_Elsass_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = elsass_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = elsass_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Elsass_Unrest < 25 }
+							check_variable = { Germany_Elsass_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = elsass_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = elsass_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Elsass_Unrest < 25 }
+							check_variable = { Germany_Elsass_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = elsass_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = elsass_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Elsass_Unrest < 50 }
+							check_variable = { Germany_Elsass_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = elsass_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = elsass_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization      
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Elsass_Unrest > 50 }
+							check_variable = { Germany_Elsass_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = elsass_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = elsass_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+	#BavariaUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Bavaria_Unrest > 50 }
+							check_variable = { Germany_Bavaria_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = bavaria_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = bavaria_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Bavaria_Unrest < 50 }
+							check_variable = { Germany_Bavaria_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = bavaria_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = bavaria_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Bavaria_Unrest < 25 }
+							check_variable = { Germany_Bavaria_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = bavaria_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = bavaria_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Bavaria_Unrest < 25 }
+							check_variable = { Germany_Bavaria_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = bavaria_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = bavaria_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Bavaria_Unrest < 50 }
+							check_variable = { Germany_Bavaria_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = bavaria_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = bavaria_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization   
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}   
+						OR = {
+						    check_variable = { Germany_Bavaria_Unrest > 50 }
+							check_variable = { Germany_Bavaria_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = bavaria_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = bavaria_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+	#AustriaUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Austria_Unrest > 50 }
+							check_variable = { Germany_Austria_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = austria_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = austria_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Austria_Unrest < 50 }
+							check_variable = { Germany_Austria_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = austria_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = austria_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Austria_Unrest < 25 }
+							check_variable = { Germany_Austria_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = austria_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = austria_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Austria_Unrest < 25 }
+							check_variable = { Germany_Austria_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = austria_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = austria_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Austria_Unrest < 50 }
+							check_variable = { Germany_Austria_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = austria_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = austria_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization 
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}     
+						OR = {
+						    check_variable = { Germany_Austria_Unrest > 50 }
+							check_variable = { Germany_Austria_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = austria_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = austria_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+	#SaxonyUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Saxony_Unrest > 50 }
+							check_variable = { Germany_Saxony_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = saxony_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = saxony_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Saxony_Unrest < 50 }
+							check_variable = { Germany_Saxony_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = saxony_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = saxony_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Saxony_Unrest < 25 }
+							check_variable = { Germany_Saxony_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = saxony_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = saxony_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Saxony_Unrest < 25 }
+							check_variable = { Germany_Saxony_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = saxony_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = saxony_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Saxony_Unrest < 50 }
+							check_variable = { Germany_Saxony_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = saxony_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = saxony_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization  
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}    
+						OR = {
+						    check_variable = { Germany_Saxony_Unrest > 50 }
+							check_variable = { Germany_Saxony_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = saxony_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = saxony_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+	#BrandenburgUnrestEffects
+	on_monthly_GER = {
+		effect = {
+				if  = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Brandenburg_Unrest > 50 }
+							check_variable = { Germany_Brandenburg_Unrest = 50 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = brandenburg_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = brandenburg_unrest_political_power_variable
+							value = -0.06
+						}
+					}
+				}
+				else_if  = { 
+					limit = {
+						AND = {
+						AND = {
+							check_variable = { Germany_Brandenburg_Unrest < 50 }
+							check_variable = { Germany_Brandenburg_Unrest > 24 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = brandenburg_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = brandenburg_unrest_political_power_variable
+							value = -0.04
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						OR = {
+						    check_variable = { Germany_Brandenburg_Unrest < 25 }
+							check_variable = { Germany_Brandenburg_Unrest = 0 }
+						}
+						NOT = { 
+							OR = {
+								has_idea = PB_GER_German_Centralization
+								has_country_flag = GER_DISABLE_KINGDOM_MECH
+							}
+						}
+				    	}
+					}
+					hidden_effect = {
+						set_variable = {
+							var = brandenburg_unrest_stability_variable
+							value = -0.02
+						}
+						set_variable = {
+							var = brandenburg_unrest_political_power_variable
+							value = -0.02
+						}
+					}
+				}
+				##############################have centralization
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						OR = {
+						    check_variable = { Germany_Brandenburg_Unrest < 25 }
+							check_variable = { Germany_Brandenburg_Unrest = 0 }
+						}
+					    }
+					}
+					hidden_effect = {
+					set_variable = {
+						var = brandenburg_unrest_stability_variable
+						value = -0.02
+					}
+					set_variable = {
+						var = brandenburg_unrest_political_power_variable
+						value = 0
+					}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}
+						AND = {
+							check_variable = { Germany_Brandenburg_Unrest < 50 }
+							check_variable = { Germany_Brandenburg_Unrest > 24 }
+						}
+					    }
+					}
+					hidden_effect = {
+						set_variable = {
+							var = brandenburg_unrest_stability_variable
+							value = -0.04
+						}
+						set_variable = {
+							var = brandenburg_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else_if = { 
+					limit = {
+						AND = {
+						has_idea = PB_GER_German_Centralization    
+						NOT = { 
+							has_country_flag = GER_DISABLE_KINGDOM_MECH
+						}  
+						OR = {
+						    check_variable = { Germany_Brandenburg_Unrest > 50 }
+							check_variable = { Germany_Brandenburg_Unrest = 50 }
+						}
+				    	}
+					}
+					hidden_effect = {
+                       set_variable = {
+							var = brandenburg_unrest_stability_variable
+							value = -0.06
+						}
+						set_variable = {
+							var = brandenburg_unrest_political_power_variable
+							value = 0
+						}
+					}
+				}
+				else = {
+					
+				}
+               
+
+		}
+    }
+
+
+
+	on_startup = {
+		effect = {
+		    GER = {
+	            set_variable = {
+	                var = frankfurt_cost
+	                value = 45
+                }
+				set_variable = {
+					var = elsass_cost
+					value = 45
+				}	
+				set_variable = {
+					var = austria_cost
+					value = 45
+				}
+				set_variable = {
+					var = hannover_cost
+					value = 45
+				}
+				set_variable = {
+					var = saxony_cost
+					value = 45
+				}
+				set_variable = {
+					var = bavaria_cost
+					value = 45
+				}
+				set_variable = {
+					var = brandenburg_cost
+					value = 45
+				}
+				set_variable = {
+					var = rhineland_cost
+					value = 45
+				}
+	        }
+	    }
+	}
+}	
+

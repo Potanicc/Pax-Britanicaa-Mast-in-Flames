@@ -1,0 +1,286 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "PB_State_Focus_GUI"
+    	position = { x = 0 y = 0 }
+		orientation = lower_left
+		size = { width = 100 height= 100 }
+		orientation = center
+		clipping = no
+
+        buttonType = {
+			name ="PB_State_Focus_Delete_All_button"
+			quadTextureSprite = "GFX_State_Focus_Delete_All"
+			position = { x= 10 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Delete_All"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Delete_All_button_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Delete_All_Blocked"
+			position = { x= 10 y = -297 }
+		}
+
+    	buttonType = {
+			name ="PB_State_Focus_One_button"
+			quadTextureSprite = "GFX_State_Focus_One_button"
+			position = { x= -362 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_One"
+			pdx_tooltip_delayed = "PB_State_Focus_One_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_One_button_Picked"
+			quadTextureSprite = "GFX_State_Focus_One_button_Picked"
+			position = { x= -362 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_One"
+			pdx_tooltip_delayed = "PB_State_Focus_One_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_One_button_better"
+			quadTextureSprite = "GFX_State_Focus_One_button"
+			position = { x= -362 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_One"
+			pdx_tooltip_delayed = "PB_State_Focus_One_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_One_button_better_Picked"
+			quadTextureSprite = "GFX_State_Focus_One_button_Picked"
+			position = { x= -362 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_One"
+			pdx_tooltip_delayed = "PB_State_Focus_One_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_One_button_Blocked"
+			quadTextureSprite = "GFX_State_Focus_One_button_Blocked"
+			position = { x= -362 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_One_button_better_Blocked"
+			quadTextureSprite = "GFX_State_Focus_One_button_Blocked"
+			position = { x= -362 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Two_button"
+			quadTextureSprite = "GFX_State_Focus_Two_button"
+			position = { x= -285 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send 
+    	    pdx_tooltip = "PB_State_Focus_Two"
+			pdx_tooltip_delayed = "PB_State_Focus_Two_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Two_button_Picked"
+			quadTextureSprite = "GFX_State_Focus_Two_button_Picked"
+			position = { x= -285 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send 
+    	    pdx_tooltip = "PB_State_Focus_Two"
+			pdx_tooltip_delayed = "PB_State_Focus_Two_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Two_button_better"
+			quadTextureSprite = "GFX_State_Focus_Two_button"
+			position = { x= -285 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Two"
+			pdx_tooltip_delayed = "PB_State_Focus_Two_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Two_button_better_Picked"
+			quadTextureSprite = "GFX_State_Focus_Two_button_Picked"
+			position = { x= -285 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Two"
+			pdx_tooltip_delayed = "PB_State_Focus_Two_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Two_button_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Two_button_Blocked"
+			position = { x= -285 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Two_button_better_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Two_button_Blocked"
+			position = { x= -285 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Three_button"
+			quadTextureSprite = "GFX_State_Focus_Three_button"
+			position = { x= -208 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Three"
+			pdx_tooltip_delayed = "PB_State_Focus_Three_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Three_button_Picked"
+			quadTextureSprite = "GFX_State_Focus_Three_button_Picked"
+			position = { x= -208 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Three"
+			pdx_tooltip_delayed = "PB_State_Focus_Three_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Three_button_better"
+			quadTextureSprite = "GFX_State_Focus_Three_button"
+			position = { x= -208 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Three"
+			pdx_tooltip_delayed = "PB_State_Focus_Three_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Three_button_better_Picked"
+			quadTextureSprite = "GFX_State_Focus_Three_button_Picked"
+			position = { x= -208 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Three"
+			pdx_tooltip_delayed = "PB_State_Focus_Three_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Three_button_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Three_button_Blocked"
+			position = { x= -208 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Three_button_better_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Three_button_Blocked"
+			position = { x= -208 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Four_button"
+			quadTextureSprite = "GFX_State_Focus_Four_button"
+			position = { x= -131 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Four"
+			pdx_tooltip_delayed = "PB_State_Focus_Four_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Four_button_Picked"
+			quadTextureSprite = "GFX_State_Focus_Four_button_Picked"
+			position = { x= -131 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Four"
+			pdx_tooltip_delayed = "PB_State_Focus_Four_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Four_button_better"
+			quadTextureSprite = "GFX_State_Focus_Four_button"
+			position = { x= -131 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Four"
+			pdx_tooltip_delayed = "PB_State_Focus_Four_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Four_button_better_Picked"
+			quadTextureSprite = "GFX_State_Focus_Four_button_Picked"
+			position = { x= -131 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Four"
+			pdx_tooltip_delayed = "PB_State_Focus_Four_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Four_button_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Four_button_Blocked"
+			position = { x= -131 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Four_button_better_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Four_button_Blocked"
+			position = { x= -131 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Five_button"
+			quadTextureSprite = "GFX_State_Focus_Five_button"
+			position = { x= -56 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Five"
+			pdx_tooltip_delayed = "PB_State_Focus_Five_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Five_button_Picked"
+			quadTextureSprite = "GFX_State_Focus_Five_button_Picked"
+			position = { x= -56 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Five"
+			pdx_tooltip_delayed = "PB_State_Focus_Five_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Five_button_better"
+			quadTextureSprite = "GFX_State_Focus_Five_button"
+			position = { x= -56 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Five"
+			pdx_tooltip_delayed = "PB_State_Focus_Five_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Five_button_better_Picked"
+			quadTextureSprite = "GFX_State_Focus_Five_button_Picked"
+			position = { x= -56 y = -297 }
+    	    buttonFont = "hoi_16mbs"
+    	    clicksound = click_send
+    	    pdx_tooltip = "PB_State_Focus_Five"
+			pdx_tooltip_delayed = "PB_State_Focus_Five_better_delayed"
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Five_button_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Five_button_Blocked"
+			position = { x= -56 y = -297 }
+		}
+
+		buttonType = {
+			name ="PB_State_Focus_Five_button_better_Blocked"
+			quadTextureSprite = "GFX_State_Focus_Five_button_Blocked"
+			position = { x= -56 y = -297 }
+		}
+	}
+}

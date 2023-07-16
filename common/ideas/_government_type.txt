@@ -1,0 +1,479 @@
+ideas = {
+
+	government_type = { 
+		law = yes
+
+		PB_Parliamentary_Republic = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Parliamentary_Monarchy = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Prussian_Constitutionalism = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Absolute_Monarchy = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				army_attack_factor = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Ultranationalist_Monarchy = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			picture = GFX_idea_PB_Ultranationalist_Monarchy
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Presidential_Dictatorship = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Bourgeois_Dictatorship = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Military_Government = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				army_org = 5
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Ultranationalist_Dictatorship = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				mobilization_speed = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Revolutionary_Republic = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				line_change_production_efficiency_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Workers_Republic = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				line_change_production_efficiency_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Colonial_Government = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Puppet_Government = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Merchant_Republic = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			visible = {	
+				original_tag = VNC
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Federal_Assembly = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			visible = {	
+				original_tag = SWI
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+        PB_Religious_Cult = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+            picture = GFX_idea_PB_Religious_Cult
+
+			visible = {	
+				original_tag = RUS
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				war_support_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Holy_See = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			visible = {	
+				original_tag = PAP
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Celestial_Empire = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			visible = {	
+				original_tag = CHI
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				mobilization_speed = -0.2
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Tribal_Confederacy = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			visible = {	
+				OR = {
+				original_tag = LAK
+				original_tag = SHO
+				original_tag = APA
+				original_tag = OSA
+				original_tag = CMC
+				}
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = 0.10
+				mobilization_speed = 0.05
+				army_core_defence_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		PB_Raider_State = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+
+			visible = {	
+				original_tag = IRO
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.1
+				war_support_factor = 0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

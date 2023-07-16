@@ -1,0 +1,259 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Monarchist Regulars"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Alpine Division"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }			
+		
+	}
+	support = {
+		flamethrowers = { x = 0 y = 0 }
+		shockjockeys = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Cavalry Division" 		# Divisione Celere (Fast Division)
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Loyalist Militia"			
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	division= {	
+		name = "Ferdinand's Finest"
+		location = 11874
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "St. Peter's Riders"
+		location = 902
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Mountain Monsters"
+		location = 607
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The King's Mountaineers"
+		location = 607
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The Climbers"
+		location = 607
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Pain Bringers"
+		location = 607
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Lions of Rock"
+		location = 3780
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Rock Breakers"
+		location = 3780
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Balbo's Boulders"
+		location = 3780
+		division_template = "Alpine Division"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The First to Fight"
+		location = 6790
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Princes of Pain"
+		location = 6790
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Rome's Defenders"
+		location = 6790
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The Sea Fathers"
+		location = 6790
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Venetian Regulars"
+		location = 3773
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Roman Regulars"
+		location = 3773
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Milanese Regulars"
+		location = 3773
+		division_template = "Monarchist Regulars"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Capone's Boys"
+		location = 6973
+		division_template = "Loyalist Militia"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The Rowdy Romans"
+		location = 6973
+		division_template = "Loyalist Militia"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The Faithful"
+		location = 6973
+		division_template = "Loyalist Militia"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The Fist Fighters"
+		location = 6973
+		division_template = "Loyalist Militia"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "The Rumblers"
+		location = 6973
+		division_template = "Loyalist Militia"
+		start_experience_factor = 0.2
+	}
+}
+
+
+####### Starting Production Queue #######
+instant_effect = { 
+	if = { 
+		limit = { is_tutorial = no } 
+
+		##### Equipments #####
+		add_equipment_production = { 
+			equipment = { 
+				type = infantry_equipment_0
+				creator = "ITA" 
+			} 
+
+			requested_factories = 4 
+			progress = 0.1 
+			efficiency = 50 
+		} 
+
+		add_equipment_production = { 
+			equipment = { 
+				type = artillery_equipment_1
+				creator = "ITA" 
+			} 
+
+			requested_factories = 2 
+			progress = 0.4 
+			efficiency = 50 
+		} 
+
+		add_equipment_production = { 
+			equipment = { 
+				type = support_equipment_1 
+				creator = "ITA" 
+			} 
+
+			requested_factories = 1 
+			progress = 0.3 
+			efficiency = 50 
+		} 
+
+		add_equipment_production = { 
+			equipment = { 
+				type = motorized_equipment_1 
+				creator = "ITA" 
+			} 
+
+			requested_factories = 1 
+			progress = 0.4 
+			efficiency = 50 
+		} 
+
+		add_equipment_production = { 
+			equipment = { 
+				type = rations_equipment_1 
+				creator = "ITA" 
+			} 
+
+			requested_factories = 2 
+			progress = 0.2 
+			efficiency = 50 
+		} 
+
+		add_equipment_production = { 
+			equipment = { 
+				type = fighter_equipment_0
+				creator = "ITA" 
+			} 
+
+			requested_factories = 1 
+			progress = 0.2 
+			efficiency = 50 
+		} 
+	}
+} 

@@ -1,0 +1,18 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_centralization"
+		texturefile = "gfx/central.dds"
+	}
+	spriteType = {
+		name = "GFX_centralization_1_icon"
+		texturefile = "gfx/central_1.dds"
+	}
+	spriteType = {
+		name = "GFX_unrest"
+		texturefile = "gfx/unrest.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_box_110"
+		texturefile = "gfx/interface/generic_box_110.dds"
+	}
+}

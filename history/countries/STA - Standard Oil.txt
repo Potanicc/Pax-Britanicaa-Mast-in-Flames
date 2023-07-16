@@ -1,0 +1,178 @@
+﻿starting_train_buffer = 2
+capital = 881
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 144 }
+add_to_array = { PB_accepted_cultures = 144 }
+
+oob = "STA_1933"
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+# Country flags
+
+set_country_flag = PB_Anarchy_Wild_West_active
+
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+else = {
+	set_technology = {
+		gwtank = 1
+	}
+}
+}
+
+add_ideas = { 
+	PB_Idea_Untamed_Frontier
+
+	free_trade
+	PB_Bourgeois_Dictatorship
+	PB_NI_Order
+	PB_Govidea_Free_Market_Capitalism
+	PB_Aristocratic_Democracy
+	PB_State_Press
+	PB_Public_Meetings_Monitored
+	PB_Patriarchal_Society
+	PB_Racial_Hierarchy
+	PB_Law_Secret_Police
+	PB_No_Limit_Workday
+	PB_No_Healthcare
+	PB_No_Formal_Education
+	PB_No_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Rampant_Poverty
+	PB_Industrialized
+	PB_Rampant_Illiteracy
+	PB_Middling_Consumer_Confidence
+	PB_Semi_Modern_Military
+	PB_Fully_Westernized
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+add_manpower = 50000
+
+set_convoys = 5
+
+set_popularities = {
+	ni = 0
+	ds = 20
+	rc = 0
+	cn = 0
+	lb = 0
+	an = 80
+	ss = 0
+	jc = 0
+}
+
+# CHARACTERS
+recruit_character = STA_Frederick_Russell_Burnham
+recruit_character = STA_Frederic_Ives_Lord
+recruit_character = STA_Carol_Pryce
+recruit_character = STA_Ivor_Thord_Gray
+
+set_politics = {
+	ruling_party = an
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Conrad Rockefeller"
+	desc = "PB_NO_DESC"
+	picture = "Portrait_STA_Conrad_Rockefeller.dds"
+	ideology = AN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = NI_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = DS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = CN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = SS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = JC_VARIANT_01
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "Barrel"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_cannon
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_interleaved_suspension
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = secondary_turret_small_cannon
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 0
+		}
+		icon = "GFX_ENG_basic_main_tank_medium"
+		obsolete = no #used for oob
+	}
+
+}

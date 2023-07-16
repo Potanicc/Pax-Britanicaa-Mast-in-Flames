@@ -1,0 +1,295 @@
+﻿capital = 49
+
+oob = "OTT_1933"
+
+set_country_flag = Tag_in_Russian_Sphere
+set_country_flag = Megacorp_Tesla_Dominant
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 58 }
+add_to_array = { PB_accepted_cultures = 58 }
+add_to_array = { PB_accepted_cultures = 59 }
+add_to_array = { PB_accepted_cultures = 44 }
+
+set_air_oob = "TUR_1936_air_legacy" ##Overwrite this with updated oob in version 3 update
+set_technology = {
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	infantry_weapons1933 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	fuel_silos = 1
+}
+
+starting_train_buffer = 2
+
+set_stability = 0.60
+set_war_support = 0.05
+
+set_convoys = 112
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+	limited_exports
+	civilian_economy
+	PB_Puppet_Government
+	PB_NI_Order
+	PB_Govidea_Free_Market_Capitalism
+	PB_No_Voting
+	PB_Limited_Censorship
+	PB_Public_Meetings_Monitored
+	PB_limited_womens_rights
+	PB_Limited_Autonomy
+	PB_Law_Intimidation_Policing
+	PB_18_Hour_Workday
+	PB_No_Healthcare
+	PB_Basic_Education
+	PB_No_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Rampant_Poverty
+	PB_Semi_Industrialized
+	PB_Significant_Illiteracy
+	PB_Stagnating_Growth
+	PB_Pre_Great_War_Army
+	PB_Partially_Westernized
+	
+	TUR_PB_Ahmed_HOG
+	TUR_PB_Hasan_Fehmi
+	TUR_PB_Tevfik_Aras
+	TUR_PB_kaya
+}
+
+recruit_character = TUR_nihal_atsiz
+recruit_character = TUR_abdulmeijd_ii
+recruit_character = TUR_ismet_inonu
+recruit_character = TUR_disorganised
+recruit_character = TUR_mustafa_kemal_atatürk
+recruit_character = TUR_ahmed_izzet_pasha
+recruit_character = TUR_fevzi_cakmak
+recruit_character = TUR_cevat_Çobanlı
+recruit_character = TUR_sıtkı_Üke
+recruit_character = TUR_musa_kâzım_karabekir
+recruit_character = TUR_nihat_anilmis
+recruit_character = TUR_muhiddin_pasha
+recruit_character = TUR_fahrettin_altay
+recruit_character = TUR_Şefik_aker
+recruit_character = TUR_akif_erdemgil
+recruit_character = TUR_Şükrü_naili_gökberk
+
+set_politics = {
+	ruling_party = ds
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ni = 2
+	ds = 45
+	rc = 5
+	cn = 5
+	lb = 4
+	an = 18
+	ss = 4
+	jc = 17
+}
+
+set_variable = {
+	var = TUR_russian_sus_variable
+	value = 10
+}
+
+set_variable = {
+	var = TUR_rearmament_armed_forces_variable
+	value = 15
+}
+
+set_variable = {
+	var = TUR_rearmament_naval_forces_variable
+	value = 0
+}
+
+set_variable = {
+	var = TUR_rearmament_air_forces_variable
+	value = 5
+}
+
+set_variable = {
+	var = TUR_renewal_administration_variable
+	value = 10
+}
+
+clamp_variable = {
+	var = TUR_russian_sus_variable
+	min = 0
+	max = 100
+}
+
+clamp_variable = {
+	var = TUR_rearmament_armed_forces_variable
+	min = 0
+	max = 100
+}
+
+clamp_variable = {
+	var = TUR_rearmament_naval_forces_variable
+	min = 0
+	max = 100
+}
+
+clamp_variable = {
+	var = TUR_rearmament_air_forces_variable
+	min = 0
+	max = 100
+}
+
+clamp_variable = {
+	var = TUR_renewal_administration_variable
+	min = 0
+	max = 100
+}
+
+
+
+
+#create_corps_commander = {
+#	name = "Abdullah Kölemen" # loyalist
+#	picture = "Portrait_Britain_Harold_Alexander.dds"
+#	traits = { fortress_buster expert_improviser old_guard }
+#	id = 31612
+#	skill = 6
+#	attack_skill = 5
+#	defense_skill = 2
+#	planning_skill = 4
+#	logistics_skill = 4
+#}
+#
+#create_corps_commander = {
+#	name = "Refet Bele" # Nationalist
+#	picture = "Portrait_Britain_Harold_Alexander.dds"
+#	traits = { war_hero harsh_leader }
+#	id = 31613
+#	skill = 3
+#	attack_skill = 5
+#	defense_skill = 1
+#	planning_skill = 3
+#	logistics_skill = 1
+#}
+#
+#create_corps_commander = {
+#	name = "Salih Hulusi" # Nationalist
+#	picture = "Portrait_Britain_Harold_Alexander.dds"
+#	traits = { old_guard harsh_leader }
+#	id = 31614
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 3
+#	logistics_skill = 2
+#}
+#
+#create_corps_commander = {
+#	name = "Hüseyin Nazım" # Nationalist
+#	picture = "Portrait_Britain_Harold_Alexander.dds"
+#	traits = { old_guard war_hero trait_reckless }
+#	id = 31615
+#	skill = 4
+#	attack_skill = 7
+#	defense_skill = 0
+#	planning_skill = 2
+#	logistics_skill = 2
+#}
+#
+#create_corps_commander = {
+#	name = "Ali Hikmet Ayerdem" # Jacobean
+#	picture = "Portrait_Britain_Harold_Alexander.dds"
+#	traits = { skilled_staffer winter_specialist trait_engineer }
+#	id = 31616
+#	skill = 3
+#	attack_skill = 3
+#	defense_skill = 3
+#	planning_skill = 3
+#	logistics_skill = 3
+#}
+#
+#create_corps_commander = {
+#	name = "Mehmed Esad Pasha" # Jacobean
+#	picture = "Portrait_Britain_Harold_Alexander.dds"
+#	traits = { organizer brilliant_strategist war_hero }
+#	id = 31617
+#	skill = 5
+#	attack_skill = 5
+#	defense_skill = 1
+#	planning_skill = 4
+#	logistics_skill = 4
+#}
+
+#create_navy_leader = { # Loyalist
+#	name = "İsmail Hakkı Erel"
+#	id = 31618
+#    picture = "Portrait_France_Francois_Darlan.dds"
+#	traits = { aviation_enthusiast bold navy_media_personality }
+#	skill = 5
+#	defense_skill = 2
+#	attack_skill = 2
+#	coordination_skill = 4
+#	maneuvering_skill = 4
+#}
+#
+#create_navy_leader = { # Loyalist
+#	name = "Ahmet Saffet Ohkay"
+#	id = 31619
+#    picture = "Portrait_France_Francois_Darlan.dds"
+#	traits = { battleship_adherent bold inshore_fighter }
+#	skill = 6
+#	defense_skill = 4
+#	attack_skill = 5
+#	coordination_skill = 3
+#	maneuvering_skill = 2
+#}
+#
+#create_navy_leader = { # Loyalist
+#	name = "Sadık Altıncan"
+#	id = 31620
+#    picture = "Portrait_France_Francois_Darlan.dds"
+#	traits = { superior_tactician big_guns_expert }
+#	skill = 4
+#	defense_skill = 1
+#	attack_skill = 4
+#	coordination_skill = 4
+#	maneuvering_skill = 2
+#}
+#
+#create_navy_leader = { # Nationalist
+#	name = "Şükrü Okan"
+#	id = 31621
+#    picture = "Portrait_France_Francois_Darlan.dds"
+#	traits = { safety_first }
+#	skill = 2
+#	defense_skill = 4
+#	attack_skill = 1
+#	coordination_skill = 3
+#	maneuvering_skill = 3
+#}
+

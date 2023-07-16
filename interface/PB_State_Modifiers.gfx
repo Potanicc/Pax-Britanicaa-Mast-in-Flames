@@ -1,0 +1,313 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_modifiers_refugees_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_refugees.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_basic_nonlethal_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_basic_nonlethal.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_basic_lethal_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_basic_lethal.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_basic_psychadelics_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_basic_psychadelics.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_advanced_nonlethal_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_advanced_nonlethal.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_advanced_lethal_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_advanced_lethal.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_advanced_psychadelics_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_advanced_psychadelics.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_chemweapons_paranoia_bomb_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_chemweapons_paranoia_bomb.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_meltabomb_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_meltabomb.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_mindbreaker_icon"
+		textureFile = "gfx/interface/state_modifiers/modifiers_chemweapons_mindbreaker.dds"
+	}
+	spriteType = {
+		name = "GFX_bioweapons_anthrax_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_anthrax_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_bioweapons_smallpox_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_smallpox_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_bioweapons_botulism_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_botulism_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_bioweapons_influenza_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_influenza_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_bioweapons_secondary_outbreak_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_secondary_outbreak_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_livewire_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/livewire_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_contaminated_wasteland_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/contaminated_wasteland_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Republican_Stronghold_icon"
+		textureFile = "gfx/interface/modifiers_Republican_Stronghold.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Under_British_Influence_icon"
+		textureFile = "gfx/interface/modifiers_Under_British_Influence.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Under_Russian_Influence_icon"
+		textureFile = "gfx/interface/modifiers_Under_Russian_Influence.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Under_German_Influence_icon"
+		textureFile = "gfx/interface/modifiers_Under_German_Influence.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Under_Japanese_Influence_icon"
+		textureFile = "gfx/interface/modifiers_Under_Japanese_Influence.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Principality_of_Monaco_icon"
+		textureFile = "gfx/interface/modifiers_Principality_of_Monaco.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_nuclear_attack_icon"
+		textureFile = "gfx/interface/modifiers_nuclear_attack_icon_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_scottish_autonomy_icon"
+		textureFile = "gfx/interface/modifiers_scottish_autonomy_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_autonomous_region_icon"
+		textureFile = "gfx/interface/modifiers_autonomous_region_icon.dds"
+	}   
+    spriteType = {
+		name = "GFX_modifiers_No_Mans_Land_icon"
+		textureFile = "gfx/interface/modifiers_No_Mans_Land.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_culture_modifier_blank"
+		textureFile = "gfx/interface/culture/culture_modifier_blank.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Washington_Monument"
+		textureFile = "gfx/interface/modifiers_Washington_Monument.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Rapid_Industrialization"
+		textureFile = "gfx/interface/modifiers_Rapid_Industrialization.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Farmer_Riots"
+		textureFile = "gfx/interface/modifiers_Farmer_Riots.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Industrial_Damage"
+		textureFile = "gfx/interface/modifiers_Industrial_Damage.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_Bonus_Brigade_Crisis_Stab"
+		textureFile = "gfx/interface/modifiers_Bonus_Brigade_Crisis_Stab.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_increased_provincial_autonomy"
+		textureFile = "gfx/interface/modifiers_increased_provincial_autonomy.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_racial_violence"
+		textureFile = "gfx/interface/modifiers_racial_violence.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_significant_racial_violence"
+		textureFile = "gfx/interface/modifiers_significant_racial_violence.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_supports_national_government"
+		textureFile = "gfx/interface/modifiers_supports_national_government.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_does_not_support_national_government"
+		textureFile = "gfx/interface/modifiers_does_not_support_national_government.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_MEX_Bandit_Haven"
+		textureFile = "gfx/interface/modifiers_MEX_Bandit_Haven.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_MEX_ind_uni_rel"
+		textureFile = "gfx/interface/modifiers_ind_uni_rel.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_PB_SCA_Seven_Sins"
+		textureFile = "gfx/interface/PB_SCA_Seven_Sins.dds"
+	}
+
+	# Unique Terrain
+
+	spriteType = {
+		name = "GFX_modifiers_terrain_paris_icon"
+		textureFile = "gfx/interface/terrain_paris.dds"
+	}   
+	spriteType = {
+		name = "GFX_modifiers_terrain_moscow_icon"
+		textureFile = "gfx/interface/terrain_moscow.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_london_icon"
+		textureFile = "gfx/interface/terrain_london.dds"
+	}	
+	spriteType = {
+		name = "GFX_modifiers_terrain_frankfurt_icon"
+		textureFile = "gfx/interface/terrain_frankfurt.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_athens_icon"
+		textureFile = "gfx/interface/terrain_athens.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_berlin_icon"
+		textureFile = "gfx/interface/terrain_berlin.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_istanbul_icon"
+		textureFile = "gfx/interface/terrain_istanbul.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_rome_icon"
+		textureFile = "gfx/interface/terrain_rome.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_belgrade_icon"
+		textureFile = "gfx/interface/terrain_belgrade.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_warsaw_icon"
+		textureFile = "gfx/interface/terrain_warsaw.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_algiers_icon"
+		textureFile = "gfx/interface/terrain_algiers.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_budapest_icon"
+		textureFile = "gfx/interface/terrain_budapest.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_bucharest_icon"
+		textureFile = "gfx/interface/terrain_bucharest.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_naples_icon"
+		textureFile = "gfx/interface/terrain_naples.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_danzig_icon"
+		textureFile = "gfx/interface/terrain_danzig.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_konisberg_icon"
+		textureFile = "gfx/interface/terrain_konisberg.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_amsterdam_icon"
+		textureFile = "gfx/interface/terrain_amsterdam.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_berne_icon"
+		textureFile = "gfx/interface/terrain_berne.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_cairo_icon"
+		textureFile = "gfx/interface/terrain_cairo.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_lisbon_icon"
+		textureFile = "gfx/interface/terrain_lisbon.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_madrid_icon"
+		textureFile = "gfx/interface/terrain_madrid.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_petrograd_icon"
+		textureFile = "gfx/interface/terrain_petrograd.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_plovdiv_icon"
+		textureFile = "gfx/interface/terrain_plovdiv.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_tirana_icon"
+		textureFile = "gfx/interface/terrain_tirana.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_tsaritsyn_icon"
+		textureFile = "gfx/interface/terrain_tsaritsyn.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_vienna_icon"
+		textureFile = "gfx/interface/terrain_vienna.dds"
+	}
+    spriteType = {
+		name = "GFX_modifiers_terrain_mitsi_adazi_icon"
+		textureFile = "gfx/interface/terrain_mitsi_adazi.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_bordeaux_icon"
+		textureFile = "gfx/interface/terrain_bordeaux.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_brest_icon"
+		textureFile = "gfx/interface/terrain_brest.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_orleans_icon"
+		textureFile = "gfx/interface/terrain_orleans.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_marseille_icon"
+		textureFile = "gfx/interface/terrain_marseille.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_lyon_icon"
+		textureFile = "gfx/interface/terrain_lyon.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_mexico_city_icon"
+		textureFile = "gfx/interface/terrain_mexico_city.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_guadalajara_icon"
+		textureFile = "gfx/interface/terrain_guadalajara.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_fransisco_icon"
+		textureFile = "gfx/interface/terrain_fransisco.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_terrain_angeles_icon"
+		textureFile = "gfx/interface/terrain_angeles.dds"
+	}
+}

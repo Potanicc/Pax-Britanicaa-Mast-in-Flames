@@ -1,0 +1,74 @@
+spriteTypes = {	
+
+	### State Focus GUI GFX
+
+	SpriteType = {
+		name = "GFX_State_Focus_One_button"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_One.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Two_button"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Two.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Three_button"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Three.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Four_button"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Four.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Five_button"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Five.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_One_button_Picked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_One_Picked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Two_button_Picked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Two_Picked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Three_button_Picked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Three_Picked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Four_button_Picked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Four_Picked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Five_button_Picked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Five_Picked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_One_button_Blocked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_One_Blocked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Two_button_Blocked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Two_Blocked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Three_button_Blocked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Three_Blocked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Four_button_Blocked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Four_Blocked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Five_button_Blocked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Five_Blocked.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Delete_All"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Delete_All.dds"
+	}
+	SpriteType = {
+		name = "GFX_State_Focus_Delete_All_Blocked"
+		textureFile = "gfx/interface/State_Focus_GUI/State_Focus_Delete_All_Blocked.dds"
+	}
+	
+}

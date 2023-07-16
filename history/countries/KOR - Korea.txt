@@ -1,0 +1,123 @@
+﻿starting_train_buffer = 2
+capital = 525
+
+oob = "KOR_1933"
+
+set_country_flag = Megacorp_Zaibatsu_Exiles
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 402 }
+add_to_array = { PB_accepted_cultures = 402 }
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+add_ideas = {
+
+
+	PB_Absolute_Monarchy
+	PB_NI_Order
+	PB_Govidea_State_Capitalism
+	PB_No_Voting
+	PB_State_Press
+	PB_Public_Meetings_Banned
+	PB_Patriarchal_Society
+	PB_Racial_Segregation
+	PB_Law_Secret_Police
+	PB_No_Limit_Workday
+	PB_No_Healthcare
+	PB_No_Formal_Education
+	PB_No_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Overwhelming_Poverty
+	PB_Agrarianism
+	PB_Overwhelming_Illiteracy
+	PB_Market_Apocalypse
+	PB_Pre_Great_War_Army
+	PB_Partially_Westernized
+}
+set_convoys = 5
+
+set_country_flag = SS_Subideology_Anarchism
+
+set_popularities = {
+	ni = 8
+	ds = 20
+	rc = 19
+	cn = 5
+	lb = 25
+	an = 0
+	ss = 4
+	jc = 19
+}
+set_politics = {
+	ruling_party = ds
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = NI_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = DS_VARIANT_02
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = AN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = CN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_KOR_Yi_Un.dds"
+	ideology = SS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Kim Chwa-chin"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Kim_Chwa_Chin.dds"
+	ideology = JC_VARIANT_02
+}

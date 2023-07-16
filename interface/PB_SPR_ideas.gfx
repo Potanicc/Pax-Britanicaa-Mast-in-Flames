@@ -1,0 +1,36 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_SPR_Military_Conspiracy"
+		texturefile = "gfx/interface/ideas/Spain/SPR_Military_Conspiracy.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_SPR_Extreme_Polarisation"
+		texturefile = "gfx/interface/ideas/Spain/SPR_Extreme_Polarisation.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_SPR_War_Reparations"
+		texturefile = "gfx/interface/ideas/Spain/SPR_War_Reparations.tga"
+	}
+ ###########################Minisiters
+	spriteType = {
+		name = "GFX_idea_PB_Mola"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Spain/PB_Mola.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SPR_PB_Alfonso_Pena_Boeuf_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Spain/PB_Alfonso.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SPR_PB_Francisco_Gomez_Jordanaa_Sousa_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Spain/PB_Francisco_Gomez.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SPR_PB_Ramon_Serrano_Suner_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Spain/PB_Ramon.dds"
+	}	
+#	spriteType = {
+#		name = "GFX_idea_SPR_PB_Raimundo_Fernandez_Cuesta"
+#		texturefile = "gfx/interface/ideas/Government_Ideas/Special_Minister/Spain/PB_Raimundo.dds"
+#	}
+}	

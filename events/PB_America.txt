@@ -1,0 +1,77 @@
+###################
+# AME - Parliament
+###################
+
+add_namespace = American
+
+
+country_event = {#The SCA Spawn
+	id = American.1
+	title = American.1.t
+	desc = American.1.d
+	picture = GFX_report_PB_Secret_Documents
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #This Event is used to spawn the SCA
+		name = American.1.a
+		country_event = { 
+			id = SCA.1 
+			days = 3 
+		}
+		ai_chance = {
+			factor = 50
+		}
+
+	}
+
+}
+
+country_event = {#Sante Fe collapse
+	id = American.2
+	title = American.2.t
+	desc = American.2.d
+	picture = GFX_report_PB_Secret_Documents
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #
+		name = American.2.a
+
+		news_event = {
+			id = PBNews.207
+			days = 1
+		}
+		STA = {
+			transfer_state = 894
+			add_state_core = 894
+			transfer_state = 881
+			add_state_core = 881
+			load_oob = "STA_1933"
+		}
+		DER = {
+			transfer_state = 797
+			add_state_core = 797
+			transfer_state = 904
+			add_state_core = 904
+			load_oob = "DER_1933"
+		}
+		SFE = {
+			remove_state_core = 894
+			remove_state_core = 881
+			remove_state_core = 797
+			remove_state_core = 904
+		}
+
+		ai_chance = {
+			factor = 50
+		}
+
+	}
+
+}
+

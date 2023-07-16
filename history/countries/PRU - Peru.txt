@@ -1,0 +1,126 @@
+﻿starting_train_buffer = 2
+capital = 303
+
+oob = "PRU_1933"
+
+# Accepted Cultures
+
+set_variable = { PB_main_culture = 112 }
+add_to_array = { PB_accepted_cultures = 112 }
+
+# Starting tech
+set_technology = { 
+	infantry_rations = 1
+	basic_train = 1
+	infantry_weapons1930 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	#early_fighter = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+add_ideas = {
+
+
+	PB_Parliamentary_Republic
+	PB_NI_Liberty
+	PB_Govidea_Welfare_Capitalism
+	PB_Universal_Citizenship
+	PB_Free_Press
+	PB_Public_Meetings_Allowed
+	PB_Full_Womens_Equality
+	PB_Significant_Autonomy
+	PB_Law_Standard_Policing
+	PB_12_Hour_Workday
+	PB_Basic_Healthcare
+	PB_Basic_Education
+	PB_Basic_Welfare
+	PB_Basic_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Widespread_Poverty
+	PB_Semi_Industrialized
+	PB_Significant_Illiteracy
+	PB_Stagnating_Growth
+	PB_Great_War_Military
+	PB_Fully_Westernized
+}
+	set_popularities = {
+		ni = 5
+		ds = 25
+		rc = 25
+		cn = 13
+		lb = 12
+		an = 5
+		ss = 10
+		jc = 5
+}
+set_politics = {
+	ruling_party = lb
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "José Pardo y Barreda"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_PRU_Jose_Barreda.dds"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = NI_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = DS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = CN_VARIANT_01
+}
+
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = AN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = SS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = ""
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = JC_VARIANT_01
+}

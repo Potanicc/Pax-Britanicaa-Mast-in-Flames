@@ -1,0 +1,701 @@
+﻿defined_text = {
+	name = GetLoserAllies
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = PB_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = PB_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+
+defined_text = {
+	name = GetWinnerAllies
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = PB_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = PB_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+
+defined_text = {
+	name = GetLoserAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = PB_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = PB_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+
+defined_text = {
+	name = GetWinnerAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = PB_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = PB_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+
+defined_text = {
+	name = GetWarStatus
+	text = {
+		trigger = {
+			has_global_flag = war_won
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION
+	}
+	text = {
+		trigger = {
+			has_global_flag = war_continuing
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONTINUING
+	}
+}
+
+
+#### PUT YOUR VARIOUS CATEGORIES/TRIGGERS IN HERE ###
+
+# Refer to the winning country's tag like so "global_event_target:winning_country"
+# and the losing country's tag like so "global_event_target:losing_country"
+
+defined_text = {
+	name = GetWarConclusionLoc
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = KAL
+			}
+			event_target:losing_country = {
+				original_tag = MAL
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_MALAYA_LOSS
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = MAL
+			}
+			event_target:losing_country = {
+				original_tag = KAL
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_MALAYA_VICTORY
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = IRE
+			}
+			event_target:losing_country = {
+				original_tag = ICA
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_ICA_LOSS
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = ICA
+			}
+			event_target:losing_country = {
+				original_tag = ENG
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_ENG_LOSS
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RUS
+			}
+			event_target:losing_country = {
+				original_tag = MON
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_MON_LOSS
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RUS
+			}
+			event_target:losing_country = {
+				original_tag = MAN
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_MAN_LOSS
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					original_tag = ACR
+					original_tag = AMZ
+					original_tag = BHA
+					original_tag = MNG
+					original_tag = SAO
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					original_tag = ACR
+					original_tag = AMZ
+					original_tag = BHA
+					original_tag = MNG
+					original_tag = SAO
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_BRAZIL_WARS
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					original_tag = ENG
+					original_tag = GER
+					original_tag = AME
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					original_tag = FRA
+					original_tag = RUS
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_GREAT_WAR_WAR_CONCLUSION_LEAGUE
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					original_tag = FRA
+					original_tag = RUS
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					original_tag = ENG
+					original_tag = GER
+					original_tag = AME
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_GREAT_WAR_WAR_CONCLUSION_PACT
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = PHI
+			}
+			event_target:losing_country = {
+				original_tag = DAS
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_DAS_PHI_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = DAS
+			}
+			event_target:losing_country = {
+				original_tag = PHI
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_PHI_DAS_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = VIN
+			}
+			event_target:losing_country = {
+				original_tag = BFE
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_VIN_BFE_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = BFE
+			}
+			event_target:losing_country = {
+				original_tag = VIN
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_BFE_VIN_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = ECU
+			}
+			event_target:losing_country = {
+				original_tag = NWG
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_ECU_NWG_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = NWG
+			}
+			event_target:losing_country = {
+				original_tag = ECU
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_NWG_ECU_Victory
+	}
+	text = {
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetWarContinuationLoc
+	text = {
+		localization_key = PB_PEACE_POPUP_WAR_CONTINUING_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetFlavor
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = MAL
+			}
+			event_target:winning_country = {
+				original_tag = KAL
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_Malaya_Loss
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = KAL
+			}
+			event_target:winning_country = {
+				original_tag = MAL
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_Malaya_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				OR = {
+					original_tag = TAC
+					original_tag = NWA
+					original_tag = TAB
+					original_tag = FRE
+					original_tag = DES
+					original_tag = NEV
+					original_tag = SHO
+					original_tag = LAK
+					original_tag = APA
+					original_tag = SFE
+					original_tag = CMC
+					original_tag = GRN
+					original_tag = NRT
+					original_tag = IRO
+					original_tag = MRN
+					original_tag = OSA
+					original_tag = STA
+					original_tag = DER
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_SCA_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = SCA
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_SCA_Loss	
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = AME
+			}
+			event_target:winning_country = {
+				original_tag = SCA
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_SCA_AME_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = SLO
+			}
+			event_target:winning_country = {
+				original_tag = HUN
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_Slovakia_Loss
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = HUN
+			}
+			event_target:winning_country = {
+				original_tag = SLO
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_Slovakia_Win
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ICA
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_ICA
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = ICA
+			}
+			event_target:losing_country = {
+				original_tag = ENG
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_FLAVOR_ENG_ICA_CEASEFIRE
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = CHI
+			}
+			event_target:losing_country = {
+				original_tag = ROC
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_ROC_Revolution
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = ROC
+			}
+			event_target:losing_country = {
+				original_tag = CHI
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_CHI_Revolution
+	}
+
+	text = {
+		trigger = {
+			has_global_flag = Great_Balkan_War_Fired
+			event_target:losing_country = {
+				original_tag = HUN
+			}
+			event_target:winning_country = {
+				OR = {
+					original_tag = SER
+					original_tag = ROM
+					original_tag = GRE
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_Hungary_GBW_Loss
+	}
+
+	text = {
+		trigger = {
+			has_global_flag = Great_Balkan_War_Fired
+			event_target:losing_country = {
+				original_tag = SER
+			}
+			event_target:winning_country = {
+				OR = {
+					original_tag = HUN
+					original_tag = CRO
+					original_tag = BUL
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_Serbia_GBW_Loss
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RUS
+			}
+			event_target:losing_country = {
+				original_tag = MON
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_MON_Russian_Conquest
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RUS
+			}
+			event_target:losing_country = {
+				original_tag = MAN
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_MAN_Russian_Conquest
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = XSM
+			}
+			event_target:losing_country = {
+				original_tag = FTR
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_XSM_CivWar_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = FTR
+			}
+			event_target:losing_country = {
+				original_tag = XSM
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_FTR_CivWar_Victory
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = DAS
+			}
+			event_target:losing_country = {
+				original_tag = PHI
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_PHI_DAS_Victory_Flavor
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = PHI
+			}
+			event_target:losing_country = {
+				original_tag = DAS
+			}
+		}
+		localization_key = PB_PEACE_POPUP_WAR_CONCLUSION_DAS_PHI_Victory_Flavor
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = TUR
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_TUR
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ENG
+
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_ENG
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = AME
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_AME
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = FRA
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_FRA
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = GER
+			}
+			NOT = {
+				event_target:winning_country = {
+					original_tag = PHI
+				}
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_GER
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ITA
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_ITA
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = RUS
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_RUS
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = CHI
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_CHI
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ROC
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_ROC
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = JAP
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_JAP
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = UAR
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_UAR
+	}
+
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = IKW
+			}
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_IKW
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = AME
+                }
+                event_target:losing_country = {
+                    original_tag = FSA
+                }
+        }
+                localization_key = PB_PEACE_POPUP_FLAVOR_AME
+        } 
+
+	# DO NOT PUT SHIT BELOW THIS THE GAME READS THIS LAST RETARDS # - Love you too Grestin
+
+	text = {
+		trigger = {
+			threat < 0.2
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_WT_Low
+	}
+
+	text = {
+		trigger = {
+			threat < 0.4
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_WT_Mod
+	}
+
+	text = {
+		trigger = {
+			threat < 0.6
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_WT_High
+	}
+
+	text = {
+		trigger = {
+			threat < 0.8
+		}
+		localization_key = PB_PEACE_POPUP_FLAVOR_WT_VHigh
+	}
+}

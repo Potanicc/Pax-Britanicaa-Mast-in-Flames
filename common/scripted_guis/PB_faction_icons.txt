@@ -1,0 +1,83 @@
+scripted_gui = {
+	PB_Faction_Icons = {
+		window_name = "PB_Faction_Icons_window"
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+
+		visible = { always = yes }
+
+		triggers = {
+			faction_icon_imperial_powers_visible = {
+				is_in_faction_with = ENG
+				NOT = {
+					has_global_flag = ENG_League_Formed
+				}
+			}
+
+			faction_icon_league_of_nations_visible = {
+				is_in_faction_with = ENG
+				has_global_flag = ENG_League_Formed
+			}
+
+			faction_icon_revanchist_pacte_visible = {
+				is_in_faction_with = FRA
+
+				FRA = {
+					is_faction_leader = yes
+				}
+			}
+
+			faction_icon_pan_asian_front_visible = {
+				is_in_faction_with = JAP
+
+				JAP = {
+					is_faction_leader = yes
+					NOT = {
+						is_in_faction_with = SCA
+					}
+				}
+			}
+
+			faction_icon_global_revolutionary_front_visible = {
+				is_in_faction_with = JAP
+
+				JAP = {
+					is_faction_leader = yes
+					is_in_faction_with = SCA
+				}
+			}
+
+			faction_icon_cmea_visible = {
+				is_in_faction_with = SCA
+
+				SCA = {
+					is_faction_leader = yes
+				}
+			}
+
+			faction_icon_united_arab_emirates_visible = {
+				is_in_faction_with = HEJ
+
+				HEJ = {
+					is_faction_leader = yes
+				}
+			}
+
+			faction_icon_northern_defense_committee_visible = {
+				is_in_faction_with = SWE
+
+				SWE = {
+					is_faction_leader = yes
+				}
+			}
+
+			faction_icon_coalition_of_independent_states_visible = {
+				is_in_faction_with = AME
+
+				AME = {
+					is_faction_leader = yes
+				}
+			}
+		}		
+	}
+}

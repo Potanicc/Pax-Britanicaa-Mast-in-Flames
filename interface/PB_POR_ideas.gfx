@@ -1,0 +1,34 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_POR_chemical_menace"
+		texturefile = "gfx/interface/ideas/Portugal/POR_chemical_menace.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_POR_forgotten_revolution"
+		texturefile = "gfx/interface/ideas/Portugal/POR_forgotten_revolution.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_POR_liberal_menace"
+		texturefile = "gfx/interface/ideas/Portugal/POR_liberal_menace.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_POR_revolution"
+		texturefile = "gfx/interface/ideas/Portugal/POR_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POR_overstretched_empire"
+		texturefile = "gfx/interface/ideas/Portugal/POR_overstretched_empire.dds"
+	}	
+
+   ############ HEAD OF STATE - PORTUGAL #####
+
+	spriteType = {
+		name = "GFX_idea_POR_PB_franco_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/POR_PB_franco_HOS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POR_PB_jose_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/POR_PB_jose_HOG.dds"
+	}
+}

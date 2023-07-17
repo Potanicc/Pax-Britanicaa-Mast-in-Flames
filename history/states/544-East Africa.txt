@@ -4,8 +4,9 @@ state={
 	name="STATE_544"
 
 	history={
-		owner = PEF
-		add_core_of = PEF
+		owner = MZB
+		add_core_of = MZB
+		add_claim_by = PEF
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -15,7 +16,6 @@ state={
 			}
 
 		}
-		add_core_of = MZB
 
 	}
 

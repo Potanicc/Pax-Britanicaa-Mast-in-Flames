@@ -4,9 +4,8 @@ state={
 	name="STATE_807"
 
 	history={
-		owner = MOR
+		owner = SPR
 		add_core_of = MOR
-		add_claim_by = WAF
 		buildings = {
 			infrastructure = 3
 

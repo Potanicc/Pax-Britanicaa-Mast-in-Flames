@@ -21,7 +21,7 @@ state={
 			air_base = 3
 
 		}
-		owner = GER
+		owner = FRA
 		add_core_of = GER
 	}
 	manpower= 2017155 

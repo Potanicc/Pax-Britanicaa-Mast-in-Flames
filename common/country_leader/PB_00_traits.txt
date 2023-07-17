@@ -247,6 +247,72 @@ leader_traits = {
 
 	###
 
+	PB_Individualist = {
+
+		consumer_goods_factor = -0.04
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Solidarist = {
+
+		rc_drift = 0.02
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Cosmist = {
+
+		research_speed_factor = 0.08
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Historian = {
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Moscow_Circle_Manchurian_Faction = {
+
+		war_support_factor = 0.05
+		ni_drift = 0.03
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Moscow_Circle_Baltic_Faction = {
+
+		resistance_target = -0.15
+		ni_drift = 0.03
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	PB_Failed_Agriculture_Minister = {
 
 		stability_factor = -0.05
@@ -931,6 +997,18 @@ leader_traits = {
 		}
 	}
 
+	PB_Budget_Balancer_2 = {
+
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	PB_Administrator = {
 
 		production_speed_buildings_factor = 0.02
@@ -1169,8 +1247,6 @@ leader_traits = {
     PB_Der_Berater = {
 
 		stability_factor = 0.1
-		ni_acceptance = 25
-                drift_defence_factor = 0.25
 
 		random = no
 		
@@ -1179,9 +1255,123 @@ leader_traits = {
 		}
 	}
 
-    PB_New_Romulus = {
+	PB_Der_Berater_2 = {
 
-		war_support_factor = 0.05
+		stability_factor = 0.1
+		conscription_factor = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Der_Berater_3 = {
+
+		stability_factor = 0.1
+		conscription_factor = 0.05
+		army_core_defence_factor = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Der_Berater_4 = {
+
+		stability_factor = 0.1
+		conscription_factor = 0.05
+		army_core_defence_factor = 0.05
+		army_attack_factor = 0.1
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Der_Berater_5 = {
+
+		stability_factor = 0.1
+		conscription_factor = 0.05
+		army_core_defence_factor = 0.05
+		research_speed_factor = 0.1
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Architect_Of_The_New_Reich = {
+
+		production_speed_buildings_factor = 0.025
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Architect_Of_The_New_Reich_2 = {
+
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.1
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Resilient_To_The_Cold = {
+
+		acclimatization_cold_climate_gain_factor = 0.5
+		terrain_penalty_reduction = 0.1
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Father_of_All_Germans = {
+
+		monthly_population = 0.5
+		forced_surrender_limit = 1
+		custom_modifier_tooltip = PB_Father_of_All_Germans_tt
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Great_Reformer = {
+
+		political_power_gain = 0.1
+		ni_acceptance = -50
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Junker_Support = {
+
+		custom_modifier_tooltip = junker_support_tooltip
+		stability_factor = 0.05
 
 		random = no
 		
@@ -1352,6 +1542,30 @@ leader_traits = {
 		}
 	}
 
+	PB_Soldier_General = {
+
+        army_morale_factor = 0.05
+		war_support_factor = 0.1
+		
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PB_Alcohol_Financial_Failure = {
+
+       consumer_goods_factor = 0.05
+	   political_power_gain = -0.25
+	   stability_factor = -0.05
+		
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 
 	#### TECH TEAM TRAITS ####

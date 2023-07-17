@@ -2,9 +2,12 @@ state={
 	id=832
 	name="STATE_832"
 	history = { 
-		owner = FRA
+		set_state_flag = ITA_liberals
+		owner = IST
 		add_core_of = ITA
+		add_core_of = IST
 		add_core_of = FRA
+		add_core_of = SAV
 		buildings = {
 			infrastructure = 4
 		}

@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SPR
+		owner = POR
 		victory_points = {
 			11805 30.0 
 		}
@@ -32,7 +32,6 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = SPR
 		add_core_of = POR
 	}
 

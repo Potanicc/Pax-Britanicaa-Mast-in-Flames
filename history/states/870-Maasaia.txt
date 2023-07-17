@@ -7,8 +7,10 @@ state={
 	}
 
 	history={
-		owner = GLF
+		owner = DAF
+		add_core_of = DAF
 		add_core_of = TGY
+		add_core_of = AZA
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2

@@ -9,7 +9,7 @@ state={
 
 
 	history={
-		owner = SRB
+		owner = GER
 		victory_points = {
 			6521 20.0
 		}
@@ -24,7 +24,8 @@ state={
 			air_base = 6
 
 		}
-		add_claim_by = GLF
+		add_core_of = GER
+		add_core_of = BRN
 	}
 
 	provinces={

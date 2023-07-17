@@ -19,8 +19,9 @@ state=
 			industrial_complex = 3
 		}
 		victory_points = { 6583 5 }
-		add_claim_by = GLF
+		add_core_of = GER
 		add_core_of = FRA
+		add_core_of = LUX
 	}
 
 	provinces=

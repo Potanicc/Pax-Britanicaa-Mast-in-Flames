@@ -1,0 +1,358 @@
+﻿l_english:
+
+  
+  ##########################
+  #BODY AUG MECHANIC
+  ##########################
+  PB_RUS_Body_Augmentation:0 "The New Russian"
+  PB_RUS_Body_Augmentation_desc:0 "\n\n\n\n\n\nMan has always been constrained to the rules of nature. Today we break such rules as new revolutionary technologies allow us to modify our bodies in ways never thought imaginable.\n\n§YSelect a button from the gui below and choose a specific augmentation of your liking, higher end buffs will cost more surgical experience.§!\n\n§RAugmentations are one time changes that can't be reverted so pick carefully!§!\n\nYour current amount of surgical experience is:  §Y[?RUS_Surgical_Experience_Var]§! £RUS_Surgical_Expertise\n"
+  Human_Aug_bt_Nothing_Selected_tt:0 "Empty"
+  Human_Aug_bt_Nothing_Selected_tt_delayed:0 "No augmentation has been selected"
+  PB_RUS_Conduct_Experimental_Surgeries:0 "Conduct Experimental Surgeries"
+  add_RUS_Surgical_Experience_Var:0 "Surgical Expertise: §G+2§!\n\n§gThis decision will reappear in 90 days§!"
+  decision_cost_12_Surgical_Experience:0 "£RUS_Surgical_Expertise 12"
+  decision_cost_12_Surgical_Experience_blocked:0 "£RUS_Surgical_Expertise 12"
+  remove_RUS_Surgical_Experience_Var_12:0 "Surgical Expertise: §R-2§!"
+  decision_cost_5_Surgical_Experience:0 "£RUS_Surgical_Expertise 6"
+  decision_cost_5_Surgical_Experience_blocked:0 "£RUS_Surgical_Expertise 6"
+  remove_RUS_Surgical_Experience_Var_6:0 "Surgical Expertise: §R-6§!"
+
+  PB_RUS_The_Brain:0 "The Brain"
+
+  PB_RUS_The_Heart:0 "The Heart"
+
+  PB_RUS_The_Kidneys:0 "The Kidneys"
+
+  PB_RUS_The_Intestines:0 "The Intestines"
+  PB_RUS_Iron_Gut:0 "Iron Gut"
+  Human_Aug_bt_Iron_Gut_Unlocked:0 "Intestine Augmentation: §CIron Gut§!\n    Effect: Division Recovery Rate: §G+5.00%§!"
+
+  PB_RUS_The_Lungs:0 "The Lungs"
+  PB_RUS_Expanded_Lungs:0 "Expanded Lungs"
+  PB_RUS_Expanded_Lungs_desc:0 "Altering the genome responsible for maintaining healthy organ sizes and functions to be more 'allowing' of abnormal organ sizes, specifically the Lungs, can allow engineered soldiers to run for longer durations."
+  Human_Aug_bt_Expanded_Lungs_tt:0 "Expanded Lungs"
+  Human_Aug_bt_Expanded_Lungs_tt_delayed:0 "Divisions speed: §G+5.00%§!"
+  Human_Aug_bt_Expanded_Lungs_Unlocked:0 "Lung Augmentation: §CExpanded Lungs§!\n    Effect: Divisions speed: §G+5.00%§!"
+  PB_RUS_Water_Conditioned_Aioli:0 "Water Conditioned Aioli"
+  PB_RUS_Water_Conditioned_Aioli_desc:0 "Stressing the Lungs Aioli for long periods of time under sustained pressure and chemical solutions can help expand and reinforce the bodies ability to breath under water for an additional two hours."
+  Human_Aug_bt_Water_Conditioned_Aioli_tt:0 "Water Conditioned Aioli"
+  Human_Aug_bt_Water_Conditioned_Aioli_tt_delayed:0 "Amphibious Invasion Speed: §G+25.00%§!"
+  Human_Aug_bt_Water_Conditioned_Aioli_Unlocked:0 "Lung Augmentation: §CWater Conditioned Aioli§!\n    Effect: Amphibious Invasion Speed: §G+25.00%§!"
+  
+  ##########################
+  #Top Bar
+  ##########################
+  
+  RUS_Country_Desc_Topbar:0 "§YRussia§! is the undisputed hegemony in Eurasia in 1933.\n\nRussia has by far seen better days. Though a victor of the Great War this has ultimately amounted into minor gains in the form of territorial expansions. Unlike the then once believed idea that the war was some how going to fix the Russian bear's issues, this was false and folly.\n\nThe incompetent Tsar as a result had retreated into a life of solitude, blaming all his failures on his once considered allies. Though there is still hope for the Russian people, With the Tsar now slowly dying a painiful death the political sphere has begun to shift, everyday a figure of great importance to the Tsar goes missing, a position in government is changed, and one less loyal individual gains power. All know what the outcome will be for the Tsar in the coming days, alive or not.\n\nTime will tell if Russia will once again ascend into glory or fall and crumble like many have before her.\n\nRussia is a §YMajor Power§!."
+
+  ##########################
+  # MINISTERS/LEADERS/TRAITS
+  ##########################
+  RUS_PB_Pyotr_Stoylpin:0 "Pyotr Stolypin"
+  RUS_PB_Alexander_Guchkov:0 "Alexander Guchkov"
+  RUS_PB_Alexei_Khvostov:0 "Alexei Khvostov"
+  RUS_PB_Stepan_Beletsky:0 "Stepan Beletsky"
+  RUS_PB_Vladimir_Purishkevich:0 "Vladimir Purishkevich"
+  RUS_PB_Nikolay_Ustryalov:0 "Nikolay Ustryalov"
+  RUS_PB_Nikolai_Markov:0 "Nikolai Markov"
+  RUS_PB_Felix_Yusupov:0 "Felix Yusupov"
+  RUS_PB_Anton_Denikin:0 "Anton Denikin"
+  RUS_PB_Vasily_Maklakov:0 "Vasily Maklakov"
+  RUS_PB_Alexander_Poniatoff:0 "Alexander M. Poniatoff"
+  RUS_PB_Pavel_Milyukov:0 "Pavel Milyukov"
+  RUS_PB_Alexander_Kerensky:0 "Alexander Kerensky"
+  RUS_PB_VI_Lenin:0 "Vladimir Ulyanov"
+  RUS_PB_Vladimir_Vernadsky:0 "Vladimir Vernadsky"
+  RUS_PB_Nicholas_Roerich:0 "Nicholas Roerich"
+  RUS_PB_Viktor_Baidalakov:0 "Viktor Baidalakov"
+  RUS_PB_Lev_Kamenev:0 "Lev Kamenev"
+  RUS_PB_Ayn_Rand:0 "Alisa Rosenbaum"
+  RUS_PB_Alexander_Vvedensky:0 "Alexander Vvedensky"
+
+  PB_Moscow_Circle_Manchurian_Faction:0 "Manchurian Clique"
+  PB_Moscow_Circle_Baltic_Faction:0 "Baltic Clique"
+  PB_Okhrana_Connections:0 "Okhrana Connections"
+  PB_Historian:0 "Historian"
+  PB_Cosmist:0 "Cosmist"
+  PB_Solidarist:0 "Solidarist"
+  PB_Individualist:0 "Individualist"
+  
+  ##########################
+  # IDEAS
+  ##########################
+
+  PB_RUS_Two_Alexanders:0 "A Tale of Two Alexanders"
+  PB_RUS_Two_Alexanders_desc:0 "Russian history is a constant tug of war between reform and reaction, and this is most acutely felt with the last two Tsars of the Empire. Alexander II is, at least in contemporary times, viewed as a Second Peter the Great. His son, on the other hand, is viewed far less favorably.\n\nAlexander II's reforms, spurred on by his failed assassination, laid the groundwork for Russia's ascendance to global superpower status. His patronage of Nikola Tesla lead to Russia developing an overnight high technology industrial sector, and transformed the Imperial Military into a modern fighting force able to project Russian power anywhere in Eurasia.\n\nAlexander III, while he attempted to continue his father's reforms, found himself caught in the whirlwind of the Great War. The Butchered Victory was ultimately laid at his feet, and the National Rebellions of the 1920s destroyed his credibility. The exact sequence of events in the court that lead to his abdication are not, and may never be, known, but they culminating in his son Michael ascending the throne as Tsar Michael II.\n\nMichael has been pragmatic enough to continue the reforms of his forebears, perhaps hoping that standing on the shoulders of giants will once again lead Russia to greatness."
+  PB_RUS_Russian_Twilight:0 "Butchered Victory"
+  PB_RUS_Russian_Twilight_desc:0 "The Russian Empire was a critical frontline in the Great War, fighting across Siberia, Korea, Manchuria and Sakhalin. Combat in the Siberian campaign was brutal, and statistics indicate that most soldiers survived barely a few hours into deployment. Japanese forces made the Empire pay for every last inch, with a fanatical resistance and ingenuity that often invalidated Russia's technological advantage. Victory only came with the Third Battle of Busan, an eight month siege that left 80,000 Russian soldiers dead.\n\nIt should come as no surprise, then, that the terms of the Treaty of Tours were a shock to the Russian people. Russia kept almost none of her wartime gains, save Sakhalin and a few minor gains across Asia. Russia earned no colonies, Korea remained de-facto independent, and the unofficial occupation of Manchuria was to end immediately.\n\nIn a single penstroke, Britain and Germany drove a knife into the back of their Russian allies, and have spent the last twenty years rubbing salt in the open wound."
+  PB_RUS_Hope_For_Future:0 "The Caesarean Section of Democracy"
+  PB_RUS_Hope_For_Future_desc:0 "Democracy is often a time honored institution, treasured by the people and fought for with reckless abandon.\n\nHow then, does one bring democracy to an autocracy?\n\nThe answer, of course, depends on who you ask. In Russia, the democratic experiment has been an exercise in tension. Political parties have formed, split, and disbanded in the time it takes to finish lunch. Anarchists and nationalists engage in fistfights in the streets. Anywhere you look, you can strike sparks with the right look or the right words.\n\nFor many nations, the birth of democracy is a slow, delicate process.\n\nFor Russia, thus far it has been a bloody and violent and in many cases humiliating. In the end, though, it will be worth the pain.\n\n§RAssuming that the democratic experiment succeeds, of course.§!"
+  PB_RUS_Middle_Class_Rising:0 "Rise of the Russian Middle Class"
+  PB_RUS_Middle_Class_Rising_desc:0 "One of the biggest demograghic shifts of the Second Renaissance was the birth of the Russian middle class. For most of its' history, Russia was a country of haves and have-nots, with very little in between. As the industrial sector developed, however, the power of the nobility and the landowners was increasingly undermined by a growing caste of moderately wealthy former peasants.\n\nThese people would form the foundation of a middle class that would grow and mature to rival Russia's historic interest groups, and form the foundations for the rise of democracy. With industry came stable jobs, and with stable jobs came stable homes, and from that came the need for education, literacy, higher education, and intellectualism.\n\nThe middle class now forms the backbone of Russia's burgeoning political scene, and they will tenaciously defend their gains if need be."
+
+
+  ##########################
+  # EVENTS
+  ##########################
+  Russian_Politics.1.t:0 "Third Meeting of the Provisonal Duma"
+  Russian_Politics.1.d:0 ""
+  Russian_Politics.1.a:0 "Can you all stop fighting for five minutes?"
+
+  Russian_Politics.2.t:0 "Discussions on Regional Autonomy"
+  Russian_Politics.2.d:0 ""
+  Russian_Politics.2.a:0 "One Russia, One Duma"
+  Russian_Politics.2.b:0 "Perhaps we can be a bit more experimental?"
+
+  Russian_Politics.3.t:0 "Preparing for St. Petersburg"
+  Russian_Politics.3.d:0 ""
+  Russian_Politics.3.a:0 "A Tsar must stand with his people."
+  Russian_Politics.3.b:0 "...but perhaps some extra security wouldn't hurt."
+
+  Russian_Politics.4.t:0 "Anti-Tsarist Agitation"
+  Russian_Politics.4.d:0 ""
+  Russian_Politics.4.a:0 "Have these agitators swept aside!"
+
+  Russian_Politics.5.t:0 "Concerning Radio Chatter from Galicia"
+  Russian_Politics.5.d:0 ""
+  Russian_Politics.5.a:0 "It's probably nothing."
+  Russian_Politics.5.b:0 "Send some agents to investigate, just in case."
+
+  Russian_Politics.6.t:0 "The Tsar Arrives in St. Petersburg"
+  Russian_Politics.6.d:0 ""
+  Russian_Politics.6.a:0 "Let's see what the Russian people have to say."
+
+  Russian_Politics.7.t:0 "Agents Report back from Galicia"
+  Russian_Politics.7.d:0 ""
+  Russian_Politics.7.a:0 "We can address this after the festivities."
+
+  Russian_Politics.8.t:0 "The Tsar meets with the Locals"
+  Russian_Politics.8.d:0 ""
+  Russian_Politics.8.a:0 "I'm sure we can address their concerns."
+
+  Russian_Assassination_Attempt.1.t:0 "Redemption Day"
+  Russian_Assassination_Attempt.1.d:0 "It was hard to hear a portable radio over the sound of the crowd; an instrumental jazz tune hummed in one ear. She paid close attention to the notes, the warbling of the bass section, the trumpets blaring. As it all slowed to a close, an announcer with a thick Polish accent chimed in. It wasn’t the typical announcer, who at the moment was tied up in a broom closet.\n\n“Good morning, listeners. The time is eight AM. For those attending the parade this morning, the weather service has advised carrying a parasol due to the chance of rain. Don’t touch that dial now listeners, we’re just getting started with today’s catalogue-“\n\nKasandra flicked the radio off and dug her hands into her coat pockets, one hand withdrawing an old half burnt photograph. Two dirty looking children and their mother on a farm, smiling in squalor, faces distorted by melted film. The mother’s face was all but obscured by the charring; Kasandra couldn’t remember what she looked like.\n\nIn a few moments she was near the head of the crowd. The Tsar was off the podium, all smiles and shaking hands. A few nervous looking security agents orbited around him and shooed off the odd heckler. She made her way through the throng of people slowly, casually, pretending to try and get a better look. After a moment, she was within ten feet, the perfect distance.\n\nAs the Tsar made his way past, she casually slipped her hand into her pocket once more and withdrew a pistol. Seconds felt like hours now, adrenaline saturating as the sights leveled. One of the officers spotted her, sprinting towards the Tsar. Michael only had the briefest moment to glance at the commotion, eyes meeting the barrel of a gun. It was as if time stopped at that exact instant; an emperor faced with a peasant’s pistol. There wasn’t time to duck, all Michael could do was watch dumbfounded.\n\nOne barely audible prayer escaped the woman’s lips before she pulled the trigger.\n\n"God, please.""
+  Russian_Assassination_Attempt.1.a:0 "The bullet strikes the Tsar!"
+  Russian_Assassination_Attempt.1.b:0 "The bullet misses the Tsar and hits the Prime Minister!"
+
+  Russian_Assassination_Attempt.2.t:0 "Free Polish Army claims Attack"
+  Russian_Assassination_Attempt.2.d:0 ""
+  Russian_Assassination_Attempt.2.a:0 "Mark them as high priority!"
+
+  Russian_Assassination_Attempt.3.t:0 "Okhrana uncovers German Involvement"
+  Russian_Assassination_Attempt.3.d:0 ""
+  Russian_Assassination_Attempt.3.a:0 "Expel the German embassy!"
+
+  Russian_Assassination_Attempt.4.t:0 "Russia blames us for St. Petersburg Attack"
+  Russian_Assassination_Attempt.4.d:0 ""
+  Russian_Assassination_Attempt.4.a:0 "This is preposterous!"
+
+  Russian_Assassination_Attempt.5.t:0 "Terrorists seize Riga Airliner!"
+  Russian_Assassination_Attempt.5.d:0 ""
+  Russian_Assassination_Attempt.5.a:0 "Send Jet Troopers to storm the airliner!"
+  Russian_Assassination_Attempt.5.b:0 "Stall for time and negotiate."
+
+  Russian_Assassination_Attempt.6.t:0 "Polaris 2 Reclaimed with Minimal Bloodshed"
+  Russian_Assassination_Attempt.6.d:0 ""
+  Russian_Assassination_Attempt.6.a:0 "Excellent work!"
+
+  Russian_Assassination_Attempt.7.t:0 "Polaris 2 Reclaimed with Casualties"
+  Russian_Assassination_Attempt.7.d:0 ""
+  Russian_Assassination_Attempt.7.a:0 "Well, that's technically a success"
+
+  Russian_Assassination_Attempt.8.t:0 "Bloodbath on Polaris 2"
+  Russian_Assassination_Attempt.8.d:0 ""
+  Russian_Assassination_Attempt.8.a:0 "Who the hell trained these idiots?"
+
+  Russian_Assassination_Attempt.9.t:0 "Riga Terrorists seek Asylum"
+  Russian_Assassination_Attempt.9.d:0 ""
+  Russian_Assassination_Attempt.9.a:0 "We can't afford further conflict with Russia."
+  Russian_Assassination_Attempt.9.b:0 "One man's terrorist is another man's freedom fighter."
+
+  Russian_Assassination_Attempt.10.t:0 "Riga Terrorists seek Asylum"
+  Russian_Assassination_Attempt.10.d:0 ""
+  Russian_Assassination_Attempt.10.a:0 "We can't afford further conflict with Russia."
+  Russian_Assassination_Attempt.10.b:0 "One man's terrorist is another man's freedom fighter."
+
+  Russian_Assassination_Attempt.11.t:0 "Germany grants Riga Terrorists Asylum"
+  Russian_Assassination_Attempt.11.d:0 ""
+  Russian_Assassination_Attempt.11.a:0 "Well, we can't exactly expel the embassy again."
+
+  Russian_Assassination_Attempt.12.t:0 "Sweden grants Riga Terrorists Asylum"
+  Russian_Assassination_Attempt.12.d:0 ""
+  Russian_Assassination_Attempt.12.a:0 "Can't trust the Swedes with anything!"
+
+  Russian_Assassination_Attempt.13.t:0 "Riga Terrorists fail to gain Asylum"
+  Russian_Assassination_Attempt.13.d:0 ""
+  Russian_Assassination_Attempt.13.a:0 "Good, deploy the jet troopers."
+
+  ##########################
+  # GUI DESCRIPTIONS
+  ##########################
+  
+  ##########################
+  # FOCUS
+  ##########################  
+  
+  PB_RUS_1933_Duma:0 "Third Meeting of the Provisional Duma"
+  PB_RUS_Increase_Galician_Forces:0 "Increase Our Forces in Galicia"
+  PB_RUS_Commit_to_Finland:0 "Finnish Off the Winter War"
+  PB_RUS_Expand_Polish_Security:0 "Expand the Polish Okhrana"
+  PB_RUS_Debate_on_Voting:0 "Debates on Voting Reform"
+  PB_RUS_Autonomist_Dumas:0 "Allow Regionalist Dumas"
+  PB_RUS_All_Russian_Dumas:0 "An All Russian National Duma"
+  PB_RUS_Begin_St_Petersburg:0 "On to St. Petersburg"
+
+
+  ########################## 
+  # Decisions
+  ##########################
+  PB_RUS_Okhrana:0 "The Second Time of Troubles"
+  PB_RUS_Okhrana_desc:0 "\n\n\n\n\n\nThe so-called §YFirst National Awakening§! ended in the defeat of the nationalist forces, yet for many the wars of independence never ended. Across the Ukraine, Poland, the Baltics, and Finland nationalist forces continue to struggle against Russian rule. Combating this is the §YDepartment for Protecting the Public Security and Order§!, colloquially known as the §YOkhrana§! or Guard Department. Previously just the state security apparatus of the Empire, the Okhrana was expanded dramatically following the Nationalist Rebellions to combat the remnant rebel forces.\n\nThe Okhrana is reliant on resources provided §Ymonthly§!; these resources must be used carefully to target and eliminate key figures in the secessionist movements to reduce their power. Additional §Ymonthly resources§! can be acquired by expanding Okhrana operations centers; however, these will require a large initial investment before becoming operational.\n\nOur goal is the §rdecapitation§! of rebel leadership, however eliminating leaders of rebel factions may drive them in different ideological directions and lead to other figures assuming command of the movement. A rebel group is §Yonly§! fully defeated once §Yall§! the most noteworthy members of their leadership are liquidated.\n\nIf the Okhrana fails to control the power of a rebel group, there may be §rdrastic§! consequences if they perceive us to be weak or distracted.\n\nCurrently, the Okhrana has access to £RUS_Okhrana_Resources §G[?RUS.RUS_Okhrana_Resources]§! resources\n\n§YPolish Resistance Power:§! [?RUS.RUS_Polish_Resistance_Power]%\n§YUkrainian Resistance Power:§! [?RUS.RUS_Ukraine_Resistance_Power]%\n§YBaltic Resistance Power:§! [?RUS.RUS_Baltic_Resistance_Power]%\n§YFinnish Resistance Power:§! [?RUS.RUS_Finnish_Resistance_Power]%\n\n\n\n\n\n\n\n\n\n\n\n\n"
+
+  RUS_OKH_Polish_Resistance_Pilsudski_Leader:0 "£RUS_Pilsudski_Target"
+  RUS_OKH_Polish_Resistance_Komorowski_Leader:0 "£RUS_Komorski_Target"
+  RUS_OKH_Polish_Resistance_Witos_Leader:0 "£RUS_Witos_Target"
+  RUS_OKH_Karski_Portrait:0 "£RUS_Karski_Target"
+  RUS_OKH_Rosa_Portrait:0 "£RUS_Rosa_Target"
+  RUS_OKH_Chruschiel_Portrait:0 "£RUS_Chruschiel_Target"
+  RUS_OKH_Polish_Resistance_Leader_tooltip:0 "[get_polish_resistance_leader_desc]"
+  RUS_OKH_Polish_Resistance_Pilsudski_Leader_Desc:0 "§YJózef Piłsudski§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Pragmatist Jacobin"
+  RUS_OKH_Polish_Resistance_Komorowski_Leader_Desc:0 "§YTadeusz Bór-Komorowski§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Conservative"
+  RUS_OKH_Polish_Resistance_Witos_Leader_Desc:0 "§YWincenty Witos§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Agrarian Liberalism"
+  RUS_OKH_Oziewicz_Leader_Desc:0 "§YIgnacy Oziewicz§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Ultramilitarist"
+  RUS_OKH_Karski_Leader_Desc:0 "§YJan Karski§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Liberalism"
+  RUS_OKH_Rosa_Leader_Desc:0 "§YRosa Luxemburg§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Labour Socialism"
+  RUS_OKH_Chruschiel_Leader_Desc:0 "§YAntoni Chruściel§! is the current figurehead of the Polish Resistance\n\n§YIdeology:§! Conservative"
+
+  RUS_OKH_No_Polish_SubCommander_1_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Komorowski_SubCommander_1_Portrait:0 "£RUS_Komorski_Target"
+  RUS_OKH_Oziewicz_SubCommander_1_Portrait:0 "£RUS_Oziewicz_Target"
+  RUS_OKH_Polish_Resistance_SubCommander1_tooltip:0 "[get_polish_resistance_SubCommander1_Desc]"
+  RUS_OKH_No_Polish_SubCommander_1_Desc:0 "This Position within the Polish Resistance is Currently Vacant"
+  RUS_OKH_Komorowski_SubCommander_1_Desc:0 "§YTadeusz Bór-Komorowski§! is an active leader of the Polish Resistance\n\n§YIdeology:§! Conservative"
+  RUS_OKH_Oziewicz_SubCommander_1_Desc:0 "§YIgnacy Oziewicz§! is an active leader of the Polish Resistance\n\n§YIdeology:§! Ultramilitarist"
+  RUS_OKH_Chruschiel_SubCommander_1_Desc:0 "§YAntoni Chruściel§! is an active leader of the Polish Resistance\n\n§YIdeology:§! Conservative"
+
+  RUS_OKH_No_Polish_SubCommander_2_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Witos_SubCommander_2_Portrait:0 "£RUS_Witos_Target"
+  RUS_OKH_Polish_Resistance_SubCommander2_tooltip:0 "[get_polish_resistance_SubCommander2_Desc]"
+  RUS_OKH_No_Polish_SubCommander_2_Desc:0 "This Position within the Polish Resistance is Currently Vacant"
+  RUS_OKH_Witos_SubCommander_2_Desc:0 "§YWincenty Witos§! is an active leader of the Polish Resistance\n\n§YIdeology:§! Agrarian Liberalism"
+  RUS_OKH_Rosa_SubCommander_2_Desc:0 "§YRosa Luxemburg§! is an active leader of the Polish Resistance\n\n§YIdeology:§! Labour Socialism"
+  RUS_OKH_Karski_SubCommander_2_Desc:0 "§YJan Karski§! is an active leader of the Polish Resistance\n\n§YIdeology:§! Liberalism"
+
+  RUS_OKH_Ukrainian_Resistance_Shukhevych_Leader:0 "£RUS_Shukhevych_Target"
+  RUS_OKH_Ukrainian_Resistance_Makhno_Leader:0 "£RUS_Makhno_Target"
+  RUS_OKH_Ukrainian_Resistance_Leader_tooltip:0 "[get_ukrainian_resistance_leader_desc]"
+  RUS_OKH_Ukrainian_Resistance_Shukhevych_Leader_Desc:0 "§YRoman Shukhevych§! is the leader of the §YUkrainian Insurrectionist Army§!, currently the dominant faction of the Ukrainian Resistance.\n\n§YIdeology:§! Reactionary Ethno-nationalism"
+  RUS_OKH_Ukrainian_Resistance_Makhno_Leader_Desc:0 "§YNestor Makhno§! is the leader of the §YPeople's Revolutionary Militia§!, currently the dominant faction of the Ukrainian Resistance.\n\n§YIdeology:§! Revolutionary Anarchism"
+  RUS_OKH_Ukrainian_Resistance_Bandera_Leader_Desc:0 "§YStepan Bandera§! is the leader of the §YUkrainian Insurrectionist Army§!, currently the dominant faction of the Ukrainian Resistance.\n\n§YIdeology:§! Ultranationalism"
+  RUS_OKH_Ukrainian_Resistance_Petliura_Leader_Desc:0 "§YSymon Petliura§! is the leader of the §YUkrainian People's Front§!, currently the dominant faction of the Ukrainian Resistance.\n\n§YIdeology:§! State Socialist"
+  RUS_OKH_Ukrainian_Resistance_Shumsky_Leader_Desc:0 "§YAlexander Shumsky§! is the leader of the §YUkrainian People's Front§!, currently the dominant faction of the Ukrainian Resistance.\n\n§YIdeology:§! Classical Jacobin"
+
+  RUS_OKH_No_Ukrainian_SubCommander_1_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Makhno_SubCommander_1_Portrait:0 "£RUS_Makhno_Target"
+  RUS_OKH_Petliura_SubCommander_1_Portrait:0 "£RUS_Petliura_Target"
+  RUS_OKH_Ukrainian_Resistance_SubCommander1_tooltip:0 "[get_ukrainian_resistance_SubCommander1_Desc]"
+  RUS_OKH_No_Ukrainian_SubCommander_1_Desc:0 "This Position within the Ukrainian Resistance is Currently Vacant"
+  RUS_OKH_Makhno_SubCommander_1_Desc:0 "§YNestor Makhno§! is the leader of the §YPeople's Revolutionary Militia§!, and an active member of the Ukrainian Resistance\n\n§YIdeology:§! Revolutionary Anarchism"
+  RUS_OKH_Petliura_SubCommander_1_Desc:0 "§YSymon Petliura§! is the leader of the §YUkrainian People's Front§! and an active member of the Ukrainian Resistance.\n\n§YIdeology:§! State Socialist"
+
+  RUS_OKH_No_Ukrainian_SubCommander_2_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Bandera_SubCommander_2_Portrait:0 "£RUS_Bandera_Target"
+  RUS_OKH_Shumsky_SubCommander_2_Portrait:0 "£RUS_Shumsky_Target"
+  RUS_OKH_Ukrainian_Resistance_SubCommander2_tooltip:0 "[get_ukrainian_resistance_SubCommander2_Desc]"
+  RUS_OKH_No_Ukrainian_SubCommander_2_Desc:0 "This Position within the Ukrainian Resistance is Currently Vacant"
+  RUS_OKH_Bandera_SubCommander_2_Desc:0 "§YStepan Bandera§! is the leader of the §YUkrainian Insurrectionist Army§!, and an active member of the Ukrainian Resistance.\n\n§YIdeology:§! Ultranationalism"
+  RUS_OKH_Shumsky_SubCommander_2_Desc:0 "§YAlexander Shumsky§! is the leader of the §YUkrainian People's Front§!, and an active member of the Ukrainian Resistance.\n\n§YIdeology:§! Classical Jacobin"
+
+  RUS_OKH_No_Baltic_Subcommander1_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Sprogis_Portrait:0 "£RUS_Sprogis_Target"
+  RUS_OKH_Lobe_Portrait:0 "£RUS_Lobe_Target"
+  RUS_OKH_Veiss_Portrait:0 "£RUS_Veiss_Target"
+  RUS_OKH_Baltic_Resistance_SubCommander1_tooltip:0 "[get_baltic_resistance_Subcommander_1_desc]"
+  RUS_OKH_No_Baltic_desc:0 "This Position within the Baltic Resistance is Currently Vacant"
+  RUS_OKH_Sprogis_desc:0 "§YArturs Sproģis§! is the leader of the §YLatvian People's Alliance§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Classical Jacobin"
+  RUS_OKH_Lobe_desc:0 "§YKārlis Lobe§! is the leader of the §YLatvian Independentists§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Reactionary Ethno-Nationalist"
+  RUS_OKH_Veiss_desc:0 "§YVoldemārs Veiss§! is the leader of the §YLatvian Independentists§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Ultranationalist"
+
+  RUS_OKH_No_Baltic_Subcommander2_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Jaan_Portrait:0 "£RUS_Jaan_Target"
+  RUS_OKH_Sirk_Portrait:0 "£RUS_Sirk_Target"
+  RUS_OKH_Peterss_Portrait:0 "£RUS_Peterss_Target"
+  RUS_OKH_Celmins_Portrait:0 "£RUS_Celmins_Target"
+  RUS_OKH_Baltic_Resistance_SubCommander2_tooltip:0 "[get_baltic_resistance_Subcommander_2_desc]"
+  RUS_OKH_No_Baltic_Subcommander2_desc:0 "This Position within the Baltic Resistance is Currently Vacant"
+  RUS_OKH_Jaan_desc:0 "§YJaan Anvelt§! is the leader of the §YTrans-Baltic Liberation Forces§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Directorial Jacobin"
+  RUS_OKH_Sirk_desc:0 "§YArtur Sirk§! is the leader of the §YEstonian Independentist Forces§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Right Wing Populist"
+  RUS_OKH_Peterss_desc:0 "§YJēkabs Peterss§! is the leader of the §YTrans-Baltic Liberation Forces§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Jacobin"
+  RUS_OKH_Celmins_desc:0 "§YGustavs Celmiņš§! is the leader of the §YRiga Circle§!, and an active member of the Baltic Resistance.\n\n§YIdeology:§! Esoteric Ultranationalism"
+
+  RUS_OKH_No_Central_Baltic_Leadership_Leader:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Baltic_Resistance_Leader_tooltip:0 "[get_baltic_resistance_leader_desc]"
+  RUS_OKH_No_Central_Baltic_Leadership_Desc:0 "The §YForest Brothers§! Resistance is diffuse and currently lacks a central leadership figure."
+  RUS_OKH_Sprogis_Baltic_Leadership_Desc:0 "§YArturs Sproģis§! is the leader of the §YLatvian People's Alliance§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Classical Jacobin"
+  RUS_OKH_Lobe_Baltic_Leadership_Desc:0 "§YKārlis Lobe§! is the leader of the §YLatvian Independentists§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Reactionary Ethno-Nationalist"
+  RUS_OKH_Veiss_Baltic_Leadership_Desc:0 "§YVoldemārs Veiss§! is the leader of the §YLatvian Independentists§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Ultranationalist"
+  RUS_OKH_Jaan_Baltic_Leadership_Desc:0 "§YJaan Anvelt§! is the leader of the §YTrans-Baltic Liberation Forces§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Directorial Jacobin"
+  RUS_OKH_Sirk_Baltic_Leadership_Desc:0 "§YArtur Sirk§! is the leader of the §YEstonian Independentist Forces§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Right Wing Populist"
+  RUS_OKH_Peterss_Baltic_Leadership_Desc:0 "§YJēkabs Peterss§! is the leader of the §YTrans-Baltic Liberation Forces§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Jacobin"
+  RUS_OKH_Celmins_Baltic_Leadership_Desc:0 "§YGustavs Celmiņš§! is the leader of the §YRiga Circle§!, currently the dominant faction of the Baltic Resistance.\n\n§YIdeology:§! Esoteric Ultranationalism"
+
+  RUS_OKH_Finnish_Resistance_Aarne_Sihvo_Leader:0 "£RUS_Sihvo_Target"
+  RUS_OKH_Finnish_Resistance_Leader_tooltip:0 "[get_finnish_resistance_leader_desc]"
+  RUS_OKH_Finnish_Resistance_Aarne_Sihvo_Desc:0 "§YAarne Sihvo§! is the leader of the §YFree Finnish Army§!, currently the dominant faction of the Finnish Resistance.\n\n§YIdeology:§! Liberal"
+  RUS_OKH_Finnish_Resistance_Kosola_Desc:0 "§YVihtori Kosola§! is the leader of the §YFinnish National Alliance§!, currently the dominant faction of the Finnish Resistance.\n\n§YIdeology:§! Ultranationalism"
+  RUS_OKH_Finnish_Resistance_Osterman_Desc:0 "§YHugo Österman§! is the leader of the §YFree Finnish Army§!, currently the dominant faction of the Finnish Resistance.\n\n§YIdeology:§! Pragmatism"
+  RUS_OKH_Finnish_Resistance_Takkinen_Desc:0 "§YJalmari Takkinen§! is the leader of the §YKarelo-Finnish United Front§!, currently the dominant faction of the Finnish Resistance.\n\n§YIdeology:§! Ethno-Nationalist"
+  RUS_OKH_Finnish_Resistance_Hall_Desc:0 "§YArvo Halberg§! is the leader of the §YFinnish Labour Riflemen§!, currently the dominant faction of the Finnish Resistance.\n\n§YIdeology:§! Jacobin"
+
+  RUS_OKH_No_Finnish_Subcommander1_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_No_Finnish_Subcommander2_Portrait:0 "£RUS_Resistance_Target_Vacant"
+  RUS_OKH_Kosola_Portrait:0 "£RUS_Kosola_Target"
+  RUS_OKH_Osterman_Portrait:0 "£RUS_Osterman_Target"
+  RUS_OKH_Takkinen_Portrait:0 "£RUS_Takkinen_Target"
+  RUS_OKH_Hall_Portrait:0 "£RUS_Hall_Target"
+  RUS_OKH_Finnish_Resistance_SubCommander1_tooltip:0 "[get_finnish_resistance_Subcommander_1_desc]"
+  RUS_OKH_Finnish_Resistance_SubCommander2_tooltip:0 "[get_finnish_resistance_Subcommander_2_desc]"
+  RUS_OKH_No_Finnish_Subcommander1_Desc:0 "This Position within the Finnish Resistance is Currently Vacant"
+  RUS_OKH_No_Finnish_Subcommander2_Desc:0 "This Position within the Finnish Resistance is Currently Vacant"
+  RUS_OKH_Kosola_Desc:0 "§YVihtori Kosola§! is the leader of the §YFinnish National Alliance§!, and an active member of the Finnish Resistance.\n\n§YIdeology:§! Ultranationalism"
+  RUS_OKH_Osterman_Desc:0 "§YHugo Österman§! is the leader of the §YFree Finnish Army§!, and an active member of the Finnish Resistance.\n\n§YIdeology:§! Pragmatism"
+  RUS_OKH_Takkinen_Desc:0 "§YJalmari Takkinen§! is the leader of the §YKarelo-Finnish United Front§!, and an active member of the Finnish Resistance.\n\n§YIdeology:§! Ethno-Nationalist"
+  RUS_OKH_Hall_Desc:0 "§YArvo Halberg§! is the leader of the §YFinnish Labour Riflemen§!, and an active member of the Finnish Resistance.\n\n§YIdeology:§! Jacobin"
+
+  PB_RUS_Okhrana_Resource_Drop_Small_tt:0 "£Generic_Green_Arrow £RUS_Okhrana_Resources §G+15 Okhrana Resources§!"
+  PB_RUS_Okhrana_Resource_Drop_Medium_tt:0 "£Generic_Green_Arrow £RUS_Okhrana_Resources §G+30 Okhrana Resources§!"
+  PB_RUS_Okhrana_Resource_Drop_Large_tt:0 "£Generic_Green_Arrow £RUS_Okhrana_Resources §G+50 Okhrana Resources§!"
+  PB_RUS_Okhrana_Resource_Expense_Small_tt:0 "£Generic_Red_Arrow_Down £RUS_Okhrana_Resources §R-20 Okhrana Resources§!"
+  PB_RUS_Okhrana_Resource_Expense_Medium_tt:0 "£Generic_Red_Arrow_Down £RUS_Okhrana_Resources §R-40 Okhrana Resources§!"
+  PB_RUS_Okhrana_Resource_Expense_Large_tt:0 "£Generic_Red_Arrow_Down £RUS_Okhrana_Resources §R-60 Okhrana Resources§!"
+
+  PB_RUS_Domestic_Politics:0 "Russian Domestic Politics"
+
+  PB_RUS_Winter_War_Countdown:0 "Defeat the Finnish Insurgency"
+
+
+  ########################## 
+  # FLAGS
+  ##########################
+
+  
+  ########################## 
+  # TOOLTIPS
+  ##########################
+  PB_RUS_Commit_to_Finland_tt:0 "§YIn an attempt to sate the whims of the §!§GUltramilitarists§!, §YRussia will fully commit her army to defeating the lingering Finnish insurgents.§!\n\n"
+  PB_RUS_Commit_to_Finland2_tt:0 "§YFailing to eliminate the Finnish Insurgency by the deadline will undermine the Duma's authority to the benefit of the§! §GUltramilitarists§!\n\n"
+
+  PB_All_Russian_Parliament_tt:0 "§YMaintaining a unitary Duma will ensure Russians remain dominant in the legislature over ethnic minority interests, but will preclude us from appointing ministers from autonomies in parliament.§!"
+  PB_Autonomist_Parliament_tt:0 "§YAllowing ethnic minorities to represent themselves in limited autonomous legislatures will cede some power from ethnic Russians, but will also allow us to appoint non Russian ministers to government positions.§!"
+
+  #######################
+  # PARTIES
+  #######################
+
+
+  #######################
+  # COSMETIC TAGS
+  #######################

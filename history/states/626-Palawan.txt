@@ -11,7 +11,7 @@ state=
 	
 	history=
 	{
-		owner = PHI
+		owner = DAS
 		buildings = {
 			infrastructure = 2
 			4429 = {

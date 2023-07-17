@@ -22,7 +22,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = WLA
+		add_core_of = FRA
 		add_core_of = WLA
 
 	}

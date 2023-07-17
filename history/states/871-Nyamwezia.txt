@@ -4,9 +4,8 @@ state={
 	name="STATE_872"
 
 	history={
-		owner = DAF
-		add_core_of = DAF
-		#add_core_of = TGY
+		owner = GLF
+		add_core_of = TGY
 		buildings = {
 			infrastructure = 2
 

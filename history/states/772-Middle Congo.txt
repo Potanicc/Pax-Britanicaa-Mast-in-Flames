@@ -10,9 +10,8 @@ state={
 		steel = 20
 	}
 	history={
-		owner = DAF
-		add_core_of = DAF
-		#add_core_of = COG
+		owner = GLF
+		add_core_of = COG
 		victory_points = {
 			8193 2
 		}

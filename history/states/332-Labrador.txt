@@ -6,7 +6,7 @@ state={
 
 	history={
 		owner = AME
-		add_core = AME
+		add_core_of = AME
 		buildings = {
 			infrastructure = 1
 

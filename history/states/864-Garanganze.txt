@@ -5,9 +5,9 @@ state={
 		rubber=2.00
 	}
 	history={
-		owner = PEF
-		add_core_of = PEF
+		owner = GAR
 		add_claim_by = COG
+		add_claim_by = PEF
 		add_core_of = GAR
 		buildings = {
 			infrastructure = 2

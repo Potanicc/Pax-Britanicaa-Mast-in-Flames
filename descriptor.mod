@@ -1,12 +1,6 @@
-version="1.0 DEV"
+version="0.1"
 tags={
 	"Alternative History"
-	"Graphics"
-	"Ideologies"
-	"Events"
-	"National Focuses"
-	"Map"
-	"Technologies"
 }
 name="Pax Britannica: Mast in Flames"
 replace_path = "common/ai_equipment"
@@ -42,4 +36,5 @@ replace_path = "map/strategicregions"
 replace_path = "map/supplyareas"
 replace_path = "tests"
 replace_path = "gfx/fonts"
-supported_version="1.12.14"
+supported_version="1.12.*"
+

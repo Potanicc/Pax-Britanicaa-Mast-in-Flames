@@ -351,6 +351,9 @@ GLG = "countries/Gulag Russia.txt"
 AZO = "countries/Area Zero.txt"
 PGA = "countries/Polish Galicia.txt"
 
+#Country tags from PB:MIF
+SCZ = "countries/Suez Canal Zone.txt"
+
 #do not edit below this line
 #----------------------------------------------------------
 USA = "countries/USA.txt"

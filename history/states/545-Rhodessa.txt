@@ -9,8 +9,9 @@ state={
 	}
 
 	history={
-		owner = PEF
-		add_core_of = PEF
+		owner = ZIM
+		add_core_of = ZIM
+		add_claim_by = PEF
 		buildings = {
 			infrastructure = 3
 
@@ -18,7 +19,6 @@ state={
 		victory_points = {
 			10929 1
 		}
-		add_core_of = ZIM
 
 	}
 

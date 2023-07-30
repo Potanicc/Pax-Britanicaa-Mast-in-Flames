@@ -10,8 +10,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = HOL
-		add_claim_by = SUR
+		owner = SUR
+		add_core_of = SUR
 		buildings = {
 			infrastructure = 2
 			12885 = {

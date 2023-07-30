@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = PEF
-		add_claim_by = AMZ
+		owner = SUR
+		add_core_of = SUR
 		buildings = {
 			infrastructure = 2
 			air_base = 1

@@ -12,7 +12,7 @@ state= {
 
 	history=
 	{
-		owner = ENG
+		owner = WLS
 		victory_points = { 377 5 }
 		victory_points = { 407 1 }
 		buildings = {
@@ -22,8 +22,8 @@ state= {
 				naval_base = 3
 			}
 		}
-		add_core_of = ENG
 		add_core_of = WLS
+		add_claim_by = BAF
 	}
 
 	provinces=

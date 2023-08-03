@@ -353,6 +353,7 @@ PGA = "countries/Polish Galicia.txt"
 
 #Country tags from PB:MIF
 SCZ = "countries/Suez Canal Zone.txt"
+ALM = "countries/Alemannia.txt"
 
 #do not edit below this line
 #----------------------------------------------------------

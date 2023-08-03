@@ -4,6 +4,7 @@
 #if base game country colors are altered (ie SOV/RUS, ENG, FRA), original code listed above in hashes so it can be reused elsewhere as needed
 #dont paste your shit at the top  G R E S T I N  :toad:
 #if shit is pasted at the top and its fucked then every country below is also fucked
+#if anyone is wondering, yes these are messages from base PB files and im too lazy to change them
 
 GER = {
 	color = rgb { 116 100 59 }
@@ -210,8 +211,8 @@ IRQ = {
 #	color_ui = hsv { 0.05 0.25 1.2 }
 #}
 JAP = {
-	color = rgb { 173 109 78 }
-	color_ui = rgb{ 173 109 78 }
+	color = rgb { 114 32 41 }
+	color_ui = rgb{ 114 32 41 }
 }
 MEX = {
 	color = rgb { 111 135 100 }
@@ -1872,4 +1873,8 @@ AZO = {
 PGA = {
 	color = rgb { 46 102 63 }
 	color_ui = rgb { 18 130 52 }
+} #Stuff below this is from PB:MIF
+ALM= {
+	color = rgb { 97 117 145 }
+	color_ui = rgb { 97 117 145 }
 }

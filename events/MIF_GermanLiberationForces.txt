@@ -1,0 +1,29 @@
+﻿###################
+# GERMAN LIBERATION FORCES EVENTS
+###################
+
+add_namespace = GLF
+add_namespace = GLF_flavour
+
+
+news_event = { #Jaunde Protests Start
+	id = GLF_flavour.1
+	title = GLF_flavour.1.t
+	desc = GLF_flavour.1.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+	major = yes
+    is_triggered_only = yes
+
+    trigger = {
+    date > 1933.2.22
+    } 
+	
+
+	option = {
+		name = GLF_flavour.1.a
+
+	}
+}

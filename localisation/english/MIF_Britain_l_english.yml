@@ -1,0 +1,30 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+#French England
+ OBR_ni:0 "English National Republic"
+ OBR_ni_DEF:0 "the English National Republic"
+ OBR_ds:0 "English National Republic"
+ OBR_ds_DEF:0 "the English National Republic"
+ OBR_rc:0 "English National Republic"
+ OBR_rc_DEF:0 "the English National Republic"
+ OBR_an:0 "English National Republic"
+ OBR_an_DEF:0 "the English National Republic"
+ OBR_cn:0 "English National Republic"
+ OBR_cn_DEF:0 "the English National Republic"
+ OBR_lb:0 "English National Republic"
+ OBR_lb_DEF:0 "the English National Republic"
+ OBR_ss:0 "English National Republic"
+ OBR_ss_DEF:0 "the English National Republic"
+ OBR_jc:0 "English National Republic"
+ OBR_jc_DEF:0 "the English National Republic"
+ OBR_ni_ADJ:0 "English"
+ OBR_rc_ADJ:0 "English"
+ OBR_lb_ADJ:0 "English"
+ OBR_ss_ADJ:0 "English"
+ OBR_jc_ADJ:0 "English"
+ OBR_ds_ADJ:0 "English"
+ OBR_cn_ADJ:0 "English"
+ OBR_an_ADJ:0 "English"
+

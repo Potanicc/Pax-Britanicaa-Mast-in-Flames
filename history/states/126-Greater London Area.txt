@@ -6,7 +6,7 @@ state={
 	state_category = megacity
 
 	history={
-		owner = ENG
+		owner = LON
 		victory_points = {
 			6103 50 
 		}
@@ -33,7 +33,8 @@ state={
 				naval_base = 10
 			}
 		}
-		add_core_of = ENG
+		add_core_of = LON
+		add_claim_by = BAF
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4

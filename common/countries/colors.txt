@@ -7,8 +7,8 @@
 #if anyone is wondering, yes these are messages from base PB files and im too lazy to change them
 
 GER = {
-	color = rgb { 116 100 59 }
-	color_ui = rgb { 116 100 59 }
+	color = rgb { 117 108 69 }
+	color_ui = rgb { 117 108 69 }
 }
 #ENG = {
 #	color = rgb { 201 56 93 }

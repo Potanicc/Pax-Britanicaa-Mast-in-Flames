@@ -10,7 +10,7 @@ state= {
 	state_category = town
 
 	history= {
-		owner = CON
+		owner = CRW
 		victory_points = { 540 10 }
 		victory_points = { 3463 1 }
 		buildings = {
@@ -24,8 +24,8 @@ state= {
 			}
 
 		}
-		add_core_of = CON
-		add_claim_by = BAF
+		add_core_of = CRW
+		add_claim_by = ENG
 	}
 
 	provinces= {

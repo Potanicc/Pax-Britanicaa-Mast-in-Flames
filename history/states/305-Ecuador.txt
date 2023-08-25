@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = ECU
+		owner = NWG
 
 		buildings = {
 			infrastructure = 3
@@ -25,7 +25,6 @@ state={
 			}
 		}
 		add_core_of = ECU
-		add_claim_by = NWG
 		victory_points = {
 			12798 5
 		}

@@ -2,7 +2,7 @@
 
 ### COUNTRY NAMES ###
 
-#French England
+#England
  OBR_ni:0 "English National Republic"
  OBR_ni_DEF:0 "the English National Republic"
  OBR_ds:0 "English National Republic"
@@ -28,3 +28,64 @@
  OBR_cn_ADJ:0 "English"
  OBR_an_ADJ:0 "English"
 
+
+#Scotland
+ SCO_ni:0 "Republic of Scotland"
+ SCO_ni_DEF:0 "the Republic of Scotland"
+ SCO_ds:0 "Republic of Scotland"
+ SCO_ds_DEF:0 "the Republic of Scotland"
+ SCO_rc:0 "Republic of Scotland"
+ SCO_rc_DEF:0 "the Republic of Scotland"
+ SCO_an:0 "Republic of Scotland"
+ SCO_an_DEF:0 "the Republic of Scotland"
+ SCO_cn:0 "Republic of Scotland"
+ SCO_cn_DEF:0 "the Republic of Scotland"
+ SCO_lb:0 "Republic of Scotland"
+ SCO_lb_DEF:0 "the Republic of Scotland"
+ SCO_ss:0 "Republic of Scotland"
+ SCO_ss_DEF:0 "the Republic of Scotland"
+ SCO_jc:0 "Revolutionary Republic of Scotland"
+ SCO_jc_DEF:0 "the Revolutionary Republic of Scotland"
+ SCO_ni_ADJ:0 "Scottish"
+ SCO_rc_ADJ:0 "Scottish"
+ SCO_lb_ADJ:0 "Scottish"
+ SCO_ss_ADJ:0 "Scottish"
+ SCO_jc_ADJ:0 "Scottish"
+ SCO_ds_ADJ:0 "Scottish"
+ SCO_cn_ADJ:0 "Scottish"
+ SCO_an_ADJ:0 "Scottish"
+
+
+ #Wales
+
+
+
+ #London
+
+
+
+ #Cornwall
+ CRW_ni:0 "Gouvernorat de Cornouailles"
+ CRW_ni_DEF:0 "Le Gouvernorat de Cornouailles"
+ CRW_ds:0 "Independent Republic of Cornwall"
+ CRW_ds_DEF:0 "the Independent Republic of Cornwall"
+ CRW_rc:0 "Independent Republic of Cornwall"
+ CRW_rc_DEF:0 "the Independent Republic of Cornwall"
+ CRW_an:0 "Independent Republic of Cornwall"
+ CRW_an_DEF:0 "the Independent Republic of Cornwall"
+ CRW_cn:0 "Independent Republic of Cornwall"
+ CRW_cn_DEF:0 "the Independent Republic of Cornwall"
+ CRW_lb:0 "Independent Republic of Cornwall"
+ CRW_lb_DEF:0 "the Independent Republic of Cornwall"
+ CRW_ss:0 "Independent Republic of Cornwall"
+ CRW_ss_DEF:0 "the Independent Republic of Cornwall"
+ CRW_jc:0 "People's Republic of Cornwall"
+ CRW_jc_DEF:0 "the People's Republic of Cornwall"
+ CRW_ni_ADJ:0 "Cornish"
+ CRW_rc_ADJ:0 "Cornish"
+ CRW_lb_ADJ:0 "Cornish"
+ CRW_ss_ADJ:0 "Cornish"
+ CRW_jc_ADJ:0 "Cornish"
+ CRW_ds_ADJ:0 "Cornish"
+ CRW_cn_ADJ:0 "Cornish"
+ CRW_an_ADJ:0 "Cornish"

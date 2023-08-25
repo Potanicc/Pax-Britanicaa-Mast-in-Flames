@@ -1,0 +1,48 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+ JAP_ni:0 "Japanese Provisional Authority"
+ JAP_ni_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_ds:0 "Japanese Provisional Authority"
+ JAP_ds_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_rc:0 "Japanese Provisional Authority"
+ JAP_rc_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_an:0 "Japanese Provisional Authority"
+ JAP_an_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_cn:0 "Japanese Provisional Authority"
+ JAP_cn_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_lb:0 "Japanese Provisional Authority"
+ JAP_lb_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_ss:0 "Japanese Provisional Authority"
+ JAP_ss_DEF:0 "the Provisional Government of the Republic of Japan"
+ JAP_jc:0 "Republic of Japan"
+ JAP_jc_DEF:0 "the Republic of Japan"
+ JAP_ni_ADJ:0 "Japanese"
+ JAP_rc_ADJ:0 "Japanese"
+ JAP_lb_ADJ:0 "Japanese"
+ JAP_ss_ADJ:0 "Japanese"
+ JAP_jc_ADJ:0 "Japanese"
+ JAP_ds_ADJ:0 "Japanese"
+ JAP_cn_ADJ:0 "Japanese"
+ JAP_an_ADJ:0 "Japanese"
+
+ 
+ ### PARTY NAMES ###
+ JAP_jc_party:0 "Kakumei-teki jinmin kyōkai"
+ JAP_jc_party_long:0 "Kakumei-teki jinmin kyōkai"
+ JAP_ss_party:0 "Sakurakai"
+ JAP_ss_party_long:0 "Sakurakai"
+ JAP_lb_party:0 "Kyokujitsu Doumei"
+ JAP_lb_party_long:0 "Kyokujitsu Doumei - Moderates"
+ JAP_cn_party:0 "Kyokujitsu Doumeiō"
+ JAP_cn_party_long:0 "Kyokujitsu Doumei - Moderates"
+ JAP_an_party:0 "Zaitbatsu Araiansu"
+ JAP_an_party_long:0 "Zaitbatsu Araiansu"
+ JAP_rc_party:0 "Kyokujitsu Doumei"
+ JAP_rc_party_long:0 "Kyokujitsu Doumei - Traditionalists"
+ JAP_ds_party:0 "Kyokujitsu Doumei"
+ JAP_ds_party_long:0 "Kyokujitsu Doumei - Traditionalists"
+ JAP_ni_party:0 "Kyokujitsu Doumei"
+ JAP_ni_party_long:0 "Kyokujitsu Doumei - Extremists"
+

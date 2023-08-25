@@ -1,4 +1,4 @@
-﻿###################
+###################
 # GERMAN LIBERATION FORCES EVENTS
 ###################
 
@@ -6,24 +6,145 @@ add_namespace = GLF
 add_namespace = GLF_flavour
 
 
-news_event = { #Jaunde Protests Start
-	id = GLF_flavour.1
-	title = GLF_flavour.1.t
-	desc = GLF_flavour.1.d
+### COUNTRY EVENTS ###
+	country_event = { #Jaunde Protests Start
+	id = GLF.1
+	title = GLF.1.t
+	desc = GLF.1.d
 	picture = GFX_PBNews_Papal_Conclave_1
 
     fire_only_once = yes
 
-	major = yes
     is_triggered_only = yes
-
-    trigger = {
-    date > 1933.2.22
-    } 
 	
-
 	option = {
-		name = GLF_flavour.1.a
+		name = GLF.1.a
+
+		add_stability = -0.15
+
+		news_event = {
+			id = GLF_flavour.1
+			days = 2
+			}
+		}
+	}
+
+	country_event = { #Triumvirate Takes Power
+	id = GLF.2
+	title = GLF.2.t
+	desc = GLF.2.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = GLF.2.a
+
+		set_politics = {
+			ruling_party = ds
+		}
+
+		news_event = {
+			id = GLF_flavour.2
+			days = 2
+			}
+		}
+	}
+
+	country_event = { #SA War - Independence Movements Rise Up
+	id = GLF.3
+	title = GLF.3.t
+	desc = GLF.3.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = GLF.3.a
+
+		CHA = {
+			transfer_state = 774
+		}
+		CAR = {
+			transfer_state = 660
+		}
+		CMR = {
+			transfer_state = 773
+		}
+		GAB = {
+			transfer_state = 539
+		}
+		RCG = {
+			transfer_state = 295
+		}
+		ANG = {
+			transfer_state = 874
+			transfer_state = 873
+			transfer_state = 540
+		}
+		BOT = {
+			transfer_state = 542
+		}
+		RWA = {
+			transfer_state = 768
+		}
+		BRD = {
+			transfer_state = 769
+		SAC = {
+			transfer_state = 541
+			transfer_state = 783
+			add_state_core = 541
+			add_state_core = 783
+			}
+		hidden_effect = {
+			country_event = { id = GLF.4 days = 3}
+		}
+	}
+
 
 	}
+
+	country_event = { #SA War - War Begins
+	id = GLF.4
+	title = GLF.4.t
+	desc = GLF.4.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = GLF.4.a
+
+		declare_war_on = {
+			target = CMR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GAB
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CHA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CAR
+			type = annex_everything
+		}
+
+		news_event = {
+			id = GLF_flavour.3
+			days = 2
+			}
+		}
+	}
+
+
+
 }

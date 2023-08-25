@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = OBR
 		victory_points = {
 			9379 15 
 		}
@@ -31,7 +31,8 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = ENG
+		add_core_of = OBR
+		add_claim_by = ENG
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

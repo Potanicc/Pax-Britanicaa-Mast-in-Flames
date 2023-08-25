@@ -317,7 +317,6 @@ OCT = "countries/Occitania.txt"
 NRM = "countries/Normandy.txt"
 BRG = "countries/Burgundy.txt"
 IST = "countries/Italian Social Republic.txt"
-CON = "countries/Cornwall.txt"
 WEE = "countries/Weser-Ems.txt"
 HES = "countries/Hessen.txt"
 ADY = "countries/Adygea.txt"
@@ -354,6 +353,8 @@ PGA = "countries/Polish Galicia.txt"
 #Country tags from PB:MIF
 SCZ = "countries/Suez Canal Zone.txt"
 ALM = "countries/Alemannia.txt"
+CRW = "countries/Cornwall.txt"
+SAC = "countries/Southern Army Corps.txt"
 
 #do not edit below this line
 #----------------------------------------------------------

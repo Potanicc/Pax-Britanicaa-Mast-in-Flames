@@ -212,7 +212,7 @@ IRQ = {
 #}
 JAP = {
 	color = rgb { 114 32 41 }
-	color_ui = rgb{ 114 32 41 }
+	color_ui = rgb { 114 32 41 }
 }
 MEX = {
 	color = rgb { 111 135 100 }
@@ -1705,7 +1705,7 @@ SCA = {
 	color_ui = rgb { 168  0  0 }
 }
 
-CON = {
+CRW = {
 	color = rgb { 55 86 153 }
 	color_ui = rgb { 55 86 153 }
 }
@@ -1731,8 +1731,8 @@ WSP = {
 }
 
 GLF = {
-	color = rgb { 168 168 168 }
-	color_ui = rgb { 168 168 168 }
+	color = rgb { 117 108 69 }
+	color_ui = rgb { 117 108 69 }
 }
 
 FAL = {

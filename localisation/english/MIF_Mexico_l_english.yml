@@ -1,0 +1,31 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+#Empire of Mexico
+ MEX_ni:0 "Empire of Mexico"
+ MEX_ni_DEF:0 "The Empire of Mexico"
+ MEX_ds:0 "Empire of Mexico"
+ MEX_ds_DEF:0 "The Empire of Mexico"
+ MEX_rc:0 "Empire of Mexico"
+ MEX_rc_DEF:0 "The Empire of Mexico"
+ MEX_an:0 "Empire of Mexico"
+ MEX_an_DEF:0 "The Empire of Mexico"
+ MEX_cn:0 "Empire of Mexico"
+ MEX_cn_DEF:0 "The Empire of Mexico"
+ MEX_lb:0 "Empire of Mexico"
+ MEX_lb_DEF:0 "The Empire of Mexico"
+ MEX_ss:0 "Empire of Mexico"
+ MEX_ss_DEF:0 "The Empire of Mexico"
+ MEX_jc:0 "Empire of Mexico"
+ MEX_jc_DEF:0 "The Empire of Mexico"
+ MEX_ni_ADJ:0 "Mexican"
+ MEX_rc_ADJ:0 "Mexican"
+ MEX_lb_ADJ:0 "Mexican"
+ MEX_ss_ADJ:0 "Mexican"
+ MEX_jc_ADJ:0 "Mexican"
+ MEX_ds_ADJ:0 "Mexican"
+ MEX_cn_ADJ:0 "Mexican"
+ MEX_an_ADJ:0 "Mexican"
+
+

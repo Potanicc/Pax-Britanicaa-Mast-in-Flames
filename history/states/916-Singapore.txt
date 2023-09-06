@@ -2,7 +2,7 @@ state={
 	id=916
 	name="STATE_916"
 	history={
-		owner = SNG
+		owner = MAL
 		victory_points = {
 			12299 10 
 		}
@@ -17,7 +17,7 @@ state={
 				coastal_bunker = 3
 			}
 		}
-		add_core_of = SNG
+		add_core_of = MAL
 	}
 	provinces={
 		12113 12299

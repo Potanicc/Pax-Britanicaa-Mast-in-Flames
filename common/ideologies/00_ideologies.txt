@@ -470,6 +470,9 @@ ideologies = {
 
 			JC_VARIANT_07 = { #Social Banditry
 			}
+
+			JC_VARIANT_08 = { #Malakaism
+			}
 		}
 		
 		dynamic_faction_names = {

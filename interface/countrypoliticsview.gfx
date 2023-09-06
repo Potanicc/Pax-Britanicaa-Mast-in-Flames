@@ -489,6 +489,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_JC_VARIANT_08"
+		texturefile = "gfx/interface/ideologies/JC_VARIANT_08.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_ss_group"
 		texturefile = "gfx/interface/ideologies/ss_group.dds"
 	}

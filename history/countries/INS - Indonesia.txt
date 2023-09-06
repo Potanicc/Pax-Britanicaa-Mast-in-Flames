@@ -16,26 +16,31 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
-add_ideas = { 
-PB_Colonial_Government
-PB_NI_Order
-PB_Govidea_Free_Market_Capitalism
+add_ideas = {
 
-PB_No_Voting
-PB_State_Press
+PB_INS_left_right_clashes
+PB_INS_constructing_indonesia
+
+
+PB_Revolutionary_Republic
+PB_NI_Revolution
+PB_Govidea_Planned_Economy
+
+PB_Managed_Democracy
+PB_Limited_Censorship
 PB_Public_Meetings_Monitored
 PB_Limited_Womens_Rights
 PB_Limited_Autonomy
 PB_Law_Intimidation_Policing
 
-PB_No_Limit_Workday
-PB_No_Healthcare
-PB_Basic_Education
-PB_No_Welfare
+PB_8_Hour_Workday
+PB_Universal_Healthcare
+PB_Universal_Basic
+PB_Generous_Welfare
 PB_Sociogenetics_Allowed
 PB_Augmentation_No_Legislation
 
-PB_Rampant_Poverty
+PB_Significant_Poverty
 PB_Semi_Industrialized
 PB_Rampant_Illiteracy
 PB_Market_Underperformance
@@ -44,24 +49,23 @@ PB_Partially_Westernized
 
 }
 set_stability = 0.5
-set_war_support = 0.1
-set_country_flag = PB_Colonial_Nation
+set_war_support = 0.5
 
-set_convoys = 5
+set_convoys = 60
 
 set_popularities = {
-	ni = 5
-	ds = 16
-	rc = 10
-	cn = 56
-	lb = 8
-	an = 3
-	ss = 1
-	jc = 1
+	ni = 1
+	ds = 3
+	rc = 32
+	cn = 0
+	lb = 10
+	an = 1
+	ss = 9
+	jc = 44
 }
 
 set_politics = {
-	ruling_party = ds
+	ruling_party = jc
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -119,8 +123,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "No Leader"
+	name = "Tan Malaka"
 	desc = ""
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
-	ideology = JC_VARIANT_01
+	picture = "gfx/leaders/INS/Portrait_INS_Tan_Malaka.png"
+	ideology = JC_VARIANT_08
 }

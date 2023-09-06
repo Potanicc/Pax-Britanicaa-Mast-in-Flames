@@ -1,0 +1,55 @@
+##################
+# MEXICO / MEXICAN STATE IDEAS
+##################
+
+ideas = {
+
+	country = {
+
+		PB_INS_left_right_clashes = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = PB_HUN_Collapsing_Government
+			
+			removal_cost = -1
+	
+			modifier = {
+                stability_factor = -0.15
+				political_power_cost = 0.50
+			}
+		}
+
+		PB_INS_constructing_indonesia = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = backward_industry
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_buildings_factor = 0.30
+				consumer_goods_factor = -0.15
+				global_building_slots_factor = 0.20
+				stability_factor = -0.30
+				monthly_population = -0.20
+			}
+		}
+
+    }
+}

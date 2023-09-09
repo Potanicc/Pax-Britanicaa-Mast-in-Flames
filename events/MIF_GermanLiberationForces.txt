@@ -3,7 +3,9 @@
 ###################
 
 add_namespace = GLF
+add_namespace = GLF_sac
 add_namespace = GLF_flavour
+add_namespace = GLF_postwar
 
 
 ### COUNTRY EVENTS ###
@@ -104,11 +106,11 @@ add_namespace = GLF_flavour
 			country_event = { id = GLF.4 days = 3}
 		}
 	}
-
+}
 
 	}
 
-	country_event = { #SA War - War Begins
+	country_event = { #SA War - Everything Goes to Hell
 	id = GLF.4
 	title = GLF.4.t
 	desc = GLF.4.d
@@ -121,14 +123,7 @@ add_namespace = GLF_flavour
 	option = {
 		name = GLF.4.a
 
-		declare_war_on = {
-			target = CMR
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = GAB
-			type = annex_everything
-		}
+	GLF = {
 		declare_war_on = {
 			target = CHA
 			type = annex_everything
@@ -137,14 +132,215 @@ add_namespace = GLF_flavour
 			target = CAR
 			type = annex_everything
 		}
+		declare_war_on = {
+			target = CMR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GAB
+			type = annex_everything
+		}
+	}
+	SAC = {
+		declare_war_on = {
+			target = BOT
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ANG
+			type = annex_everything
+		}
+	}
+}
 
-		news_event = {
-			id = GLF_flavour.3
-			days = 2
+	}
+
+	country_event = { #Government Falls
+	id = GLF.5
+	title = GLF.5.t
+	desc = GLF.5.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = GLF.5.a
+
+	create_country_leader = {
+			name = "Fallen Government"
+			desc = "MIF_GLF_Fallen_Government_DESC"
+			picture = "Portrait_No_Leader.dds"
+			expire = "1965.1.1"
+			ideology = DS_VARIANT_01
+	}
+}
+
+	}
+
+	country_event = { #Power Struggle
+	id = GLF.6
+	title = GLF.6.t
+	desc = GLF.6.d
+	picture = GFX_report_PB_Secret_Documents
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #Federalists
+		name = GLF.6.a
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				add = 1000
+				OR = {
+					has_game_rule = {
+						rule = MIF_GLF_PATH
+						option = GLF_FEDERALIST_PATH
+					}
+				}
 			}
 		}
+
+		set_politics = {
+			ruling_party = lb
+		}
+
+		add_popularity = {
+			ideology = lb
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = an
+			popularity = 0.05
+		}
+
+		set_country_flag = MIF_Federalists_In_Power
+
+		hidden_effect = {
+			country_event = { id = GLF.7 days = 3 }
+		}
+
+	}
+
+	option = { #State Socialists
+		name = GLF.6.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				add = 1000
+				has_game_rule = {
+					rule = MIF_GLF_PATH
+					option = GLF_STATESOCIALISTS_PATH
+				}
+			}
+		}
+
+		set_politics = {
+			ruling_party = ss
+		}
+
+		add_popularity = {
+			ideology = ss
+			popularity = 0.15
+		}
+
+		set_country_flag = MIF_StateSocialists_In_Power
+
 	}
 
 
+	}
 
+	country_event = { #Anarcho-Liberal Coup Attempt
+	id = GLF.7
+	title = GLF.7.t
+	desc = GLF.7.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = GLF.7.a
+
+	set_politics = {
+		ruling_party = an
+	}
+
+	add_popularity = {
+		ideology = an
+		popularity = 0.05
+	}
+	add_popularity = {
+		ideology = lb
+		popularity = -0.05
+	}
+
+	clr_country_flag = MIF_Federalists_In_Power
+
+	set_country_flag = MIF_AnarchoLibs_In_Power
+
+	}
+
+	option = {
+		name = GLF.7.b
+
+	add_popularity = {
+		ideology = an
+		popularity = -0.1
+	}
+	add_popularity = {
+		ideology = lb
+		popularity = 0.1
+	}
+
+	}
+
+		}
+
+	country_event = { #Formation of the Federation
+	id = GLF_postwar.1
+	title = GLF_postwar.1.t
+	desc = GLF_postwar.1.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+
+	trigger = {
+		GLF = {
+  		owns_state = 772
+  		owns_state = 539
+  		owns_state = 773
+ 		owns_state = 660
+  		owns_state = 774
+  		has_country_flag = MIF_Federalists_In_Power
+		}
+	}
+	
+	option = {
+		name = GLF_postwar.1.a
+
+	set_cosmetic_tag = GLF_Federation
+
+	puppet = GAB
+
+	GAB = {
+		transfer_state = 539
+		set_cosmetic_tag = GAB_autonomous
+		set_politics = {
+			ruling_party = lb
+		}
+	}
+
+	clr_country_flag = MIF_Federalists_In_Power
+
+	}
 }

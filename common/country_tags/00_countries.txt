@@ -459,3 +459,6 @@ TAB = "countries/Tabernacle.txt"
 NWA = "countries/New Walden.txt"
 LON = "countries/London.txt"
 SND = "countries/Scandinavia.txt"
+
+#Everything below is from PB:MIF
+SRB = "countries/Sorbia.txt"

@@ -971,3 +971,13 @@ KUM_XSM_Puppet = {
 	color = rgb { 19 53 96 }
 	color_ui = rgb { 19 53 96 }
 }
+
+#Everything below this is from PB:MIF
+GAB_autonomous = {
+	color = rgb { 117 108 69 }
+	color_ui = rgb { 117 108 69 }
+}
+SRB_occupied = {
+	color = rgb { 30 69 42 }
+	color_ui = rgb { 30 69 42 }
+}

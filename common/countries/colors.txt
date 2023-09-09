@@ -1874,7 +1874,11 @@ PGA = {
 	color = rgb { 46 102 63 }
 	color_ui = rgb { 18 130 52 }
 } #Stuff below this is from PB:MIF
-ALM= {
+ALM = {
 	color = rgb { 97 117 145 }
 	color_ui = rgb { 97 117 145 }
+}
+SRB = {
+	color = rgb { 72  73  126 }
+	color_ui = rgb { 72  73  126 }
 }

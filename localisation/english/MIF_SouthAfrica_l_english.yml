@@ -80,3 +80,13 @@
  ANG_ds_ADJ:0 "Angolan"
  ANG_cn_ADJ:0 "Angolan"
  ANG_an_ADJ:0 "Angolan"
+
+
+ ### COSMETIC TAGS ###
+
+ #GLF Autonomies
+ GAB_autonomous:0 "Gabun Gouvernement"
+ GAB_autonomous_DEF:0 "Gabun Gouvernement"
+ GAB_autonomous_ADJ:0 "Gabonese"
+
+ 

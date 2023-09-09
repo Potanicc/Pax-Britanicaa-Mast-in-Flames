@@ -58,81 +58,21 @@ division_template = {
 units = {
 	division= {	
 		name = "Karl Dönitz Division"
-		location = 10306
+		location = 12910
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.00
 	}
 	division= {	
 		name = "Ferdinand von Bredow Division"
-		location = 10306
+		location = 12910
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.00
 	}
 	division= {	
-		name = "Cebu Inseln Kolonialgarnison"
-		location = 12118
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-	}
-	division= {	
-		name = "Schlieffenshaven Kolonialgarnison"
-		location = 4241
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-	division= {	
-		name = "Palau Kolonialgarnison"
-		location = 4357
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-
-	division= {	
-		name = "Karolinen Kolonialgarnison"
-		location = 13028
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.5
-	}
-
-	division= {	
-		name = "Guam Kolonialgarnison"
-		location = 12140
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-
-	division= {	
-		name = "Saipan Kolonialgarnison"
-		location = 3995
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-	}
-
-	division= {	
-		name = "Marshallinseln Kolonialgarnison"
-		location = 13043
-		division_template = "Kolonialgarnison"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.5
-    }
-	division= {	
-		name = "1.Tsingtau Infanterie-Division"
-		location = 10000
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
-	}
-	division= {	
 		name = "1.Marine Brigade"
-		location = 4429
+		location = 12910
 		division_template = "Marine Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1

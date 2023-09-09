@@ -417,8 +417,8 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 128  158  118 }
-	color_ui = rgb { 128  158  118 }
+	color = rgb { 20 105 20 }
+	color_ui = rgb { 20 158 20 }
 }
 
 VIN = {

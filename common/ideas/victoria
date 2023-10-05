@@ -1,0 +1,38 @@
+ideas = {
+
+	country = {
+		VIC_remnants_royal_navy = {
+
+			allowed = {
+				tag = VIC
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_navy = 0.05
+				naval_doctrine_cost_factor = -0.10
+				war_support_factor = 0.05
+				political_power_cost = 0.10
+
+			}
+			targeted_modifier = {
+			    tag = JAP
+			    attack_bonus_against = 0.1
+			    defense_bonus_against = 0.1
+			}
+		}
+	}
+}

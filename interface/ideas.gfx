@@ -6343,5 +6343,9 @@ spriteTypes = {
 		name = "GFX_idea_sov_blyukher"
 		texturefile = "gfx/interface/ideas/idea_sov_blyukher.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Remnants_Royal_Navy"
+		texturefile = "gfx/interface/ideas/idea_Remnants_Royal_Navy.dds"
+	}
 	
 }

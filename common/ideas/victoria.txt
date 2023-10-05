@@ -1,7 +1,9 @@
 ideas = {
 
 	country = {
-		VIC_remnants_royal_navy = {
+		VIC_Remnants_Royal_Navy = {
+
+			picture = Remnants_Royal_Navy
 
 			allowed = {
 				tag = VIC

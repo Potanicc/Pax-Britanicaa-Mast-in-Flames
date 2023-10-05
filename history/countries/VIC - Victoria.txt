@@ -106,6 +106,7 @@ set_convoys = 153
 add_ideas = {
 CoF_Prince_Leopold
 PB_VIC_Legacy_Victory
+VIC_Remnants_Royal_Navy
 
 PB_NI_Liberty
 PB_Parliamentary_Monarchy

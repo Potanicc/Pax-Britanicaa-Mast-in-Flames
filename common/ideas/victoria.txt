@@ -1,9 +1,38 @@
 ideas = {
 
 	country = {
-		VIC_Remnants_Royal_Navy = {
+		VIC_admiral_pacific = {
 
-			picture = Remnants_Royal_Navy
+			picture = VIC_admiral_pacific
+
+			allowed = {
+				tag = VIC
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			war_support_factor = 0.05
+			political_power_cost = 0.10
+			}
+		}
+
+		VIC_tattered_flag_royal_navy = {
+
+			picture = VIC_tattered_flag_royal_navy
+
 
 			allowed = {
 				tag = VIC
@@ -26,14 +55,38 @@ ideas = {
 			modifier = {
 				experience_gain_navy = 0.05
 				naval_doctrine_cost_factor = -0.10
-				war_support_factor = 0.05
-				political_power_cost = 0.10
-
 			}
 			targeted_modifier = {
 			    tag = JAP
 			    attack_bonus_against = 0.1
 			    defense_bonus_against = 0.1
+			}
+		}
+
+		VIC_troubles = {
+
+			picture = VIC_troubles
+
+			allowed = {
+				tag = VIC
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
 			}
 		}
 	}

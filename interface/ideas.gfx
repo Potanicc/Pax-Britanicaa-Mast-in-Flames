@@ -1,8 +1,5 @@
 spriteTypes = {	
-
-
-
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 17		
@@ -6354,6 +6351,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_VIC_troubles"
 		texturefile = "gfx/interface/ideas/idea_VIC_troubles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIC_admiral_pacific_legacy"
+		texturefile = "gfx/interface/ideas/idea_VIC_admiral_pacific_legacy.dds"
 	}
 
 }

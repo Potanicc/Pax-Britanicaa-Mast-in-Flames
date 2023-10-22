@@ -1,0 +1,15 @@
+spriteTypes = { 
+	spriteType = {
+		name = "GFX_Portrait_VIC_Robert_Muldoon.dds"
+		texturefile = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_VIC_Walter_Nash.dds"
+		texturefile = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_VIC_Keith_Holyoake.dds"
+		texturefile = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.dds"
+	}
+	
+}

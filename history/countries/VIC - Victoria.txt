@@ -33,6 +33,9 @@ set_technology = {
 }
 
 recruit_character = VIC_Leslie_Morshead
+recruit_character = VIC_Walter_Nash
+recruit_character = VIC_Keith_Holyoake
+recruit_character = VIC_Robert_Muldoon
 
 if = {
 	limit = {
@@ -103,9 +106,7 @@ set_war_support = 0.5
 
 set_convoys = 153
 
-add_ideas = {
-CoF_Prince_Leopold
-PB_VIC_Legacy_Victory
+add_ideas = { 
 VIC_admiral_pacific
 VIC_tattered_flag_royal_navy
 VIC_troubles
@@ -144,21 +145,21 @@ set_politics = {
 }
 
 set_popularities = {
-    ni = 4
-    ds = 6
-    rc = 9
-    cn = 22
-    lb = 10
-    an = 8
-    ss = 36
-    jc = 5
+    ni = 0
+    ds = 10
+    rc = 5
+    cn = 36
+    lb = 5
+    an = 4
+    ss = 40
+    jc = 0
 }
 
 create_country_leader = {
-	name = "George William Forbes"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_VIC_George_Forbes.dds"
-	ideology = SS_VARIANT_01
+	name = "Walter Nash"
+	desc = "PB_NO_DESCRIPTION"
+	picture = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.dds"
+	ideology = SS_VARIANT_03
 }
 
 create_country_leader = {
@@ -169,9 +170,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "No Leader"
-	desc = ""
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	name = "Robert Muldoon"
+	desc = "PB_NO_DESCRIPTION"
+	picture = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.dds"
 	ideology = DS_VARIANT_01
 }
 
@@ -183,9 +184,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "No Leader"
-	desc = ""
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	name = "Keith Holyoake"
+	desc = "PB_NO_DESCRIPTION"
+	picture = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.dds"
 	ideology = CN_VARIANT_01
 }
 

@@ -114,3 +114,11 @@ create_country_leader = {
 	ideology = JC_VARIANT_01
 }
 
+### DIPLOMACY ###
+
+diplomatic_relation = {
+	country = SPR
+	relation = non_aggression_pact
+	active = yes
+}
+

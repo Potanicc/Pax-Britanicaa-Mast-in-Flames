@@ -2,7 +2,6 @@
 
 ### COUNTRY NAMES ###
 
-#England
  OBR_ni:0 "English National Republic"
  OBR_ni_DEF:0 "the English National Republic"
  OBR_ds:0 "English National Republic"
@@ -28,8 +27,6 @@
  OBR_cn_ADJ:0 "English"
  OBR_an_ADJ:0 "English"
 
-
-#Scotland
  SCO_ni:0 "Republic of Scotland"
  SCO_ni_DEF:0 "the Republic of Scotland"
  SCO_ds:0 "Republic of Scotland"
@@ -55,16 +52,6 @@
  SCO_cn_ADJ:0 "Scottish"
  SCO_an_ADJ:0 "Scottish"
 
-
- #Wales
-
-
-
- #London
-
-
-
- #Cornwall
  CRW_ni:0 "Gouvernorat de Cornouailles"
  CRW_ni_DEF:0 "Le Gouvernorat de Cornouailles"
  CRW_ds:0 "Independent Republic of Cornwall"
@@ -89,3 +76,28 @@
  CRW_ds_ADJ:0 "Cornish"
  CRW_cn_ADJ:0 "Cornish"
  CRW_an_ADJ:0 "Cornish"
+
+ IRE_ni:0 "Irish Republic"
+ IRE_ni_DEF:0 "Le Irish Republic"
+ IRE_ds:0 "Irish Republic"
+ IRE_ds_DEF:0 "the Irish Republic"
+ IRE_rc:0 "Irish Republic"
+ IRE_rc_DEF:0 "the Irish Republic"
+ IRE_an:0 "Irish Republic"
+ IRE_an_DEF:0 "the Irish Republic"
+ IRE_cn:0 "Irish Republic"
+ IRE_cn_DEF:0 "the Irish Republic"
+ IRE_lb:0 "Irish Republic"
+ IRE_lb_DEF:0 "the Irish Republic"
+ IRE_ss:0 "Irish Republic"
+ IRE_ss_DEF:0 "the Irish Republic"
+ IRE_jc:0 "Irish Common Republic"
+ IRE_jc_DEF:0 "the Irish Common Republic"
+ IRE_ni_ADJ:0 "Irish"
+ IRE_rc_ADJ:0 "Irish"
+ IRE_lb_ADJ:0 "Irish"
+ IRE_ss_ADJ:0 "Irish"
+ IRE_jc_ADJ:0 "Irish"
+ IRE_ds_ADJ:0 "Irish"
+ IRE_cn_ADJ:0 "Irish"
+ IRE_an_ADJ:0 "Irish"

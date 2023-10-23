@@ -4,8 +4,7 @@ state={
 	name="STATE_157"
 
 	history={
-set_state_flag = ITA_conservatives
-		owner = ITA
+		owner = IST
 		victory_points = {
 			925 1 
 		}
@@ -22,7 +21,6 @@ set_state_flag = ITA_conservatives
 		}
 		add_core_of = ITA
 		add_core_of = IST
-		add_core_of = PAP
 	}
 
 	provinces={

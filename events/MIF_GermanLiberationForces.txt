@@ -312,15 +312,14 @@ add_namespace = GLF_postwar
 
     fire_only_once = yes
 
-    is_triggered_only = yes
-
 	trigger = {
+		NOT = {
+			country_exists = GAB
+			country_exists = CMR
+			country_exists = CHA
+			country_exists = CAR
+		}
 		GLF = {
-  		owns_state = 772
-  		owns_state = 539
-  		owns_state = 773
- 		owns_state = 660
-  		owns_state = 774
   		has_country_flag = MIF_Federalists_In_Power
 		}
 	}
@@ -331,10 +330,34 @@ add_namespace = GLF_postwar
 	set_cosmetic_tag = GLF_Federation
 
 	puppet = GAB
+	puppet = CMR
+	puppet = CHA
+	puppet = CAR
 
 	GAB = {
 		transfer_state = 539
 		set_cosmetic_tag = GAB_autonomous
+		set_politics = {
+			ruling_party = lb
+		}
+	}
+	CMR = {
+		transfer_state = 773
+		set_cosmetic_tag = CMR_autonomous
+		set_politics = {
+			ruling_party = lb
+		}
+	}
+	CHA = {
+		transfer_state = 774
+		set_cosmetic_tag = CHA_autonomous
+		set_politics = {
+			ruling_party = lb
+		}
+	}
+	CAR = {
+		transfer_state = 660
+		set_cosmetic_tag = CAR_autonomous
 		set_politics = {
 			ruling_party = lb
 		}

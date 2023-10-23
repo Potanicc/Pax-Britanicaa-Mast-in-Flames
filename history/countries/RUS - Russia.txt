@@ -525,6 +525,10 @@ set_popularities = {
 	jc = 0
 }
 
+create_faction = RUS_fac
+add_to_faction = RUS
+
+
 FIN = {
     set_politics = {
         ruling_party = ds

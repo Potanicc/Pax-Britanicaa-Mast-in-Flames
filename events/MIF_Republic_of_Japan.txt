@@ -1,0 +1,47 @@
+###################
+# JAPANESE EVENTS
+###################
+
+add_namespace = Japan_Provisional
+
+
+### COUNTRY EVENTS ###
+	country_event = { #Israel Begins fortifying Haifa
+	id = Japan_Provisional.1
+	title = Japan_Provisional.1.t
+	desc = Japan_Provisional.1.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = 2JAW.1.a
+
+		news_event = {
+			id = 2JAW_News.1
+			days = 2
+			}
+		}
+
+	country_event = { #Arabs Revolt
+	id = 2JAW.2
+	title = 2JAW.2.t
+	desc = 2JAW.2.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = {
+		name = 2JAW.2.a
+
+		news_event = {
+			id = 2JAW_News.1
+			days = 2
+			}
+		}
+	}
+}

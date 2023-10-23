@@ -192,7 +192,12 @@ set_convoys = 200
 
 add_manpower = 220000
 
-create_faction = REV
+### DIPLOMACY ###
+
+create_faction = CSE
+add_to_faction = IST
+add_to_faction = SPR
+add_to_faction = ALM
 
 FRA = {
 	add_opinion_modifier = {
@@ -267,7 +272,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = ds
+	ruling_party = ni
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

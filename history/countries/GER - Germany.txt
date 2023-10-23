@@ -6,13 +6,19 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "GER_1933"
+set_oob = "GER_1933"
 }
-if = {
-	limit = {
-		has_dlc = "No Step Back"
+FRA = {
+	if = {
+		limit= {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = GER
+		autonomous_state = autonomy_PB_Collaborator_State
 	}
-	set_oob = "GER_1933_nsb"
+	else = {
+		puppet = GER
+	}
 }
 
 
@@ -438,7 +444,7 @@ GER = {
 }
 
 set_politics = {
-	ruling_party = lb
+	ruling_party = ni
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

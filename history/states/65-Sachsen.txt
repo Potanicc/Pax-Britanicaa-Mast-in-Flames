@@ -12,7 +12,7 @@ state={
 
 
 	history={
-		owner = GER
+		owner = SRB
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
@@ -24,8 +24,8 @@ state={
 		victory_points = {
 			3535 10
 		}
-		add_core_of = GER
-		add_core_of = SAX
+		add_core_of = SRB
+		add_claim_by = GLF
 		
 	}
 

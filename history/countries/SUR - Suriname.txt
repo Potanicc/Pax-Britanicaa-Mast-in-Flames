@@ -1,7 +1,19 @@
 ﻿starting_train_buffer = 2
 capital = 309
 
-#oob = ""
+oob = "SUR_1957"
+AME = {
+	if = {
+		limit= {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = SUR
+		autonomous_state = autonomy_PB_Satellite_State
+	}
+	else = {
+		puppet = SUR
+	}
+}
 
 # Starting tech
 set_technology = { 

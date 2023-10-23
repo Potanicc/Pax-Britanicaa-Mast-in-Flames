@@ -194,100 +194,6 @@ if = {
 	add_to_tech_sharing_group = ImpConf_research
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-
-	set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_constituent_free_state
-		freedom_level = 0.75
-	}
-
-	set_autonomy = {
-		target = BFE
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.60
-	}
-
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.51
-	}
-
-	set_autonomy = {
-		target = BCL
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.45
-	}
-
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.45
-	}
-
-	set_autonomy = {
-		target = BAF
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.45
-	}
-
-	set_autonomy = {
-		target = BEF
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.45
-	}
-
-	set_autonomy = {
-		target = HNK
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.45
-	}
-
-	set_autonomy = {
-		target = SNG
-		autonomous_state = autonomy_constituent_dominion
-		freedom_level = 0.45
-	}
-
-	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_client_state
-		freedom_level = 0.50
-	}
-
-	set_autonomy = {
-		target = TUN
-		autonomous_state = autonomy_client_state
-		freedom_level = 0.80
-	}
-
-	set_autonomy = {
-		target = MDR
-		autonomous_state = autonomy_client_state
-		freedom_level = 0.80
-	}
-
-	else = {
-		puppet = BAF
-		puppet = BCL
-		puppet = BFE
-		puppet = NZL
-		puppet = RAJ
-		puppet = IRE
-		puppet = TUN
-		puppet = MDR
-		puppet = HNK
-		puppet = SNG
-	}
-}
-
 ENG = { 
 	add_opinion_modifier = { 
 		target = FRA modifier = great_war_bitterness 
@@ -353,18 +259,6 @@ set_stability = 0.6
 set_war_support = 0.5
 
 set_convoys = 250
-
-create_faction = BER
-
-ENG = { 
-	add_to_faction = SWK
-	add_to_faction = AME
-	add_to_faction = QUE
-	add_to_faction = VIC
-	add_to_faction = BCL
-	add_to_faction = ACD
-	add_to_faction = WAF
-}
 
 set_politics = {
 	ruling_party = cn
@@ -549,32 +443,6 @@ BFE = {
         an = 2
         ss = 0
         jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-IRE = {
-    set_politics = {
-        ruling_party = lb
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 5
-        ds = 6
-        rc = 19
-        cn = 29
-        lb = 25
-        an = 2
-        ss = 10
-        jc = 4
     }
 
 	add_ideas = {

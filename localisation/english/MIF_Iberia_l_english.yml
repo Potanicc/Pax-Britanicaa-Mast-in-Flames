@@ -1,0 +1,29 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+ SPR_ni:0 "National Union of Iberia"
+ SPR_ni_DEF:0 "the National Union of Iberia"
+ SPR_ds:0 "Holy Communion of Iberia"
+ SPR_ds_DEF:0 "the Holy Communion of Iberia"
+ SPR_rc:0 "Holy Communion of Iberia"
+ SPR_rc_DEF:0 "the Holy Communion of Iberia"
+ SPR_an:0 "Holy Communion of Iberia"
+ SPR_an_DEF:0 "the Holy Communion of Iberia"
+ SPR_cn:0 "Iberian Union"
+ SPR_cn_DEF:0 "the Iberian Union"
+ SPR_lb:0 "Iberian Republic"
+ SPR_lb_DEF:0 "the Iberian Republic"
+ SPR_ss:0 "Iberian Republic"
+ SPR_ss_DEF:0 "the Iberian Republic"
+ SPR_jc:0 "Iberian Revolutionary Republic"
+ SPR_jc_DEF:0 "the Iberian Revolutionary Republic"
+ SPR_ni_ADJ:0 "Iberian"
+ SPR_rc_ADJ:0 "Iberian"
+ SPR_lb_ADJ:0 "Iberian"
+ SPR_ss_ADJ:0 "Iberian"
+ SPR_jc_ADJ:0 "Iberian"
+ SPR_ds_ADJ:0 "Iberian"
+ SPR_cn_ADJ:0 "Iberian"
+ SPR_an_ADJ:0 "Iberian"
+

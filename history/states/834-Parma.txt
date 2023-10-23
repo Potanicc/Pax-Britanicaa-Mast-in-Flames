@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		set_state_flag = ITA_reactionaries
-		owner = ITA
+		owner = IST
 
 		buildings = {
 			infrastructure = 4
@@ -16,7 +15,6 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = IST
-		add_core_of = PRM
 	}
 
 	provinces={

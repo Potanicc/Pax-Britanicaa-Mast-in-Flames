@@ -8,7 +8,7 @@ state={
 	state_category = town
 
 	history={
-		owner = GER
+		owner = SRB
 		victory_points = {
 			6282 1
 		}
@@ -21,8 +21,8 @@ state={
 			}
 			air_base = 3
 		}
-		add_core_of = GER
-		add_core_of = BRN
+		add_core_of = SRB
+		add_claim_by = GLF
 
 		1939.1.1 = {
 			buildings = {

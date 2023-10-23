@@ -8,6 +8,18 @@ set_variable = { PB_main_culture = 25 }
 add_to_array = { PB_accepted_cultures = 25 }
 
 oob = "DEN_1933"
+FRA = {
+	if = {
+		limit= {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = NOR
+		autonomous_state = autonomy_PB_Collaborator_State
+	}
+	else = {
+		puppet = DEN
+	}
+}
 
 if = {
 	limit = {
@@ -98,7 +110,7 @@ set_convoys = 143
 set_research_slots = 4
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = ni
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -113,84 +125,6 @@ set_popularities = {
 	an = 3
 	ss = 8
 	jc = 0
-}
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-
-	set_autonomy = {
-		target = NOR
-		autonomous_state = autonomy_PB_Personal_Union
-		freedom_level = 0.80
-	}
-
-	else = {
-		puppet = NOR
-	}
-}
-
-NOR = {
-	set_politics = {
-		ruling_party = cn
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-set_popularities = { #98
-	ni = 12
-	ds = 1
-	rc = 16
-	cn = 23
-	lb = 13
-	an = 0
-	ss = 9
-	jc = 26
-}
-}
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-
-	set_autonomy = {
-		target = SCH
-		autonomous_state = autonomy_PB_Personal_Union
-		freedom_level = 0.80
-	}
-
-	else = {
-		puppet = SCH
-	}
-}
-
-SCH = {
-	set_politics = {
-		ruling_party = cn
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		ni = 2
-		ds = 21
-		rc = 9
-		cn = 18
-		lb = 39
-		an = 3
-		ss = 8
-		jc = 0
-	}
 }
 
 create_country_leader = {

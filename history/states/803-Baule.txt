@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = BLE
 		add_core_of = BLE
 		add_claim_by = SIE
 		victory_points = {

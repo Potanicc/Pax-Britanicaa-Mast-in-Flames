@@ -359,7 +359,7 @@ add_to_variable = {
 }
 
 set_politics = {
-    ruling_party = cn
+    ruling_party = lb
     last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -375,6 +375,13 @@ set_popularities = {
     ss = 10
     jc = 8
 }
+
+### Foreign Policy ###
+create_faction = League_Of_Nations
+add_to_faction = ISR
+add_to_faction = QUE
+add_to_faction = WAF
+add_to_faction = BCL
 
 ### Field Marshals and Generals ###
 

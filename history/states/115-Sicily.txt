@@ -6,8 +6,7 @@ state={
 	
 	state_category = city
 	history={
-set_state_flag = ITA_socialists
-		owner = ITA
+		owner = IST
 		victory_points = {
 			10074 20 
 		}
@@ -47,7 +46,6 @@ set_state_flag = ITA_socialists
 		}
 		add_core_of = ITA
 		add_core_of = IST
-		add_core_of = SCL
 	}
 
 	provinces={

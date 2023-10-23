@@ -8,8 +8,7 @@ state=
 	
 	history=
 	{
-set_state_flag = ITA_reactionaries
-		owner = ITA
+		owner = IST
 		victory_points = {
 			11773 3 
 		}
@@ -30,7 +29,6 @@ set_state_flag = ITA_reactionaries
 		}
 		add_core_of = ITA
 		add_core_of = IST
-		add_core_of = SRD
 	}
 	provinces=
 	{

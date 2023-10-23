@@ -88,5 +88,15 @@
  GAB_autonomous:0 "Gabun Gouvernement"
  GAB_autonomous_DEF:0 "Gabun Gouvernement"
  GAB_autonomous_ADJ:0 "Gabonese"
+ CMR_autonomous:0 "Kamerun Gouvernement"
+ CMR_autonomous_DEF:0 "Kamerun Gouvernement"
+ CMR_autonomous_ADJ:0 "Cameroonian"
+ CHA_autonomous:0 "Gouvernement Kanem"
+ CHA_autonomous_DEF:0 "Gouvernement Kanem"
+ CHA_autonomous_ADJ:0 "Kanem"
+ CAR_autonomous:0 "Gouvernement Bangui"
+ CAR_autonomous_DEF:0 "Gouvernement Bangui"
+ CAR_autonomous_ADJ:0 "Bangui"
+
 
  

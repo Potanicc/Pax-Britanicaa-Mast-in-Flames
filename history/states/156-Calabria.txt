@@ -11,8 +11,7 @@ state={
 	        }
 
 	history={
-set_state_flag = ITA_liberals
-		owner = ITA
+		owner = IST
 		victory_points = {
 			9784 20
 		}
@@ -45,7 +44,6 @@ set_state_flag = ITA_liberals
 		}
 		add_core_of = ITA
 		add_core_of = IST
-		add_core_of = SCL
 	}
 
 	provinces={

@@ -2,21 +2,23 @@
 capital = 110
 
 oob = "NOR_1933"
+FRA = {
+	if = {
+		limit= {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = NOR
+		autonomous_state = autonomy_PB_Collaborator_State
+	}
+	else = {
+		puppet = NOR
+	}
+}
 
 # Accepted Cultures
 
 set_variable = { PB_main_culture = 28 }
 add_to_array = { PB_accepted_cultures = 28 }
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "NOR_1933_Naval"
-	else = {
-		set_naval_oob = "NOR_1933_Naval_Legacy"
-	}
-}
 
 # Starting tech
 set_technology = { 
@@ -67,7 +69,7 @@ recruit_character = NOR_Urban_Jacob_Rasmus_Borresen
 set_convoys = 5
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = ni
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

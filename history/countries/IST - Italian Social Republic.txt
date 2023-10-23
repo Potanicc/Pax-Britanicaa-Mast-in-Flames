@@ -70,13 +70,6 @@ set_technology = {
 	special_forces_power_armor = 1
 }
 
-IST = {
-	declare_war_on = {
-		target = ITA
-		type = annex_everything
-	}
-}
-
 set_politics = {
 	ruling_party = ni
 	last_election = "1936.1.1"

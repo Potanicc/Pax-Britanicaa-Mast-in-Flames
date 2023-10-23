@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = IST
 		victory_points = {
 			11584 10 
 		}
@@ -25,7 +25,6 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = IST
-		add_core_of = VNC
 	}
 
 	provinces={

@@ -1,8 +1,5 @@
 spriteTypes = {	
-
-
-
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 17		
@@ -6344,8 +6341,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_sov_blyukher.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_Remnants_Royal_Navy"
-		texturefile = "gfx/interface/ideas/idea_Remnants_Royal_Navy.dds"
+		name = "GFX_idea_VIC_admiral_pacific"
+		texturefile = "gfx/interface/ideas/idea_VIC_admiral_pacific.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_VIC_tattered_flag_royal_navy"
+		texturefile = "gfx/interface/ideas/idea_VIC_tattered_flag_royal_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIC_troubles"
+		texturefile = "gfx/interface/ideas/idea_VIC_troubles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIC_admiral_pacific_legacy"
+		texturefile = "gfx/interface/ideas/idea_VIC_admiral_pacific_legacy.dds"
+	}
+
 }

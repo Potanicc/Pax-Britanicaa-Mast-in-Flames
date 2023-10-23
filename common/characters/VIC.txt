@@ -39,4 +39,46 @@ characters={
 		}
     }
 
+    VIC_Walter_Nash = {
+		name = "Walter Nash"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.dds"
+			}
+		}
+		country_leader = {
+			desc = "PB_NO_DESCRIPTION"
+			ideology = SS_VARIANT_03
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	VIC_Keith_Holyoake = {
+		name = "Keith Holyoake"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.dds"
+			}
+		}
+		country_leader = {
+			desc = "PB_NO_DESCRIPTION"
+			ideology = CN_VARIANT_01
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+	VIC_Robert_Muldoon = {
+		name = "Robert Muldoon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.dds"
+			}
+		}
+		country_leader = {
+			desc = "PB_NO_DESCRIPTION"
+			ideology = DS_VARIANT_01
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
 }	

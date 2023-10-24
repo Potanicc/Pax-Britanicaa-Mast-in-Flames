@@ -9,7 +9,7 @@ state={
 		rubber=1
 	}
 	history={
-		owner = PEF
+		owner = SPR
 		add_claim_by = SIE
 		add_core_of = FUL
 		buildings = {

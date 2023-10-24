@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = ENG
+		owner = FRA
 		add_core_of = CYR
 		add_claim_by = GRE
 		buildings = {

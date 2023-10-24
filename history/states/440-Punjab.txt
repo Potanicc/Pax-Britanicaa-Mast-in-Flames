@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = PUN
+		owner = MAR
 		add_core_of = MAR
 		buildings = {
 			infrastructure = 5

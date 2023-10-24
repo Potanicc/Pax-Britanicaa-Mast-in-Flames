@@ -4,7 +4,7 @@ state={ #lanfang
 	name="STATE_792"
 
 	history={
-		owner = MAL
+		owner = INS
 		add_core_of = MAL
 		add_core_of = KAL
 		add_claim_by = INS

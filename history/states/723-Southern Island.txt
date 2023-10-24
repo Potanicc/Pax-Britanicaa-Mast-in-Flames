@@ -10,7 +10,7 @@ state={
 
 
 	history={
-		owner = NZL
+		owner = VIC
 		add_core_of = NZL
 		buildings = {
 			infrastructure = 5

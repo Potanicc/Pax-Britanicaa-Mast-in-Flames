@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ACE
+		owner = INS
 		add_core_of = ACE
 		add_claim_by = INS
 

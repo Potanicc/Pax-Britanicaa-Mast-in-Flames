@@ -6,7 +6,7 @@ state= {
 	state_category = town 
 
 	history= {
-		owner = DAS
+		owner = FST
 		add_core_of = DAS
 		add_core_of = FST
 		buildings = {

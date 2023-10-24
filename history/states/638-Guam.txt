@@ -6,7 +6,7 @@ state=
 	manpower=15153
 	history=
 	{
-		owner = DAS
+		owner = JAP
 		add_core_of = FSM
 		buildings = {
 			infrastructure = 5

@@ -7,12 +7,11 @@ state={
 	}
 
 	history={
-		owner = BAF
-		add_core_of = BAF
+		owner = NIG
+		add_core_of = NIG
 		victory_points = {
 			8034 2 
 		}
-		add_claim_by = NIG
 		add_core_of = BIA
 		buildings = {
 			infrastructure = 3

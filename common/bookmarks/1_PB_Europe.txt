@@ -1,12 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "MAST_IN_FLAMES_NAME"
-		desc = "MAST_IN_FLAMES_DESC"
-		date = 1936.1.1.12
-		picture = "GFX_select_date_1936"
-		default_country = "JAP"
+		name = MAST_IN_FLAMES_NAME
+		desc = MAST_IN_FLAMES_DESC
+		date = 1957.1.1.12
+		picture = GFX_select_date_1936
+
+		default_country = JAP
 		default = yes
-		"AME"={
+		
+		AME = {
 			history = "RUS_MAST_IN_FLAMES_DESC"
 			ideology = lb
 			ideas = {
@@ -14,15 +16,15 @@ bookmarks = {
 			focuses = {
 			}			
 		}
-		"FRA"={
-			history = "JAP_MAST_IN_FLAMES_DESC"
+		FRA = {
+			history = "FRA_MAST_IN_FLAMES_DESC"
 			ideology = ni
 			ideas = {
 			}	
 			focuses = {
 			}			
 		}
-		"RUS"={
+		RUS ={
 			history = "RUS_MAST_IN_FLAMES_DESC"
 			ideology = ds
 			ideas = {
@@ -30,7 +32,7 @@ bookmarks = {
 			focuses = {
 			}			
 		}
-		"JAP"={
+		JAP ={
 			history = "JAP_MAST_IN_FLAMES_DESC"
 			ideology = jb
 			ideas = {

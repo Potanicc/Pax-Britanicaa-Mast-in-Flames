@@ -6,7 +6,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = BAF
+		owner = WAF
 		#add_core_of = BAF
 		add_core_of = ALG
 		buildings = {

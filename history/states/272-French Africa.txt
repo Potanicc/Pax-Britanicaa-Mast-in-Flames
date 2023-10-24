@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = BAF
-		#add_core_of = BAF
+		owner = FUL
 		add_claim_by = SEN
+		add_claim_by = FUL
 		add_core_of = MRT
 		victory_points = {
 			4948 5 

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = BEF
+		owner = SUD
 		add_core_of = RCG
 		buildings = {
 			infrastructure = 2

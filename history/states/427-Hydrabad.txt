@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = HYD
-		add_core_of = HYD
+		owner = MAR
+		add_core_of = MAR
 		add_core_of = AWD
 		victory_points = {
 			8087 1

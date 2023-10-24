@@ -11,10 +11,11 @@ state=
 	        }
 	
 	history= {
-		owner = BEF
+		owner = ETH
 		add_core_of = BEF
 		add_core_of = SOM
 		add_claim_by = AZA
+		add_claim_by = ETH
 		buildings = {
 			infrastructure = 3
 			12759 = {

@@ -4,7 +4,8 @@ state={
 	name="STATE_424"
 
 	history={
-		owner = HYD
+		owner = MAR
+		add_core_of = MAR
 		add_core_of = HYD
 		add_core_of = AWD
 		buildings = {

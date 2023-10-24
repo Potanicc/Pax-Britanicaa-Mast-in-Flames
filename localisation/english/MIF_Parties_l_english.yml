@@ -1280,6 +1280,25 @@
   ASK_ni_party:0 "Legionary Party"
   ASK_ni_party_long:0 "Legionary Party of Russian America"
 
+  VIC_jc_party:0 "-"
+  VIC_jc_party_long:0 "-"
+  VIC_ss_party:0 "Labour Party (r)"
+  VIC_ss_party_long:0 "Labour Party of Oceania - Radicals"
+  VIC_lb_party:0 "Labour Party (m)"
+  VIC_lb_party_long:0 Labour Party of Oceania - Moderates"
+  VIC_cn_party:0 "National Party (m)"
+  VIC_cn_party_long:0 "National Party of Oceania - Moderates"
+  VIC_rc_party:0 "National Party (r)"
+  VIC_rc_party_long:0 "National Party of Oceania - Radicals"
+  VIC_an_party:0 "EIEC Lobbyists"
+  VIC_an_party_long:0 "Influence of the Edison Imperial Electric Company"
+  VIC_ds_party:0 "British Remants"
+  VIC_ds_party_long:0 "British Reclaimation Authority"
+  VIC_ni_party:0 "-"
+  VIC_ni_party_long:0 "-"
+
+
+
  ############
  # POLITICAL PARTY TEMPLATE 
  ############

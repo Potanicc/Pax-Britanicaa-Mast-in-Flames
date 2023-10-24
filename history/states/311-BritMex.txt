@@ -7,7 +7,7 @@ state=
 	state_category = enclave
 	history=
 	{
-		owner = ENG
+		owner = AME
 		add_core_of = BLZ
 		add_claim_by = GUA
 		add_claim_by = LOS

@@ -15,7 +15,7 @@ state={
 				naval_base = 3
 			}
 		}
-		owner = BAF
+		owner = FUL
 		add_core_of = BAF
 		add_claim_by = SIE
 		add_core_of = FUL

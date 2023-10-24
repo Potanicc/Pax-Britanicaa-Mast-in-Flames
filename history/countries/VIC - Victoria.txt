@@ -5,7 +5,7 @@ oob = "VIC_1933"
 
 set_country_flag = Megacorp_EIEC_Dominant
 
-add_manpower = 5000
+add_manpower = 50000
 
 set_research_slots = 3
 
@@ -101,8 +101,8 @@ if = {
 }
 
 
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.6
+set_war_support = 0.4
 
 set_convoys = 153
 

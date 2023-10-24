@@ -81,4 +81,92 @@ characters={
 			id = -1
 		}
 	}
+	VIC_Jack_Duggan = {
+		name = "Jack Duggan"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VIC_Jack_Duggan"
+			}
+		}
+		advisor = {	
+			slot = internal_minister
+			idea_token = VIC_Jack_Duggan
+			ledger = civilian
+
+			allowed = {
+				original_tag = VIC
+			}
+
+			traits = {
+				PB_ss_trait
+				PB_Second_Great_War_Veteran
+			}
+		}
+	}
+	VIC_HV_Evatt = {
+		name = "H. V. Evatt"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VIC_HV_Evatt"
+			}
+		}
+		advisor = {	
+			slot = foreign_minister
+			idea_token = VIC_HV_Evatt
+			ledger = civilian
+
+			allowed = {
+				original_tag = VIC
+			}
+
+			traits = {
+				PB_lb_trait
+				PB_Talented_Diplomat
+			}
+		}
+	}
+	VIC_Arnold_Nordmeyer = {
+		name = "Arnold Nordmeyer"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VIC_Arnold_Nordmeyer"
+			}
+		}
+		advisor = {	
+			slot = economics_minister
+			idea_token = VIC_Arnold_Nordmeyer
+			ledger = civilian
+
+			allowed = {
+				original_tag = VIC
+			}
+
+			traits = {
+				PB_lb_trait
+				PB_Budget_Balancer
+			}
+		}
+	}
+	VIC_Jack_Houston = {
+		name = "Jack Houston"
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VIC_Jack_Houston"
+			}
+		}
+		advisor = {	
+			slot = internal_minister
+			idea_token = VIC_Jack_Houston
+			ledger = civilian
+
+			allowed = {
+				original_tag = VIC
+			}
+
+			traits = {
+				PB_ss_trait
+				PB_Coalition_Leader
+			}
+		}
+	}
 }	

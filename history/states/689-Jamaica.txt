@@ -6,7 +6,7 @@ state={
 	state_category = town
 
 	history={
-		owner = ENG
+		owner = AME
 		add_claim_by = ATC
 		buildings = {
 			infrastructure = 4

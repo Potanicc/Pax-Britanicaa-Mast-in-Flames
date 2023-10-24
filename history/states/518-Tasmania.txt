@@ -13,7 +13,7 @@ state=
 
 	history=
 	{
-		owner = DAS
+		owner = FST
 		add_core_of = FST
 		victory_points = {
 			2189 1 

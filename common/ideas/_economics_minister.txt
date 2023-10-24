@@ -1309,6 +1309,33 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
+		VIC_Arnold_Nordmeyer = { 
+			
+			cost = 150 
 
+			removal_cost = -1
+			level = 7
+
+			picture = GFX_idea_VIC_Arnold_Nordmeyer
+
+			visible = {
+				original_tag = VIC
+			}
+
+			available = { 
+				always = yes
+			}
+
+			allowed_to_remove = { 
+				always = no
+			}
+
+			traits = {
+				PB_lb_trait
+				PB_Budget_Balancer
+			}
+			
+			cancel_if_invalid = no
+		}
 	}
 }

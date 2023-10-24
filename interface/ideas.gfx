@@ -6356,5 +6356,21 @@ spriteTypes = {
 		name = "GFX_idea_VIC_admiral_pacific_legacy"
 		texturefile = "gfx/interface/ideas/idea_VIC_admiral_pacific_legacy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_VIC_HV_Evatt"
+		texturefile = "gfx/interface/ideas/idea_VIC_HV_Evatt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIC_Arnold_Nordmeyer.dds"
+		texturefile = "gfx/interface/ideas/idea_VIC_Arnold_Nordmeyer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIC_Jack_Houston.dds.dds"
+		texturefile = "gfx/interface/ideas/idea_VIC_Jack_Houston.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIC_Jack_Duggan.dds"
+		texturefile = "gfx/interface/ideas/idea_VIC_Jack_Duggan.dds"
+	}
 
 }

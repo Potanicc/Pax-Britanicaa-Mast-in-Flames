@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = NWG
+		owner = ECU
 
 		buildings = {
 			infrastructure = 3

@@ -51,9 +51,7 @@ add_to_array = { PB_accepted_cultures = 128 }
 add_to_array = { PB_accepted_cultures = 133 }
 add_to_array = { PB_accepted_cultures = 443 }
 
-complete_national_focus = PB_AME_Maintain_Crittenden_Neutrality
-complete_national_focus = PB_AME_The_Dawes_Ministry
-complete_national_focus = PB_AME_Support_to_Nicaragua
+complete_national_focus = AME_Boar_of_Philadelphia
 
 if = {
 	limit = {
@@ -200,7 +198,7 @@ if = {
 }
 
 
-set_stability = 0.4
+set_stability = 0.5
 set_war_support = 0.5
 
 set_research_slots = 4
@@ -254,6 +252,7 @@ recruit_character = AME_benjamin_foulois
 recruit_character = AME_frank_andrews
 recruit_character = AME_Allen_Gullion
 recruit_character = AME_Edmund_Gruber
+recruit_character = AME_Vince_Gair
 
 add_ideas = {
 	MGC_Melbourne1
@@ -360,20 +359,27 @@ add_to_variable = {
 
 set_politics = {
     ruling_party = lb
-    last_election = "1936.1.1"
+    last_election = "1956.11.4"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    ni = 16
-	ds = 0
-	rc = 15
-	an = 0
-    cn = 32
-    lb = 19
-    ss = 10
-    jc = 8
+    ni = 1
+	ds = 1
+	rc = 17
+	an = 2
+    cn = 28
+    lb = 33
+    ss = 17
+    jc = 1
+}
+
+country_leader = {
+	name = "Vince Gair"
+	desc = "PB_NO_DESCRIPTION"
+	picture = "gfx/leaders/AME/Portrait_AME_Vince_Gair.png"
+	ideology = LB_VARIANT_06 
 }
 
 ### Foreign Policy ###
@@ -385,7 +391,7 @@ add_to_faction = BCL
 
 ### Field Marshals and Generals ###
 
-#reate_field_marshal = {
+#create_field_marshal = {
 #	name = "Omar Bradley" 
 #	picture = "gfx/leaders/AME/AME_1.dds"
 #	traits = {  }

@@ -1,15 +1,19 @@
 spriteTypes = { 
 	spriteType = {
 		name = "GFX_Portrait_VIC_Robert_Muldoon.dds"
-		texturefile = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.dds"
+		texturefile = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_VIC_Walter_Nash.dds"
-		texturefile = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.dds"
+		texturefile = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_VIC_Keith_Holyoake.dds"
-		texturefile = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.dds"
+		texturefile = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_AME_Vince_Gair.dds"
+		texturefile = "gfx/leaders/AME/Portrait_AME_Vince_Gair.png"
 	}
 	
 }

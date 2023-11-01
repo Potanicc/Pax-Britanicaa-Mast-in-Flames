@@ -1,0 +1,103 @@
+add_namespace = america
+
+##############################
+### American Flavor Events ###
+##############################
+
+# Hoffen
+country_event = {
+	id = america.1
+	title = america.1.t
+	desc = america.1.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	trigger = {
+		date > 1957.4.15
+		date < 1957.4.17
+	}
+	
+	option = {
+		name = america.1.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = america.2
+				days = 28
+			}
+		}
+	}
+}
+# Enttäuschung
+country_event = {
+	id = america.2
+	title = america.2.t
+	desc = america.2.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.2.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = america.3
+				days = 327
+			}
+		}
+	}
+}
+# Auftrag
+country_event = {
+	id = america.3
+	title = america.3.t
+	desc = america.3.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = america.4
+				days = 402
+			}
+		}
+	}
+}
+# Ausbildung
+country_event = {
+	id = america.4
+	title = america.4.t
+	desc = america.4.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.4.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = america.5
+				days = 327
+			}
+		}
+	}
+}
+# Träume
+country_event = {
+	id = america.5
+	title = america.5.t
+	desc = america.5.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.5.a
+		ai_chance = { factor = 100 }
+	}
+} 

@@ -2167,66 +2167,72 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_report_event_bloody_monday"
-		texturefile = "gfx/event_pictures/report_event_bloody_monday"
+		texturefile = "gfx/event_pictures/report_event_bloody_monday.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_1"
-		texturefile = "gfx/event_pictures/report_event_troubles_1"
+		texturefile = "gfx/event_pictures/report_event_troubles_1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_2"
-		texturefile = "gfx/event_pictures/report_event_troubles_2"
+		texturefile = "gfx/event_pictures/report_event_troubles_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_3"
-		texturefile = "gfx/event_pictures/report_event_troubles_3"
+		texturefile = "gfx/event_pictures/report_event_troubles_3.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_4"
-		texturefile = "gfx/event_pictures/report_event_troubles_4"
+		texturefile = "gfx/event_pictures/report_event_troubles_4.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_5"
-		texturefile = "gfx/event_pictures/report_event_troubles_5"
+		texturefile = "gfx/event_pictures/report_event_troubles_5.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_6"
-		texturefile = "gfx/event_pictures/report_event_troubles_6"
+		texturefile = "gfx/event_pictures/report_event_troubles_6.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_report_event_troubles_7"
-		texturefile = "gfx/event_pictures/report_event_troubles_7"
+		texturefile = "gfx/event_pictures/report_event_troubles_7.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_troubles_8"
-		texturefile = "gfx/event_pictures/report_event_troubles_8"
+		texturefile = "gfx/event_pictures/report_event_troubles_8.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_vic_election_1"
-		texturefile = "gfx/event_pictures/report_event_vic_election_1"
+		texturefile = "gfx/event_pictures/report_event_vic_election_1.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_vic_election_2"
-		texturefile = "gfx/event_pictures/report_event_vic_election_2"
+		texturefile = "gfx/event_pictures/report_event_vic_election_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_vic_election_3"
-		texturefile = "gfx/event_pictures/report_event_vic_election_3"
+		texturefile = "gfx/event_pictures/report_event_vic_election_3.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_vic_election_4"
-		texturefile = "gfx/event_pictures/report_event_vic_election_4"
+		texturefile = "gfx/event_pictures/report_event_vic_election_4.dds"
 	}
+
+	spriteType = {
+		name = "GFX_report_event_elisabeth_and_erdmann"
+		texturefile = "gfx/event_pictures/report_event_elisabeth_and_erdmann.dds"
+	}
+	
 }

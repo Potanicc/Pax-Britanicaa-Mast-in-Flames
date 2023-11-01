@@ -55,24 +55,7 @@ characters={
 				PB_Silent_Cal
 			}
 		}
-	}
-	AME_john_curtin={
-		name="John Curtin"
-		portraits={
-			civilian={
-				large="gfx/leaders/AME/Portrait_AME_John_Curtin.dds"
-			}
-		}
-		country_leader={
-			desc="PB_AME_john_curtin_Desc"
-			ideology=LB_VARIANT_01
-			expire="1.1.1.1"
-			id=-1
-			traits = {
-				PB_Reformer
-			}
-		}
-	}
+	} 
 	AME_jack_lang={
 		name="Jack Lang"
 		portraits={
@@ -1047,6 +1030,21 @@ characters={
 			ai_will_do = {
 				factor = 2.000
 			}
+		}
+	}
+
+	AME_Vince_Gair = {
+		name = "Vince Gair"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AME/Portrait_AME_Vince_Gair.png"
+			}
+		}
+		country_leader = {
+			desc = "MIF_AME_Vince_Gair_Desc"
+			ideology = LB_VARIANT_06
+			expire = "1.1.1.1"
+			id = -1
 		}
 	}
 }	

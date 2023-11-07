@@ -238,3 +238,62 @@ news_event = {
 		name = news.14.a
 	}
 }
+# ROC wins war
+news_event = {
+	id = news.15
+	title = news.15.t
+	desc = news.15.d
+	picture = GFX_news_event_015
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.15.a
+	}
+}
+# CHI wins war
+news_event = {
+	id = news.16
+	title = news.16.t
+	desc = news.16.d
+	picture = GFX_news_event_015
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.16.a
+	}
+}
+#Pearl River Crisis
+news_event = {
+	id = news.17
+	title = news.17.t
+	desc = news.17.d
+	picture = GFX_news_event_016
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.17.a
+	}
+}
+news_event = {
+	id = news.18
+	title = news.18.t
+	desc = news.18.d
+	picture = GFX_news_event_016
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.18.a
+	}
+}

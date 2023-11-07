@@ -1,7 +1,7 @@
 ﻿starting_train_buffer = 2
 capital = 608
 
-oob = "CHI_1933"
+oob = "CHI_1956"
 
 # Accepted Cultures
 
@@ -31,8 +31,34 @@ set_convoys = 223
 set_research_slots = 3
 
 add_ideas = {
-	PB_CHI_Peking_Conference
+	PB_Govidea_Welfare_Capitalism
+	PB_NI_Chinese_Resilience
+	PB_Celestial_Empire
+	war_economy
+	free_trade
+	extensive_conscription
+	PB_Law_Intimidation_Policing
+	PB_significant_autonomy
+	PB_Patriarchal_Society
+	PB_Public_Meetings_Monitored
+	PB_Limited_Censorship
+	PB_No_Voting
+	PB_14_Hour_Workday
+	PB_Universal_Basic
+	PB_No_Healthcare
+	PB_Limited_Welfare
+	PB_Sociogenetics_Normalized
+	PB_Augmentation_Banned
+	PB_Partially_Westernized
+	PB_Great_War_Military
+	PB_Stagnating_Growth
+	PB_Significant_Illiteracy
+	PB_Agrarianism
+	PB_Rampant_Poverty
 
+	PB_CHI_Righteous_Society_Of_Heavenly_Retribution
+	PB_CHI_Christmas_Rebellion
+	PB_CHI_Rengan_Reforms
 }
 
 set_politics = {

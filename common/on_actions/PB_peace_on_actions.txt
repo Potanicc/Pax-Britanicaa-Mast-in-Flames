@@ -4823,27 +4823,25 @@ on_actions = {
 						}
 					}
 
+					ROOT = {
+						every_core_state = {
+							add_core_of = CHI
+						}
+					}
+
+					CHI = {
+						news_event = { 
+							id = news.16
+							days = 1 
+						}
+					}
+
 					CHI = {
 						white_peace = ROOT
 						annex_country = {
 							target = ROOT
 							transfer_troops = no
 						}
-					}
-
-					CHI = {
-						news_event = { 
-							id = PBNews.6
-							days = 1 
-						} 
-						country_event = { 
-							id = qing.48
-							days = 5
-						} 
-						country_event = { 
-							id = qing.49
-							days = 10
-						} 
 					}
 					set_global_flag = skip_default_capitulation
 				}
@@ -4863,25 +4861,32 @@ on_actions = {
 						}
 					}
 
+					ROOT = {
+						every_core_state = {
+							add_core_of = ROC
+						}
+					}
+
+					ROC = {
+						set_capital = {state = 613}
+						news_event = { 
+							id = news.15
+							days = 1 
+						}
+					}
+					JAP = {
+						country_event = {
+							id = China.1
+							days = 10
+						}
+					}
+
 					ROC = {
 						white_peace = ROOT
 						annex_country = {
 							target = ROOT
 							transfer_troops = no
 						}
-					}   
-
-					ROC = {
-						set_cosmetic_tag = CHI_United_States
-						set_capital = {state = 608}
-						news_event = { 
-							id = PBNews.7
-							days = 1 
-						} 
-						country_event = { 
-							id = qing.48
-							days = 5
-						} 
 					}
 					set_global_flag = skip_default_capitulation
 				}

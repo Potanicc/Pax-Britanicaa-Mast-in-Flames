@@ -1,0 +1,404 @@
+﻿division_template = {
+	name = "Bubing Zhen"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Juntuán"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Qibing Zhen"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	#shanghai pocket
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 4042
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 4042
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10034
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10034
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10076
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10076
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7014
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7014
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 12076
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 12076
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 4042
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10076
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.3
+	}
+	#army of the east
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7071
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7071
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10084
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1138
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 4070
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1055
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1055
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1055
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1153
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10044
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1153
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 11937
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1171
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1171
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1125
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 9974
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 4173
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 12059
+		division_template = "Juntuán"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1096
+		division_template = "Juntuán"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10086
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+	}
+	#defense of hunan
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7097
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 9999
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 9999
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 9999
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 9999
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 9999
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 11988
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10114
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10114
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1628
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1628
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 3992
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 12086
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 1628
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7101
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10757
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10757
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 5030
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 4041
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	#sichuan defense force
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 11865
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 11865
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10144
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10144
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 2091
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 2091
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7256
+		division_template = "Bubing Zhen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 7256
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Bubing Di 1 Zhen"
+		location = 10144
+		division_template = "Qibing Zhen"
+		start_experience_factor = 0.2
+	}
+}

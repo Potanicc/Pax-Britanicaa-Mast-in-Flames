@@ -2125,5 +2125,26 @@ spriteTypes = {
 		name = "GFX_idea_PB_AME_Montauk_Site_idea"
 		texturefile = "gfx/interface/ideas/America/PB_AME_Montauk_Site_idea.dds"
 	}
+	#China
+	spriteType = {
+		name = "GFX_idea_PB_CHI_Rengan_Reforms"
+		texturefile = "gfx/interface/ideas/China/PB_CHI_Rengan_Reforms.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_CHI_Revolution_Unrealized"
+		texturefile = "gfx/interface/ideas/China/PB_CHI_Revolution_Unrealized.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_CHI_First_Sister"
+		texturefile = "gfx/interface/ideas/China/PB_CHI_First_Sister.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_CHI_Christmas_Rebellion"
+		texturefile = "gfx/interface/ideas/China/PB_CHI_Christmas_Rebellion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PB_CHI_Peasant_Militias"
+		texturefile = "gfx/interface/ideas/China/PB_CHI_Peasant_Militias.dds"
+	}
 }
 

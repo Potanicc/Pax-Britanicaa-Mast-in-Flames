@@ -2166,6 +2166,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_news_event_015"
+		texturefile = "gfx/event_pictures/news_event_015.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_016"
+		texturefile = "gfx/event_pictures/news_event_016.dds"
+	}
+
+	spriteType = {
 		name = "GFX_report_event_bloody_monday"
 		texturefile = "gfx/event_pictures/report_event_bloody_monday.dds"
 	}

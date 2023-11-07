@@ -1,7 +1,7 @@
 ﻿starting_train_buffer = 2
 capital = 605
 
-oob = "NA_1936"
+oob = "ROC_Civilwar"
 
 # Starting tech
 set_technology = { 
@@ -10,16 +10,20 @@ set_technology = {
 	infantry_weapons1930 = 1
 	infantry_weapons1933 = 1
 	tech_support = 1		
+	tech_recon = 1
 	tech_engineers = 1
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	marines  = 1
 	gw_artillery = 1
-	#early_fighter = 1
+	gwtank = 1
 }
 
 set_variable = { PB_main_culture = 421 }
 add_to_array = { PB_accepted_cultures = 421 }
 
 set_stability = 0.5
-set_war_support = 0.1
+set_war_support = 0.3
 
 set_convoys = 5
 
@@ -33,6 +37,44 @@ set_popularities = {
 	an = 20
 	ss = 20
 	jc = 50
+}
+
+declare_war_on = {
+    target = CHI
+    type = annex_everything
+}
+
+add_ideas = {
+	PB_Govidea_Communal_Economy
+	PB_NI_Revolution
+	PB_Revolutionary_Republic
+	war_economy
+	limited_exports
+	extensive_conscription
+	PB_law_community_outreach
+	PB_limited_autonomy
+	PB_Total_Gender_Equality
+	PB_Public_Meetings_Allowed
+	PB_Limited_Censorship
+	PB_Universal_Citizenship
+	PB_12_Hour_Workday
+	PB_Universal_Higher
+	PB_Trinket_Healthcare
+	PB_Limited_Welfare
+	PB_Sociogenetics_Banned
+	PB_Augmentation_Encouraged
+	PB_Partially_Westernized
+	PB_Semi_Modern_Military
+	PB_Stagnating_Growth
+	PB_Significant_Illiteracy
+	PB_Semi_Industrialized
+	PB_Widespread_Poverty
+
+	PB_ROC_Japanese_Assistance
+}
+add_timed_idea = {
+    idea = PB_ROC_Dual_River_Campaign
+    days = 70
 }
 
 set_politics = { 

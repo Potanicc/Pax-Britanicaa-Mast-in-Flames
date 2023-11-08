@@ -14,6 +14,7 @@ country_event = {
 	trigger = {
 		date > 1957.4.15
 		date < 1957.4.17
+		tag = AME
 	}
 	
 	option = {
@@ -100,4 +101,58 @@ country_event = {
 		name = america.5.a
 		ai_chance = { factor = 100 }
 	}
-} 
+}
+
+# Embassy Protest
+country_event = {
+	id = america.8
+	title = america.8.t
+	desc = america.8.d
+	picture = GFX_report_event_embassy_protest
+	
+	trigger = {
+		date > 1958.6.29
+		date < 1958.6.29
+		tag = AME
+	}
+	option = {
+		name = america.8.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+###################################
+### American Impeachment Events ###
+###################################
+
+# Public Outrage
+country_event = {
+	id = america.6
+	title = america.6.t
+	desc = america.6.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.6.a
+		ai_chance = { factor = 100 }
+		add_stability = -0.5
+	}
+}
+
+# Impeachment
+country_event = {
+	id = america.7
+	title = america.7.t
+	desc = america.7.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.7.a
+		ai_chance = { factor = 100 }
+		add_stability = -0.5
+	}
+}

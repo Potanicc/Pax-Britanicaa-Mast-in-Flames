@@ -1,0 +1,16 @@
+MIF_AME_Gair_Impeachment = {
+
+	icon = GFX_decision_category_bonus_brigade
+	
+	allowed = {
+		original_tag = AME
+	}
+
+	visible = {
+		has_completed_focus = AME_Impeachment_Crisis
+	}
+
+	picture = GFX_decision_cat_AME_Bonus_Brigade
+
+	priority = 100
+}

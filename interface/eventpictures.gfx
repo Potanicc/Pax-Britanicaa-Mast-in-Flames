@@ -2244,5 +2244,9 @@ spriteTypes = {
 		name = "GFX_report_event_elisabeth_and_erdmann"
 		texturefile = "gfx/event_pictures/report_event_elisabeth_and_erdmann.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_report_event_embassy_protest"
+		texturefile = "gfx/event_pictures/report_event_embassy_protest.png"
+	}
 }

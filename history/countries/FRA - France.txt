@@ -16,6 +16,11 @@ add_to_array = { PB_accepted_cultures = 13 }
 add_to_array = { PB_accepted_cultures = 10 }
 
 
+puppet = LON
+puppet = OBR
+puppet = GER
+puppet = CRW
+puppet = WLS
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "FRA_1933_air_bba"

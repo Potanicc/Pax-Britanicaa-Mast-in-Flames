@@ -23,8 +23,6 @@ set_war_support = 0.1
 
 set_convoys = 5
 
-set_cosmetic_tag = VIN_Insurgency 
-
 set_politics = {
 	ruling_party = lb
 	last_election = "1936.1.1"

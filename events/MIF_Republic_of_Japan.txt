@@ -2,14 +2,14 @@
 # JAPANESE EVENTS
 ###################
 
-add_namespace = Japan_Provisional
+add_namespace = Japan_Sadao
 
 
 ### COUNTRY EVENTS ###
 	country_event = { #Israel Begins fortifying Haifa
-	id = Japan_Provisional.1
-	title = Japan_Provisional.1.t
-	desc = Japan_Provisional.1.d
+	id = Japan_Sadao.1
+	title = Japan_Sadao.1.t
+	desc = Japan_Sadao.1.d
 	picture = GFX_PBNews_Papal_Conclave_1
 
     fire_only_once = yes

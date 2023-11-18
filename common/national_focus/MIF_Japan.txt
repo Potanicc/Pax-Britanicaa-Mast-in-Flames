@@ -45,40 +45,16 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = MIF_JAP_Prepare_For_Congress
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		prerequisite = {
-			focus = MIF_JAP_Rising_Sun
-		}
-		x = 0
-		y = 2
-		cost = 14
-		ai_will_do = {
-			factor = 100
-		}
-		relative_position_id = MIF_JAP_Rising_Sun
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		completion_reward = {
-			country_event = JapanProvisional.1
-		}
-	}
 
 	focus = {
-		id = MIF_JAP_Send_Delegations
+		id = MIF_JAP_The_Blossom
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		prerequisite = {
-			focus = MIF_JAP_Prepare_For_Congress
-		}
-		x = 0
-		y = 2
+		x = 25
+		y = 1
 		cost = 7
 		ai_will_do = {
 			factor = 100
 		}
-		relative_position_id = MIF_JAP_Prepare_For_Congress
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
@@ -86,28 +62,6 @@ focus_tree = {
 			country_event = JapanProvisional.1
 		}
 	}
-	focus = {
-		id = MIF_JAP_The_Congress_Is_Open
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		prerequisite = {
-			focus = MIF_JAP_Send_Delegations
-		}
-		x = 0
-		y = 2
-		cost = 7
-		ai_will_do = {
-			factor = 100
-		}
-		relative_position_id = MIF_JAP_Send_Delegations
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		completion_reward = {
-			country_event = JapanProvisional.1
-		}
-	}
-
-
 
 
 }

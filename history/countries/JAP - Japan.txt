@@ -109,7 +109,10 @@ set_convoys = 459
 
 set_research_slots = 4
 
+### FOREIGN POLICY ###
+
 create_faction = CPS
+add_to_faction = INS
 
 create_intelligence_agency = {
 	name = "Public Security Section 9"
@@ -172,9 +175,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Kingoro Hashimoto"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_JAP_Kingoro_Hashimoto.dds"
+	name = "Araki Sadao"
+	desc = "POLITICS_ARAKI_SADAO_DESC"
+	picture = "Portrait_JAP_Araki_Sadao.dds"
 	ideology = JC_VARIANT_06
 }
 

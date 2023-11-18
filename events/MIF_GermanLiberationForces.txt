@@ -5,7 +5,7 @@
 add_namespace = GLF
 add_namespace = GLF_sac
 add_namespace = GLF_flavour
-add_namespace = GLF_postwar
+add_namespace = GLF_postwarFeds
 
 
 ### COUNTRY EVENTS ###
@@ -305,9 +305,9 @@ add_namespace = GLF_postwar
 		}
 
 	country_event = { #Formation of the Federation
-	id = GLF_postwar.1
-	title = GLF_postwar.1.t
-	desc = GLF_postwar.1.d
+	id = GLF_postwarFeds.1
+	title = GLF_postwarFeds.1.t
+	desc = GLF_postwarFeds.1.d
 	picture = GFX_PBNews_Papal_Conclave_1
 
     fire_only_once = yes
@@ -325,7 +325,7 @@ add_namespace = GLF_postwar
 	}
 	
 	option = {
-		name = GLF_postwar.1.a
+		name = GLF_postwarFeds.1.a
 
 	set_cosmetic_tag = GLF_Federation
 

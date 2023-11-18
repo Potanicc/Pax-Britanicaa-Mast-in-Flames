@@ -9,17 +9,9 @@ add_to_array = { PB_accepted_cultures = 25 }
 
 oob = "DEN_1933"
 FRA = {
-	if = {
-		limit= {
-			has_dlc = "Together for Victory"
-		}
 		set_autonomy = NOR
 		autonomous_state = autonomy_PB_Collaborator_State
 	}
-	else = {
-		puppet = DEN
-	}
-}
 
 if = {
 	limit = {

@@ -8,17 +8,10 @@ if = {
 	}
 set_oob = "GER_1933"
 }
+
 FRA = {
-	if = {
-		limit= {
-			has_dlc = "Together for Victory"
-		}
 		set_autonomy = GER
-		autonomous_state = autonomy_PB_Collaborator_State
-	}
-	else = {
-		puppet = GER
-	}
+		autonomous_state = puppet
 }
 
 

@@ -555,6 +555,7 @@ PB_Setup_Cultures = {
 	571 = { set_variable = { culture_id = 66 } }
 	236 = { set_variable = { culture_id = 66 } }
 	238 = { set_variable = { culture_id = 66 } }
+	956 = { set_variable = { culture_id = 66 } }
 
 	### ---- Siberian Culture ---- ###
 

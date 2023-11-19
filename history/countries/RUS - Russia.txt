@@ -528,6 +528,18 @@ set_popularities = {
 create_faction = RUS_fac
 add_to_faction = RUS
 
+RUS = {
+	add_opinion_modifier = {
+	    target = AME
+	    modifier = cold_war_contenders
+	}
+
+	add_opinion_modifier = {
+	    target = JAP
+	    modifier = cold_war_contenders
+	}
+}
+
 
 FIN = {
     set_politics = {

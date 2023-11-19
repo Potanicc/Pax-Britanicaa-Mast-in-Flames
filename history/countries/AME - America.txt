@@ -7,13 +7,13 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "AME_1933"
+	set_oob = "AME_1957"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "AME_1933_nsb"
+	set_oob = "AME_1957_nsb"
 }
 
 set_country_flag = Tag_in_American_Sphere
@@ -388,6 +388,34 @@ add_to_faction = ISR
 add_to_faction = QUE
 add_to_faction = WAF
 add_to_faction = BCL
+
+#Cold War Opinion Modifiers
+
+AME = {
+	add_opinion_modifier = {
+	    target = FRA
+	    modifier = cold_war_contenders
+	}
+
+	add_opinion_modifier = {
+	    target = JAP
+	    modifier = cold_war_contenders
+	}
+
+	add_opinion_modifier = {
+	    target = RUS
+	    modifier = cold_war_contenders
+	}
+}
+
+set_variable = {
+	var = AME_Impeachment_Progress
+	value = 0
+}
+set_variable = {
+	var = AME_Public_Outrage
+	value = 0
+}
 
 ### Field Marshals and Generals ###
 

@@ -650,4 +650,10 @@ opinion_modifiers = {
 
 	POL_no_support_revolt = { value = -10 }
 
+	#MIF Modifiers
+
+	cold_war_contenders = {
+        value = -100
+    }
+
 }	

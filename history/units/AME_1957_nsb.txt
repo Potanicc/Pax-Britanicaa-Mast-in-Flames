@@ -1,0 +1,648 @@
+﻿division_template = {
+
+	name = "Armoured Division"
+
+	regiments = {
+		tripod_automat = { x = 0 y = 0 }
+		tripod_automat = { x = 0 y = 1 }
+		tripod_automat = { x = 0 y = 2 }
+		tripod_automat = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 1 y = 3 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 3 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 3 }
+	}
+
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+
+	name = "Heavy Landship Division"		
+
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+		heavy_armor = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+
+	name = "Medium Landship Brigade"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+	}
+	
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+
+	name = "Light Landship Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+
+	name = "Infantry Division"	
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+	}
+
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        anti_air = { x = 0 y = 2 }
+        flamethrowers = { x = 0 y = 3 }
+        field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+
+	name = "Light Infantry Division"
+
+	regiments = {						
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 } 
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 } 
+	}
+}
+
+division_template = {
+
+	name = "Marine Division"
+
+	regiments = {						
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		amphibious_armor = { x = 2 y = 0 }
+		amphibious_armor = { x = 2 y = 1 }
+		amphibious_armor = { x = 2 y = 2 }
+		amphibious_mechanized = { x = 3 y = 0 }
+		amphibious_mechanized = { x = 3 y = 1 }
+		amphibious_mechanized = { x = 3 y = 2 }
+	}
+
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+        shockjockeys = { x = 0 y = 3 }
+        logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+
+	name = "Jet Troopers Division"
+
+	regiments = {						
+		jet_troopers = { x = 0 y = 0 }
+		jet_troopers = { x = 0 y = 1 }
+		jet_troopers = { x = 0 y = 2 }
+		jet_troopers = { x = 1 y = 0 }
+		jet_troopers = { x = 1 y = 1 }
+		jet_troopers = { x = 1 y = 2 }
+		jet_troopers = { x = 2 y = 0 }
+		jet_troopers = { x = 2 y = 1 }
+		jet_troopers = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+
+	name = "Razormaiden Division"
+
+	regiments = {						
+		razorgirls = { x = 0 y = 0 }
+		razorgirls = { x = 0 y = 1 }
+		razorgirls = { x = 0 y = 2 }
+		razorgirls = { x = 1 y = 0 }
+		razorgirls = { x = 1 y = 1 }
+		razorgirls = { x = 1 y = 2 }
+		razorgirls = { x = 2 y = 0 }
+		razorgirls = { x = 2 y = 1 }
+		razorgirls = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+
+	name = "Republican Gaurd"
+
+	regiments = {						
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 1 y = 2 }
+		jet_troopers = { x = 2 y = 0 }
+		hardsuits = { x = 2 y = 1 }
+		razorgirls = { x = 2 y = 2 }
+	}
+
+	support = {
+        military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {
+		name = "Presidential Gaurd"
+		location = 6845
+		division_template = "Republican Gaurd"
+		start_experience_factor = 0.8
+	}
+
+	division= {	
+		name = "Congressional Gaurd"
+		location = 6845
+		division_template = "Republican Gaurd"
+		start_experience_factor = 0.8
+	}
+
+	division= {	
+		name = "1st Infantry Division 'Rock of the Tagus'"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2nd Infantry Division 'Indian Head'"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "3rd Infantry Division 'Ivy'"
+		location = 11800
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "4th Infantry Division 'Iron And Bronze'"
+		location = 11800
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "5th Infantry Division 'Dixie'"
+		location = 11800
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "6th Infantry Division 'Yankee'"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "7th Infantry Division 'Golden Cross'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "8th Infantry Division 'Sunset'"
+		location = 3712
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "9th Infantry Division 'Tropic Lightning'"
+		location = 3712
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "10th Infantry Division 'Supernova'"
+		location = 3732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "11th Infantry Division 'Centipede'"
+		location = 3732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "12th Infantry Division 'Kaiser’s Own'"
+		location = 3823
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "13th Infantry Division 'Immortal'"
+		location = 3732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "14th Infantry Division 'Maple Leaf'"
+		location = 788
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "15th Infantry Division 'Mosquito'"
+		location = 7045
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "16th Infantry Division 'Crusader'"
+		location = 7202
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "17th Infantry Division 'Cheese Grater'"
+		location = 7202
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "18th Infantry Division 'Celestial'"
+		location = 7202
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "19th Infantry Division 'Demon Dog'"
+		location = 11975
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "20th Infantry Division 'Princess'"
+		location = 11975
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "21st Infantry Division 'Turkeys'"
+		location = 11975
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "22nd Infantry Division 'Phantoms'"
+		location = 12381
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	} 
+
+	division= {	
+		name = "Greenland Garrison"
+		location = 12512
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "Nicaragua Canal Garrison"
+		location = 13210
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "Newfoundland Garrison"
+		location = 12505
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "Carribean Garrison"
+		location = 12304
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "Falklands Garrison"
+		location = 12960
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "1st Armoured Division 'Blue Devils'"
+		location = 13242
+		division_template = "Armoured Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2nd Armoured Division 'Tornado'"
+		location = 7480
+		division_template = "Armoured Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "3rd Armoured Division 'Riveters'"
+		location = 4565
+		division_template = "Armoured Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "4th Armoured Division 'Jersey Blues'"
+		location = 1408
+		division_template = "Armoured Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "5th Armoured Division 'Victory'"
+		location = 12735
+		division_template = "Armoured Division"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "6th Armoured Division 'Super Sixth'"
+		location = 12738
+		division_template = "Armoured Division"
+		start_experience_factor = 0.1
+	} 
+
+	division= {	
+		name = "1st Heavy Landship Division 'Old Ironsides'"
+		location = 12501
+		division_template = "Heavy Landship Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2nd Heavy Landship Division 'Iron Snakes'"
+		location = 12697
+		division_template = "Heavy Landship Division"
+		start_experience_factor = 0.1
+	} 
+
+	division= {	
+		name = "1st Medium Landship Brigade 'Black Horse'"
+		location = 6855
+		division_template = "Medium Landship Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "2nd Medium Landship Brigade 'Imperials'"
+		location = 6890
+		division_template = "Medium Landship Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "3rd Medium Landship Brigade 'Hellcats'"
+		location = 11654
+		division_template = "Medium Landship Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "4th Medium Landship Brigade 'Rolling Fourth'"
+		location = 1595
+		division_template = "Medium Landship Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "1st Light Landship Brigade 'Vikings'"
+		location = 1595
+		division_template = "Light Landship Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "2nd Light Landship Brigade 'Buckshots'"
+		location = 6855
+		division_template = "Light Landship Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "3rd Light Landship Brigade 'Golden Acorns'"
+		location = 6890
+		division_template = "Light Landship Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "4th Light Landship Brigade 'Trident'"
+		location = 11654
+		division_template = "Light Landship Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division= {	
+		name = "1st Marine Division 'Old Breed'"
+		location = 13016
+		division_template = "Marine Division"
+		start_experience_factor = 0.75
+	}
+
+	division= {	
+		name = "2nd Marine Division 'Silent Second'"
+		location = 13214
+		division_template = "Marine Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "3rd Marine Division 'New Breed'"
+		location = 7315
+		division_template = "Marine Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "1st Razormaiden Division 'Minerva'"
+		location = 3878
+		division_template = "Razormaiden Division"
+		start_experience_factor = 0.75
+	}
+
+	division= {	
+		name = "2nd Razormaiden Division 'Venus'"
+		location = 6890
+		division_template = "Razormaiden Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "1st Jet Trooper Division 'Cloudpunchers'"
+		location = 12512
+		division_template = "Jet Troopers Division"
+		start_experience_factor = 0.75
+	}
+
+	division= {	
+		name = "2nd Jet Trooper Division 'The Angels'"
+		location = 13242
+		division_template = "Jet Troopers Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "3rd Jet Trooper Division 'Battered Bastards of Brest'"
+		location = 12738
+		division_template = "Jet Troopers Division"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1933
+			creator = "AME"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "AME"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AME" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_chassis_1
+			creator = "AME" 
+			version_name = "Benning A8"
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_1
+			creator = "AME" 
+			version_name = "Spider"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = rations_equipment_1
+			creator = "AME"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+}

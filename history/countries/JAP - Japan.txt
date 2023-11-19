@@ -157,9 +157,20 @@ set_politics = {
 }
 
 JAP = {
-	add_opinion_modifier = { 
-		target = RUS modifier = great_war_bitterness 
-	} 
+	add_opinion_modifier = {
+    	target = AME
+    	modifier = cold_war_contenders
+	}
+
+	add_opinion_modifier = {
+	    target = RUS
+	    modifier = cold_war_contenders
+	}
+
+	add_opinion_modifier = {
+	    target = FRA
+	    modifier = cold_war_contenders
+	}
 }
 
 set_popularities = {

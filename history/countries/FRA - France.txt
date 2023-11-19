@@ -299,6 +299,18 @@ set_popularities = {
 	jc = 2
 }
 
+FRA = {
+	add_opinion_modifier = {
+	    target = AME
+	    modifier = cold_war_contenders
+	}
+
+	add_opinion_modifier = {
+	    target = JAP
+	    modifier = cold_war_contenders
+	}
+}
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"

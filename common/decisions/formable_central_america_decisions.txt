@@ -1,0 +1,219 @@
+form_central_america_category = {
+	
+	form_central_america_gua = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = GUA
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_central_america_required_state_tooltip
+				controls_state = 778
+				controls_state = 313
+				controls_state = 314
+				controls_state = 312
+				controls_state = 780
+				controls_state = 317
+			}
+
+		visible = {
+			OR = {
+				original_tag = GUA
+				}
+			NOT = { has_global_flag = form_central_america_flag }
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GUA_unified
+	    	778 = { add_core_of = ROOT }
+	    	779 = { add_core_of = ROOT }
+			313 = { add_core_of = ROOT }
+			314 = { add_core_of = ROOT }
+			312 = { add_core_of = ROOT }
+			780 = { add_core_of = ROOT }
+			317= { add_core_of = ROOT }
+			hidden_effect = {
+				#news_event = { id = central_am.1 hours = 6 }
+				set_global_flag = form_central_america_flag
+				}
+			}
+		}
+	form_central_america_nic = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = NIC
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_central_america_required_state_tooltip
+				controls_state = 778
+				controls_state = 313
+				controls_state = 314
+				controls_state = 312
+				controls_state = 780
+				controls_state = 317
+			}
+
+		visible = {
+			OR = {
+				original_tag = NIC
+				}
+			NOT = { has_global_flag = form_central_america_flag }
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = NIC_unified
+	    	778 = { add_core_of = ROOT }
+	    	779 = { add_core_of = ROOT }
+			313 = { add_core_of = ROOT }
+			314 = { add_core_of = ROOT }
+			312 = { add_core_of = ROOT }
+			780 = { add_core_of = ROOT }
+			317= { add_core_of = ROOT }
+			hidden_effect = {
+				#news_event = { id = central_am.1 hours = 6 }
+				set_global_flag = form_central_america_flag
+				}
+			}
+		}
+	form_central_america_los = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = LOS
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_central_america_required_state_tooltip
+				controls_state = 778
+				controls_state = 313
+				controls_state = 314
+				controls_state = 312
+				controls_state = 780
+				controls_state = 317
+			}
+
+		visible = {
+			OR = {
+				original_tag = LOS
+				}
+			NOT = { has_global_flag = form_central_america_flag }
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = LOS_unified
+	    	778 = { add_core_of = ROOT }
+	    	779 = { add_core_of = ROOT }
+			313 = { add_core_of = ROOT }
+			314 = { add_core_of = ROOT }
+			312 = { add_core_of = ROOT }
+			780 = { add_core_of = ROOT }
+			317= { add_core_of = ROOT }
+			hidden_effect = {
+				#news_event = { id = central_am.1 hours = 6 }
+				set_global_flag = form_central_america_flag
+				}
+			}
+		}
+	form_central_america_HON = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = HON
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_central_america_required_state_tooltip
+				controls_state = 778
+				controls_state = 313
+				controls_state = 314
+				controls_state = 312
+				controls_state = 780
+				controls_state = 317
+			}
+
+		visible = {
+			OR = {
+				original_tag = HON
+				}
+			NOT = { has_global_flag = form_central_america_flag }
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HON_unified
+	    	778 = { add_core_of = ROOT }
+	    	779 = { add_core_of = ROOT }
+			313 = { add_core_of = ROOT }
+			314 = { add_core_of = ROOT }
+			312 = { add_core_of = ROOT }
+			780 = { add_core_of = ROOT }
+			317= { add_core_of = ROOT }
+			hidden_effect = {
+				#news_event = { id = central_am.1 hours = 6 }
+				set_global_flag = form_central_america_flag
+				}
+			}
+		}
+	form_central_america_els = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = ELS
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_central_america_required_state_tooltip
+				controls_state = 778
+				controls_state = 313
+				controls_state = 314
+				controls_state = 312
+				controls_state = 780
+				controls_state = 317
+			}
+
+		visible = {
+			OR = {
+				original_tag = ELS
+				}
+			NOT = { has_global_flag = form_central_america_flag }
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = ELS_unified
+	    	778 = { add_core_of = ROOT }
+	    	779 = { add_core_of = ROOT }
+			313 = { add_core_of = ROOT }
+			314 = { add_core_of = ROOT }
+			312 = { add_core_of = ROOT }
+			780 = { add_core_of = ROOT }
+			317= { add_core_of = ROOT }
+			hidden_effect = {
+				#news_event = { id = central_am.1 hours = 6 }
+				set_global_flag = form_central_america_flag
+				}
+			}
+		}
+	}
+}

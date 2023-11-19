@@ -1,0 +1,40 @@
+form_central_america_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_formable_yugoslavia
+
+	on_map_area = {
+	    targets = {
+	    	778 313 314 312 780 317 779
+	    }
+	    name = required_states_formables
+	    zoom = 200
+	}
+
+	#highlight_states = {
+	#    highlight_state_target = {
+	#	        state = 102
+	#	        state = 109
+	#	        state = 1075
+	#	        state = 103
+	#	        state = 163
+	#	        state = 104
+	#	        state = 848
+	#	        state = 850
+	#	        state = 849
+	#	        state = 851
+	#	        state = 45
+	#	        state = 107
+	#	        state = 108
+	#	        state = 1076
+	#	        state = 785
+	#	        state = 1067
+	#	        state = 105
+	#	        state = 1068
+	#	        state = 106
+	#    }
+	#    #highlight_color_while_active = 2
+	#	highlight_color_before_active = 0
+	#}
+}

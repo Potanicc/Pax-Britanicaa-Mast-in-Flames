@@ -619,6 +619,44 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 		}
+	} 
+
+	focus = {
+		
+		id = AME_Supplying_Nanjing
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Sun
+		}
+
+		x = 1
+		y = 1
+
+		cost = 28
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
 	}
 
 	focus = {
@@ -628,55 +666,17 @@ focus_tree = {
 		icon = GFX_Focus_AME_Friends_in_Oceania
 		
 		prerequisite = {
-			focus = AME_Sun
-		}
-
-		x = 1
-		y = 1
-
-		cost = 4
-
-		available = {
-		}
-
-		bypass = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		relative_position_id = AME_Sun
-
-		available_if_capitulated = no
-
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		
-		id = AME_Supplying_Nanjing
-		
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		
-		prerequisite = {
 			focus = AME_Domestic_Jacobins
 		}
 
 		prerequisite = {
-			focus = AME_Friends_in_Oceania
+			focus = AME_Supplying_Nanjing
 		}
 
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 
-		cost = 4
+		cost = 28
 
 		available = {
 		}
@@ -695,9 +695,39 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 
 		cancel_if_invalid = yes
+
+		select_effect = {
+			AME = {
+				country_event = {
+					id = america.1
+					days = 7
+				}
+			}
+		}
 		
 		completion_reward = {
-			add_political_power = 10
+			custom_effect_tooltip = AME_Friends_in_Oceania_tt
+			hidden_effect = {
+				army_experience = 10
+				add_equipment_to_stockpile = {
+	    			type = infantry_equipment
+	    			amount = 1000
+				}
+				send_equipment = {
+	    			equipment = infantry_equipment
+	    			amount = 1000
+	    			target = VIC
+				}
+				add_equipment_to_stockpile = {
+	    			type = support_equipment
+	    			amount = 1000
+				}
+				send_equipment = {
+	    			equipment = support_equipment
+	    			amount = 1000
+	    			target = VIC
+				}
+			}
 		}
 	}
 
@@ -788,7 +818,7 @@ focus_tree = {
 		icon = GFX_Focus_AME_Last_Light_Liberty
 		
 		prerequisite = {
-			focus = AME_Supplying_Nanjing
+			focus = AME_Friends_in_Oceania
 		}
 
 		prerequisite = {
@@ -2027,12 +2057,17 @@ focus_tree = {
 
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
  
-		x = 30
+		x = 35
 		y = 0
 
 		cost = 14
 
 		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = impeachment_crisis
 		}
 
 		bypass = {
@@ -2052,14 +2087,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
+			custom_effect_tooltip = AME_Impeachment_Crisis_tt
 		}
 	}
 
-	#Side With Congress
+	#SIDE WITH CONGRESS#
+
 	focus = {
 		
-		id = AME_Side_Congress
+		id = AME_Congress_1
 
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		
@@ -2067,13 +2103,21 @@ focus_tree = {
 			focus = AME_Impeachment_Crisis
 		}
 
+		mutually_exclusive = {
+			focus = AME_Gair_1
+		}
+
+		visible = {
+			has_country_flag = impeachment_crisis
+		}
+
 		available = {
 		}
 
-		x = -2
+		x = 1
 		y = 1
 
-		cost = 4
+		cost = 14
 
 		available = {
 		}
@@ -2094,48 +2138,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		
-		id = AME_Congress_1
-
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		
-		prerequisite = {
-			focus = AME_Side_Congress
-		}
-
-		available = {
-		}
-
-		x = 0
-		y = 1
-
-		cost = 4
-
-		available = {
-		}
-
-		bypass = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		relative_position_id = AME_Side_Congress
-
-		available_if_capitulated = no
-
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
+			set_country_flag = AME_sided_with_congress
+			set_country_flag = impeachment_tier_one
+			custom_effect_tooltip = AME_Congress_1_tt
 		}
 	}
 
@@ -2150,12 +2155,19 @@ focus_tree = {
 		}
 
 		available = {
+			has_country_flag = impeachment_crisis
+			has_country_flag = impeachment_crisis
+			has_country_flag = impeachment_crisis
+		}
+
+		visible = {
+			has_country_flag = impeachment_crisis
 		}
 
 		x = 0
 		y = 1
 
-		cost = 4
+		cost = 14
 
 		available = {
 		}
@@ -2176,7 +2188,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
+			set_country_flag = impeachment_tier_two
+			custom_effect_tooltip = AME_Congress_2_tt
 		}
 	}
 
@@ -2193,10 +2206,14 @@ focus_tree = {
 		available = {
 		}
 
+		visible = {
+			has_country_flag = impeachment_crisis
+		}
+
 		x = 0
 		y = 1
 
-		cost = 4
+		cost = 14
 
 		available = {
 		}
@@ -2217,55 +2234,16 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
+			set_country_flag = impeachment_tier_three
+			custom_effect_tooltip = AME_Congress_3_tt
 		}
 	}
 
+	#SIDE WITH GAIR#
+
 	focus = {
 		
-		id = AME_Congress_4
-
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		
-		prerequisite = {
-			focus = AME_Congress_3
-		}
-
-		available = {
-		}
-
-		x = 0
-		y = 1
-
-		cost = 4
-
-		available = {
-		}
-
-		bypass = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		relative_position_id = AME_Congress_3
-
-		available_if_capitulated = no
-
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	#Side With President
-	focus = {
-		
-		id = AME_Side_President
+		id = AME_Gair_1
 
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		
@@ -2273,13 +2251,21 @@ focus_tree = {
 			focus = AME_Impeachment_Crisis
 		}
 
+		mutually_exclusive = {
+			focus = AME_Congress_1
+		}
+
 		available = {
 		}
 
-		x = 2
+		visible = {
+			has_country_flag = impeachment_crisis
+		}
+
+		x = -1
 		y = 1
 
-		cost = 4
+		cost = 14
 
 		available = {
 		}
@@ -2300,48 +2286,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		
-		id = AME_Gair_1
-
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		
-		prerequisite = {
-			focus = AME_Side_President
-		}
-
-		available = {
-		}
-
-		x = 0
-		y = 1
-
-		cost = 4
-
-		available = {
-		}
-
-		bypass = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		relative_position_id = AME_Side_President
-
-		available_if_capitulated = no
-
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
+			set_country_flag = sided_with_gair
+			set_country_flag = impeachment_tier_one
+			custom_effect_tooltip = AME_Gair_1_tt
 		}
 	}
 
@@ -2358,10 +2305,14 @@ focus_tree = {
 		available = {
 		}
 
+		visible = {
+			has_country_flag = impeachment_crisis
+		}
+
 		x = 0
 		y = 1
 
-		cost = 4
+		cost = 14
 
 		available = {
 		}
@@ -2382,7 +2333,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
+			set_country_flag = impeachment_tier_two
+			custom_effect_tooltip = AME_Gair_2_tt
 		}
 	}
 
@@ -2399,10 +2351,14 @@ focus_tree = {
 		available = {
 		}
 
+		visible = {
+			has_country_flag = impeachment_crisis
+		}
+
 		x = 0
 		y = 1
 
-		cost = 4
+		cost = 14
 
 		available = {
 		}
@@ -2423,48 +2379,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			add_political_power = 10
+			set_country_flag = impeachment_tier_three
+			custom_effect_tooltip = AME_Gair_3_tt
 		}
-	}
-
-	focus = {
-		
-		id = AME_Gair_4
-
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		
-		prerequisite = {
-			focus = AME_Gair_3
-		}
-
-		available = {
-		}
-
-		x = 0
-		y = 1
-
-		cost = 4
-
-		available = {
-		}
-
-		bypass = {
-		}
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		relative_position_id = AME_Gair_3
-
-		available_if_capitulated = no
-
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
+	} 
 }

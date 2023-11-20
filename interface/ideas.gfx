@@ -6340,6 +6340,8 @@ spriteTypes = {
 		name = "GFX_idea_sov_blyukher"
 		texturefile = "gfx/interface/ideas/idea_sov_blyukher.dds"
 	}
+
+	#MIF Ideas#
 	spriteType = {
 		name = "GFX_idea_VIC_admiral_pacific"
 		texturefile = "gfx/interface/ideas/idea_VIC_admiral_pacific.dds"
@@ -6361,16 +6363,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_VIC_HV_Evatt.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_VIC_Arnold_Nordmeyer.dds"
+		name = "GFX_idea_VIC_Arnold_Nordmeyer"
 		texturefile = "gfx/interface/ideas/idea_VIC_Arnold_Nordmeyer.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_VIC_Jack_Houston.dds.dds"
+		name = "GFX_idea_VIC_Jack_Houston"
 		texturefile = "gfx/interface/ideas/idea_VIC_Jack_Houston.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_VIC_Jack_Duggan.dds"
+		name = "GFX_idea_VIC_Jack_Duggan"
 		texturefile = "gfx/interface/ideas/idea_VIC_Jack_Duggan.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_AME_Thomas_Watson"
+		texturefile = "gfx/interface/ideas/idea_AME_Thomas_Watson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_James_Mcgranery"
+		texturefile = "gfx/interface/ideas/idea_AME_James_Mcgranery.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_Scott_Lucas"
+		texturefile = "gfx/interface/ideas/idea_AME_Scott_Lucas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_William_Rogers"
+		texturefile = "gfx/interface/ideas/idea_AME_William_Rogers.png"
+	}
 }

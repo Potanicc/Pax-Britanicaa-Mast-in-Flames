@@ -297,3 +297,21 @@ news_event = {
 		name = news.18.a
 	}
 }
+# North America Football Cup
+news_event = {
+	id = news.19
+	title = news.19.t
+	desc = news.19.d
+	picture = GFX_news_event_019
+	
+	major = yes
+
+	trigger = {
+		date > 1957.4.15
+		date < 1957.4.17
+	}
+	
+	option = {
+		name = news.19.a
+	}
+}

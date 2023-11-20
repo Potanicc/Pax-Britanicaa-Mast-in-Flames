@@ -12,18 +12,20 @@ country_event = {
 	picture = GFX_report_event_bloody_monday
 	
 	trigger = {
-		date > 1958.1.28
-		date < 1958.1.30
+		date > 1957.1.28
+		date < 1957.1.30
 	}
 	
 	option = {
 		name = victoria.1.a
 		ai_chance = { factor = 100 }
-		add_manpower = -14
-		add_stability = -0.025
-		country_event = {
-			id = victoria.2
-			days = 25
+		VIC = {
+			add_manpower = -14
+			add_stability = -0.025
+			country_event = {
+				id = victoria.2
+				days = 25
+			}
 		}
 		news_event = {
 			id = news.1
@@ -42,11 +44,13 @@ country_event = {
 	option = {
 		name = victoria.2.a
 		ai_chance = { factor = 100 }
-		add_manpower = -3
-		add_political_power = -100
-		country_event = {
-			id = victoria.3
-			days = 250
+		VIC = {
+			add_manpower = -3
+			add_political_power = -100
+			country_event = {
+				id = victoria.3
+				days = 250
+			}
 		}
 		news_event = {
 			id = news.2
@@ -65,11 +69,13 @@ country_event = {
 	option = {
 		name = victoria.3.a
 		ai_chance = { factor = 100 }
-		add_manpower = -5
-		add_stability = -0.025
-		country_event = {
-			id = victoria.4
-			days = 250
+		VIC = {
+			add_manpower = -5
+			add_stability = -0.025
+			country_event = {
+				id = victoria.4
+				days = 250
+			}
 		}
 		news_event = {
 			id = news.3
@@ -88,16 +94,18 @@ country_event = {
 	option = {
 		name = victoria.4.a
 		ai_chance = { factor = 100 }
-		add_manpower = -2
-		add_political_power = -100
-		add_stability = -0.025
-		swap_ideas = {
-			remove_idea = VIC_admiral_pacific
-			add_idea = VIC_admiral_pacific_legacy
-		}
-		country_event = {
-			id = victoria.5
-			days = 250
+		VIC = {
+			country_event = {
+				id = victoria.5
+				days = 250
+			}
+			add_manpower = -2
+			add_political_power = -100
+			add_stability = -0.025
+			swap_ideas = {
+				remove_idea = VIC_admiral_pacific
+				add_idea = VIC_admiral_pacific_legacy
+			}
 		}
 		news_event = {
 			id = news.4
@@ -116,11 +124,13 @@ country_event = {
 	option = {
 		name = victoria.5.a
 		ai_chance = { factor = 100 }
-		add_political_power = -100
-		add_stability = 0.05
-		country_event = {
-			id = victoria.6
-			days = 250
+		VIC = {
+			country_event = {
+				id = victoria.6
+				days = 250
+			}
+			add_political_power = -100
+			add_stability = 0.05
 		}
 		news_event = {
 			id = news.5
@@ -139,8 +149,10 @@ country_event = {
 	option = {
 		name = victoria.6.a
 		ai_chance = { factor = 100 }
-		add_political_power = -100
-		add_stability = -0.025
+		VIC = {
+			add_political_power = -100
+			add_stability = -0.025		
+		}
 	}
 }
 # Black Friday
@@ -155,11 +167,14 @@ country_event = {
 	option = {
 		name = victoria.7.a
 		ai_chance = { factor = 100 }
-		add_manpower = -247
-		add_stability = -0.05
-		country_event = {
-			id = victoria.8
-			days = 25
+		
+		VIC = {
+			add_manpower = -247
+			add_stability = -0.05
+			country_event = {
+				id = victoria.8
+				days = 25
+			}
 		}
 		news_event = {
 			id = news.14
@@ -178,11 +193,12 @@ country_event = {
 	option = {
 		name = victoria.8.a
 		ai_chance = { factor = 100 }
-		add_manpower = -3
-		add_political_power = -150
+		VIC = {
+			add_manpower = -3
+			add_political_power = -150
+		}
 		news_event = {
 			id = news.13
-			}
 		}
 	}
 }
@@ -198,9 +214,11 @@ country_event = {
 	option = {
 		name = victoria.9.a
 		ai_chance = { factor = 100 }
-		remove_idea = VIC_troubles
-		add_political_power = -100
-		add_stability = 0.15
+		VIC = {
+			remove_idea = VIC_troubles
+			add_political_power = -100
+			add_stability = 0.15
+		}
 		news_event = {
 			id = news.12
 		}
@@ -222,29 +240,33 @@ country_event = {
 	option = { # Keith Holyoake and the National Party
 		name = victoria.10.a
 		ai_chance = { factor = 35 }
-		
-		country_event = {
-			id = victoria.11
-			days = 60
+		VIC = {
+			country_event = {
+				id = victoria.11
+				days = 60
+			}
+			set_politics = {
+				ruling_party = cn
+				elections_allowed = no
+			}
 		}
 		news_event = {
 			id = news.7
 		}
-		set_politics = {
-			ruling_party = cn
-			elections_allowed = no
-		}
+		
 	}
 	option = {  # Walter Nash and the Labour Party
 		name = victoria.10.b
 		ai_chance = { factor = 65 }
-		set_politics = {
-			ruling_party = ss
-			elections_allowed = no
-		}
-		country_event = {
-			id = victoria.12
-			days = 25
+		VIC = {
+			set_politics = {
+				ruling_party = ss
+				elections_allowed = no
+			}
+			country_event = {
+				id = victoria.12
+				days = 25
+			}
 		}
 		news_event = {
 			id = news.8
@@ -263,13 +285,15 @@ country_event = {
 	option = {
 		name = victoria.11.a
 		ai_chance = { factor = 100 }
-		remove_idea = VIC_admiral_pacific_legacy
-		add_political_power = 100
-		country_event = {
-			id = victoria.7
-			days = 25
+		VIC = {
+			remove_idea = VIC_admiral_pacific_legacy
+			add_political_power = 100
+			country_event = {
+				id = victoria.7
+				days = 25
 			}
-		}
+		}	
+	}
 }
 # 1961 Coup
 country_event = {
@@ -283,30 +307,34 @@ country_event = {
 	option = { # Walter Nash defeats the coup!
 		name = victoria.12.a
 		ai_chance = { factor = 60 }
-		add_manpower = -10000
-		country_event = {
-			id = victoria.9
-			days = 35
+		VIC = {
+			add_manpower = -10000
+			country_event = {
+				id = victoria.9
+				days = 35
 			}
-		news_event = {
-				id = news.9
-			}
-		country_event = {
-			id = victoria.13
-			days = 21
+			country_event = {
+				id = victoria.13
+				days = 21
 			}
 		}
+		news_event = {
+			id = news.9
+		}
+	}
 	option = {  # The BR coups the government!
 		name = victoria.12.b
 		ai_chance = { factor = 40 }
-		add_manpower = -1000
-		set_politics = {
-			ruling_party = ds
-			elections_allowed = no
-		}
-		country_event = {
-			id = victoria.14
-			days = 25
+		VIC = {
+			add_manpower = -1000
+			set_politics = {
+				ruling_party = ds
+				elections_allowed = no
+			}
+			country_event = {
+				id = victoria.14
+				days = 25
+			}
 		}
 		news_event = {
 			id = news.10
@@ -325,20 +353,22 @@ country_event = {
 	option = { #BR Purge
 		name = victoria.13.a
 		ai_chance = { factor = 100 }
-		add_manpower = -1000
-		add_political_power = -100
-		remove_idea = VIC_admiral_pacific_legacy
-		add_popularity = {
-			ideology = ds
-			popularity = -1.0
-		}
-		add_popularity = {
-			ideology = cn
-			popularity = -0.1
-		}
-		country_event = {
-			id = victoria.9
-			days = 25
+		VIC = {
+			add_manpower = -1000
+			add_political_power = -100
+			remove_idea = VIC_admiral_pacific_legacy
+			add_popularity = {
+				ideology = ds
+				popularity = -1.0
+			}
+			add_popularity = {
+				ideology = cn
+				popularity = -0.1
+			}
+			country_event = {
+				id = victoria.9
+				days = 25
+			}
 		}
 	}
 }
@@ -354,51 +384,53 @@ country_event = {
 	option = { # Containment in the Indo-Pacific Speech
 		name = victoria.14.a
 		ai_chance = { factor = 100 }
-		remove_idea = VIC_troubles
-		remove_idea = VIC_admiral_pacific_legacy
-		add_political_power = 100
-		war_support_factor = 0.15
-		add_manpower = 10000
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 2000
-			producer = VIC
+		VIC = {
+			remove_idea = VIC_troubles
+			remove_idea = VIC_admiral_pacific_legacy
+			add_political_power = 100
+			war_support_factor = 0.15
+			add_manpower = 10000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = VIC
+			}
+			add_equipment_to_stockpile = {
+				type = rations_equipment_1
+				amount = 2000
+				producer = VIC
+			}
+			add_equipment_to_stockpile = {
+				type = power_armor_0
+				amount = 100
+				producer = VIC
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 100
+				producer = VIC
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 50
+				producer = VIC
+			}
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 25
+				producer = VIC
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 25
+				producer = VIC
+			}
+			add_popularity = {
+				ideology = ds
+				popularity = 0.10
+			}
+			add_ideas = partial_economic_mobilisation
 		}
-		add_equipment_to_stockpile = {
-			type = rations_equipment_1
-			amount = 2000
-			producer = VIC
-		}
-		add_equipment_to_stockpile = {
-			type = power_armor_0
-			amount = 100
-			producer = VIC
-		}
-		add_equipment_to_stockpile = {
-			type = motorized_equipment_1
-			amount = 100
-			producer = VIC
-		}
-		add_equipment_to_stockpile = {
-			type = artillery_equipment_1
-			amount = 50
-			producer = VIC
-		}
-		add_equipment_to_stockpile = {
-			type = convoy_1
-			amount = 25
-			producer = VIC
-		}
-		add_equipment_to_stockpile = {
-			type = support_equipment_1
-			amount = 25
-			producer = VIC
-		}
-		add_popularity = {
-			ideology = ds
-			popularity = 0.10
-		}
-		add_ideas = partial_economic_mobilisation
 		news_event = {
 			id = news.11
 		}
@@ -422,9 +454,11 @@ country_event = {
 		news_event = {
 			id = news.6
 		}
+		VIC = {
 		country_event = {
 			id = victoria.10
 			days = 90
+		}
 		}
 	}
 }

@@ -1770,5 +1770,33 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
+		AME_Scott_Lucas = { 
+			
+			cost = 0
+			
+			removal_cost = -1
+			level = 7
+
+			picture = GFX_idea_AME_Scott_Lucas
+
+			visible = {
+				original_tag = AME
+			}
+			
+			allowed_to_remove = { 
+				always = no
+			}
+
+			available = { 
+				always = no
+			}
+
+			traits = {
+				PB_lb_trait
+				PB_Dismal_Enigma
+			}
+			
+			cancel_if_invalid = no
+		}
 	}
 }

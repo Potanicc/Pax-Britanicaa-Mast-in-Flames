@@ -1045,6 +1045,9 @@ characters={
 			ideology = LB_VARIANT_06
 			expire = "1.1.1.1"
 			id = -1
+			traits = {
+				MIF_Gair_Administration
+			}
 		}
 	}
 }	

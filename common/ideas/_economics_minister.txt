@@ -1337,5 +1337,34 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
+		AME_Thomas_Watson = { 
+			
+			cost = 0
+			
+			removal_cost = -1
+			level = 7
+
+			picture = GFX_idea_AME_Thomas_Watson
+
+			visible = {
+				original_tag = AME
+			}
+			
+			allowed_to_remove = { 
+				always = no
+			}
+
+			available = { 
+				always = no
+			}
+
+			traits = {
+				PB_lb_trait
+				MIF_Visionary
+			}
+			
+			cancel_if_invalid = no
+		}
 	}
 }

@@ -1034,12 +1034,15 @@ characters={
 	}
 
 	AME_Vince_Gair = {
+
 		name = "Vince Gair"
+
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AME/Portrait_AME_Vince_Gair.png"
 			}
 		}
+
 		country_leader = {
 			desc = "MIF_AME_Vince_Gair_Desc"
 			ideology = LB_VARIANT_06
@@ -1047,6 +1050,121 @@ characters={
 			id = -1
 			traits = {
 				MIF_Gair_Administration
+			}
+		}
+	}
+
+	AME_James_Mcgranery = {
+
+		name = "James Mcgranery"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AME_James_Mcgranery"
+			}
+		}
+
+		advisor = {
+
+			slot = internal_minister
+
+			idea_token = AME_James_Mcgranery
+
+			ledger = civilian
+
+			allowed = {
+				original_tag = AME
+			}
+
+			traits = {
+				PB_lb_trait
+				MIF_Former_Lawyer
+			}
+		}
+	}
+
+	AME_Scott_Lucas = {
+
+		name = "Scott Lucas"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AME_Scott_Lucas"
+			}
+		}
+
+		advisor = {
+
+			slot = internal_minister
+
+			idea_token = AME_Scott_Lucas
+
+			ledger = civilian
+
+			allowed = {
+				original_tag = AME
+			}
+
+			traits = {
+				PB_lb_trait
+				PB_Dismal_Enigma
+			}
+		}
+	}
+
+	AME_William_Rogers = {
+
+		name = "William Rogers"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AME_William_Rogers"
+			}
+		}
+
+		advisor = {
+
+			slot = internal_minister
+
+			idea_token = AME_William_Rogers
+
+			ledger = civilian
+
+			allowed = {
+				original_tag = AME
+			}
+
+			traits = {
+				PB_lb_trait
+				MIF_Incompetent_Diplomat
+			}
+		}
+	}
+
+	AME_Thomas_Watson = {
+
+		name = "Thomas Watson"
+
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AME_Thomas_Watson"
+			}
+		}
+
+		advisor = {
+			slot = internal_minister
+
+			idea_token = AME_Thomas_Watson
+
+			ledger = civilian
+
+			allowed = {
+				original_tag = AME
+			}
+
+			traits = {
+				PB_lb_trait
+				MIF_Visionary
 			}
 		}
 	}

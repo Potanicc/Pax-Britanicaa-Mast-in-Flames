@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	MIF_AME_Impeachment_Crisis_Scripted_GUI = {
+
+		window_name = "MIF_AME_Impeachment_Crisis_GUI"
+
+		context_type = decision_category
+		}
+}

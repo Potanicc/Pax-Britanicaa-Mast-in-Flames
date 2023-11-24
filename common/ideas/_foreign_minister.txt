@@ -1113,9 +1113,10 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
 		VIC_HV_Evatt = { 
 			
-			cost = 150
+			cost = 0
 			
 			removal_cost = -1
 			level = 7
@@ -1131,12 +1132,41 @@ ideas = {
 			}
 
 			available = { 
-				always = yes
+				always = no
 			}
 
 			traits = {
 				PB_lb_trait
 				PB_Talented_Diplomat
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		AME_William_Rogers = {
+			
+			cost = 0
+			
+			removal_cost = -1
+			level = 7
+
+			picture = GFX_idea_AME_William_Rogers
+
+			visible = {
+				original_tag = AME
+			}
+			
+			allowed_to_remove = { 
+				always = no
+			}
+
+			available = { 
+				always = no
+			}
+
+			traits = {
+				PB_lb_trait
+				MIF_Incompetent_Diplomat
 			}
 			
 			cancel_if_invalid = no

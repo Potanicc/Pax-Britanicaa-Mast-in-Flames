@@ -135,6 +135,11 @@ PB_Minor_Illiteracy
 PB_Stagnating_Growth
 PB_Great_War_Military
 PB_Fully_Westernized
+
+VIC_Arnold_Nordmeyer
+VIC_HV_Evatt
+VIC_Jack_Houston
+VIC_Jack_Duggan
 }
 
 set_politics = {

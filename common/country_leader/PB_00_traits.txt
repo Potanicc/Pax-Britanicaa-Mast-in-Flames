@@ -434,6 +434,17 @@ leader_traits = {
 		}
 	}
 
+	MIF_Incompetent_Diplomat = {
+
+		improve_relations_maintain_cost_factor = 0.25
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	PB_Violent_Individual = { 
 		political_power_factor = 0.1
 		stability_factor = -0.05
@@ -713,7 +724,7 @@ leader_traits = {
 
 	PB_Dismal_Enigma = {
 
-		political_power_factor = -0.05
+		political_power_cost = 0.02
 		
 		random = no
 		
@@ -736,6 +747,17 @@ leader_traits = {
 	PB_Old_Civil_Engineer = {
 
 		production_speed_infrastructure_factor = 0.1
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Former_Lawyer = {
+
+		political_power_factor = 0.1
 
 		random = no
 		
@@ -928,9 +950,20 @@ leader_traits = {
 		}
 	}
 
-	PB_Second_Great_War_Veteran = {
+	MIF_Second_Great_War_Veteran = {
 
 		war_support_factor = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Visionary = {
+
+		research_speed_factor = 0.10
 
 		random = no
 		

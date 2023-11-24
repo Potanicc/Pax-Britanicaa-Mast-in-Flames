@@ -1,4 +1,25 @@
+add_namespace = americaflavor
+add_namespace = impeachment
 add_namespace = america
+
+#############################
+### American Focus Events ###
+#############################
+
+# Trip to Fritzroy - Friends in Oceania Focus
+country_event = {
+	id = america.1
+	title = america.1.t
+	desc = america.1.d
+	picture = GFX_report_event_rogers_oceania_trip
+	
+	is_triggered_only = yes
+
+	option = {
+		name = america.1.a
+		ai_chance = { factor = 100 }
+	}
+}
 
 ##############################
 ### American Flavor Events ###
@@ -6,9 +27,9 @@ add_namespace = america
 
 # Hoffen
 country_event = {
-	id = america.1
-	title = america.1.t
-	desc = america.1.d
+	id = americaflavor.1
+	title = americaflavor.1.t
+	desc = americaflavor.1.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	trigger = {
@@ -18,11 +39,11 @@ country_event = {
 	}
 	
 	option = {
-		name = america.1.a
+		name = americaflavor.1.a
 		ai_chance = { factor = 100 }
 		hidden_effect = {
 			country_event = {
-				id = america.2
+				id = americaflavor.2
 				days = 28
 			}
 		}
@@ -30,19 +51,19 @@ country_event = {
 }
 # Enttäuschung
 country_event = {
-	id = america.2
-	title = america.2.t
-	desc = america.2.d
+	id = americaflavor.2
+	title = americaflavor.2.t
+	desc = americaflavor.2.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = america.2.a
+		name = americaflavor.2.a
 		ai_chance = { factor = 100 }
 		hidden_effect = {
 			country_event = {
-				id = america.3
+				id = americaflavor.3
 				days = 327
 			}
 		}
@@ -50,19 +71,19 @@ country_event = {
 }
 # Auftrag
 country_event = {
-	id = america.3
-	title = america.3.t
-	desc = america.3.d
+	id = americaflavor.3
+	title = americaflavor.3.t
+	desc = americaflavor.3.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = america.3.a
+		name = americaflavor.3.a
 		ai_chance = { factor = 100 }
 		hidden_effect = {
 			country_event = {
-				id = america.4
+				id = americaflavor.4
 				days = 402
 			}
 		}
@@ -70,19 +91,19 @@ country_event = {
 }
 # Ausbildung
 country_event = {
-	id = america.4
-	title = america.4.t
-	desc = america.4.d
+	id = americaflavor.4
+	title = americaflavor.4.t
+	desc = americaflavor.4.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = america.4.a
+		name = americaflavor.4.a
 		ai_chance = { factor = 100 }
 		hidden_effect = {
 			country_event = {
-				id = america.5
+				id = americaflavor.5
 				days = 327
 			}
 		}
@@ -90,24 +111,24 @@ country_event = {
 }
 # Träume
 country_event = {
-	id = america.5
-	title = america.5.t
-	desc = america.5.d
+	id = americaflavor.5
+	title = americaflavor.5.t
+	desc = americaflavor.5.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = america.5.a
+		name = americaflavor.5.a
 		ai_chance = { factor = 100 }
 	}
 }
 
 # Embassy Protest
 country_event = {
-	id = america.8
-	title = america.8.t
-	desc = america.8.d
+	id = americaflavor.6
+	title = americaflavor.6.t
+	desc = americaflavor.6.d
 	picture = GFX_report_event_embassy_protest
 	
 	trigger = {
@@ -116,7 +137,7 @@ country_event = {
 		tag = AME
 	}
 	option = {
-		name = america.8.a
+		name = americaflavor.6.a
 		ai_chance = { factor = 100 }
 	}
 }
@@ -125,34 +146,162 @@ country_event = {
 ### American Impeachment Events ###
 ###################################
 
+# The Game Begins
+country_event = {
+	id = impeachment.1
+	title = impeachment.1.t
+	desc = impeachment.1.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	trigger = {
+		date > 1958.1.3
+		date < 1958.1.5
+		tag = AME
+	}
+	
+	option = {
+		name = impeachment.1.a
+		ai_chance = { factor = 100 }
+		complete_national_focus = AME_Impeachment_Crisis
+		set_country_flag = impeachment_crisis
+	}
+}
+
 # Public Outrage
 country_event = {
-	id = america.6
-	title = america.6.t
-	desc = america.6.d
+	id = impeachment.2
+	title = impeachment.2.t
+	desc = impeachment.2.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = america.6.a
+		name = impeachment.2.a
+		ai_chance = { factor = 100 }
+	} 
+}
+
+# Impeachment
+country_event = {
+	id = impeachment.3
+	title = impeachment.3.t
+	desc = impeachment.3.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.3.a
+		ai_chance = { factor = 100 }
+	} 
+}
+
+# Cicero
+country_event = {
+	id = impeachment.4
+	title = impeachment.4.t
+	desc = impeachment.4.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.4.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Caeser
+country_event = {
+	id = impeachment.5
+	title = impeachment.5.t
+	desc = impeachment.5.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.5.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+# American Brutus
+country_event = {
+	id = impeachment.6
+	title = impeachment.6.t
+	desc = impeachment.6.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.6.a
+		ai_chance = { factor = 100 }
+		AME = {
+			kill_country_leader = yes
+		}
+	}
+}
+
+# American Antony
+country_event = {
+	id = impeachment.7
+	title = impeachment.7.t
+	desc = impeachment.7.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.7.a
 		ai_chance = { factor = 100 }
 		add_stability = -0.5
 	}
 }
 
-# Impeachment
+#
 country_event = {
-	id = america.7
-	title = america.7.t
-	desc = america.7.d
+	id = impeachment.8
+	title = impeachment.8.t
+	desc = impeachment.8.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = america.7.a
+		name = impeachment.8.a
 		ai_chance = { factor = 100 }
-		add_stability = -0.5
+	}
+}
+
+#
+country_event = {
+	id = impeachment.9
+	title = impeachment.9.t
+	desc = impeachment.9.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.9.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#
+country_event = {
+	id = impeachment.10
+	title = impeachment.10.t
+	desc = impeachment.10.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = impeachment.10.a
+		ai_chance = { factor = 100 }
 	}
 }

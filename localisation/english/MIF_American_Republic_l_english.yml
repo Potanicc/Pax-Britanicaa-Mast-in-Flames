@@ -1,0 +1,246 @@
+﻿l_english:
+ 
+ #####################
+ ### COUNTRY NAMES ###
+ #####################
+
+ AME_ni:0 "United American Republic"
+ AME_ni_DEF:0 "the United American Republic"
+ AME_ds:0 "United American Republic"
+ AME_ds_DEF:0 "the United American Republic"
+ AME_rc:0 "United American Republic"
+ AME_rc_DEF:0 "the United American Republic"
+ AME_an:0 "United American Republic"
+ AME_an_DEF:0 "the United American Republic"
+ AME_cn:0 "United American Republic"
+ AME_cn_DEF:0 "the United American Republic"
+ AME_lb:0 "United American Republic"
+ AME_lb_DEF:0 "the United American Republic"
+ AME_ss:0 "United American Republic"
+ AME_ss_DEF:0 "the United American Republic"
+ AME_jc:0 "United American Republic"
+ AME_jc_DEF:0 "the United American Republic"
+ AME_ni_ADJ:0 "American"
+ AME_rc_ADJ:0 "American"
+ AME_lb_ADJ:0 "American"
+ AME_ss_ADJ:0 "American"
+ AME_jc_ADJ:0 "American"
+ AME_ds_ADJ:0 "American"
+ AME_cn_ADJ:0 "American"
+ AME_an_ADJ:0 "American"
+
+ ########################
+ ### NATIONAL SPIRITS ###
+ ########################
+
+ #################
+ ### DECISIONS ###
+ #################
+
+ #Gair Impeachment#
+
+ #Decision Categories
+ MIF_AME_Impeachment_Crisis:0 "The Impeachment Crisis"
+ MMIF_AME_Impeachment_Crisis_desc:0 "\n\n\n\n\n\n\nGair has become the epicenter of intense internal conflict in the United American Republic due to his actions regarding America’s megacorporations. He faces serious accusations from Congress who claim he's involved in Bribery, Negligence of the Public Welfare, Subversion of Democratic Principles, and Obstruction of Justice. Gair has vehemently denied all charges, asserting that they’re fabrications.\n\nThe controversy has split the nation, sparking debates among intellectuals in universities and clashes between rioters and political hooligans in city streets. The Melbourne Stock Exchange reflects the turmoil, experiencing a continuous freefall amid the instability.\n\nThe American populace will not tolerate the endless continued clashes for much longer. In order to prevent the country from slipping into violence not seen since the Bonus Brigade Crisis, either Congress or Gair must act quickly and effectively to manage both the people and the Impeachment trial. The nation teeters on the edge, awaiting resolution amidst a sea of uncertainty and discontent.\n\nImpeachment Progress - [?AME_Impeachment_Progress|%C0] \n\nPublic Outrage - [?AME_Public_Outrage|%O0]"
+
+ #Decisions
+ AME_Obstruct_Impeachment:0 "Gair Decisions"
+ AME_Obstruct_Impeachment_desc:0 "Fuck Congress"
+ AME_Filibuster_Congress:0 "Filibuster in Congress"
+ AME_Filibuster_Congress_desc:0 "Based"
+ AME_Launch_EIEC_Campaign:0 "Launch an EIEC Campaign"
+ AME_Launch_EIEC_Campaign_desc:0 "Legit proving Congress's point but whatev"
+ AME_Accelerate_Impeachment:0 "Congress Decisions"
+ AME_Accelerate_Impeachment_desc:0 "Congress hates Gair"
+ AME_Fabricate_Evidence:0 "Fabricate Evidence"
+ AME_Fabricate_Evidence_desc:0 "It's Wednesday, my dudes."
+
+ #Variable Tooltips
+ add_10_to_AME_Public_Outrage_tt:0 "Increase Public Outrage by 10"
+ add_10_to_AME_Impeachment_Progress_tt:0 "Increase Impeachment Progress by 10"
+ remove_10_from_AME_Impeachment_Progress_tt:0 "Decrease Impeachment Progress by 10"
+
+ #######################
+ ### AMERICAN EVENTS ###
+ #######################
+
+ #Flavor Events#
+ americaflavor.1.t:0 "Hoffen"
+ americaflavor.1.d:0 ""Let's work on your English, Elisabeth,"" he gently encouraged.\n\nThe girl responded with a quiet nod, shifting her eyes from the cityscape to the page before her.\n\n"Wollon," he pronounced, emphasizing the word. "It means want."\n\nElisabeth concentrated, her small fingers tracing the letters. "Hoffen," she repeated softly, learning the word for hope.\n\n"Doctor," he enunciated, shifting to another word. "Ärztin," he added, providing the German equivalent.\n\nThe room was filled with a sense of quiet diligence, father and daughter engrossed in the language lesson. As Elisabeth's understanding grew, her confidence blossomed.\n\n"Can we joy the view, Vater?" she attempted, the sentence forming on her lips.\n\nHe smiled warmly at her progress. "Very close, my dear. It's 'Can we enjoy the view, Father.'"\n\nShe closed the book as Philadelphia stole their attention. The view of the city was breathtaking. Philadelphia gleamed like a city perched on a hill, a promised land they had long yearned for. It was the beacon that kept them going, even as others around them succumbed, whether at the hands of the SP or their own. They both struggled to forget. Memories of those left behind in Hamburg weighed on his mind; she held onto thoughts of her doll, taken by an SP officer as a cruel show of force, and her friend, found dead the night before they departed. Despite it all, they summoned the strength to cast these thoughts aside, focusing instead on the resplendent cityscape ahead — an emblem of hope amidst a world shrouded in darkness.\n\n"Let’s go, Elisabeth," the name always evoked thoughts of her mother. They disembarked the gangplank and, as if guided by an invisible hand, drew a deep breath. The air itself tasted different here, imbued with a taste of freedom."
+ americaflavor.1.a:0 "The American Dream lives on."
+ americaflavor.2.t:0 "Enttäuschung"
+ americaflavor.2.d:0 "The first thing that struck him as he pushed open the creaking door was the unmistakable odor. It was a stale, musty scent that spoke volumes of neglect, a room frozen in time since the Great War, and the first one at that. He flinched as he felt a swift movement graze past his foot, followed by his daughter Elisabeth's piercing scream. Glancing down, he found relief in the sight of a rat scurrying away. He couldn't help but chuckle at the absurdity of it. The terror etched on Elisabeth's face, however, was a stark reminder of how profoundly their lives had been scarred by the brutality of the SP.\n\nThe rat made a swift escape as he attempted to crush it with his well-worn boot, a relic from Hannover. It could hardly be deemed a boot anymore; the once-sturdy material had long since surrendered to time's relentless grasp. It clung to his foot as if by sheer will, a tattered fragment that had somehow persisted through the years.\n\nHe let his mind wander back to the moment he had breathed in the air of Philadelphia, a breath laced with hope, a sensation so foreign and distant that he had almost failed to recognize it. The air he drew into his lungs now, in the heart of Melbourne, bore no resemblance. It carried a weight of disappointment, a palpable departure of the optimism he once held dear.\n\nWith tenderness, he tucked Elisabeth into the solitary bed in the room. As he lay beside her, his thoughts strayed to the ideals of hope and prosperity he had carried across continents, only to find them dashed against the harsh reality of America's unmet promises. The weight of disillusionment pressed upon him, a testament to how his expectations had been betrayed by the very land he had sought solace in."
+ americaflavor.2.a:0 "Just another day in Melbourne."
+ americaflavor.3.t:0 "Auftrag"
+ americaflavor.3.d:0 "Erdmann wandered the bustling streets of Melbourne, his gaze shifting from one shop window to another, searching for that elusive 'We're Hiring' sign. His last job had slipped through his fingers, lost in a whirlwind of change and progress. To be honest, he couldn't quite put a name to what replaced him, only that he and most of his colleagues were dismissed shortly after it arrived. Before that job, it was a machine that could do twice the work at half the cost. His tale was all too familiar, a narrative shared by thousands. Work had grown scarcer, as automation relentlessly edged out human hands. In Melbourne, this was a harsh reality, a relentless cycle of unemployment and mechanization that dated back to the Automation Crisis in the old British Empire.\n\n1933... the year echoed in his thoughts. Erdmann strained to recall his childhood, the memories distant and faint. The arithmetic reminded him that he was just seven. Back then, he could leisurely wander the streets of Hamburg with his mother, not glancing around to check if an SP officer lurked nearby, snuffing out the life of any German pedestrian at their whim. Back then, Germany could call itself the hegemon of Europe, not bothering to look below to the revanchist France or behind to the Russian monster. It was a golden age, a time of abundance. Then the French tore it all away, piece by piece. They—\n\nThe symphony of urban sounds jolted him back to reality. He couldn't afford to dwell in the past. The urgency to secure a job hung heavy in the air. For without one, he and his daughter would face the unthinkable choice between sustenance and shelter. So, he pressed on, each step a testament to his determination. He walked, and walked, and walked."
+ americaflavor.3.a:0 "Employment’s a luxury you have to work for."
+ americaflavor.4.t:0 "Ausbildung"
+ americaflavor.4.d:0 "Elisabeth’s face acquainted itself with the earth in a most unpleasant manner, a courtesy she could attribute exclusively to the boy lurking behind her. She attempted to rise, only to be greeted by a sharp pang in her ribs.\n\n“Say something, Fritz,” one of the boys taunted.\n\n“Ja, say za thing,” another chimed in, mocking her German accent.\n\nShe chose not to correct them, refraining from informing them that her name was Elisabeth. It wasn't a matter of defiance, but perhaps the residue of her conditioning under the SP's regime, as her father often asserted. He maintained that she was a radiant source of joy, a second sun, to all who knew her. Yet, after she underwent the state-mandated 'education,' she felt estranged from him. There was a divide between them, a chasm he couldn't traverse. Maybe he risked their lives in their escape in the hope of forging a closer bond with his daughter. Regardless of his motives, Elisabeth's time in America hadn't unfolded as the dream her father had promised. She felt hollow. She wa—\n\nElisabeth’s train of thought was abruptly derailed by the second encounter her face had with the ground that day. Unlike the previous instance, there were no accompanying kicks to her side. The boys, it seemed, had grown tired of her stoic responses and moved on to torment another student. She rose, inspecting her scraped knees and elbows. She wondered what she would tell her father. She decided that she would have to inform her father that she had simply tripped on her way home. She trudged forward, her knee stinging, and she walked, and walked, and walked."
+ americaflavor.4.a:0 "Kids are cruel."
+ americaflavor.5.t:0 "Träume"
+ americaflavor.5.d:0 "Erdmann and Elisabeth settled comfortably into the car as Erdmann deftly navigated through the bustling streets of downtown Melbourne on the way to their eagerly anticipated new home. They had endured the same cramped apartment for the past few years, bearing witness to their neighbors' nightly disputes, struggling to navigate a space meant for storage, not human habitation. Finally, it seemed, their fortunes were about to change. They were on the verge of realizing the American dream that had been promised to them.\n\nAs he executed a sharp turn, their new home came into view, conveniently situated near his fresh workplace. The view was as captivating as the first sight of Philadelphia all those years ago. He stole a glance at his daughter, hoping to see a spark of youthful excitement and curiosity, but she remained stoic. It was as if an impenetrable barrier separated them, and this realization frustrated him immensely. His anger wasn't directed at her, but at those who had shaped her into this distant, emotionless figure. He released a weary sigh. It seemed the dream was only halfway fulfilled — wealth without happiness. With determination, he pressed on toward the elusive dream."
+ americaflavor.5.a:0 "Dreams and Trauma."
+ americaflavor.6.t:0 "Under Siege"
+ americaflavor.6.d:0 "The customary serenity of the embassy was now shattered, replaced by what Ambassador Durand initially mistook for cheers, a common occurrence in France. However, as he approached the window for a closer inspection, he was confronted with a scene of heckling and fervent protests. Many of the signs bore incendiary slogans that sent a shiver down his spine.\n\n"Down with Doriot!"\n\n"Liberate London!"\n\n"Gair supports the Germans!"\n\nFeeling a wave of unease wash over him, Marcel swiftly descended the staircase to inform the reception desk. They, in turn, would dispatch a report to the nearest SP office, who would then confront the rioters and restore peace to the area. He slowed his pace mid-descent, realizing that he was Philadelphia, nowhere near any SP headquarters. As he made his way down, he couldn't help but reflect on the stark contrast between his current post and his previous role as an ambassador in Copenhagen. There, the idea of protesting at the French embassy was almost unthinkable among the populace. Now, in Philadelphia, hailed as a bastion of 'Democracy and Hope', he couldn't help but recoil at the thought.\n\nThe very notion of it repulsed him, fueling a profound aversion towards their prevailing hypocrisy and their stubborn refusal to accept defeat, as well as towards their culture and the very location of his assignment. Determined to maintain his composure, he promptly pushed these thoughts from his mind. After all, he was a French diplomat, a representative of France's storied legacy that spanned not merely hundreds, but thousands. With unwavering resolve, he returned to his study, while outside, the Americans continued their protest."
+ americaflavor.6.a:0 "We don't do diplomacy with Neo-Imperialists."
+
+ #Impeachment Events#
+ impeachment.1.t:0 "Cicero and Caesar"
+ impeachment.1.d:0 "Cicero and Caesar"
+ impeachment.1.a:0 "The Game Begins"
+ impeachment.2.t:0 "Public Outrage Has Reached a Fever Pitch"
+ impeachment.2.d:0 "Rioters on both sides of the political spectrum have begun to fight in the streets. America is on the verge of mass civil strife over the issue!"
+ impeachment.2.a:0 "Fuck..."
+ impeachment.3.t:0 "Senate Votes to Indict"
+ impeachment.3.d:0 "The Senate has voted to remove the President from power as per the constitution!"
+ impeachment.3.a:0 "Bye Gair."
+
+ #Focus Events#
+ america.1.t:0 "A Trip to Oceania"
+ america.1.d:0 "Stepping off the plane, Rogers immediately felt the sun’s scorching touch on his skin. He didn’t get a chance to enjoy the warmth as a mass of guards immediately surrounded him to protect him from any trouble that may arise. Descending from the aircraft, the swarm of inquisitive piranhas, more commonly known as journalists, began to part like the Red Sea of old. However, as soon as he stepped onto the tarmac, he was immediately bombarded by countless questions:\n\n“Will Oceania commence the initiation process to join the League of Nations?” queried one reporter. \n“Mr. Secretary, how do you respond to the recent series of PFA bombings across Oceania?” inquired another.\n“The PFA has labeled America an enemy of the Aotearoan people. What steps will America take in response?” shouted a third.\n\nAll the questions seemed to overlap and blend into one as the flood of noise bombarded his ears and the flashing lights from cameras began blind him. So instead of responding, he just did what he always did, he smiled and waved.\n\nSuddenly, a deafening boom ruptured his eardrums, followed swiftly by an intense heat akin to countless suns. He immediately felt the asphalt slam into his body and the sound of shrapnel whizzing through the air. He didn’t have enough time to process the scene though before his guards shuttled him into a car. He just remembered the piercing screams of the reporters that had previously asked him questions. As he drove away from the planned site of his grave, he pondered the life of the average Oceanian citizen. So this was life in Oceania, he thought, eat breakfast in the morning, lounge around with friends in the afternoon, and be home just in time for a PFA terrorist attack by supper. Saddened by the thought, he sank into his seat and watched as the smoke got further and further away."
+ america.1.a:0 "First time in Oceania, Rogers?"
+
+ #####################
+ ### AMERICAN FOCI ###
+ #####################
+
+ #Gair Foci#
+ AME_Boar_of_Philadelphia:0 "Boar of Philadelphia"
+ AME_Boar_of_Philadelphia_desc:0 "Boar of Philadelphia"
+ 
+ #Cold War Foci
+ AME_Bear_Rooster_Sun:0 "The Bear, the Rooster, and the Sun"
+ AME_Bear_Rooster_Sun_desc:0 "CW"
+ AME_Rooster:0 "The Rooster"
+ AME_Rooster_desc:0 "CW"
+ AME_Black_Spot_Europe:0 "Black Spot of Europe"
+ AME_Black_Spot_Europe_desc:0 "CW"
+ AME_Old_Father_Bondage:0 "Old Father in Bondage"
+ AME_Old_Father_Bondage_desc:0 "CW"
+ AME_Reinforce_Greenland:0 "Reinforce Greenland"
+ AME_Reinforce_Greenland_desc:0 "CW"
+ AME_Bear:0 "The Bear"
+ AME_Bear_desc:0 "CW"
+ AME_Novorossiya_Accords:0 "Novorossiyan Accords"
+ AME_Novorossiya_Accords_desc:0 "CW"
+ AME_Trans_Arctic_Telescreen:0 "Laying the Trans-Arctic Telescreen"
+ AME_Trans_Arctic_Telescreen_desc:0 "CW"
+ AME_Petrograd_Pepsi:0 "Pepsi in St.Petersburg"
+ AME_Petrograd_Pepsi_desc:0 "CW"
+ AME_Commitment_Freedom:0 "A Commitment to Freedom"
+ AME_Commitment_Freedom_desc:0 "CW
+ AME_Connections_Berlin:0 "Connections to the German Resistence"
+ AME_Connections_Berlin_desc:0 "CW"
+ AME_Warming_Frozen_Curtain:0 "The Cold War Gets Colder"
+ AME_Warming_Frozen_Curtain_desc:0 "CW"
+ AME_Sun:0 "The Sun"
+ AME_Sun_desc:0 "CW"
+ AME_Domestic_Jacobins:0 "Purging the Domestic Jacobins"
+ AME_Domestic_Jacobins_desc:0 "CW"
+ AME_Supplying_Nanjing:0 "Supplying Nanjing" 
+ AME_Supplying_Nanjing_desc:0 "CW"
+ AME_Friends_in_Oceania:0 "Friends in Oceania"
+ AME_Friends_in_Oceania_desc:0 "Oceania consists of two primary commonwealths: Victoria and Aotearoa. Victoria, boasting a larger populace and thriving industries, stands notably dominant. In contrast, Aotearoa grapples with internal divisions between its Anglo and Maori communities, resulting in rampant violence known as 'The Troubles'.\n\nAmid this turmoil, Fritzroy has sought support to safeguard Oceanian democracy from the PFA, a group of Japanese-backed Jacobin terrorists. Historically, our relations have been distant; however, Oceania has recently approached us, emphasizing our shared commitment to democracy and liberty. Additionally, intelligence from CIA assets indicates Japan's active involvement in this conflict. In response, we'll initiate the deployment of arms and advisors to Oceania. However, this aid comes with a few strings attached: Oceania must open its markets to American corporations and allow American warships access to their ports. This strategic move aims to bolster American influence across the Pacific Ocean. Furthermore, America has subtly hinted at the prospect of Oceania potentially joining the §CLeague of Nations§! if relations continue to improve."
+ AME_Friends_in_Oceania_tt:0 "We will send advisors and §Y1000 pieces of Infantry Equipment§! and §Y1000 pieces of Support Equipment§! to Oceania."
+ AME_Eagle_Wings:0 "Our Missionaries In A Foreign Field"
+ AME_Eagle_Wings_desc:0 "CW"
+ AME_Eagle_Talons:0 "Our Sword and Shield"
+ AME_Eagle_Talons_desc:0 "CW"
+ AME_Last_Light_Liberty:0 "Liberty's Last Light"
+ AME_Last_Light_Liberty_desc:0 "‘Liberty is dead’\n‘Liberalism is the guise of Imperialism’\n‘We will bury you’\n\nAll these are phrases hurled at us and our institutions that guarantee an equality and prosperity unknown throughout the world. America has become the last bastion, a final flame in a world of darkness, of a world filled with monsters like Doriot and his henchmen, like Hashimoto and his goons, like the Tsar and his guards. Sadly, men like these have become the norm in our globe. Democracy has been in retreat for the past two decades, liberalism is on its last legs, radicalism and hatred has overtaken the globe, all of these are symptoms of what many have begun to call the ‘Winter of Liberty’.\n\nEvery continent has felt the grip of one horrible ideology or another; East Asia is dominated by the Jacobins and their endless anti-revolutionary purges, Europe is enslaved by France who has turned the home of the Second Renaissance into a dystopian nightmare; and Russia has infected all manners of countries from Iran to Brazil with their ideology of despotism and imperialism.\n\nIf we wish to see liberalism weather this ‘Winter of Liberty’ and survive to the spring,, then we must guide and protect as one does to an infant. §BWe are Liberty’s Sword and Shield, we are Liberty's Last Line of Defense, we are Liberty’s Last Light.§!"
+
+ #Megacorps Foci
+ AME_Megacorp_Wars:0 "The Megacorp Wars"
+ AME_Megacorp_Wars_desc:0 "The most pivotal action undertaken during the Coolidge Ministry was undeniably the rekindling of the Megacorp Wars. After lying dormant for decades, the megacorporations found themselves embroiled in intense conflict once again, this time with fresh contenders, novel domains, and significantly higher stakes. Every sector, spanning from oil production to computer innovation, witnessed an unprecedented surge in productivity as each megacorporation vied to slash prices, maximize profits, and introduce groundbreaking goods and technologies to the market. This rapid expansion spurred immense economic growth and ushered in a wave of technological advancement, with industry giants like IBM, Intel, and EIEC engaging in fierce battles within the Chip Wars. Simultaneously, EIEC and Standard Oil engaged in the largest oil production surge in history, each striving to uncover new oil fields, enhance operational efficiency, and innovate oil synthesis methodologies in order to outproduce the other.\n\nHowever, the ramifications of the Megacorp Wars transcend mere factory floors and research laboratories, reaching into boardrooms spanning from Melbourne to Boston, permeating households across America, and pervading the very core of political affairs in Philadelphia. Unfortunately, the casualties in this conflict have been the American economy and, above all, the American people, who have borne the brunt of collateral damage in the power struggles between these corporate titans. Small-scale shop owners have all but vanished from the marketplace, ousted by megacorporations flooding the market with inexpensive, cutting-edge products. Automation has precipitated widespread unemployment, compelling scores of Americans to roam the streets in search of employment opportunities. Concurrently, corruption has become endemic, with megacorporate funds finding their way into the pockets of politicians.\n\nThe far-reaching consequences of the Megacorp Wars have left an indelible scar on America, and prospects for a peace appear increasingly remote."
+ AME_Reach_Out_To_Edison:0 "Reach Out To Edison"
+ AME_Reach_Out_To_Edison_desc:0 "MC"
+ AME_Burying_Hatchet:0 "Burying the Hatchet"
+ AME_Burying_Hatchet_desc:0 "MC"
+ AME_Guiding_Hand_Third_Renaissance:0 "The Guiding Hand of the Third Renaissance"
+ AME_Guiding_Hand_Third_Renaissance_desc:0 "MC"
+ AME_Stick_With_IBM:0 "Stick With IBM"
+ AME_Stick_With_IBM_desc:0 "MC"
+ AME_Edge_of_Known_World:0 "Edge of the Known World"
+ AME_Edge_of_Known_World_desc:0 "MC"
+ AME_Marraige_IBM_Government:0 "Marraige of IBM and Government"
+ AME_Marraige_IBM_Government_desc:0 "MC"
+ AME_Reach_Out_To_Ford:0 "Reach Out To Ford"
+ AME_Reach_Out_To_Ford_desc:0 "MC"
+ AME_New_Engine:0 "The New Engine"
+ AME_New_Engine_desc:0 "MC"
+ AME_Car_In_Every_Home:0 "A Car in Every Home"
+ AME_Car_In_Every_Home_desc:0 "MC"
+ AME_Oil_Must_Flow:0 "The Oil Must Flow"
+ AME_Oil_Must_Flow_desc:0 "MC"
+ AME_More_Than_Just_Oil:0 "More Than Just Oil"
+ AME_More_Than_Just_Oil_desc:0 "MC"
+ AME_Talk_With_Rockfellers:0 "A Talk With the Rockfellers"
+ AME_Talk_With_Rockfellers_desc:0 "MC"
+ AME_Steel_Spine_Economy:0 "The Steel Spine of the Economy"
+ AME_Steel_Spine_Economy_desc:0 "MC"
+ AME_More_Than_Just_Steel:0 "More Than Just Steel"
+ AME_More_Than_Just_Steel_desc:0 "MC"
+ AME_Strengthen_Carnegia:0 "Strengthening Carnegia"
+ AME_Strengthen_Carnegia_desc:0 "MC"
+ AME_Young_Blood:0 "Young Blood"
+ AME_Young_Blood_desc:0 "MC"
+ AME_Staying_Afloat:0 "Staying Afloat"
+ AME_Staying_Afloat_desc:0 "MC"
+ AME_Trailblazers:0 "Trailblazers of the Economy"
+ AME_Trailblazers_desc:0 "MC"
+ AME_Gairenomics:0 "Gairenomics"
+ AME_Gairenomics_desc:0 "Gair has unveiled his all-encompassing economic agenda to the public; it has been swiftly christened 'Gairenomics' by influential voices within both the administration and the press. At its core, Gairenomics hinges upon deregulation, tax alleviations targeting the middle class and corporations, and a pronounced escalation in military spending to protect American interests abroad.\n\nDeregulation stands tall as the cornerstone of Gairenomics, symbolizing a return to the American spirit that once steered the Second Renaissance and which Gair envisions leading the nation into a resplendent third. Its endorsement has elicited resounding applause from corporations nationwide, heralding it as a catalyst for economic vitality, innovation, and rejuvenation of a sluggish market. Nonetheless, apprehensions loom large as concerns burgeon over potential corporate greed. Many fear an unchecked dominance by mega-corporations that have already displaced countless Americans through widespread automation. The American Workers’ Party has seized upon these anxieties, characterizing the plan as a betrayal of America's citizenry to the clutches of mega-corporate interests—a charge Gair vehemently refutes.\n\nThe tax reductions, met with widespread public acclaim, has been heralded as a boon to personal standards of living, with the additional benefit of propelling economic growth by empowering people with more disposable income for desired purchases. However, the American Unity Party has quietly questioned the trade-off, pondering whether the anticipated economic upswing from tax cuts would offset the resultant deficit and mounting national debt.\n\nHowever, the most contentious point of argument emerged with the monumental surge in military spending. Both the American Workers’ Party and American Unity Party have framed the surge as a detriment—allegedly siphoning resources away from essential social programs that Americans rely upon, or as an unwarranted squandering of American wealth, respectively. Nonetheless, Gair garners steadfast support from a populace gripped by the fear of losing ground in the Cold War; a populace that have witnessed the erosion of democracy in the face of resurging Neo-Imperialism and Jacobinism.\n\nThe implications of Gairenomics remain enigmatic and the issue has become among the most divisive in recent American history. Whether for better or worse, the echoes of Gairenomics are poised to reverberate through the nation, leaving a permanent mark on the nation's trajectory."
+ AME_American_Megacorporation:0 "The Megacorporation Cooperative Council of America"
+ AME_American_Megacorporation_desc:0 "MC"
+
+ #Space Race Foci
+ AME_Increase_ASAA_Funding:0 "Increase Funding for ASAA"
+ AME_Increase_ASAA_Funding_desc: "The American Space and Aeronautics Agency, commonly referred to as the ASAA, stands as America’s central organization for pursuits in Outer Space exploration and development. With Space emerging as the forefront of humanity's future and a fresh frontier in the Cold War theater, policymakers have recognized the imperative to inject fresh capital into the ASAA, ensuring competitiveness against formidable rivals like France, Russia, and Japan. This realization marked the genesis of the American Astronomical Act, a culmination of exhaustive legislative efforts, kindling hope that America will sustain its technological supremacy and radiate the ideals of liberalism across the empty cosmos.\n\nThe Act pledges financial support across three distinct sectors, accompanied by provisions for potential engagement in two additional missions. Presently, the focus areas encompass the expansion of Cape Canaveral, the nation's primary launch facility, bolstered funding for scientist and specialist training, and the augmentation of the American shuttle fleet, intensifying the nation's prowess and transportation capabilities in Outer Space. There are inklings of proposals to collaborate with mega-corporations to broaden the reach of the American economy, exploring potential partnerships to expand economic frontiers beyond Earth's boundaries. Moreover, a contentious notion has been bandied about within the [Insert Far-Right Party Here] regarding potential cooperation with Tsarist Russia on space missions, championing it as mutually beneficial and a means to alleviate Cold War tensions.\n\nAmerica finds itself at the beginning of a new cosmic course. One where America may just transcend the boundaries of this stained world. One where Americans may say: “to infinity and beyond.”"
+ AME_American_Shuttle_Program:0 "An American Shuttle Program"
+ AME_American_Shuttle_Program_desc:0 "SR"
+ AME_Increase_Science_Funding:0 "Increase Funding for Schools"
+ AME_Increase_Science_Funding_desc:0 "SR"
+ AME_Expanding_Cape_Canaveral:0 "Expand Cape Canaveral"
+ AME_Expanding_Cape_Canaveral_desc:0 "SR"
+ AME_Gairenomics_Space:0 "Taking Gairenomics to Space"
+ AME_Gairenomics_Space_desc:0 "SR"
+ AME_Space_Linkup:0 "Space Linkup with the Russians"
+ AME_Space_Linkup_desc:0 "SR"
+ AME_American_Solar_System:0 "American Solar System"
+ AME_American_Solar_System_desc:0 "SR"
+
+ #Impeachment Foci
+ AME_Impeachment_Crisis:0 "The Impeachment Crisis"
+ AME_Impeachment_Crisis_desc:0 "Impeachment"
+ AME_Side_Congress:0 "Side With Congress"
+ AME_Side_Congress_desc:0 "Impeachment"
+ AME_Congress_1:0 "Congress's Rage"
+ AME_Congress_1_desc:0 "Impeachment"
+ AME_Congress_2:0 "Congress's Schemes"
+ AME_Congress_2_desc:0 "Impeachment"
+ AME_Congress_3:0 "Congress's Desperation"
+ AME_Congress_3_desc:0 "Impeachment"
+ AME_Congress_4:0 "Congress's Bet"
+ AME_Congress_4_desc:0 "Impeachment"
+ AME_Side_President:0 "Side With the President"
+ AME_Side_President_desc:0 "Impeachment"
+ AME_Gair_1:0 "Gair's Anger"
+ AME_Gair_1_desc:0 "Impeachment"
+ AME_Gair_2:0 "Gair's Intrigue"
+ AME_Gair_2_desc:0 "Impeachment"
+ AME_Gair_3:0 "Gair's Despair"
+ AME_Gair_3_desc:0 "Impeachment"
+ AME_Gair_4:0 "Gair's Gamble"
+ AME_Gair_4_desc:0 "Impeachment"
+
+ ###########################
+ ### LEADER DESCRIPTIONS ###
+ ###########################
+ #National Leaders
+ MIF_AME_Vince_Gair_Desc:0 "§YBorn:§! 02/25/1901\n\n§YVince Gair§!, hailing from a tranquil farming town in Claredon, was born into a Scots-Irish family. His early years were uneventful, during which he worked as an accountant for a local railway. However, in his twenties, he ventured into politics, eventually rising to become the Personal Accountant to the Premier of Claredon. In the early 1930s, his parliamentary bid was met with resounding failure. Despite this setback, he maneuvered his way into the role of Secretary of Financial Affairs for Claredon through favors, smooth talking, and other questionable means. Gair's ascent continued as he vied for the Premier position as the official Progress Party candidate. Presenting himself as the quintessential Claredonian, a man who had risen from humble beginnings and had ascended to the center of state politics through sheer hard work and diligence; he won a close victory in the 1939 elections. As Premier, he initiated sweeping reforms, including mandated work safety measures, paid sick leave, and the outlawing of strikebreakers. While his reforms were deemed drastic by many, especially those affiliated with the megacorporations, Gair maintained unwavering popularity among the unions and workers. Securing a second term in 1943, he solidified his status as a pivotal political figure in the United American Republic. He continued enacting reforms, including the Claredon Workmens’ Act, which reduced shifts to a maximum of eight hours. However, the term also witnessed the repeal of many of Gair’s prior reforms by members of both the American Unity Party and Progress Party who believed he had gone too far. Gair, it seemed, agreed, as he put up no resistance. Upon reaching his term limit, he opted not to run for Claredon Premier again, believing that the young republic needed a Cincinnatus, not a Caesar.\n\nDespite his withdrawal from Claredon politics, he was selected by Progress Party nominee Earl Warren as his Vice Presidential nominee. Warren sought to secure support among Southern voters and the labor force. However, Earl Warren, a conservative-leaning member of the Progress Party, prohibited him from advocating for reform. So Vince Gair, once the champion of the workers, began to give speeches advocating for deregulation and unfettered Megacorp policy. It’s unclear when he started to believe the speeches he was giving, but by the time his first term as Vice President was over, Gair the Reformer had given way to Gair the Conservative.\n\nWarren's re-election in 1952 solidified Gair's executive role as well as his pro-megacorp policies. In his second term as Vice President, he announced his bid for the Presidency of the UAR, pledging to restore a pro-corporate, business-friendly America. Despite initial opposition, Gair secured a victory in the 1956 elections. Now, less than a year into his term, he has begun efforts to support corporate interests and expand megacorp influence, a policy many of his former supporters have begun to disparagingly call ‘Gairenomics’."
+
+ #Advisors
+ AME_Thomas_Watson:0 "Thomas Watson"
+ AME_James_Mcgranery:0 "James Mcgranery"
+ AME_Scott_Lucas:0 "Scott Lucas"
+ AME_William_Rogers:0 "William Rogers"

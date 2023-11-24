@@ -292,6 +292,11 @@ add_ideas = {
 	PB_Fully_Westernized
 
 	PB_AME_Edison_Electric
+
+	AME_Thomas_Watson
+	AME_William_Rogers
+	AME_Scott_Lucas
+	AME_James_Mcgranery
 }
 
 if = {

@@ -39,26 +39,52 @@
 
  #Gair Impeachment#
 
- #Decision Categories
+ #Decision Category
  MIF_AME_Impeachment_Crisis:0 "The Impeachment Crisis"
  MMIF_AME_Impeachment_Crisis_desc:0 "\n\n\n\n\n\n\nGair has become the epicenter of intense internal conflict in the United American Republic due to his actions regarding America’s megacorporations. He faces serious accusations from Congress who claim he's involved in Bribery, Negligence of the Public Welfare, Subversion of Democratic Principles, and Obstruction of Justice. Gair has vehemently denied all charges, asserting that they’re fabrications.\n\nThe controversy has split the nation, sparking debates among intellectuals in universities and clashes between rioters and political hooligans in city streets. The Melbourne Stock Exchange reflects the turmoil, experiencing a continuous freefall amid the instability.\n\nThe American populace will not tolerate the endless continued clashes for much longer. In order to prevent the country from slipping into violence not seen since the Bonus Brigade Crisis, either Congress or Gair must act quickly and effectively to manage both the people and the Impeachment trial. The nation teeters on the edge, awaiting resolution amidst a sea of uncertainty and discontent.\n\nImpeachment Progress - [?AME_Impeachment_Progress|%C0] \n\nPublic Outrage - [?AME_Public_Outrage|%O0]"
 
- #Decisions
- AME_Obstruct_Impeachment:0 "Gair Decisions"
- AME_Obstruct_Impeachment_desc:0 "Fuck Congress"
- AME_Filibuster_Congress:0 "Filibuster in Congress"
- AME_Filibuster_Congress_desc:0 "Based"
- AME_Launch_EIEC_Campaign:0 "Launch an EIEC Campaign"
- AME_Launch_EIEC_Campaign_desc:0 "Legit proving Congress's point but whatev"
- AME_Accelerate_Impeachment:0 "Congress Decisions"
- AME_Accelerate_Impeachment_desc:0 "Congress hates Gair"
+ #Gair Decisions
+ AME_Oaths_Fealty:0 "Demand Oaths of Fealty"
+ AME_Oaths_Fealty_desc:0 "Many in the administration do not have any personal loyalties to the President, this is an issue that must rectified as soon as possible."
+ AME_Fire_Unloyal_Officials:0 "Fire Unloyal Officials"
+ AME_Fire_Unloyal_Officials_desc:0 "Many within the administration are known to be in contact, openly or covertly, with members of the AWP who are currently trying to cut the presidency of our esteemed President short. We must rapidly purge any elements of the government that do not meet the standards that we set."
+ AME_Support_Law_Order:0 "Support Law and Order"
+ AME_Support_Law_Order_desc:0 "The attempt to remove our esteemed President by the jacobins of the AWP has caused mass unrest in the streets. Violence has become commonplace and American law enforcement and pro-Gair militias are the only thing keeping this nation from slipping into the Jacobin abyss."
+ AME_Destroy_Evidence:0 "Destroy Evidence"
+ AME_Destroy_Evidence_desc:0 "President Gair has left a long paper trail of evidence. Good thing paper is flammable at 451℉."
+ AME_Witness_Retaliation:0 "Witness Retaliation"
+ AME_Witness_Retaliation_desc:0 "Many within our own administration have decided to betray our president. A few will pay, the rest will get the message."
+ AME_Collaborate_Happening_World:0 "Collaborate With the Happening World"
+ AME_Collaborate_Happening_World_desc:0 "Gair has reached out to EIEC to see if an agreement can be made about using the Happening World Brand to calm the public. They replied that they're open to making a deal if we’re open to paying their fee."
+ AME_Scapegoat_Mcfarland:0 "Scapegoat Mcfarland"
+ AME_Scapegoat_Mcfarland_desc:0 "Desc"
+ AME_Infiltrate_Republican_Guard:0 "Scapegoat Mcfarland"
+ AME_Infiltrate_Republican_Guard_desc:0 "Desc"
+ AME_Organize_Gair_Militia:0 "Scapegoat Mcfarland"
+ AME_Organize_Gair_Militia_desc:0 "Desc"
+
+
+ #Congress Decisions
  AME_Fabricate_Evidence:0 "Fabricate Evidence"
- AME_Fabricate_Evidence_desc:0 "It's Wednesday, my dudes."
+ AME_Fabricate_Evidence_desc:0 "While some witnesses have been willing to tell us about Gair’s wrongdoings, none of them have had anything truly incriminating. Thankfully, a bit of cash can cause people to stretch the truth a little."
+ AME_Witness_Bribery:0 "Witness Bribery"
+ AME_Witness_Bribery_desc:0 "While some witnesses have been willing to tell us about Gair’s wrongdoings, none of them have had anything truly incriminating. Thankfully, a bit of cash can cause people to stretch the truth a little."
+ AME_Calm_Everyone_Down:0 "Calm Everyone Down"
+ AME_Calm_Everyone_Down_desc:0 "While we may not have the corporate backing of Gair, Congress can ease the tense situation by sending the representatives back to their home provinces to calm everyone down, unfortunately this has had the adverse effect of slowing impeachment due to the large number of absent legislators."
+ AME_Scapegoat_Gair:0 "Scapegoat Gair"
+ AME_Scapegoat_Gair_desc:0 "Desc"
+ AME_Witness_Bribery:0 "Witness Bribery"
+ AME_Witness_Bribery_desc:0 "Desc"
+ AME_Calm_Everyone_Down:0 "Calm Everyone Down"
+ AME_Calm_Everyone_Down_desc:0 "Desc"
 
  #Variable Tooltips
  add_10_to_AME_Public_Outrage_tt:0 "Increase Public Outrage by 10"
  add_10_to_AME_Impeachment_Progress_tt:0 "Increase Impeachment Progress by 10"
  remove_10_from_AME_Impeachment_Progress_tt:0 "Decrease Impeachment Progress by 10"
+
+ #Country Flags
+ AME_impeachment_crisis_flag:0 "The Impeachment Crisis has begun"
 
  #######################
  ### AMERICAN EVENTS ###
@@ -140,7 +166,7 @@
  AME_Supplying_Nanjing:0 "Supplying Nanjing" 
  AME_Supplying_Nanjing_desc:0 "CW"
  AME_Friends_in_Oceania:0 "Friends in Oceania"
- AME_Friends_in_Oceania_desc:0 "Oceania consists of two primary commonwealths: Victoria and Aotearoa. Victoria, boasting a larger populace and thriving industries, stands notably dominant. In contrast, Aotearoa grapples with internal divisions between its Anglo and Maori communities, resulting in rampant violence known as 'The Troubles'.\n\nAmid this turmoil, Fritzroy has sought support to safeguard Oceanian democracy from the PFA, a group of Japanese-backed Jacobin terrorists. Historically, our relations have been distant; however, Oceania has recently approached us, emphasizing our shared commitment to democracy and liberty. Additionally, intelligence from CIA assets indicates Japan's active involvement in this conflict. In response, we'll initiate the deployment of arms and advisors to Oceania. However, this aid comes with a few strings attached: Oceania must open its markets to American corporations and allow American warships access to their ports. This strategic move aims to bolster American influence across the Pacific Ocean. Furthermore, America has subtly hinted at the prospect of Oceania potentially joining the §CLeague of Nations§! if relations continue to improve."
+ AME_Friends_in_Oceania_desc:0 "Oceania consists of two primary commonwealths —— Victoria and Aotearoa. Victoria, boasting a larger populace and thriving industries, stands notably dominant. In contrast, Aotearoa grapples with internal divisions between its Anglo and Maori communities, resulting in rampant violence known as 'The Troubles'.\n\nAmid this turmoil, Fritzroy has sought support to safeguard Oceanian democracy from the PFA, a group of Japanese-backed Jacobin terrorists. Historically, our relations have been distant; however, Oceania has recently approached us, emphasizing our shared commitment to democracy and liberty. Additionally, intelligence from CIA assets indicates Japan's active involvement in this conflict. In response, we'll initiate the deployment of arms and advisors to Oceania. However, this aid comes with a few strings attached — Oceania must open its markets to American corporations and allow American warships access to their ports. This strategic move aims to bolster American influence across the Pacific Ocean. Furthermore, America has subtly hinted at the prospect of Oceania potentially joining the §4Transoceanic Defense Organization§! if relations continue to improve."
  AME_Friends_in_Oceania_tt:0 "We will send advisors and §Y1000 pieces of Infantry Equipment§! and §Y1000 pieces of Support Equipment§! to Oceania."
  AME_Eagle_Wings:0 "Our Missionaries In A Foreign Field"
  AME_Eagle_Wings_desc:0 "CW"
@@ -195,7 +221,7 @@
 
  #Space Race Foci
  AME_Increase_ASAA_Funding:0 "Increase Funding for ASAA"
- AME_Increase_ASAA_Funding_desc: "The American Space and Aeronautics Agency, commonly referred to as the ASAA, stands as America’s central organization for pursuits in Outer Space exploration and development. With Space emerging as the forefront of humanity's future and a fresh frontier in the Cold War theater, policymakers have recognized the imperative to inject fresh capital into the ASAA, ensuring competitiveness against formidable rivals like France, Russia, and Japan. This realization marked the genesis of the American Astronomical Act, a culmination of exhaustive legislative efforts, kindling hope that America will sustain its technological supremacy and radiate the ideals of liberalism across the empty cosmos.\n\nThe Act pledges financial support across three distinct sectors, accompanied by provisions for potential engagement in two additional missions. Presently, the focus areas encompass the expansion of Cape Canaveral, the nation's primary launch facility, bolstered funding for scientist and specialist training, and the augmentation of the American shuttle fleet, intensifying the nation's prowess and transportation capabilities in Outer Space. There are inklings of proposals to collaborate with mega-corporations to broaden the reach of the American economy, exploring potential partnerships to expand economic frontiers beyond Earth's boundaries. Moreover, a contentious notion has been bandied about within the [Insert Far-Right Party Here] regarding potential cooperation with Tsarist Russia on space missions, championing it as mutually beneficial and a means to alleviate Cold War tensions.\n\nAmerica finds itself at the beginning of a new cosmic course. One where America may just transcend the boundaries of this stained world. One where Americans may say: “to infinity and beyond.”"
+ AME_Increase_ASAA_Funding_desc:0 "The American Space and Aeronautics Agency, commonly referred to as the ASAA, stands as America's central organization for pursuits in Outer Space exploration and development. With Space emerging as the forefront of humanity's future and a fresh frontier in the Cold War theater, policymakers have recognized the imperative to inject fresh capital into the ASAA, ensuring competitiveness against formidable rivals like France, Russia, and Japan. This realization marked the genesis of the American Astronomical Act, a culmination of exhaustive legislative efforts, kindling hope that America will sustain its technological supremacy and radiate the ideals of liberalism across the empty cosmos.\n\nThe Act pledges financial support across three distinct sectors, accompanied by provisions for potential engagement in two additional missions. Presently, the focus areas encompass the expansion of Cape Canaveral, the nation's primary launch facility, bolstered funding for scientist and specialist training, and the augmentation of the American shuttle fleet, intensifying the nation's prowess and transportation capabilities in Outer Space. There are inklings of proposals to collaborate with mega-corporations to broaden the reach of the American economy, exploring potential partnerships to expand economic frontiers beyond Earth's boundaries. Moreover, a contentious notion has been bandied about within the [Insert Far-Right Party Here] regarding potential cooperation with Tsarist Russia on space missions, championing it as mutually beneficial and a means to alleviate Cold War tensions.\n\nAmerica finds itself at the beginning of a new cosmic course. One where America may just transcend the boundaries of this stained world. One where Americans may say —— to infinity and beyond."
  AME_American_Shuttle_Program:0 "An American Shuttle Program"
  AME_American_Shuttle_Program_desc:0 "SR"
  AME_Increase_Science_Funding:0 "Increase Funding for Schools"
@@ -209,29 +235,28 @@
  AME_American_Solar_System:0 "American Solar System"
  AME_American_Solar_System_desc:0 "SR"
 
- #Impeachment Foci
+ #Impeachment Crisis Foci
  AME_Impeachment_Crisis:0 "The Impeachment Crisis"
- AME_Impeachment_Crisis_desc:0 "Impeachment"
- AME_Side_Congress:0 "Side With Congress"
- AME_Side_Congress_desc:0 "Impeachment"
- AME_Congress_1:0 "Congress's Rage"
+ AME_Impeachment_Crisis_desc:0 "Impeachment" 
+ AME_Impeachment_Crisis_effect_tt:0 "And so, the battle begins."
+ AME_Congress_1:0 "Side With §tMcfarland§!"
  AME_Congress_1_desc:0 "Impeachment"
- AME_Congress_2:0 "Congress's Schemes"
+ AME_Congress_1_effect_tt:0 "We will support §tMcfarland and Congress§! in the coming storm. §ROur Republic will not fall.§!"
+ AME_Congress_2:0 "A Modern Demothosnes"
  AME_Congress_2_desc:0 "Impeachment"
- AME_Congress_3:0 "Congress's Desperation"
- AME_Congress_3_desc:0 "Impeachment"
- AME_Congress_4:0 "Congress's Bet"
- AME_Congress_4_desc:0 "Impeachment"
- AME_Side_President:0 "Side With the President"
- AME_Side_President_desc:0 "Impeachment"
- AME_Gair_1:0 "Gair's Anger"
+ AME_Congress_2_effect_tt:0 "§RWe will take more drastic measures, for the good of the Republic.§!"
+ AME_Congress_3:0 "Sic Semper Tyrannis"
+ AME_Congress_3_desc:0 "Impeachment" 
+ AME_Congress_3_effect_tt:0 "§RWe will do whatever it takes to defend our Republic.§!"
+ AME_Gair_1:0 "Side With §3Gair§!"
  AME_Gair_1_desc:0 "Impeachment"
- AME_Gair_2:0 "Gair's Intrigue"
+ AME_Gair_1_effect_tt:0 "We will support §3Gair§! in the coming storm. §RAmerica will not descend into the hellscape of Jacobinism.§!"
+ AME_Gair_2:0 "Crossing the Rubicon"
  AME_Gair_2_desc:0 "Impeachment"
- AME_Gair_3:0 "Gair's Despair"
+ AME_Gair_2_effect_tt:0 "§RWe will take further actions to defend our American institutions.§!"
+ AME_Gair_3:0 "America's Last Line of Defense"
  AME_Gair_3_desc:0 "Impeachment"
- AME_Gair_4:0 "Gair's Gamble"
- AME_Gair_4_desc:0 "Impeachment"
+ AME_Gair_3_effect_tt:0 "§RWe will defend our President and our country to the last man.§!"
 
  ###########################
  ### LEADER DESCRIPTIONS ###

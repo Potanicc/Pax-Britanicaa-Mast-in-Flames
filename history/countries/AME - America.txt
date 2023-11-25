@@ -20,6 +20,8 @@ set_country_flag = Tag_in_American_Sphere
 set_country_flag = Megacorp_EIEC_Dominant
 set_country_flag = PB_americaupdate_content_country
 
+clr_country_flag = AME_impeachment_crisis_flag
+
 set_country_flag = AME_New_England_Stab_Very_High
 set_country_flag = AME_South_Stab_Very_High
 set_country_flag = AME_Mid_West_Stab_Very_High
@@ -253,6 +255,7 @@ recruit_character = AME_frank_andrews
 recruit_character = AME_Allen_Gullion
 recruit_character = AME_Edmund_Gruber
 recruit_character = AME_Vince_Gair
+recruit_character = AME_Ernest_Mcfarland
 
 add_ideas = {
 	MGC_Melbourne1
@@ -382,9 +385,16 @@ set_popularities = {
 
 country_leader = {
 	name = "Vince Gair"
-	desc = "PB_NO_DESCRIPTION"
+	desc = "MIF_AME_Vince_Gair_Desc"
 	picture = "gfx/leaders/AME/Portrait_AME_Vince_Gair.png"
 	ideology = LB_VARIANT_06 
+}
+
+country_leader = {
+	name = "Ernest Mcfarland"
+	desc = "PB_NO_DESCRIPTION"
+	picture = "gfx/leaders/AME/Portrait_AME_Ernest_Mcfarland.png"
+	ideology = SS_VARIANT_09
 }
 
 ### Foreign Policy ###

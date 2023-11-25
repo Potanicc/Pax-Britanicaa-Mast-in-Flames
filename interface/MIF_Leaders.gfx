@@ -15,5 +15,9 @@ spriteTypes = {
 		name = "GFX_Portrait_AME_Vince_Gair"
 		texturefile = "gfx/leaders/AME/Portrait_AME_Vince_Gair.png"
 	}
+	spriteType = {
+		name = "GFX_AME_Ernest_Mcfarland"
+		texturefile = "gfx/leaders/AME/Portrait_AME_Ernest_Mcfarland.png"
+	}
 	
 }

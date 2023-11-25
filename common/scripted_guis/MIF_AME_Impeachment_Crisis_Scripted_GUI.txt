@@ -1,9 +1,146 @@
 scripted_gui = {
-
-	MIF_AME_Impeachment_Crisis_Scripted_GUI = {
-
-		window_name = "MIF_AME_Impeachment_Crisis_GUI"
-
+	MIF_AME_Impeachment_Crisis_Scripted_GUI = { 
+		window_name = "MIF_AME_Impeachment_Crisis_Scripted_GUI"
 		context_type = decision_category
+		
+		visible = {
+			AME_Public_Outrage_Bar_Zero = {
+				check_variable = {
+					AME_Public_Outrage = 0
+				}
+			}
+			
+			AME_Public_Outrage_Bar_Five = {
+				check_variable = {
+					AME_Public_Outrage = 5
+				}
+			}
+
+			AME_Public_Outrage_Bar_Ten = {
+				check_variable = {
+					AME_Public_Outrage = 10
+				}
+			}
+
+			AME_Public_Outrage_Bar_Fiveteen = {
+				check_variable = {
+					AME_Public_Outrage = 15
+				}
+			}
+
+			AME_Public_Outrage_Bar_Twenty = {
+				check_variable = {
+					AME_Public_Outrage = 20
+				}
+			}
+
+			AME_Public_Outrage_Bar_Twentyfive = {
+				check_variable = {
+					AME_Public_Outrage = 25
+				}
+			}
+
+			AME_Public_Outrage_Bar_Thirty = {
+				check_variable = {
+					AME_Public_Outrage = 30
+				}
+			}
+
+			AME_Public_Outrage_Bar_Thirtyfive = {
+				check_variable = {
+					AME_Public_Outrage = 35
+				}
+			}
+
+			AME_Public_Outrage_Bar_Forty = {
+				check_variable = {
+					AME_Public_Outrage = 40
+				}
+			}
+
+			AME_Public_Outrage_Bar_Fortyfive = {
+				check_variable = {
+					AME_Public_Outrage = 45
+				}
+			}
+
+			AME_Public_Outrage_Bar_Fifty = {
+				check_variable = {
+					AME_Public_Outrage = 50
+				}
+			}
+
+			AME_Public_Outrage_Bar_Fiftyfive = {
+				check_variable = {
+					AME_Public_Outrage = 55
+				}
+			}
+
+			AME_Public_Outrage_Bar_Sixty = {
+				check_variable = {
+					AME_Public_Outrage = 60
+				}
+			}
+
+			AME_Public_Outrage_Bar_Sixtyfive = {
+				check_variable = {
+					AME_Public_Outrage = 65
+				}
+			}
+
+			AME_Public_Outrage_Bar_Seventy = {
+				check_variable = {
+					AME_Public_Outrage = 70
+				}
+			}
+
+			AME_Public_Outrage_Bar_Seventyfive = {
+				check_variable = {
+					AME_Public_Outrage = 75
+				}
+			}
+
+			AME_Public_Outrage_Bar_Eighty = {
+				check_variable = {
+					AME_Public_Outrage = 80
+				}
+			}
+
+			AME_Public_Outrage_Bar_Eightyfive = {
+				check_variable = {
+					AME_Public_Outrage = 85
+				}
+			}
+
+			AME_Public_Outrage_Bar_Ninety = {
+				check_variable = {
+					AME_Public_Outrage = 90
+				}
+			}
+
+			AME_Public_Outrage_Bar_Ninetyfive = {
+				check_variable = {
+					AME_Public_Outrage = 95
+				}
+			}
+
+			AME_Public_Outrage_Bar_Hundred = {
+				check_variable = {
+					AME_Public_Outrage = 100
+				}
+			}
 		}
+
+		effects = {
+
+		}
+		
+		triggers = {
+
+		}
+
+		properties = {
+
+		}
+	}
 }

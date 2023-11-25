@@ -153,17 +153,15 @@ country_event = {
 	desc = impeachment.1.d
 	picture = GFX_report_event_elisabeth_and_erdmann
 	
-	trigger = {
-		date > 1958.1.3
-		date < 1958.1.5
-		tag = AME
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = impeachment.1.a
 		ai_chance = { factor = 100 }
-		complete_national_focus = AME_Impeachment_Crisis
-		set_country_flag = impeachment_crisis
+		AME = {
+			complete_national_focus = AME_Impeachment_Crisis
+			set_country_flag = AME_impeachment_crisis_flag
+		}
 	}
 }
 

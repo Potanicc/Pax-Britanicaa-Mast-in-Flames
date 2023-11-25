@@ -1,0 +1,116 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_AME_ic_po_display_box"
+		texturefile = "gfx/interface/AME_ic_po_display_box.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_phase_box"
+		texturefile = "gfx/interface/AME_ic_po_phase_box.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_hundred"
+		texturefile = "gfx/interface/AME_ic_po_bar_hundred.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_ninetyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_ninetyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_ninety"
+		texturefile = "gfx/interface/AME_ic_po_bar_ninety.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_eightyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_eightyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_eighty"
+		texturefile = "gfx/interface/AME_ic_po_bar_eighty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_seventyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_seventyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_seventy"
+		texturefile = "gfx/interface/AME_ic_po_bar_seventy.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_sixtyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_sixty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_sixty"
+		texturefile = "gfx/interface/AME_ic_po_bar_sixty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_fiftyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_fiftyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_fifty"
+		texturefile = "gfx/interface/AME_ic_po_bar_fifty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_fortyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_fortyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_forty"
+		texturefile = "gfx/interface/AME_ic_po_bar_forty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_thirtyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_thirtyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_thirty"
+		texturefile = "gfx/interface/AME_ic_po_bar_thirty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_twentyfive"
+		texturefile = "gfx/interface/AME_ic_po_bar_fortyfive.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_twenty"
+		texturefile = "gfx/interface/AME_ic_po_bar_forty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_fifteen"
+		texturefile = "gfx/interface/AME_ic_po_bar_fifteen.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_ten"
+		texturefile = "gfx/interface/AME_ic_po_bar_ten.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_five"
+		texturefile = "gfx/interface/AME_ic_po_bar_five.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AME_ic_po_bar_zero"
+		texturefile = "gfx/interface/AME_ic_po_bar_zero.png"
+	}
+}

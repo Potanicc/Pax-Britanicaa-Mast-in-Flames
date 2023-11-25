@@ -1,51 +1,710 @@
-guiTypes = {
-
+guiTypes = { 
 	containerWindowType = {
-		name = "MIF_AME_Impeachment_Crisis_GUI"
+		name = "MIF_AME_Impeachment_Crisis_Scripted_GUI"
 		position = { x = 0 y = 0 }
-		size = { width = 100% height= 70 }
+		size = { width = 100% height = 100% }
+		moveable = yes
 
-		instantTextBoxType = {
-			name ="New_England_Stab"
-			position = { x=15 y = 15 }
-			font = "garamond_14"
-			text = "[get_AME_New_England_Stab]"
-			format = center
-			maxHeight = 50
-			maxWidth = 100
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_zero"
+		position = { x = 0 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_zero"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_zero"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
 		}
 
-		instantTextBoxType = {
-			name ="South_Stab"
-			position = { x=130 y = 15 }
-			pdx_tooltip = "ASS"
-			font = "garamond_14"
-			text = "[get_AME_South_Stab]"
-			format = center
-			maxHeight = 50
-			maxWidth = 100
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_five"
+		position = { x = 20 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_five"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_five"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
 		}
 
-		instantTextBoxType = {
-			name ="Mid_West_Stab"
-			position = { x=220 y = 15 }
-			pdx_tooltip = "ASS"
-			font = "garamond_14"
-			text = "[get_AME_Mid_West_Stab]"
-			format = center
-			maxHeight = 50
-			maxWidth = 150
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_ten"
+		position = { x = 40 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_ten"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_ten"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
 		}
 
-		instantTextBoxType = {
-			name ="Appalachian_Stab"
-			position = { x=350 y = 15 }
-			pdx_tooltip = "ASS"
-			font = "garamond_14"
-			text = "[get_AME_Appalachian_Stab]"
-			format = center
-			maxHeight = 50
-			maxWidth = 150
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_fifteen"
+		position = { x = 60 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_fifteen"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_fifteen"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_twenty"
+		position = { x = 80 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_twenty"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_twenty"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_twentyfive"
+		position = { x = 100 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_twentyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_twentyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_thirty"
+		position = { x = 120 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_thirty"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_thirty"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_thirtyfive"
+		position = { x = 140 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_thirtyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_thirtyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_forty"
+		position = { x = 160 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_forty"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_forty"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_fortyfive"
+		position = { x = 180 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_fortyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_fortyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_fifty"
+		position = { x = 200 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_fifty"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_fifty"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_fiftyfive"
+		position = { x = 220 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_fiftyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_fiftyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_sixty"
+		position = { x = 240 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_sixty"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_sixty"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_sixtyfive"
+		position = { x = 260 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_sixtyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_sixtyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_seventy"
+		position = { x = 280 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_seventy"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_seventy"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_seventyfive"
+		position = { x = 300 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_seventyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_seventyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_eighty"
+		position = { x = 320 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_eighty"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_eighty"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_eightyfive"
+		position = { x = 340 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_eightyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_eightyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_ninety"
+		position = { x = 360 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_ninety"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_ninety"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_ninetyfive"
+		position = { x = 380 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_ninetyfive"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_ninetyfive"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_display_hundred"
+		position = { x = 400 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_display_box_hundred"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_display_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_display_hundred"
+				position = { x = 0 y = 0 }
+				font = "garamond_14"
+				text = "[?AME_Public_Outrage|%O0]"
+				format = center
+				maxHeight = 50
+				maxWidth = 100
+			}
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Hundred"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_hundred
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Ninetyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_ninetyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Ninety"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_ninety
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Eightyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_eightyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Eighty"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_eighty
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Seventyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_seventyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Seventy"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_seventy
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Sixtyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_sixtyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Sixty"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_sixty
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Fiftyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_fiftyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Fifty"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_fifty
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Fortyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_fortyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Forty"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_forty
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Thirtyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_thirtyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Thirty"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_thirty
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Twentyfive"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_twentyfive
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Twenty"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_twenty
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Fiveteen"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_fifteen
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Ten"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_ten
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Five"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_five
+			Orientation = "CENTER"
+		}
+
+		iconType = {
+			name ="AME_Public_Outrage_Bar_Zero"
+			position = { x = 0 y = 0 }
+			spriteType = GFX_AME_ic_po_bar_zero
+			Orientation = "CENTER"
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_Phase_One"
+		position = { x = 80 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_Phase_One_Box"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_phase_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_Phase_One_Text"
+				position = { x=200 y = 15 }
+				pdx_tooltip = "ASS"
+				font = "garamond_14"
+				text = "Worrying"
+				format = center
+				maxHeight = 50
+				maxWidth = 150
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_Phase_Two"
+		position = { x = 240 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_Phase_Two_Box"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_phase_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_Phase_Two_Text"
+				position = { x=200 y = 15 }
+				pdx_tooltip = "ASS"
+				font = "garamond_14"
+				text = "Worrying"
+				format = center
+				maxHeight = 50
+				maxWidth = 150
+			}
+		}
+
+		containerWindowType = {
+		name = "MIF_AME_Impeachment_Crisis_Public_Outrage_Phase_Three"
+		position = { x = 320 y = 40 }
+		size = { width = 100% height= 100% }
+
+			iconType = {
+				name ="Public_Outrage_Phase_Three_Box"
+				position = { x = 0 y = 0 }
+				spriteType = GFX_AME_ic_po_phase_box
+				Orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+				name ="Public_Outrage_Phase_Three_Text"
+				position = { x=200 y = 15 }
+				pdx_tooltip = "ASS"
+				font = "garamond_14"
+				text = "Worrying"
+				format = center
+				maxHeight = 50
+				maxWidth = 150
+			}
 		}
 	}
 }

@@ -1,4 +1,4 @@
-﻿capital = 126
+﻿capital = 13307
 
 oob = "ENG_1933"
 
@@ -74,13 +74,14 @@ create_intelligence_agency = {
 
 # Accepted Cultures
 
-set_variable = { PB_main_culture = 1 }
+set_variable = { PB_main_culture = 444 }
 add_to_array = { PB_accepted_cultures = 1 }
 add_to_array = { PB_accepted_cultures = 31 }
 add_to_array = { PB_accepted_cultures = 32 }
 add_to_array = { PB_accepted_cultures = 2 }
 add_to_array = { PB_accepted_cultures = 3 }
 add_to_array = { PB_accepted_cultures = 4 }
+add_to_array = { PB_accepted_cultures = 444 }
 
 # Starting tech
 set_technology = {
@@ -214,11 +215,8 @@ add_timed_idea = {
 }
 
 add_ideas = {
-	PB_ENG_Land_of_Hope
-	PB_ENG_Economic_Stagnation
-	PB_ENG_Overconfident_Staff
-    PB_CHI_Extraterritorial_Dividends
-	PB_ENG_Imperial_Confederation_Head
+	ENG_Strangers_Strange_Land
+	ENG_Imperial_Neglect
 	
 	PB_NI_British_Exceptionalism
 
@@ -261,21 +259,21 @@ set_war_support = 0.5
 set_convoys = 250
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = ds
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	ni = 3
-	ds = 3
-	rc = 18
-	cn = 45
+	ni = 26
+	ds = 15
+	rc = 15
+	cn = 32
 	lb = 8
-	an = 3
-	ss = 18
-	jc = 2
+	an = 2
+	ss = 1
+	jc = 1
 }
 
 SNG = {
@@ -329,6 +327,7 @@ MDR = {
 
 	set_country_flag = Tag_in_British_Sphere
 }
+
 AME = {
     set_politics = {
         ruling_party = cn
@@ -348,6 +347,7 @@ AME = {
         jc = 1
     }
 }
+
 BAF = {
     set_politics = {
         ruling_party = ds
@@ -654,6 +654,20 @@ WAF = {
 	set_country_flag = Tag_in_American_Sphere
 }
 
+country_leader = {
+	name = "Sir Gerald Templar"
+	desc = "ENG_Gerald_Templar_Desc"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Gerald_Templar.png"
+	ideology = NI_VARIANT_10 
+}
+
+country_leader = {
+	name = "Sir Gerald Templar"
+	desc = "ENG_Gerald_Templar_Desc"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Gerald_Templar.png"
+	ideology = DS_VARIANT_01 
+}
+
 # CHARACTERS
 recruit_character = ENG_Alan_Brooke
 recruit_character = ENG_JFC_Fuller
@@ -671,7 +685,7 @@ recruit_character = ENG_ernle_chatfield
 recruit_character = ENG_Lord_Gort
 recruit_character = ENG_John_Dill
 recruit_character = ENG_Archibald_Wavell
-recruit_character = ENG_hrm_victoria
+recruit_character = ENG_Gerald_Templar		#MIF Character
 recruit_character = ENG_harold_alexander
 recruit_character = ENG_george_milne
 recruit_character = ENG_claude_auchinleck

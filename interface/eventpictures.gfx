@@ -1,73 +1,73 @@
 spriteTypes = { 
 
 	spriteType = {
-		name = "GFX_news_event_news_event_001"
-		texturefile = "gfx/event_pictures/news_event_news_event_001.png"
+		name = "GFX_news_event_001"
+		texturefile = "gfx/event_pictures/news_event_001.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_002"
-		texturefile = "gfx/event_pictures/news_event_news_event_002.png"
+		name = "GFX_news_event_002"
+		texturefile = "gfx/event_pictures/news_event_002.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_003"
-		texturefile = "gfx/event_pictures/news_event_news_event_003.png"
+		name = "GFX_news_event_003"
+		texturefile = "gfx/event_pictures/news_event_003.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_004"
-		texturefile = "gfx/event_pictures/news_event_news_event_004.png"
+		name = "GFX_news_event_004"
+		texturefile = "gfx/event_pictures/news_event_004.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_005"
-		texturefile = "gfx/event_pictures/news_event_news_event_005.png"
+		name = "GFX_news_event_005"
+		texturefile = "gfx/event_pictures/news_event_005.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_006"
-		texturefile = "gfx/event_pictures/news_event_news_event_006.png"
+		name = "GFX_news_event_006"
+		texturefile = "gfx/event_pictures/news_event_006.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_007"
-		texturefile = "gfx/event_pictures/news_event_news_event_007.png"
+		name = "GFX_news_event_007"
+		texturefile = "gfx/event_pictures/news_event_007.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_008"
-		texturefile = "gfx/event_pictures/news_event_news_event_008.png"
+		name = "GFX_news_event_008"
+		texturefile = "gfx/event_pictures/news_event_008.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_009"
-		texturefile = "gfx/event_pictures/news_event_news_event_009.png"
+		name = "GFX_news_event_009"
+		texturefile = "gfx/event_pictures/news_event_009.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_010"
-		texturefile = "gfx/event_pictures/news_event_news_event_010.png"
+		name = "GFX_news_event_010"
+		texturefile = "gfx/event_pictures/news_event_010.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_011"
-		texturefile = "gfx/event_pictures/news_event_news_event_011.png"
+		name = "GFX_news_event_011"
+		texturefile = "gfx/event_pictures/news_event_011.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_012"
-		texturefile = "gfx/event_pictures/news_event_news_event_012.png"
+		name = "GFX_news_event_012"
+		texturefile = "gfx/event_pictures/news_event_012.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_013"
-		texturefile = "gfx/event_pictures/news_event_news_event_013.png"
+		name = "GFX_news_event_013"
+		texturefile = "gfx/event_pictures/news_event_013.png"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_news_event_014"
-		texturefile = "gfx/event_pictures/news_event_news_event_014.png"
+		name = "GFX_news_event_014"
+		texturefile = "gfx/event_pictures/news_event_014.png"
 	}
 
 	spriteType = {
@@ -78,6 +78,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_016"
 		texturefile = "gfx/event_pictures/news_event_016.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_019"
+		texturefile = "gfx/event_pictures/news_event_019.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_020"
+		texturefile = "gfx/event_pictures/news_event_020.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_021"
+		texturefile = "gfx/event_pictures/news_event_021.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_022"
+		texturefile = "gfx/event_pictures/news_event_022.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_023"
+		texturefile = "gfx/event_pictures/news_event_023.png"
 	}
 
 	spriteType = {
@@ -133,12 +158,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_embassy_protest"
 		texturefile = "gfx/event_pictures/report_event_embassy_protest.png"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_019"
-		texturefile = "gfx/event_pictures/news_event_019.png"
-	}
+	} 
 
 	spriteType = {
 		name = "GFX_report_event_rogers_oceania_trip"

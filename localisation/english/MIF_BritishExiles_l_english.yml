@@ -1,0 +1,45 @@
+﻿l_english:
+
+ #####################
+ ### COUNTRY NAMES ###
+ #####################
+ 
+ ENG_ni:0 "British Salvation Government"
+ ENG_ni_DEF:0 "British Salvation Government"
+ ENG_ds:0 "British Salvation Government"
+ ENG_ds_DEF:0 "British Salvation Government"
+ ENG_rc:0 "British Salvation Government"
+ ENG_rc_DEF:0 "British Salvation Government"
+ ENG_an:0 "British Salvation Government"
+ ENG_an_DEF:0 "British Salvation Government"
+ ENG_cn:0 "British Salvation Government"
+ ENG_cn_DEF:0 "British Salvation Government"
+ ENG_lb:0 "British Salvation Government"
+ ENG_lb_DEF:0 "British Salvation Government"
+ ENG_ss:0 "British Salvation Government"
+ ENG_ss_DEF:0 "British Salvation Government"
+ ENG_jc:0 "British Salvation Government"
+ ENG_jc_DEF:0 "British Salvation Government"
+ ENG_ni_ADJ:0 "British"
+ ENG_rc_ADJ:0 "British"
+ ENG_lb_ADJ:0 "British"
+ ENG_ss_ADJ:0 "British"
+ ENG_jc_ADJ:0 "British"
+ ENG_ds_ADJ:0 "British"
+ ENG_cn_ADJ:0 "British"
+ ENG_an_ADJ:0 "British"
+
+ ########################
+ ### NATIONAL SPIRITS ###
+ ########################
+
+ ENG_Imperial_Neglect:0 "Forgotten Child of the Dark Continent"
+ ENG_Imperial_Neglect_desc:0 "Madagascar has always been one of the least developed and industrialized regions within the vast expanse of the British Empire. Imperial authorities often diverted and mishandled resources that could have propelled the island into the modern era. This neglectful approach has now emerged to haunt Britain during her darkest hour. Numerous components of the economy are either absent or sporadic due to this legacy of imperial disregard.\n\nFactories are sparse and inept, resources are scarce and mismanaged, and the workers are rebellious and slothful. If our aim is to make our way back home, it is an imperative that we address and rectify these issues promptly. It is crucial to rapidly industrialize in order to civilize this untamed land."
+ ENG_Strangers_Strange_Land:0 "Strangers in a Strange Land"
+ ENG_Strangers_Strange_Land_desc:0 "Madagascar was never meant for European habitation due to its lack of resources and differing climate. So, Britannia made minimal efforts to civilize or control the island, only occasionally sending an imperial governor to enforce her will. However, after Britain's defeat in the Second Great War, the British Salvation Government hurriedly evacuated British mainlanders and aimed to replace the native population with loyal British settlers. This effort has led to a smattering of British settlements among a native population that outnumbers them 50 to 1.\n\nThe attempt at cultural genocide only worsened the divide between the Malagasy people and their rulers. The growing alienation between British Exiles and the Malagasy presents a significant challenge for the future leaders of the British Salvation Government. Failure to bridge this gap might empower those previously dismissed as 'uncivilized natives' into a force that could potentially extinguish the Empire’s last flames."
+ ENG_strangers_strange_land_tt:0 "Some States will have the modifier ‘Native Resistance’"
+
+ ######################
+ ### CHARACTER DESC ###
+ ######################
+ ENG_Gerald_Templar_Desc:0 "Sir Gerald Templar always dreamed of being the leader and hero of the British Empire. It was a dream shared with every other Londoner street urchin; most of those street urchins are now dead or enslaved at the hands of the French, but he managed to rise to the top of the empire, though a notably smaller one than that of his youth. The first stage of his plan was to become a hero, and he succeeded, becoming Britain’s youngest divisional commander in the Second Great War. But fate got in the way of his plans as Britannia’s fall crushed his will and his goal.\n\nThe first morning of his new life was the most agonizing affair he had ever experienced. Sorrow and grief washed over him as confirmation came that London had fallen. Anger then flooded his mind, and anyone with any knowledge of Grantian psychology would say the next step would be bargaining, but Templar would perennially find himself stuck in a state of anger and rage. He bottled up his emotions, waiting for the day that they’d explode in the face of those who had betrayed his beloved Britannia.\n\nWith his internal battle resolved, he pushed forward with a motley crew of ex-soldiers and refugees. Eventually, they found their way to Madagascar, that last bastion, home to the heirs of Britannia. Suddenly, his dream seemed to bloom again as once again felt Britainnia’s touch. But once again, everything came crashing down as he was disappointed by the men who deceived and manipulated Britain repeatedly. So, quietly, he made his lists and his connections; he identified friend from foe; and planned the beginning of Britannia’s resurgence.\n\nEverything came to a head in 1952, when an opportunity fell into his lap, HRM Albert died of a heart attack. The lists were sent simultaneously with Elizabeth II’s coronation. Before the young empress could begin to enjoy her new crown, every obstacle on Templar, by then mockingly called ‘The Grand Marshall’, was dead or buried. However, Elizabeth II remained, and as the last vestige of the old imperial order, she was spared, but sidelined from power. Finally, the young street urchin was the master of the empire.\n\n§RTemplar’s position is one that rests upon pillars of sand; a mere push by anyone, weak or strong, may just bring his whole rotten structure down.§!"

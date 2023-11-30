@@ -49,6 +49,11 @@ PB_Setup_Cultures = {
 	113 = { set_variable = { culture_id = 5 } }
 	134 = { set_variable = { culture_id = 5 } }
 
+	### ---- Exile British Culture ---- ###
+
+	957 = { set_variable = { culture_id = 444 } }
+	958 = { set_variable = { culture_id = 444 } }
+
 	### ---- Breton Culture ---- ###
 
 	14 = { set_variable = { culture_id = 6 } }
@@ -1394,9 +1399,10 @@ PB_Setup_Cultures = {
 
 	### ---- Malagasy Culture ---- ###
 
-	543 = { set_variable = { culture_id = 268 } }
-	708 = { set_variable = { culture_id = 268 } }
+ 	708 = { set_variable = { culture_id = 268 } }
 	710 = { set_variable = { culture_id = 268 } }
+	959 = { set_variable = { culture_id = 268 } }
+	543 = { set_variable = { culture_id = 268 } }
 
 	### ---- Australian Culture ---- ###
 

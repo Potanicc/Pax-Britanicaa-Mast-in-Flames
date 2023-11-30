@@ -1,61 +1,4 @@
-characters={
-	ENG_hrm_victoria={
-		name="HRM Victoria"
-		portraits={
-			civilian={
-				large="gfx/leaders/ENG/Portrait_ENG_Queen_Victoria.dds"
-			}
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=NI_VARIANT_01
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=DS_VARIANT_01
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=RC_VARIANT_01
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=CN_VARIANT_01
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=LB_VARIANT_01
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=SS_VARIANT_03
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="ENG_Queen_Victoria_Desc"
-			ideology=JC_VARIANT_02
-			traits={ PB_Empress_Eternal PB_Germanophile }
-			expire="1.1.1.1"
-			id=-1
-		}
-	}
+characters = { 
 	ENG_harold_alexander={
 		name="Harold Alexander"
 		portraits={
@@ -797,6 +740,44 @@ characters={
 			ai_will_do = {
 				factor = 5.000
 			}
+		}
+	}
+
+	ENG_Gerald_Templar = {
+		name = "Sir Gerald Templar"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/Portrait_ENG_Gerald_Templar.png"
+			}
+		}
+
+		country_leader = {
+			desc = "ENG_Gerald_Templar_Desc"
+			
+			ideology = NI_VARIANT_10
+
+			traits = {
+				MIF_Grand_Marshall
+			}
+
+			expire = "1.1.1.1"
+
+			id = -1
+		}
+
+		country_leader = {
+			desc = "ENG_Gerald_Templar_Desc"
+			
+			ideology = DS_VARIANT_01
+
+			traits = {
+				MIF_Grand_Marshall
+			}
+
+			expire = "1.1.1.1"
+
+			id = -1
 		}
 	}
 }	

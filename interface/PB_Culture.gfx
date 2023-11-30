@@ -101,6 +101,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/culture/Britain/PB_Culture_North_English.dds"
 	}
 
+	spriteType = {
+		name = "GFX_PB_Culture_444"
+		texturefile = "gfx/interface/culture/Britain/PB_Culture_Exile_British.png"
+	}
+
 	### France
 
 	spriteType = {

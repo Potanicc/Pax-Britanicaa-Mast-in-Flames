@@ -1,0 +1,29 @@
+state = {
+	id = 957
+
+	name = "STATE_957"
+
+	provinces = {
+		13312 13313 13314 13315 13316
+	}
+
+	manpower = 35312
+
+	buildings_max_level_factor = 1.000
+
+	state_category = town
+	
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = MAD
+		victory_points = { 13314 5 }
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 1
+
+			steel_mill = 1
+		} 
+	}
+} 

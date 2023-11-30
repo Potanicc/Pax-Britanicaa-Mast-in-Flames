@@ -31,6 +31,10 @@
  NI_VARIANT_09:0 "§OInfinistocracy§!"
  NI_VARIANT_09_desc:0 "§OInfinistocracy§! is not an ideology or a system of governance, but an ideal. For centuries, the world has trended towards anarchy under the rule of peasants, demanding greater and greater rights to destroy themselves with increasing effectiveness. With the advent of Recursive Immortality, this will no longer be an issue. The old guard, the captains of industry, the true power behind the nation have shed the shackles of mortality.\n\nA guiding hand now controls the wheel of society, whether it is aware of it or not is irrelevant. Those whose hands are on the wheel are beyond death, and with the restrictions of mortality shed, a new long-term vision for humanity comes into view.\n\nThe meek will beget the strong; the unwashed masses will be led, as they once were, into a shining future built on the blueprints of a deathless conspiracy.\n\n§rThe future only belongs to those who will live to see it.§!"
 
+ NI_VARIANT_10:0 "§OBritish Revanchism§!"
+ NI_VARIANT_10_desc:0 "§OBritish Revanchism§! is less a structured set of beliefs than a collective memory steeped in nostalgia. It’s a relatively modern concept, emerging in the wake of the conclusion of the Second Great War and Britain’s fall from paradise. Despite this youth, its beliefs have managed to provide solace to a traumatized British populace that has seen themselves fall from God’s chosen people to Satan’s playthings. The ideology has resonated with many in the settler colonies of the British Exiles as well as the scattered British emigres who yearn to see a resurrected British Empire. British Revanchists frequently romanticize the Victorian period as an era of progress and tranquility. Simultaneously, they attribute the current sorry state of the world to everything and everyone, from the French Ultranationalists to Chinese Jacobins. Despite what they may claim though, British Revanchists are fervent Neo-Imperialists and no different from their French counterparts ideologically."
+
+
  ds:0 "Despotism"
  ds_noun:0 "Despotism"
  ds_desc:0 "Despotist State"
@@ -273,10 +277,10 @@
   ENG_an_party_long:0 "Radical Faction of the Conservative Party"
   ENG_rc_party:0 "NPP"
   ENG_rc_party_long:0 "National People's Party"
-  ENG_ds_party:0 "-"
-  ENG_ds_party_long:0 "-"
-  ENG_ni_party:0 "BIL"
-  ENG_ni_party_long:0 "British Imperial League"
+  ENG_ds_party:0 "Army General Staff"
+  ENG_ds_party_long:0 "Army General Staff"
+  ENG_ni_party:0 "BROC"
+  ENG_ni_party_long:0 "British Revanchist Officer Corp"
 
   OBR_jc_party:0 "United Front - Far Left"
   OBR_jc_party_long:0 "United Front - Far Left"
@@ -1285,7 +1289,7 @@
   VIC_ss_party:0 "Labour Party (r)"
   VIC_ss_party_long:0 "Labour Party of Oceania - Radicals"
   VIC_lb_party:0 "Labour Party (m)"
-  VIC_lb_party_long:0 Labour Party of Oceania - Moderates"
+  VIC_lb_party_long:0 "Labour Party of Oceania - Moderates"
   VIC_cn_party:0 "National Party (m)"
   VIC_cn_party_long:0 "National Party of Oceania - Moderates"
   VIC_rc_party:0 "National Party (r)"

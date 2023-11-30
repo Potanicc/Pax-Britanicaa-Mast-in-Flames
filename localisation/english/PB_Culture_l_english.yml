@@ -66,6 +66,7 @@ PB_Culture_Ulster_tt:0 "Ulster-Scots"
 PB_Culture_Irish_tt:0 "Irish"
 PB_Culture_Londoner_tt:0 "Londoner"
 PB_Culture_North_English_tt:0 "North-English"
+PB_Culture_Exile_British_tt:0 "Exile British"
 
 # FRANCE #
 
@@ -426,6 +427,7 @@ PB_Culture_Ulster_tt_delayed:0 ""
 PB_Culture_Irish_tt_delayed:0 ""
 PB_Culture_Londoner_tt_delayed:0 "The British Empire stands at the precipitous of forever changing the fundamental operation of global society. Slowly cities across the world reach for the heavens and the interpretation of the great social divide between classes becomes quite literal. Lower sectors of these high rise cities are left to the poorest of the poor, or in London's case, being completely abandoned by any form of central authority.\n\nLondoners are partially different from their English counterparts, their society is one of indoor life and libertine values. Only the richest individuals enjoy even standard doses of sunlight, with the rest of the Londoner population suffering from severe vitamin D deficiencies. However, even the poorest Londoners typically enjoy a better standard of living then those found it whatever remains of the London countryside. London itself is a fascinating concoction of victorian highrise architecture and experimental technologies. In some ways London and its population have truely reached the limits of human social development, for better or for worse. "
 PB_Culture_North_English_tt_delayed:0 ""
+PB_Culture_Exile_British_tt_delayed:0 "The past fifteen years may seem short in the grand narrative of cultural shifts and demographic changes, yet for the British Exiles, it has marked a notable divergence from their global counterparts. This deviation has been primarily driven by the profound trauma that each exile has endured. Each person carries their own harrowing tale: accounts of French automats laying siege to their villages, ruthless SP liquidation squads targeting suspected Jews, and indigenous populations across the world violently expelling their colonizers. This collective trauma has forged an unspoken bond among the exiles, transcending their former identities as English, Welsh, or Scottish, and uniting them simply as British. §RAfter all, that’s the only characteristic that matters right?§!"
 
 # FRANCE #
 

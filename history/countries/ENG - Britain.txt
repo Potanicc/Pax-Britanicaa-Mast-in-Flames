@@ -209,52 +209,51 @@ ENG = {
 	}
 }
 
-add_timed_idea = {
-    idea = PB_ENG_Postwar_Pacifism
-    days = 547
+543 = {
+	add_dynamic_modifier = {
+		modifier = malagasy_resistence
+	}
+}
+
+959 = {
+	add_dynamic_modifier = {
+		modifier = malagasy_resistence
+	}
 }
 
 add_ideas = {
 	ENG_Strangers_Strange_Land
 	ENG_Imperial_Neglect
-	
-	PB_NI_British_Exceptionalism
 
-	ENG_PB_Douglas_Haig_HOG
-	ENG_PB_Tom_Horabin_ECM
-	ENG_PB_Neville_Chamberlain_FAM
-	ENG_PB_John_Simon_IAM
+	limited_conscription
 
-	PB_Universal_Citizenship
-	PB_Free_Press
-	PB_Public_Meetings_Allowed
+	PB_NI_Revanchism
+
+	PB_Managed_Democracy
+	PB_Limited_Censorship
+	PB_Public_Meetings_Monitored
 	PB_Sociogenetics_Normalized
-	PB_Limited_Autonomy
-	PB_Full_Womens_Equality
-	PB_Law_Standard_Policing
+	PB_Racial_Segregation
+	PB_Limited_Womens_Rights
+	PB_Law_Intimidation_Policing
 	PB_14_Hour_Workday
 	PB_Basic_Education
-	PB_Basic_Welfare
+	PB_No_Welfare
 	PB_Basic_Healthcare
 	PB_Augmentation_No_Legislation
-	PB_Significant_Poverty
+	PB_Rampant_Poverty
 	PB_Industrialized
 	PB_Minor_Illiteracy
-	PB_Stagnating_Growth
+	PB_Market_Underperformance
 
 	PB_Fully_Westernized
-	PB_Parliamentary_Monarchy
-	PB_Govidea_Free_Market_Capitalism
-	PB_Great_War_Military
-
-	PB_ENG_Vickers_Armstrongs
-	PB_ENG_John_Brown_Company
-
-	MGC_London
+	PB_Military_Government
+	PB_Govidea_Mixed_Market_Capitalism
+	PB_Great_War_Military 
 }
 
-set_stability = 0.6
-set_war_support = 0.5
+set_stability = 0.50
+set_war_support = 0.55
 
 set_convoys = 250
 
@@ -326,27 +325,7 @@ MDR = {
 	}
 
 	set_country_flag = Tag_in_British_Sphere
-}
-
-AME = {
-    set_politics = {
-        ruling_party = cn
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 1
-        ds = 2
-        rc = 2
-        cn = 49
-        lb = 32
-        an = 3
-        ss = 10
-        jc = 1
-    }
-}
+} 
 
 BAF = {
     set_politics = {
@@ -657,46 +636,34 @@ WAF = {
 country_leader = {
 	name = "Sir Gerald Templar"
 	desc = "ENG_Gerald_Templar_Desc"
-	picture = "gfx/leaders/ENG/Portrait_ENG_Gerald_Templar.png"
+	picture = "Portrait_ENG_Gerald_Templar.png"
 	ideology = NI_VARIANT_10 
 }
 
 country_leader = {
 	name = "Sir Gerald Templar"
 	desc = "ENG_Gerald_Templar_Desc"
-	picture = "gfx/leaders/ENG/Portrait_ENG_Gerald_Templar.png"
-	ideology = DS_VARIANT_01 
+	picture = "Portrait_ENG_Gerald_Templar.png"
+	ideology = DS_VARIANT_01
+}
+
+country_leader = {
+	name = "Queen Elizabeth II"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_ENG_Queen_Elizabeth.png"
+	ideology = CN_VARIANT_01 
+}
+
+country_leader = {
+	name = "Queen Elizabeth II"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_ENG_Queen_Elizabeth.png"
+	ideology = LB_VARIANT_01 
 }
 
 # CHARACTERS
-recruit_character = ENG_Alan_Brooke
-recruit_character = ENG_JFC_Fuller
-recruit_character = ENG_Edmund_Allenby
-recruit_character = ENG_Bernard_Montgomery
-recruit_character = ENG_William_Slim
-recruit_character = ENG_Andrew_Cunningham
-recruit_character = ENG_Arthur_Harris
-recruit_character = ENG_Paul_Fildes
-recruit_character = ENG_Hugh_Dowding
-recruit_character = ENG_Edgar_Hewitt
-recruit_character = ENG_Keith_Park
-recruit_character = ENG_Dudley_Pound
-recruit_character = ENG_ernle_chatfield
-recruit_character = ENG_Lord_Gort
-recruit_character = ENG_John_Dill
-recruit_character = ENG_Archibald_Wavell
-recruit_character = ENG_Gerald_Templar		#MIF Character
-recruit_character = ENG_harold_alexander
-recruit_character = ENG_george_milne
-recruit_character = ENG_claude_auchinleck
-recruit_character = ENG_arthur_macarthur_iii
-recruit_character = ENG_ernest_king
-recruit_character = ENG_william_leahy
-recruit_character = ENG_william_f._halsey
-recruit_character = ENG_william_g._andrewes
-recruit_character = ENG_william_g._tennant
-recruit_character = ENG_bertram_h._ramsay
-recruit_character = ENG_leopold_mundy
+recruit_character = ENG_Gerald_Templar
+recruit_character = ENG_Queen_Elizabeth
 
 
 if = {

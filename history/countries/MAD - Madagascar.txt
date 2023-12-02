@@ -22,22 +22,24 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = ss
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    ni = 8
-    ds = 25
-    rc = 15
-    cn = 25
+    ni = 2
+    ds = 2
+    rc = 2
+    cn = 2
     lb = 25
     an = 2
-    ss = 0
-    jc = 0
+    ss = 46
+    jc = 19
 }
+
+recruit_character = MAD_Philibert_Tsiranana
 
 create_country_leader = {
 	name = "Ranavalona IV"
@@ -82,9 +84,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ranavalona IV"
-	desc = "ASK_Vasily_Korzh_DESC"
-	picture = "Portrait_MAD_Ranavalona.dds"
+	name = "Philibert Tsiranana"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_MAD_Philibert_Tsiranana.png"
 	ideology = SS_VARIANT_01
 }
 
+create_country_leader = {
+	name = "Philibert Tsiranana"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_MAD_Philibert_Tsiranana.png"
+	ideology = JC_VARIANT_01
+}

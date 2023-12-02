@@ -1044,7 +1044,7 @@ characters={
 		}
 
 		country_leader = {
-			desc = "MIF_AME_Ernest_Mcfarland_Desc"
+			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 			ideology = SS_VARIANT_09
 			expire = "1.1.1.1"
 			id = -1

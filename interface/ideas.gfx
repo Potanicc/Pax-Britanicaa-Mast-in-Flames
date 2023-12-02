@@ -6390,4 +6390,8 @@ spriteTypes = {
 		name = "GFX_idea_AME_William_Rogers"
 		texturefile = "gfx/interface/ideas/idea_AME_William_Rogers.png"
 	}
+	spriteType = {
+		name = "GFX_modifiers_MIF_ENG_malagasy_resistence"
+   		texturefile = "gfx/interface/ideas/BritishExiles/MIF_ENG_malagasy_resistence.png"
+	}
 }

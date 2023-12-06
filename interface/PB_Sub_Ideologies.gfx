@@ -26,7 +26,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_Subideology_NI_BritRevanchism"
+		name = "GFX_Subideology_NI_British_Revanchism"
 		texturefile = "gfx/interface/ideologies/NI_VARIANT_10.png"
 	}
 

@@ -1,79 +1,63 @@
 characters = {
 	ENG_Gerald_Templar = {
+	
 		name = "Sir Gerald Templar"
 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ENG/Portrait_ENG_Gerald_Templar.png"
-			} 
+				large = "GFX_Portrait_ENG_Gerald_Templar"
+			}
 		}
 
 		country_leader = {
-			desc = "ENG_Gerald_Templar_Desc"
-			
+			desc = "MIF_ENG_Gerald_Templar_Desc"
 			ideology = NI_VARIANT_10
-
+			expire = "1.1.1.1"
+			id = -1
 			traits = {
 				MIF_Grand_Marshall
-				PB_ni_trait
 			}
-
-			expire = "1.1.1.1"
-
-			id = -1
 		}
 
 		country_leader = {
-			desc = "ENG_Gerald_Templar_Desc"
-			
-			ideology = DS_VARIANT_01
-
+			desc = "MIF_ENG_Gerald_Templar_Desc"
+			ideology = DS_VARIANT_1
+			expire = "1.1.1.1"
+			id = -1
 			traits = {
 				MIF_Grand_Marshall
-				PB_ni_trait
 			}
-
-			expire = "1.1.1.1"
-
-			id = -1
 		}
 	}
 
 	ENG_Queen_Elizabeth = {
+
 		name = "Queen Elizabeth II"
 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ENG/Portrait_ENG_Queen_Elizabeth.png"
+				large = "GFX_Portrait_ENG_Queen_Elizabeth"
 			}
 		}
 
 		country_leader = {
-			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-			
+			desc = "PB_NO_DESC"
 			ideology = CN_VARIANT_1
-
+			expire = "1.1.1.1"
+			id = -1
 			traits = {
 				MIF_New_Empress_Groove
 			}
-
-			expire = "1.1.1.1"
-
-			id = -1
 		}
 
 		country_leader = {
-			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-			
+			desc = "PB_NO_DESC"
 			ideology = LB_VARIANT_1
-
+			expire = "1.1.1.1"
+			id = -1
 			traits = {
 				MIF_New_Empress_Groove
 			}
-
-			expire = "1.1.1.1"
-
-			id = -1
 		}
 	}
 }

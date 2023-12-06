@@ -4,127 +4,127 @@ scripted_gui = {
 		context_type = decision_category
 		
 		visible = {
-			AME_Public_Outrage_Bar_Zero = {
+			AME_Public_Outrage_Bar_Zero_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 0
 				}
 			}
 			
-			AME_Public_Outrage_Bar_Five = {
+			AME_Public_Outrage_Bar_Five_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 5
 				}
 			}
 
-			AME_Public_Outrage_Bar_Ten = {
+			AME_Public_Outrage_Bar_Ten_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 10
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fiveteen = {
+			AME_Public_Outrage_Bar_Fiveteen_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 15
 				}
 			}
 
-			AME_Public_Outrage_Bar_Twenty = {
+			AME_Public_Outrage_Bar_Twenty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 20
 				}
 			}
 
-			AME_Public_Outrage_Bar_Twentyfive = {
+			AME_Public_Outrage_Bar_Twentyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 25
 				}
 			}
 
-			AME_Public_Outrage_Bar_Thirty = {
+			AME_Public_Outrage_Bar_Thirty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 30
 				}
 			}
 
-			AME_Public_Outrage_Bar_Thirtyfive = {
+			AME_Public_Outrage_Bar_Thirtyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 35
 				}
 			}
 
-			AME_Public_Outrage_Bar_Forty = {
+			AME_Public_Outrage_Bar_Forty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 40
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fortyfive = {
+			AME_Public_Outrage_Bar_Fortyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 45
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fifty = {
+			AME_Public_Outrage_Bar_Fifty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 50
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fiftyfive = {
+			AME_Public_Outrage_Bar_Fiftyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 55
 				}
 			}
 
-			AME_Public_Outrage_Bar_Sixty = {
+			AME_Public_Outrage_Bar_Sixty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 60
 				}
 			}
 
-			AME_Public_Outrage_Bar_Sixtyfive = {
+			AME_Public_Outrage_Bar_Sixtyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 65
 				}
 			}
 
-			AME_Public_Outrage_Bar_Seventy = {
+			AME_Public_Outrage_Bar_Seventy_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 70
 				}
 			}
 
-			AME_Public_Outrage_Bar_Seventyfive = {
+			AME_Public_Outrage_Bar_Seventyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 75
 				}
 			}
 
-			AME_Public_Outrage_Bar_Eighty = {
+			AME_Public_Outrage_Bar_Eighty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 80
 				}
 			}
 
-			AME_Public_Outrage_Bar_Eightyfive = {
+			AME_Public_Outrage_Bar_Eightyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 85
 				}
 			}
 
-			AME_Public_Outrage_Bar_Ninety = {
+			AME_Public_Outrage_Bar_Ninety_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 90
 				}
 			}
 
-			AME_Public_Outrage_Bar_Ninetyfive = {
+			AME_Public_Outrage_Bar_Ninetyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 95
 				}
 			}
 
-			AME_Public_Outrage_Bar_Hundred = {
+			AME_Public_Outrage_Bar_Hundred_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 100
 				}

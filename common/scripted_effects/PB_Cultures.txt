@@ -21,6 +21,7 @@ PB_Setup_Cultures = {
 	704 = { set_variable = { culture_id = 1 } }
 	703 = { set_variable = { culture_id = 1 } }
 	713 = { set_variable = { culture_id = 1 } }
+	965 = { set_variable = { culture_id = 1 } }
 
 	### ---- North-English Culture ---- ###
 
@@ -38,6 +39,9 @@ PB_Setup_Cultures = {
 	### ---- Welsh Culture ---- ###
 
 	122 = { set_variable = { culture_id = 3 } }
+	962 = { set_variable = { culture_id = 3 } }
+	963 = { set_variable = { culture_id = 3 } }
+	964 = { set_variable = { culture_id = 3 } }
 
 	### ---- Ulster-Scots Culture ---- ###
 
@@ -330,6 +334,8 @@ PB_Setup_Cultures = {
 	183 = { set_variable = { culture_id = 44 } }
 	821 = { set_variable = { culture_id = 44 } }
 	339 = { set_variable = { culture_id = 44 } }
+	960 = { set_variable = { culture_id = 44 } }
+	961 = { set_variable = { culture_id = 44 } }
 
 	### ---- Albanian Culture ---- ###
 

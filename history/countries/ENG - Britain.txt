@@ -1,6 +1,6 @@
 ﻿capital = 13307
 
-oob = "ENG_1933"
+oob = "ENG_1957"
 
 starting_train_buffer = 2
 
@@ -8,37 +8,9 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "ENG_1933_Naval"
+	set_naval_oob = "ENG_1957_Naval"
 	else = {
-		set_naval_oob = "ENG_1933_Naval_Legacy"
-	}
-}
-
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ENG_1933_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			engines_2 = 1
-			early_bombs = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			iw_large_airframe = 1
-			basic_medium_airframe = 1
-			basic_small_airframe = 1
-		}
-	else = {
-		set_air_oob = "ENG_1933_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
-		}
+		set_naval_oob = "ENG_1957_Naval_Legacy"
 	}
 }
 
@@ -58,13 +30,9 @@ set_country_flag = Megacorp_EIEC_Dominant
 
 #coalition stuff
 
-add_to_farleft_coalition_jc = yes
-add_to_farleft_coalition_ss = yes
-add_to_right_coalition_an = yes
-add_to_right_coalition_rc = yes
-add_to_right_coalition_cn = yes
-add_to_right_coalition_lb = yes
-add_to_leading_coalition_cn = yes
+add_to_right_coalition_ds = yes
+add_to_right_coalition_ni = yes
+add_to_leading_coalition_ds = yes
 
 set_research_slots = 4
 
@@ -75,13 +43,14 @@ create_intelligence_agency = {
 # Accepted Cultures
 
 set_variable = { PB_main_culture = 444 }
+add_to_array = { PB_accepted_cultures = 444 }
 add_to_array = { PB_accepted_cultures = 1 }
 add_to_array = { PB_accepted_cultures = 31 }
 add_to_array = { PB_accepted_cultures = 32 }
 add_to_array = { PB_accepted_cultures = 2 }
 add_to_array = { PB_accepted_cultures = 3 }
 add_to_array = { PB_accepted_cultures = 4 }
-add_to_array = { PB_accepted_cultures = 444 }
+
 
 # Starting tech
 set_technology = {
@@ -255,7 +224,67 @@ add_ideas = {
 set_stability = 0.50
 set_war_support = 0.55
 
-set_convoys = 250
+set_convoys = 250 
+
+# CHARACTERS
+recruit_character = ENG_Gerald_Templar
+recruit_character = ENG_Queen_Elizabeth 
+
+create_country_leader = {
+	name = "Sir Gerald Templar"
+	desc = "MIF_ENG_Gerald_Templar_Desc"
+	picture = "GFX_Portrait_ENG_Gerald_Templar"
+	ideology = NI_VARIANT_10
+}
+
+create_country_leader = {
+	name = "Sir Gerald Templar"
+	desc = "MIF_ENG_Gerald_Templar_Desc"
+	picture = "GFX_Portrait_ENG_Gerald_Templar"
+	ideology = DS_VARIANT_1
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "PB_NO_DESC"
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = RC_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Queen Elizabeth II"
+	desc = "PB_NO_DESC"
+	picture = "GFX_Portrait_ENG_Queen_Elizabeth"
+	ideology = CN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "PB_NO_DESC"
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = AN_VARIANT_01
+}
+
+create_country_leader = {
+	name = "Queen Elizabeth II"
+	desc = "PB_NO_DESC"
+	picture = "GFX_Portrait_ENG_Queen_Elizabeth"
+	ideology = LB_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "PB_NO_DESC"
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = SS_VARIANT_01
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "PB_NO_DESC"
+	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	ideology = JC_VARIANT_01
+}
 
 set_politics = {
 	ruling_party = ds
@@ -274,397 +303,6 @@ set_popularities = {
 	ss = 1
 	jc = 1
 }
-
-SNG = {
-	set_politics = {
-		ruling_party = cn
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-    set_popularities = {
-		ni = 4
-		ds = 0
-		rc = 0
-		cn = 46
-		lb = 25
-		an = 0
-		ss = 20
-		jc = 5
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-	
-	set_country_flag = Tag_in_British_Sphere
-}
-
-MDR = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 0
-        ds = 80
-        rc = 10
-        cn = 10
-        lb = 0
-        an = 0
-        ss = 0
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-} 
-
-BAF = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 12
-        ds = 55
-        rc = 29
-        cn = 2
-        lb = 0
-        an = 2
-        ss = 0
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-BEF = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 0
-        ds = 40
-        rc = 0
-        cn = 25
-        lb = 35
-        an = 0
-        ss = 0
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_American_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_American_Sphere
-}
-
-BCL = {
-    set_politics = {
-        ruling_party = cn
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 3
-        ds = 26
-        rc = 5
-        cn = 45
-        lb = 12
-        an = 3
-        ss = 3
-        jc = 3
-    }
-
-	add_ideas = {
-		ENG_American_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_American_Sphere
-}
-
-BFE = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 20
-        ds = 43
-        rc = 29
-        cn = 6
-        lb = 0
-        an = 2
-        ss = 0
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-NZL = {
-    set_politics = {
-        ruling_party = cn
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 9
-        ds = 30
-        rc = 12
-        cn = 39
-        lb = 6
-        an = 1
-        ss = 2
-        jc = 1
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-QUE = {
-    set_politics = {
-        ruling_party = cn
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 3
-        ds = 2
-        rc = 13
-        cn = 29
-        lb = 25
-        an = 5
-        ss = 20
-        jc = 3
-    }
-
-	add_ideas = {
-		ENG_American_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_American_Sphere
-}
-
-VIC = {
-    set_politics = {
-        ruling_party = ss
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 19
-        ds = 12
-        rc = 19
-        cn = 20
-        lb = 0
-        an = 0
-        ss = 30
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-EGY = {
-    set_politics = {
-        ruling_party = cn
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 16
-        ds = 19
-        rc = 0
-        cn = 59
-        lb = 3
-        an = 0
-        ss = 3
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-RAJ = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 15
-        ds = 62
-        rc = 9
-        cn = 4
-        lb = 10
-        an = 0
-        ss = 0
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_British_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_British_Sphere
-}
-
-MIS = {
-    set_politics = {
-        ruling_party = cn
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 5
-        ds = 26
-        rc = 0
-        cn = 49
-        lb = 5
-        an = 15
-        ss = 0
-        jc = 0
-    }
-
-	add_ideas = {
-		ENG_American_Economic_Sphere
-	}
-}
-
-ACD = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 0
-        ds = 4
-        rc = 45
-        cn = 19
-        lb = 20
-        an = 2
-        ss = 8
-        jc = 2
-    }
-
-	add_ideas = {
-		ENG_American_Economic_Sphere
-	}
-
-	set_country_flag = Tag_in_American_Sphere
-}
-
-WAF = {
-	set_politics = {
-		ruling_party = lb
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		ni = 0
-		ds = 0
-		rc = 4
-		cn = 29
-		lb = 45
-		an = 13
-		ss = 9
-		jc = 0
-	}
-
-	set_country_flag = Tag_in_American_Sphere
-}
-
-country_leader = {
-	name = "Sir Gerald Templar"
-	desc = "ENG_Gerald_Templar_Desc"
-	picture = "Portrait_ENG_Gerald_Templar.png"
-	ideology = NI_VARIANT_10 
-}
-
-country_leader = {
-	name = "Sir Gerald Templar"
-	desc = "ENG_Gerald_Templar_Desc"
-	picture = "Portrait_ENG_Gerald_Templar.png"
-	ideology = DS_VARIANT_01
-}
-
-country_leader = {
-	name = "Queen Elizabeth II"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_ENG_Queen_Elizabeth.png"
-	ideology = CN_VARIANT_01 
-}
-
-country_leader = {
-	name = "Queen Elizabeth II"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_ENG_Queen_Elizabeth.png"
-	ideology = LB_VARIANT_01 
-}
-
-# CHARACTERS
-recruit_character = ENG_Gerald_Templar
-recruit_character = ENG_Queen_Elizabeth
-
 
 if = {
 	limit = {

@@ -475,7 +475,7 @@ leader_traits = {
 
 	MIF_Grand_Marshall = {
 
-		stability_weekly = -0.10
+		stability_weekly = -0.001
 		war_support_factor = 0.05
 
 		random = no

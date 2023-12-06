@@ -114,9 +114,7 @@ country_event = {
 				ideology = ni
 				popularity = 0.2
 			}
-			add_war_support = 0.1
-			upgrade_economy_law = yes
-			upgrade_economy_law = yes
+			add_war_support = 0.1 
 		}
 		ENG_Gerald_Templar = {
 			remove_trait = {

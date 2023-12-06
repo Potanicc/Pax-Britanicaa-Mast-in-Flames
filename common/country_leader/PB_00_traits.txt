@@ -434,9 +434,61 @@ leader_traits = {
 		}
 	}
 
+	MIF_New_Empress_Groove = {
+
+		lb_drift = 0.02
+		cn_drift = 0.02
+		stability_factor = 0.1
+		ni_acceptance = -25
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	MIF_Incompetent_Diplomat = {
 
 		improve_relations_maintain_cost_factor = 0.25
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Savior_Britannia = {
+
+		surrender_limit = 0.1
+		war_stability_factor = 0.1
+		war_support_factor = 0.05
+		war_support_weekly = 0.01
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Grand_Marshall = {
+
+		stability_weekly = -0.001
+		war_support_factor = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Social_Republican_Idealist = {
+
+		ss_drift = 0.01
+		stability_factor = 0.05
 
 		random = no
 		
@@ -586,6 +638,17 @@ leader_traits = {
 	PB_Benevolent = {
 
 		army_morale_factor = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Gair_Administration = {
+
+		stability_factor = -0.05
 
 		random = no
 		

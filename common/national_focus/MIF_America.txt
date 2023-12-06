@@ -6,6 +6,10 @@
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
+######################
+###ENTRY FOCUS TREE###
+######################
+
 focus_tree = {
 
 	id = america_focus
@@ -27,11 +31,7 @@ focus_tree = {
 
 	initial_show_position = {
 		focus = AME_Boar_of_Philadelphia
-	}
-
-	######################
-	###ENTRY FOCUS TREE###
-	######################
+	} 
 
 	focus = {
 		
@@ -2067,7 +2067,7 @@ focus_tree = {
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		bypass = {
@@ -2087,7 +2087,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			custom_effect_tooltip = AME_Impeachment_Crisis_tt
+
 		}
 	}
 
@@ -2108,7 +2108,7 @@ focus_tree = {
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		available = {
@@ -2138,9 +2138,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			set_country_flag = AME_sided_with_congress
-			set_country_flag = impeachment_tier_one
-			custom_effect_tooltip = AME_Congress_1_tt
+			set_country_flag = AME_sided_with_congress_flag
+			set_country_flag = AME_impeachment_tier_one_flag
+			custom_effect_tooltip = AME_Congress_1_effect_tt
 		}
 	}
 
@@ -2155,13 +2155,13 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = impeachment_crisis
-			has_country_flag = impeachment_crisis
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_Oaths_Fealty_flag
+			has_country_flag = AME_Fire_Unloyal_Officials_flag
+			has_country_flag = AME_Support_Law_Order_flag
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = 0
@@ -2188,8 +2188,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			set_country_flag = impeachment_tier_two
-			custom_effect_tooltip = AME_Congress_2_tt
+			set_country_flag = AME_impeachment_tier_two_flag
+			custom_effect_tooltip = AME_Congress_2_effect_tt
 		}
 	}
 
@@ -2207,7 +2207,7 @@ focus_tree = {
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = 0
@@ -2234,8 +2234,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			set_country_flag = impeachment_tier_three
-			custom_effect_tooltip = AME_Congress_3_tt
+			set_country_flag = AME_impeachment_tier_three_flag
+			custom_effect_tooltip = AME_Congress_3_effect_tt
 		}
 	}
 
@@ -2259,7 +2259,7 @@ focus_tree = {
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = -1
@@ -2286,9 +2286,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			set_country_flag = sided_with_gair
-			set_country_flag = impeachment_tier_one
-			custom_effect_tooltip = AME_Gair_1_tt
+			set_country_flag = AME_sided_with_gair_flag
+			set_country_flag = AME_impeachment_tier_one_flag
+			custom_effect_tooltip = AME_Gair_1_effect_tt
 		}
 	}
 
@@ -2303,10 +2303,11 @@ focus_tree = {
 		}
 
 		available = {
+
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = 0
@@ -2333,8 +2334,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			set_country_flag = impeachment_tier_two
-			custom_effect_tooltip = AME_Gair_2_tt
+			set_country_flag = AME_impeachment_tier_two_flag
+			custom_effect_tooltip = AME_Gair_2_effect_tt
 		}
 	}
 
@@ -2352,7 +2353,7 @@ focus_tree = {
 		}
 
 		visible = {
-			has_country_flag = impeachment_crisis
+			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = 0
@@ -2379,8 +2380,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		
 		completion_reward = {
-			set_country_flag = impeachment_tier_three
-			custom_effect_tooltip = AME_Gair_3_tt
+			set_country_flag = AME_impeachment_tier_three_flag
+			custom_effect_tooltip = AME_Gair_3_effect_tt
 		}
-	} 
+	}
 }

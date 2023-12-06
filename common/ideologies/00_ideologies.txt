@@ -21,6 +21,9 @@ ideologies = {
 
 			NI_VARIANT_06 = { #NEO COLONIALISM
 			}
+
+			NI_VARIANT_10 = { #BRITISH REVANCHISM
+			}
 		}
 		
 		dynamic_faction_names = {

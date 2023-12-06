@@ -7,12 +7,12 @@ MIF_AME_Impeachment_Crisis = {
 	}
 
 	visible = {
-		has_completed_focus = AME_Impeachment_Crisis
+		has_country_flag = AME_impeachment_crisis_flag
 	}
 
 	scripted_gui = MIF_AME_Impeachment_Crisis_Scripted_GUI
 
 	picture = GFX_decision_cat_AME_Bonus_Brigade
 
-	priority = 100
+	priority = 1000
 }

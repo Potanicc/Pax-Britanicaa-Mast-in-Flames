@@ -43,7 +43,7 @@ characters={
 		name = "Walter Nash"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.dds"
+				large = "gfx/leaders/VIC/Portrait_VIC_Walter_Nash.png"
 			}
 		}
 		country_leader = {
@@ -57,7 +57,7 @@ characters={
 		name = "Keith Holyoake"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.dds"
+				large = "gfx/leaders/VIC/Portrait_VIC_Keith_Holyoake.png"
 			}
 		}
 		country_leader = {
@@ -71,7 +71,7 @@ characters={
 		name = "Robert Muldoon"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.dds"
+				large = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.png"
 			}
 		}
 		country_leader = {

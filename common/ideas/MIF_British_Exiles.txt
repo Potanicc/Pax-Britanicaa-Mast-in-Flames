@@ -1,0 +1,64 @@
+ideas = {
+
+	country = {
+		ENG_Imperial_Neglect = {
+
+			picture = ENG_Imperial_Neglect
+
+			allowed = {
+				tag = ENG
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25 
+			}
+		}
+
+		ENG_Strangers_Strange_Land = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = ENG
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = -0.9
+				resistance_growth = 0.25
+			}
+			
+			custom_modifier_tooltip = ENG_strangers_strange_land_tt
+		}
+	}
+}

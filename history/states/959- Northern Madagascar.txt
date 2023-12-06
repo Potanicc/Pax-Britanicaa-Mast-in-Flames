@@ -1,0 +1,29 @@
+state = {
+	id = 959
+
+	name = "STATE_959"
+	
+	manpower = 2322374
+	
+	state_category = rural
+	
+	history = {
+		owner = ENG
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 1
+
+			farm = 1
+			
+			air_base = 1
+
+			5222 = {
+				naval_base = 1
+			}
+		} 
+	}
+
+	provinces = {
+		5222 13320 8188 5128 5185 13321 13319 13323 11015
+	}
+}

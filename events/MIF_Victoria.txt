@@ -14,6 +14,7 @@ country_event = {
 	trigger = {
 		date > 1957.1.28
 		date < 1957.1.30
+		tag = VIC
 	}
 	
 	option = {
@@ -117,7 +118,7 @@ country_event = {
 	id = victoria.5
 	title = victoria.5.t
 	desc = victoria.5.d
-	picture = GFX_report_event_troubles_4
+	picture = GFX_report_event_troubles_7
 	
 	is_triggered_only = yes
 	
@@ -142,7 +143,7 @@ country_event = {
 	id = victoria.6
 	title = victoria.6.t
 	desc = victoria.6.d
-	picture = GFX_report_event_troubles_5
+	picture = GFX_report_event_troubles_4
 	
 	is_triggered_only = yes
 	
@@ -160,7 +161,7 @@ country_event = {
 	id = victoria.7
 	title = victoria.7.t
 	desc = victoria.7.d
-	picture = GFX_report_event_troubles_6
+	picture = GFX_report_event_troubles_5
 	
 	is_triggered_only = yes
 	
@@ -186,7 +187,7 @@ country_event = {
 	id = victoria.8
 	title = victoria.8.t
 	desc = victoria.8.d
-	picture = GFX_report_event_troubles_7
+	picture = GFX_report_event_troubles_6
 	
 	is_triggered_only = yes
 	
@@ -207,7 +208,7 @@ country_event = {
 	id = victoria.9
 	title = victoria.9.t
 	desc = victoria.9.d
-	picture = GFX_report_event_troubles_8
+	picture = GFX_report_event_troubles_7
 	
 	is_triggered_only = yes
 	
@@ -233,7 +234,7 @@ country_event = {
 	id = victoria.10
 	title = victoria.10.t
 	desc = victoria.10.d
-	picture = GFX_report_event_vic_election_2
+	picture = GFX_report_event_vic_elections
 
 	is_triggered_only = yes
 		
@@ -278,7 +279,7 @@ country_event = {
 	id = victoria.11
 	title = victoria.11.t
 	desc = victoria.11.d
-	picture = GFX_report_event_vic_election_3
+	picture = GFX_report_event_vic_elections
 
 	is_triggered_only = yes
 	
@@ -346,7 +347,7 @@ country_event = {
 	id = victoria.13
 	title = victoria.13.t
 	desc = victoria.13.d
-	picture = GFX_report_event_vic_election_4
+	picture = GFX_report_event_vic_elections
 
 	is_triggered_only = yes
 	
@@ -441,7 +442,7 @@ country_event = {
 	id = victoria.15
 	title = victoria.15.t
 	desc = victoria.15.d
-	picture = GFX_report_event_vic_election_1
+	picture = GFX_report_event_vic_elections
 
 	trigger = {
 		date > 1960.8.25

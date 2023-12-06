@@ -1,0 +1,22 @@
+state = {
+	id = 963
+
+	name = "STATE_963"
+	
+	manpower = 2309230
+	
+	state_category = rural
+	
+	history = {
+		owner = WLS
+		add_core_of = WLS
+		victory_points = { 3274 5 }
+		buildings = { 
+			infrastructure = 4
+
+			industrial_complex = 2
+		} 
+	}
+
+	provinces = { 13329 11361 3274 13340 }
+} 

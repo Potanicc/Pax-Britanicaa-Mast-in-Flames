@@ -45,6 +45,12 @@ defined_text = {
         }
         localization_key = "PB_Culture_North_English_tt"
     }
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 444 }
+        }
+        localization_key = "PB_Culture_Exile_British_tt"
+    }
 
     # FRANCE #
 
@@ -1938,6 +1944,12 @@ defined_text = {
             check_variable = { culture_id = 32 }
         }
         localization_key = "PB_Culture_North_English_tt_delayed"
+    }
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 444 }
+        }
+        localization_key = "PB_Culture_Exile_British_tt_delayed"                #MIF Culture
     }
 
     # FRANCE #

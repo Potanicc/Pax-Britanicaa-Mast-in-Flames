@@ -1,0 +1,28 @@
+state = {
+	id = 961
+
+	name = "STATE_961"
+	
+	manpower = 1627
+	
+	state_category = rural
+	
+	history = {
+		owner = RUS
+		add_core_of = GRE
+		add_core_of = CYR
+		buildings = {
+			infrastructure = 3
+						
+			air_base = 2
+
+			13325 = {
+				naval_base = 5
+			}
+		} 
+	}
+
+	provinces = {
+		13325
+	}
+} 

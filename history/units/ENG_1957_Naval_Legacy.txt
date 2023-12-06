@@ -1,0 +1,426 @@
+﻿units = {
+ 	fleet = {
+		name = "HMS Royal Fleet" # Total No. of ships in fleet = 26		
+
+		naval_base = 13307 # Salisbury
+
+		task_force = {
+			name = "Home Fleet"
+			location = 13307 # Salisbury # Total No. of ships in task force = 26
+
+			ship = {
+				name = "HMS Victoria"
+
+				pride_of_the_fleet = yes
+
+				definition = battleship
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					battleship_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Providence Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Hawk"
+
+				definition = battleship
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = ENG
+						version_name = "Elizabeth Class"
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS Elizabeth"
+
+				definition = battle_cruiser
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					battle_cruiser_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hero Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Concord"
+
+				definition = heavy_cruiser
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = ENG
+						version_name = "Lotus Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS Hadrian"
+
+				definition = light_cruiser
+
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = ENG
+						version_name = "Regent Class"
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS Augustus"
+
+				definition = light_cruiser
+
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = ENG
+						version_name = "Regent Class"
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS Valentine"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Havoc"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Thunder"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS July"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Merovingian"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Vanity"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Pluto"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Mars"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Fury"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Manchester"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS Leeds"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS London"
+
+				definition = destroyer
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					destroyer_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Icarus Class" 
+					}
+				} 
+			}
+
+			ship = {
+				name = "HMS H01"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H02"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H03"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H04"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H05"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H06"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H07"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+
+			ship = {
+				name = "HMS H08"
+
+				definition = submarine
+
+				start_experience_factor = 0.25
+
+				equipment = {
+					submarine_1 = {
+						amount = 1 
+						owner = ENG
+						version_name = "Hunter Class" 
+					}
+				}
+			}
+		}
+	}
+}

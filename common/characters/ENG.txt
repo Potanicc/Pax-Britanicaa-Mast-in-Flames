@@ -21,7 +21,7 @@ characters = {
 
 		country_leader = {
 			desc = "MIF_ENG_Gerald_Templar_Desc"
-			ideology = DS_VARIANT_1
+			ideology = DS_VARIANT_01
 			expire = "1.1.1.1"
 			id = -1
 			traits = {

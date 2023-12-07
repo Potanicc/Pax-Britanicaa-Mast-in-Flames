@@ -1,0 +1,22 @@
+characters = {
+	MAD_Philibert_Tsiranana = {
+		name = "Philibert Tsiranana"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAD/Portrait_MAD_Philibert_Tsiranana.png"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+			ideology = JC_VARIANT_01
+			expire = "1.1.1.1"
+			id = -1
+		}
+		country_leader={
+			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+			ideology = SS_VARIANT_01
+			expire = "1.1.1.1"
+			id = -1
+		}
+	}
+}

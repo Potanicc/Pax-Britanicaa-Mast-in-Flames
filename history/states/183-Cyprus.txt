@@ -8,12 +8,11 @@ state= {
 		chromium=4
 	}
 
-	history=
-	{
-		owner = FRA
+	history={
+		owner = GRE
+		add_core_of = GRE
 		add_core_of = CYR
-		add_claim_by = GRE
-		buildings = {
+		buildings = { 
 			infrastructure = 4
 			air_base = 1
 			11984 = {
@@ -25,5 +24,5 @@ state= {
 		}
 
 	}
-	provinces= { 7193 11984 }
+	provinces= { 7193 11984 13324 13326 }
 }

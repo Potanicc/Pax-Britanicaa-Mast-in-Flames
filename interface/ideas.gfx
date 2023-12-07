@@ -6390,4 +6390,16 @@ spriteTypes = {
 		name = "GFX_idea_AME_William_Rogers"
 		texturefile = "gfx/interface/ideas/idea_AME_William_Rogers.png"
 	}
+	spriteType = {
+		name = "GFX_modifiers_MIF_ENG_malagasy_resistence"
+   		texturefile = "gfx/interface/ideas/BritishExiles/MIF_ENG_malagasy_resistence.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Imperial_Neglect"
+   		texturefile = "gfx/interface/ideas/BritishExiles/idea_ENG_Imperial_Neglect.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Strangers_Strange_Land"
+   		texturefile = "gfx/interface/ideas/BritishExiles/idea_ENG_Strangers_Strange_Land.png"
+	}
 }

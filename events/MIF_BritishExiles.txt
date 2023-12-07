@@ -1,0 +1,168 @@
+#############################
+### BRITISH EXILES EVENTS ###
+#############################
+
+add_namespace = britishexiles
+
+# Malagasy Uprising
+country_event = {
+	id = britishexiles.1
+	title = britishexiles.1.t
+	desc = britishexiles.1.d
+	picture = GFX_report_event_britishexiles_1
+
+	trigger = {
+		date > 1959.5.12
+		date < 1959.5.14
+		tag = ENG
+	}
+	
+	option = { # Uprising does not happen
+		name = britishexiles.1.a
+		ai_chance = { factor = 75 }
+	}
+	option = {  # Uprising succeeds
+		name = britishexiles.1.b
+		ai_chance = { factor = 25 }
+		MAD = {
+			set_politics = {
+				ruling_party = ss
+				elections_allowed = no
+			}
+			set_state_owner = 957
+			set_state_owner = 958
+			set_state_owner = 543
+			set_state_owner = 959
+		}
+		news_event = {
+			id = news.21
+		}
+	}
+}
+# Elizabeth's Coup
+country_event = {
+	id = britishexiles.2
+	title = britishexiles.2.t
+	desc = britishexiles.2.d
+	picture = GFX_report_event_britishexiles_2
+
+	trigger = {
+		date > 1960.10.17
+		date < 1960.10.19
+		tag = ENG
+	}
+	
+	option = { # Coup does not happen
+		name = britishexiles.2.a
+		ai_chance = { factor = 40 }
+	}
+	option = {  # Coup succeeds
+		name = britishexiles.2.b
+		ai_chance = { factor = 60 }
+		ENG = {
+			set_politics = {
+				ruling_party = cn
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = cn
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = lb
+				popularity = 0.2
+			}
+			add_popularity = {
+				ideology = ss
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = rc
+				popularity = 0.05
+			}
+		}
+		news_event = {
+			id = news.20
+		}
+	}
+}
+# Templar's Consolidation
+country_event = {
+	id = britishexiles.3
+	title = britishexiles.3.t
+	desc = britishexiles.3.d
+	picture = GFX_report_event_britishexiles_3
+
+	trigger = {
+		date > 1960.12.17
+		date < 1960.12.19
+		tag = ENG
+		NOT = {
+			has_government = cn
+		}
+	}
+	
+	option = { # Templar's Reforms
+		name = britishexiles.3.a
+		ai_chance = { factor = 75 }
+		ENG = {
+			set_politics = {
+				ruling_party = ni
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = ni
+				popularity = 0.2
+			}
+			add_war_support = 0.1 
+		}
+		ENG_Gerald_Templar = {
+			remove_trait = {
+				character = ENG_Gerald_Templar
+				ideology = ni
+				trait = MIF_Grand_Marshall
+			}
+			add_trait = {
+				character = ENG_Gerald_Templar
+				ideology = ni
+				trait = MIF_Savior_Britannia
+			}
+		}
+	}
+}
+# The Reclamation War
+country_event = {
+	id = britishexiles.4
+	title = britishexiles.4.t
+	desc = britishexiles.4.d
+	picture = GFX_report_event_britishexiles_4
+
+	trigger = {
+		date > 1961.6.25
+		date < 1961.6.27
+		tag = ENG
+		has_government = ni
+	}
+	
+	option = {  # War Begins
+		name = britishexiles.4.a
+		ai_chance = { factor = 100 }
+		ENG = {
+			add_manpower = 10000
+			declare_war_on = {
+			    target = FRA
+			    type = annex_everything
+			}
+			create_faction = Second_Anglo_Saxon_Alliance
+			add_to_faction = GLF
+			set_major = yes
+		}
+		GLF = {
+			add_manpower = 10000
+			set_major = yes
+		}
+		news_event = {
+			id = news.22
+		}
+	}
+}

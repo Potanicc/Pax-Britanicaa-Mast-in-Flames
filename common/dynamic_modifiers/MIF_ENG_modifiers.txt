@@ -1,0 +1,9 @@
+malagasy_resistence = {
+	icon = GFX_modifiers_MIF_ENG_malagasy_resistence
+	enable = { always = yes }
+	
+	compliance_growth = -0.5
+	resistance_growth = 0.5
+	local_resources = -0.15
+	attrition_for_controller = 1
+} 

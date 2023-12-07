@@ -56,8 +56,8 @@ ideas = {
 			modifier = {
 				non_core_manpower = -0.9
 				resistance_growth = 0.25
-				resistance_target = 1
 			}
+			
 			custom_modifier_tooltip = ENG_strangers_strange_land_tt
 		}
 	}

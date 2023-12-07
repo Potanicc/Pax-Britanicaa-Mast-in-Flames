@@ -1,0 +1,20 @@
+state = {
+	id = 965
+
+	name = "STATE_965"
+	
+	manpower = 82037
+	
+	state_category = rural
+	
+	history = {
+		owner = OBR
+		add_core_of = OBR
+		victory_points = { 13341 3 }
+		buildings = { 
+			infrastructure = 3 
+		}
+	}
+
+	provinces = { 13341 }
+} 

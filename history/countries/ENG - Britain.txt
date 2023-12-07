@@ -229,63 +229,7 @@ set_convoys = 250
 # CHARACTERS
 recruit_character = ENG_Gerald_Templar
 recruit_character = ENG_Queen_Elizabeth 
-
-create_country_leader = {
-	name = "Sir Gerald Templar"
-	desc = "MIF_ENG_Gerald_Templar_Desc"
-	picture = "GFX_Portrait_ENG_Gerald_Templar"
-	ideology = NI_VARIANT_10
-}
-
-create_country_leader = {
-	name = "Sir Gerald Templar"
-	desc = "MIF_ENG_Gerald_Templar_Desc"
-	picture = "GFX_Portrait_ENG_Gerald_Templar"
-	ideology = DS_VARIANT_1
-}
-
-create_country_leader = {
-	name = "No Leader"
-	desc = "PB_NO_DESC"
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
-	ideology = RC_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Queen Elizabeth II"
-	desc = "PB_NO_DESC"
-	picture = "GFX_Portrait_ENG_Queen_Elizabeth"
-	ideology = CN_VARIANT_01
-}
-
-create_country_leader = {
-	name = "No Leader"
-	desc = "PB_NO_DESC"
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
-	ideology = AN_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Queen Elizabeth II"
-	desc = "PB_NO_DESC"
-	picture = "GFX_Portrait_ENG_Queen_Elizabeth"
-	ideology = LB_VARIANT_01
-}
-
-create_country_leader = {
-	name = "No Leader"
-	desc = "PB_NO_DESC"
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
-	ideology = SS_VARIANT_01
-}
-
-create_country_leader = {
-	name = "No Leader"
-	desc = "PB_NO_DESC"
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
-	ideology = JC_VARIANT_01
-}
-
+ 
 set_politics = {
 	ruling_party = ds
 	last_election = "1936.1.1"

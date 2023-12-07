@@ -82,27 +82,27 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_MIF_news_event_MIFNews_Quebec_Wins_NAFC"
-		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Quebec_Wins_NAFC.png"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Quebec_Wins_NAFC.dds"
 	}
 
 	spriteType = {
 		name = "GFX_MIF_news_event_MIFNews_Elizabethan_Coup"
-		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Elizabethan_Coup.png"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Elizabethan_Coup.dds"
 	}
 
 	spriteType = {
 		name = "GFX_MIF_news_event_MIFNews_Malagasy_Revolt"
-		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Malagasy_Revolt.png"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Malagasy_Revolt.dds"
 	}
 
 	spriteType = {
 		name = "GFX_MIF_news_event_MIFNews_Reclamation_War"
-		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Reclamation_War.png"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Reclamation_War.dds"
 	}
 
 	spriteType = {
 		name = "GFX_MIF_news_event_MIFNews_GLF_Atomic_Bomb_Test"
-		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_GLF_Atomic_Bomb_Test.png"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_GLF_Atomic_Bomb_Test.dds"
 	}
 
 	spriteType = {

@@ -6396,7 +6396,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_Imperial_Neglect"
-   		texturefile = "gfx/interface/ideas/BritishExiles/idea_ENG_Imperial_Neglect.png"
+   		texturefile = "gfx/interface/ideas/BritishExiles/idea_ENG_Imperial_Neglect.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_Strangers_Strange_Land"

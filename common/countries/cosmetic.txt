@@ -148,6 +148,21 @@ YEM_UAE = {
 	color_ui = rgb { 79 122 99 }
 }
 
+KUW_UAE = {
+	color = rgb { 79 122 99 }
+	color_ui = rgb { 79 122 99 }
+}
+
+UGS_UAE = {
+	color = rgb { 79 122 99 }
+	color_ui = rgb { 79 122 99 }
+}
+
+OMA_UAE = {
+	color = rgb { 79 122 99 }
+	color_ui = rgb { 79 122 99 }
+}
+
 SYR_UAE = {
 	color = rgb { 79 122 99 }
 	color_ui = rgb { 79 122 99 }

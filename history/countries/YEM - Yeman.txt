@@ -30,6 +30,8 @@ set_politics = {
 }
 
 add_ideas = { 
+YEM_Satanic_Bastard
+
 PB_Absolute_Monarchy
 PB_NI_Order
 PB_Govidea_Communal_Economy

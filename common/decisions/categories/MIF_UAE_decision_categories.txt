@@ -1,0 +1,16 @@
+MIF_UAE_Caliphate_Tribute = {
+
+	icon = GFX_decision_category_Caliphate_Tribute
+	
+	allowed = {
+		has_variable = MIF_Caliphate_Tribute
+	}
+
+	visible = {
+		has_variable = MIF_Caliphate_Tribute
+	} 
+
+	picture = GFX_decision_cat_AME_Bonus_Brigade
+
+	priority = 1000
+}

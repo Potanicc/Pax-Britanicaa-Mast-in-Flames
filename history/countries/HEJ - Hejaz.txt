@@ -17,7 +17,15 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+HEJ = {
+    add_dynamic_modifier = {
+        modifier = HEJ_Self_Proclaimed_Caliphate_Dynamic_Modifier
+    }
+}
+
 add_ideas = { 
+HEJ_Old_Man_UAE
+
 PB_Absolute_Monarchy
 PB_NI_Order
 PB_Govidea_Communal_Economy
@@ -44,8 +52,14 @@ PB_Pre_Great_War_Army
 PB_Uncivilized_Nation
 
 }
+
 set_stability = 0.5
 set_war_support = 0.1
+
+set_variable = {
+    var = MIF_Caliphate_Tribute
+    value = -2
+}
 
 set_convoys = 5
 
@@ -81,6 +95,21 @@ if = {
 
 	set_autonomy = {
 		target = MIQ
+		autonomous_state = autonomy_MIF_Military_Government
+	}
+
+	set_autonomy = {
+		target = KUW
+		autonomous_state = autonomy_PB_Emir_Elector
+	}
+
+	set_autonomy = {
+		target = UGS
+		autonomous_state = autonomy_PB_Emir_Elector
+	}
+
+	set_autonomy = {
+		target = OMA
 		autonomous_state = autonomy_PB_Emir_Elector
 	}
 
@@ -90,6 +119,9 @@ if = {
 		puppet = YEM
 		puppet = SYR
 		puppet = MIQ
+		puppet = KUW
+		puppet = UGS
+		puppet = OMA
 	}
 }
 
@@ -268,4 +300,70 @@ MIQ = {
 	}
 
 	set_cosmetic_tag = MIQ_UAE
+}
+
+KUW = {
+	set_politics = {
+		ruling_party = cn
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		ni = 2
+		ds = 21
+		rc = 9
+		cn = 39
+		lb = 18
+		an = 3
+		ss = 8
+		jc = 0
+	}
+
+	set_cosmetic_tag = KUW_UAE
+}
+
+UGS = {
+	set_politics = {
+		ruling_party = cn
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		ni = 2
+		ds = 21
+		rc = 9
+		cn = 39
+		lb = 18
+		an = 3
+		ss = 8
+		jc = 0
+	}
+
+	set_cosmetic_tag = UGS_UAE
+}
+
+OMA = {
+	set_politics = {
+		ruling_party = cn
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		ni = 2
+		ds = 21
+		rc = 9
+		cn = 39
+		lb = 18
+		an = 3
+		ss = 8
+		jc = 0
+	}
+
+	set_cosmetic_tag = OMA_UAE
 }

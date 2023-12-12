@@ -1297,7 +1297,7 @@ DRZ = {
 	color_ui = rgb { 46 73 138 }
 }
 
-UAE = {
+UGS = {
 	color = rgb { 190 119 86 }
 	color_ui = rgb { 190 119 86 }
 }

@@ -1,0 +1,342 @@
+ideas = {
+
+	country = {
+		JOR_Arab_Liberalism = {
+
+			picture = ENG_Imperial_Neglect
+
+			allowed = {
+				tag = JOR
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				lb_drift = 0.03
+				stability_factor = 0.05
+				research_speed_factor = 0.25
+				political_power_factor = -0.1
+			}
+		}
+
+		JOR_Arab_Capitalism = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = JOR
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.25
+				global_building_slots_factor = 0.25
+				min_export = 0.25
+			}
+		} 
+
+		HEJ_Old_Man_UAE = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = HEJ
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				custom_modifier_tooltip = HEJ_Old_Man_UAE_tt
+			}
+		}
+
+		HEJ_Young_Man_UAE = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = HEJ
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.1
+				custom_modifier_tooltip = HEJ_Young_Man_UAE_tt
+			}
+		}
+
+		JBS_Legacy_Rashadi_Rebellion = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = JBS
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				custom_modifier_tooltip = JBS_Legacy_Rashadi_Rebellion_tt
+			} 
+		}
+
+		JBS_Ikhwan_Movement = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = JBS
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				hidden_modifier = {
+					tactic_ambush_preferred_weight_factor = 0.5
+				}
+				heat_attrition_factor = -0.5
+				acclimatization_hot_climate_gain_factor = 0.5
+				weekly_manpower = 200
+			} 
+		}
+
+		YEM_Satanic_Bastard = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = YEM
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = 0.1
+				custom_modifier_tooltip = YEM_Satanic_Bastard_tt
+			} 
+		}
+
+		UGS_Kings_Gulf = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = UGS
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_navy_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				base_fuel_gain_factor = 0.25
+				max_fuel_factor = 0.25
+				min_export = 0.1
+				custom_modifier_tooltip = UGS_Kings_Gulf_tt
+			} 
+		}
+
+		MIQ_Shield_UAE = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = MIQ
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				ni_drift = 0.03
+				custom_modifier_tooltip = MIQ_Shield_UAE_tt
+			}
+
+			targeted_modifier = {
+			    tag = UAR
+			    defense_bonus_against = 0.1
+			}
+		}
+		
+		OMA_Unwilling_Emirate = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				tag = OMA
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				resistance_growth = 0.25
+				resistance_damage_to_garrison = 0.25
+				stability_factor = -0.10
+			}
+		}
+
+		UAE_War_Arab_Succession = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+				has_country_flag = UAR_Member_flag
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				surrender_limit = 0.25
+				war_support_factor = 0.05
+				conscription_factor = 0.1
+			}
+		}
+	}
+}

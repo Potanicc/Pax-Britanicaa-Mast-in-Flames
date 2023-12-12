@@ -21,7 +21,10 @@ set_war_support = 0.1
 
 set_convoys = 5
 
-add_ideas = { 
+add_ideas = {
+JOR_Arab_Liberalism
+JOR_Arab_Capitalism
+
 PB_Absolute_Monarchy
 PB_NI_Order
 PB_Govidea_Communal_Economy
@@ -46,7 +49,6 @@ PB_Rampant_Illiteracy
 PB_Stagnating_Growth
 PB_Pre_Great_War_Army
 PB_Uncivilized_Nation
-
 }
 
 set_politics = {

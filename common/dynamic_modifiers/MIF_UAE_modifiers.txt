@@ -1,0 +1,8 @@
+HEJ_Self_Proclaimed_Caliphate_Dynamic_Modifier = {
+	icon = GFX_idea_ENG_Strangers_Strange_Land
+	
+	enable = { always = yes }
+	
+	army_org_regain = 0.1
+	civilian_factory_use = MIF_Caliphate_Tribute
+} 

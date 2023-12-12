@@ -17,7 +17,10 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
-add_ideas = { 
+add_ideas = {
+JBS_Legacy_Rashadi_Rebellion
+JBS_Ikhwan_Movement
+
 PB_Absolute_Monarchy
 PB_NI_Order
 PB_Govidea_Communal_Economy

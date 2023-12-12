@@ -1,0 +1,263 @@
+MIF_UAE_Caliphate_Tribute = { 
+
+	UAE_Mission_Syria_Iraq = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_Arabia = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_East_Africa = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_West_Africa = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_North_Africa = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_Central_Asia = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_South_Asia = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_East_Asia = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+
+	UAE_Mission_Indonesia = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = -0.1
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+} 

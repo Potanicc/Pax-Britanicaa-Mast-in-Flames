@@ -17,6 +17,11 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+set_variable = {
+    var = MIF_Caliphate_Tribute
+    value = 2
+}
+
 HEJ = {
     add_dynamic_modifier = {
         modifier = HEJ_Self_Proclaimed_Caliphate_Dynamic_Modifier
@@ -49,17 +54,11 @@ PB_Agrarianism
 PB_Rampant_Illiteracy
 PB_Stagnating_Growth
 PB_Pre_Great_War_Army
-PB_Uncivilized_Nation
-
+PB_Uncivilized_Nation 
 }
 
 set_stability = 0.5
-set_war_support = 0.1
-
-set_variable = {
-    var = MIF_Caliphate_Tribute
-    value = -2
-}
+set_war_support = 0.1 
 
 set_convoys = 5
 
@@ -125,6 +124,8 @@ if = {
 	}
 }
 
+recruit_character =  HEJ_Abd_al_Ilah
+
 set_politics = {
     ruling_party = cn
     last_election = "1936.1.1"
@@ -143,54 +144,6 @@ set_popularities = {
     jc = 0
 }
 
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = NI_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = DS_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = RC_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = AN_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = CN_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = LB_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Ali bin Hussein"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_HEJ_Hussein_Ali.dds"
-	ideology = SS_VARIANT_01
-}
 
 JOR = {
 	set_politics = {

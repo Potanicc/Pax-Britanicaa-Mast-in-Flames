@@ -22,13 +22,6 @@ set_war_support = 0.1
 
 set_convoys = 5
 
-set_politics = {
-	ruling_party = cn
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
 add_ideas = { 
 YEM_Satanic_Bastard
 
@@ -55,8 +48,16 @@ PB_Agrarianism
 PB_Rampant_Illiteracy
 PB_Stagnating_Growth
 PB_Pre_Great_War_Army
-PB_Uncivilized_Nation
+PB_Uncivilized_Nation 
+}
 
+recruit_character = JBS_Faisal_Abdulaziz_Saud
+
+set_politics = {
+	ruling_party = cn
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {

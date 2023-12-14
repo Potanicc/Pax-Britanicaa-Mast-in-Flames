@@ -1,0 +1,68 @@
+characters = {
+	UGS_Shakhbut_Sultan_Nahyan = {
+
+		name = "Sheikh Shakhbut bin Sultan Al Nahyan"
+
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UGS_Shakhbut_Sultan_Nahyan
+			}
+		}
+
+		country_leader = {
+			ideology = NI_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = DS_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = RC_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = CN_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = AN_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = LB_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = SS_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = JC_VARIANT_01
+			desc = UGS_Shakhbut_Sultan_Nahyan_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

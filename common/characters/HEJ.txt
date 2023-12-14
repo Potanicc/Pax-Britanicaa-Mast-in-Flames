@@ -1,0 +1,68 @@
+characters = {
+	HEJ_Abd_al_Ilah = {
+
+		name = "Emir Abd al-Ilah"
+
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_HEJ_Abd_al_Ilah
+			}
+		}
+
+		country_leader = {
+			ideology = NI_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = DS_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = RC_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = CN_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = AN_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = LB_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = SS_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = JC_VARIANT_01
+			desc = HEJ_Abd_al_Ilah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

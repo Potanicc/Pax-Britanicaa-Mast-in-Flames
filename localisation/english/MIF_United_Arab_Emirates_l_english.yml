@@ -226,6 +226,7 @@
   UGS_Kings_Gulf_tt:0 "§YThe Union of Gulf Sheikdoms is the home of ArabOil!§!\n\n"
   MIQ_Shield_UAE_tt:0 "§YThe United Arab Republic will attempt multiple incursions throughout the campaign!§!\n\n"
   add_1_to_MIF_Caliphate_Tribute_tt:0 "§YWe will send out diplomats and missionaries to increase the legitemacy of our Caliphate!§!"
+  Monthly_Increase_Caliphate_Tribute_tt:0 "Monthly Caliphate Tribute: §G+0.02§!"
 
   ##########################
   # EVENTS
@@ -235,7 +236,7 @@
   # DECISIONS
   ##########################
   MIF_UAE_Caliphate_Tribute:0 "Tribute to the Caliphate"
-  MIF_UAE_Caliphate_Tribute_desc:0 "\n\n\n\n\n\n\nMany Sunni Muslims across the world refuse to recognize the righteous Hashemite Caliphate! While we could use force to remind them of the true caliph, it may just be easier to use words instead. After all, the pen is mightier than the sword."
+  MIF_UAE_Caliphate_Tribute_desc:0 "\n\n\n\n\n\n\nMany Sunni Muslims across the world refuse to recognize the righteous Hashemite Caliphate! While we could use force to remind them of the true caliph, it may just be easier to use words instead. After all, the pen is mightier than the sword.\n\nSend ambassadors and missionaries across the world to increase the amount of tribute we get!\n\nCurrent Level of Caliphate Tribute - [?MIF_Caliphate_Tribute]"
   UAE_Mission_Syria_Iraq:0 "Mission to Syria and Iraq"
   UAE_Mission_Arabia:0 "Mission to Arabia"
   UAE_Mission_East_Africa:0 "Mission to East Africa"
@@ -245,3 +246,4 @@
   UAE_Mission_South_Asia:0 "Mission to South Asia"
   UAE_Mission_East_Asia:0 "Mission to East Asia"
   UAE_Mission_Indonesia:0 "Mission to Indonesia"
+  UAE_Mission_Balkans:0 "Mission to the Balkans"

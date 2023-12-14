@@ -1,4 +1,4 @@
-MIF_UAE_Caliphate_Tribute = { 
+MIF_UAE_Caliphate_Tribute = {
 
 	UAE_Mission_Syria_Iraq = {
 
@@ -11,7 +11,45 @@ MIF_UAE_Caliphate_Tribute = {
 		}
 
 		available = {
-			has_variable = MIF_Caliphate_Tribute
+			AND = {
+				has_variable = MIF_Caliphate_Tribute
+				677 = {
+					owner = {
+						NOT = {
+							AND = {
+								NOT = {
+									has_war_with = HEJ
+								}
+								NOT = {
+									original_tag = UAR
+								}
+							}
+						}
+					}
+				}
+				820 = {
+					owner = {
+						NOT = {
+							AND = {
+								NOT = {
+									has_war_with = HEJ
+								}
+								NOT = {
+									original_tag = UAR
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 677
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -23,7 +61,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -41,6 +79,28 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			679 = {
+				owner = {
+					NOT = {
+						AND = {
+							NOT = {
+								has_war_with = HEJ
+							}
+							NOT = {
+								original_tag = UAR
+							}
+						}
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 679
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -52,7 +112,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -70,6 +130,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			271 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 271
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -81,7 +156,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -99,6 +174,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			558 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 558
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -110,7 +200,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -128,6 +218,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			466 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 466
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -139,7 +244,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -157,6 +262,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			617 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 617
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -168,7 +288,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -186,6 +306,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			430 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 430
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -197,7 +332,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -215,6 +350,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			325 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 325
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -226,7 +376,7 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
@@ -244,6 +394,21 @@ MIF_UAE_Caliphate_Tribute = {
 
 		available = {
 			has_variable = MIF_Caliphate_Tribute
+			335 = {
+				owner = {
+					NOT = {
+						has_war_with = HEJ
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 335
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
 		}
 
 		ai_will_do = {
@@ -255,9 +420,76 @@ MIF_UAE_Caliphate_Tribute = {
 		remove_effect = {
 			add_to_variable = {
 			    var = MIF_Caliphate_Tribute
-			    value = -0.1
+			    value = 0.2
 			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
 			}
 		}
 	}
-} 
+
+	UAE_Mission_Balkans = {
+
+		icon = generic_decision
+
+		cost = 50
+
+		visible = {
+			has_variable = MIF_Caliphate_Tribute
+		}
+
+		available = {
+			AND = {
+				has_variable = MIF_Caliphate_Tribute
+				104 = {
+					owner = {
+						NOT = {
+							AND = {
+								NOT = {
+									has_war_with = HEJ
+								}
+								NOT = {
+									original_tag = UAR
+								}
+							}
+						}
+					}
+				}
+				44 = {
+					owner = {
+						NOT = {
+							AND = {
+								NOT = {
+									has_war_with = HEJ
+								}
+								NOT = {
+									original_tag = UAR
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+		    highlight_state_targets = {
+		        state = 104
+		    }
+		    highlight_color_while_active = 2
+		    highlight_color_before_active = 0
+		}
+
+		ai_will_do = {
+			factor = 5
+		} 
+
+		days_remove = 30
+
+		remove_effect = {
+			add_to_variable = {
+			    var = MIF_Caliphate_Tribute
+			    value = 0.2
+			    tooltip = add_1_to_MIF_Caliphate_Tribute_tt
+			}
+		}
+	}
+}

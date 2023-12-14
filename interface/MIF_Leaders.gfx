@@ -27,4 +27,40 @@ spriteTypes = {
 		name = "GFX_Portrait_ENG_Queen_Elizabeth"
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Queen_Elizabeth.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_OMA_Zaid_Hussein"
+		texturefile = "gfx/leaders/OMA/Portrait_OMA_Zaid_Hussein.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_YEM_Ahmad_Yahya_Hamidaddin"
+		texturefile = "gfx/leaders/YEM/Portrait_YEM_Ahmad_Yahya_Hamidaddin.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JBS_Faisal_Abdulaziz_Saud"
+		texturefile = "gfx/leaders/JBS/Portrait_JBS_Faisal_Abdulaziz_Saud.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_HEJ_Abd_al_Ilah"
+		texturefile = "gfx/leaders/HEJ/Portrait_HEJ_Abd_al_Ilah.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JOR_Talal_Abdullah"
+		texturefile = "gfx/leaders/JOR/Portrait_JOR_Talal_Abdullah.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_KUW_Ghazi_Faisal"
+		texturefile = "gfx/leaders/KUW/Portrait_KUW_Ghazi_Faisal.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_UGS_Shakhbut_Sultan_Nahyan"
+		texturefile = "gfx/leaders/UGS/Portrait_UGS_Shakhbut_Sultan_Nahyan.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Portrait_MIQ_Duumvirate_Animated"
+		texturefile = "gfx/leaders/MIQ/Portrait_MIQ_Duumvirate_Animated.png"
+		noOfFrames = 22
+		animation_rate_fps = 6
+		looping = yes
+		play_on_show = yes
+    }
 }

@@ -6,7 +6,7 @@ ideas = {
 			picture = ENG_Imperial_Neglect
 
 			allowed = {
-				tag = JOR
+
 			}
 
 			available = {
@@ -37,7 +37,7 @@ ideas = {
 
 
 			allowed = {
-				tag = JOR
+
 			}
 
 			available = {
@@ -68,7 +68,7 @@ ideas = {
 
 
 			allowed = {
-				tag = HEJ
+
 			}
 
 			available = {
@@ -97,7 +97,7 @@ ideas = {
 
 
 			allowed = {
-				tag = HEJ
+
 			}
 
 			available = {
@@ -126,7 +126,7 @@ ideas = {
 
 
 			allowed = {
-				tag = JBS
+
 			}
 
 			available = {
@@ -155,7 +155,7 @@ ideas = {
 
 
 			allowed = {
-				tag = JBS
+
 			}
 
 			available = {
@@ -188,7 +188,7 @@ ideas = {
 
 
 			allowed = {
-				tag = YEM
+
 			}
 
 			available = {
@@ -218,7 +218,7 @@ ideas = {
 
 
 			allowed = {
-				tag = UGS
+
 			}
 
 			available = {
@@ -251,7 +251,7 @@ ideas = {
 
 
 			allowed = {
-				tag = MIQ
+
 			}
 
 			available = {
@@ -278,6 +278,34 @@ ideas = {
 			    defense_bonus_against = 0.1
 			}
 		}
+
+		MIQ_Forced_Sunnization = {
+
+			picture = ENG_Strangers_Strange_Land
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				custom_modifier_tooltip = Monthly_Increase_Caliphate_Tribute_tt
+			} 
+		}
 		
 		OMA_Unwilling_Emirate = {
 
@@ -285,7 +313,7 @@ ideas = {
 
 
 			allowed = {
-				tag = OMA
+
 			}
 
 			available = {
@@ -315,7 +343,7 @@ ideas = {
 
 
 			allowed = {
-				has_country_flag = UAR_Member_flag
+
 			}
 
 			available = {

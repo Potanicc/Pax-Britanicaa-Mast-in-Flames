@@ -326,8 +326,6 @@ CHY = "countries/Chelyabinsk.txt"
 KRY = "countries/Krasnoyarsk.txt"
 SBC = "countries/Siberian Commonwealth.txt"
 BRU = "countries/Brunei.txt"
-ADR = "countries/Andorra.txt"
-MNC = "countries/Monaco.txt"
 VAT = "countries/Vatican.txt"
 SNG = "countries/Singapore.txt"
 OGJ = "countries/Occupied Japan.txt"
@@ -355,6 +353,7 @@ SCZ = "countries/Suez Canal Zone.txt"
 ALM = "countries/Alemannia.txt"
 CRW = "countries/Cornwall.txt"
 SAC = "countries/Southern Army Corps.txt"
+RNA = "countries/Russian Naval Administration.txt"
 
 #do not edit below this line
 #----------------------------------------------------------

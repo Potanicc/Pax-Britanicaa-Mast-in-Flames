@@ -21,6 +21,7 @@ puppet = OBR
 puppet = GER
 puppet = CRW
 puppet = WLS
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "FRA_1933_air_bba"
@@ -199,7 +200,7 @@ add_manpower = 220000
 
 ### DIPLOMACY ###
 
-create_faction = CSE
+create_faction = FACTION_CSE
 add_to_faction = IST
 add_to_faction = SPR
 add_to_faction = ALM

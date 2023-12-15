@@ -1,0 +1,104 @@
+####################################################
+# EVENTS FOR THE BRITISH ISLES (including Ireland) #
+####################################################
+
+add_namespace = BritishRevolt
+add_namespace = BritishRevolt_FRA
+
+### BRITISH REVOLT ###
+country_event = { #Britain rebels
+	id = BritishRevolt.1
+	title = BritishRevolt.1.t
+	desc = BritishRevolt.1.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = BritishRevolt.1.a
+
+	create_dynamic_country = {
+		original_tag = OBR
+		set_cosmetic_tag = OBR_Revolt
+		set_politics = {
+			ruling_party = ds
+		}
+		transfer_state = 130
+		transfer_state = 131
+		transfer_state = 132
+	}
+
+	create_dynamic_country = {
+		original_tag = SCO
+		set_cosmetic_tag = SCO_Revolt
+		set_politics = {
+			ruling_party = ds
+		}
+		transfer_state = 121
+		transfer_state = 136
+	}
+
+	create_dynamic_country = {
+		original_tag = WLS
+		set_cosmetic_tag = WLS_Revolt
+		set_politics = {
+			ruling_party = ds
+		}
+		transfer_state = 963
+		transfer_state = 964
+	}
+
+	LON = {
+
+		set_cosmetic_tag = LON_Revolt
+
+		set_politics = {
+			ruling_party = jc
+		}
+	}
+
+
+	D01 = {
+		create_faction = FACTION_BLC
+
+		add_to_faction = D02
+		add_to_faction = D03
+		add_to_faction = LON
+	}
+
+	hidden_effect = {
+		country_event = { id = BritishRevolt.1 days = 6 }
+	}
+
+	}
+
+	country_event = { #NameComin Is Arrested by the French
+	id = BritishRevolt.2
+	title = BritishRevolt.2.t
+	desc = BritishRevolt.2.d
+	picture = GFX_PBNews_Papal_Conclave_1
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = BritishRevolt.2.a
+
+		OBR = {
+			set_cosmetic_tag = OBR_French
+
+			create_country_leader = {
+				
+			}
+		}
+
+
+
+	}
+	
+	}
+	
+}

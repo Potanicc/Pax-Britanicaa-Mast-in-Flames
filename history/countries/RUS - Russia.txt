@@ -525,8 +525,9 @@ set_popularities = {
 	jc = 0
 }
 
-create_faction = RUS_fac
-add_to_faction = RUS
+create_faction = FACTION_VG
+add_to_faction = YUG
+add_to_faction = HUN
 
 RUS = {
 	add_opinion_modifier = {

@@ -8,9 +8,8 @@ state = {
 	state_category = rural
 	
 	history = {
-		owner = RUS
+		owner = RNA
 		add_core_of = GRE
-		add_core_of = CYR
 		buildings = {
 			infrastructure = 3
 						

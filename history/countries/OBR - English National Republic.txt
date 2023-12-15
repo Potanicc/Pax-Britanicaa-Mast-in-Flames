@@ -1,4 +1,4 @@
-﻿starting_train_buffer = 2
+starting_train_buffer = 2
 capital = 126
 
 oob = "OBR_Starter"
@@ -85,6 +85,8 @@ if = {
 add_ideas = {
 	PB_NI_Order
 
+	MIF_OBR_In_The_Shadows
+
 	ENG_PB_Archibald_Ramsay_HOG
 	ENG_PB_Tom_Horabin_ECM
 	ENG_PB_Cynthia_Curzon_FAM
@@ -99,15 +101,15 @@ set_convoys = 200
 
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = ni
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	ni = 0
-	ds = 100
+	ni = 100
+	ds = 0
 	rc = 0
 	cn = 0
 	lb = 0

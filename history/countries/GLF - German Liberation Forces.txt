@@ -57,9 +57,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "No Leader"
+	name = "Gerhard Schröder"
 	desc = ""
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	picture = "gfx/leaders/GLF/Portrait_GLF_Gerhard_Schroder.png"
 	ideology = CN_VARIANT_01
 }
 

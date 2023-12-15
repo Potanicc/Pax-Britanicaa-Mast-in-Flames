@@ -5,10 +5,9 @@ state={
 		grain = 4
 	}
 	history={
-		owner = CHA
+		owner = BAF
 		add_core_of = BAF
-		add_claim_by = CHA
-		add_claim_by = NGR
+		
 		buildings = {
 			infrastructure = 4
 			air_base = 2

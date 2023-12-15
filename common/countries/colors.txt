@@ -7,8 +7,8 @@
 #if anyone is wondering, yes these are messages from base PB files and im too lazy to change them
 
 GER = {
-	color = rgb { 117 108 69 }
-	color_ui = rgb { 117 108 69 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 #ENG = {
 #	color = rgb { 201 56 93 }
@@ -27,8 +27,8 @@ RUS = {
 	color_ui = rgb { 30 69 42 }
 }
 SWE = {
-	color = rgb { 29 80 145 }
-	color_ui = rgb { 29 80 145 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 SCH = {
 	color = rgb { 192 64 64 }
@@ -115,12 +115,12 @@ ALB = {
 	color_ui = rgb { 123 71 99 }
 }
 NOR = {
-	color = rgb { 192 64 64 }
-	color_ui = rgb { 192 64 64 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 DEN = {
-	color = rgb { 192 64 64 }
-	color_ui = rgb { 192 64 64 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 BUL = {
 	color = rgb { 65 117 39 }
@@ -911,18 +911,18 @@ MOR = {
 }
 
 OBR = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 SCO = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 WLS = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 SHN = {
@@ -1382,16 +1382,6 @@ BRU = {
 	color_ui = rgb { 191 179 79 }
 }
 
-ADR = {
-	color = rgb { 191 111 79 }
-	color_ui = rgb { 191 111 79 }
-}
-
-MNC = {
-	color = rgb { 79 191 189 }
-	color_ui = rgb { 79 191 189 }
-}
-
 VAT = {
 	color = rgb { 189 191 79 }
 	color_ui = rgb { 189 191 79 }
@@ -1706,8 +1696,8 @@ SCA = {
 }
 
 CRW = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 HAN = {
@@ -1836,8 +1826,8 @@ NWA = {
 }
 
 LON = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 DER = {
@@ -1873,12 +1863,18 @@ AZO = {
 PGA = {
 	color = rgb { 46 102 63 }
 	color_ui = rgb { 18 130 52 }
-} #Stuff below this is from PB:MIF
+} 
+
+#Stuff below this is from PB:MIF
 ALM = {
-	color = rgb { 97 117 145 }
-	color_ui = rgb { 97 117 145 }
+	color = rgb { 47 55 86 }
+	color_ui = rgb { 47 55 86 }
 }
 SRB = {
 	color = rgb { 72  73  126 }
 	color_ui = rgb { 72  73  126 }
+}
+RNA = {
+	color = rgb { 30 69 42 }
+	color_ui = rgb { 30 69 42 }
 }

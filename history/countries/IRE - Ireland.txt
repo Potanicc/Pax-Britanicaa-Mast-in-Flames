@@ -44,7 +44,7 @@ set_popularities = {
 }
 	
 set_politics = {
-	ruling_party = lb
+	ruling_party = ds
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -117,8 +117,8 @@ create_country_leader = {
 	ideology = SS_VARIANT_01
 }
 create_country_leader = {
-	name = "Hugo MacNeill"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_ICA_MICHAEL_COLLINS.dds"
+	name = "Michael Collins"
+	desc = "POLITICS_MICHAEL_COLLINS_DESC"
+	picture = "Portrait_IRE_MICHAEL_COLLINS.dds"
 	ideology = DS_VARIANT_01
 }

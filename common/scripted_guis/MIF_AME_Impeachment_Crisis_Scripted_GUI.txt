@@ -1,146 +1,146 @@
 scripted_gui = {
 	MIF_AME_Impeachment_Crisis_Scripted_GUI = { 
-		window_name = "MIF_AME_Impeachment_Crisis_Scripted_GUI"
+		window_name = "MIF_AME_Impeachment_Crisis_Scripted_GUI_Window"
 		context_type = decision_category
 		
-		visible = {
-			AME_Public_Outrage_Bar_Zero_visible = {			
+		triggers = {
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_zero_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 0
 				}
 			}
 			
-			AME_Public_Outrage_Bar_Five_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_five_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 5
 				}
 			}
 
-			AME_Public_Outrage_Bar_Ten_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_ten_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 10
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fiveteen_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_fifteen_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 15
 				}
 			}
 
-			AME_Public_Outrage_Bar_Twenty_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_twenty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 20
 				}
 			}
 
-			AME_Public_Outrage_Bar_Twentyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_twentyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 25
 				}
 			}
 
-			AME_Public_Outrage_Bar_Thirty_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_thirty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 30
 				}
 			}
 
-			AME_Public_Outrage_Bar_Thirtyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_thirtyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 35
 				}
 			}
 
-			AME_Public_Outrage_Bar_Forty_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_forty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 40
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fortyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_fortyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 45
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fifty_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_fifty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 50
 				}
 			}
 
-			AME_Public_Outrage_Bar_Fiftyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_fiftyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 55
 				}
 			}
 
-			AME_Public_Outrage_Bar_Sixty_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_sixty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 60
 				}
 			}
 
-			AME_Public_Outrage_Bar_Sixtyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_sixtyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 65
 				}
 			}
 
-			AME_Public_Outrage_Bar_Seventy_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_seventy_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 70
 				}
 			}
 
-			AME_Public_Outrage_Bar_Seventyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_seventyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 75
 				}
 			}
 
-			AME_Public_Outrage_Bar_Eighty_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_eighty_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 80
 				}
 			}
 
-			AME_Public_Outrage_Bar_Eightyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_eightyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 85
 				}
 			}
 
-			AME_Public_Outrage_Bar_Ninety_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_ninety_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 90
 				}
 			}
 
-			AME_Public_Outrage_Bar_Ninetyfive_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_ninetyfive_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 95
 				}
 			}
 
-			AME_Public_Outrage_Bar_Hundred_visible = {			
+			MIF_AME_Impeachment_Crisis_Public_Outrage_display_hundred_visible = {			
 				check_variable = {
 					AME_Public_Outrage = 100
 				}
 			}
-		}
 
-		effects = {
+			MIF_AME_Impeachment_Crisis_Public_Outrage_Phase_One = {			
+				has_country_flag = AME_Phase_One_Clamp
+			}
 
-		}
-		
-		triggers = {
+			MIF_AME_Impeachment_Crisis_Public_Outrage_Phase_Two = {			
+				has_country_flag = AME_Phase_Two_Clamp
+			}
 
-		}
-
-		properties = {
-
-		}
+			MIF_AME_Impeachment_Crisis_Public_Outrage_Phase_Three = {			
+				has_country_flag = AME_Phase_Three_Clamp
+			}
+		} 
 	}
 }

@@ -1,0 +1,22 @@
+defined_text = {
+    name = get_AME_Phase_Clamps
+    
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_One_Clamp
+        }
+        localization_key = "AME_Phase_One_Clamp_loc"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Two_Clamp
+        }
+        localization_key = "AME_Phase_Two_Clamp_loc"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "AME_Phase_Three_Clamp_loc"
+    } 
+} 

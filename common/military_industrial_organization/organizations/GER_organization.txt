@@ -14,37 +14,31 @@ GER_porsche_organization = {
 	icon = GFX_idea_porsche
 	
 	allowed = {	
-		OR = {
-			tag = GER 
-			AND = {
-				tag = MEX 
-				has_dlc = "Man the Guns"
-			}
-			NOR_AAT = yes
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-
-		IF = {
-			limit = {
-				FROM = { tag = MEX }
-			}
-			FROM = { is_in_faction_with = GER }
-		}
-		ELSE_IF = {
-			limit = {
-				FROM = { tag = NOR }
-			}
-			FROM = { has_completed_focus = NOR_invite_german_engineers }
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+#
+	#	IF = {
+	#		limit = {
+	#			FROM = { tag = MEX }
+	#		}
+	#		FROM = { is_in_faction_with = GER }
+	#	}
+	#	ELSE_IF = {
+	#		limit = {
+	#			FROM = { tag = NOR }
+	#		}
+	#		FROM = { has_completed_focus = NOR_invite_german_engineers }
+	#	}
 	}
 }
 
@@ -53,61 +47,52 @@ GER_henschel_organization = {
 	icon = GFX_idea_henschel
 	
 	allowed = {	
-		OR = {
-			tag = GER 
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 	
 	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
-		}
+	#	IF = {
+	#		limit = { FROM = { original_tag = ETH } }
+	#		FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
+	#	}
 	}
 
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-
-		IF = {
-			limit = { 
-				OR = { 
-					FROM = { original_tag = BUL }
-					FROM = { original_tag = ETH } 
-				} 
-			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_henschel_mio_flag
-				}
-			}
-			
-		}
-		IF = {
-			limit = { FROM = { original_tag = BUL } } 
-			FROM = { 
-				OR = {
-					is_subject = no
-					is_subject_of = GER
-				}
-				#is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+#
+	#	IF = {
+	#		limit = { 
+	#			OR = { 
+	#				FROM = { original_tag = BUL }
+	#				FROM = { original_tag = ETH } 
+	#			} 
+	#		}
+	#		custom_trigger_tooltip = {
+	#			tooltip = has_invited_mio_tt
+	#			FROM = {
+	#				has_country_flag = has_invited_henschel_mio_flag
+	#			}
+	#		}
+	#		
+	#	}
+	#	IF = {
+	#		limit = { FROM = { original_tag = BUL } } 
+	#		FROM = { 
+	#			OR = {
+	#				is_subject = no
+	#				is_subject_of = GER
+	#			}
+	#			#is_in_faction_with = GER
+	#			NOT = { has_completed_focus = BUL_nationalization }
+	#		}
+	#	}
 	}
 }
 
@@ -116,23 +101,18 @@ GER_man_organization = {
 	icon = GFX_idea_GER_MAN
 	
 	allowed = {	
-		OR = {
-			tag = GER 
-			AND = {
-				tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 	
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
 	}
 }
 
@@ -142,7 +122,8 @@ GER_daimler_benz_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_2 # TODO change
 	
 	allowed = {	
-		tag = GER 
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 
 	tree_header_text = {
@@ -225,7 +206,8 @@ GER_germaniawerft_organization = {
 	icon = GFX_idea_germaniawerft
 	
 	allowed = {	
-		tag = GER 
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -234,7 +216,8 @@ GER_blohm_und_voss_organization = {
 	icon = GFX_idea_blohm_und_voss
 	
 	allowed = {	
-		tag = GER 
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -253,27 +236,25 @@ GER_messerschmitt_organization = {
 	icon = GFX_idea_messerschmitt
 	
 	allowed = {	
-		OR = {
-			tag = GER
-			NOR_AAT = yes 
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-		
-		if = {
-			limit = {
-				FROM = { original_tag = NOR }
-			}
-			FROM = { has_completed_focus = NOR_invite_german_engineers }
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+	#	
+	#	if = {
+	#		limit = {
+	#			FROM = { original_tag = NOR }
+	#		}
+	#		FROM = { has_completed_focus = NOR_invite_german_engineers }
+	#	}
 	}
 
 	add_trait = {
@@ -320,43 +301,38 @@ GER_junkers_organization = {
 	include = generic_cas_aircraft_organization
 	icon = GFX_idea_junkers
 	
-	allowed = {	 
-		OR = {
-			tag = GER 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+	allowed = {	
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 	
 	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
-		}
+	#	IF = {
+	#		limit = { FROM = { original_tag = ETH } }
+	#		FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
+	#	}
 	}
 
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-
-		IF = {
-			limit = {
-				FROM = { NOT  = { original_tag = GER } }
-			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_GER_junkers_organization_flag
-				}
-			}
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+#
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT  = { original_tag = GER } }
+	#		}
+	#		custom_trigger_tooltip = {
+	#			tooltip = has_invited_mio_tt
+	#			FROM = {
+	#				has_country_flag = has_invited_GER_junkers_organization_flag
+	#			}
+	#		}
+	#	}
 	}
 
 	add_trait = {
@@ -380,7 +356,8 @@ GER_focke_wulf_organization = {
 	icon = GFX_idea_focke_wulf
 	
 	allowed = {	
-		tag = GER 
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -389,50 +366,44 @@ GER_heinkel_organization = {
 	icon = GFX_idea_heinkel
 	
 	allowed = {	
-		OR = {
-			tag = GER 
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-			NOR_AAT = yes
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-
-		IF = {
-			limit = {
-				FROM = { original_tag = BUL }
-			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_heinkel_mio_flag
-				}
-			}
-			FROM = { 
-				OR = {
-					is_subject = no
-					is_subject_of = GER
-				}
-				#is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
-		}
-		ELSE_IF = {
-			limit = {
-				FROM = { original_tag = NOR }
-			}
-			FROM = { has_completed_focus = NOR_invite_german_engineers }
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+#
+	#	IF = {
+	#		limit = {
+	#			FROM = { original_tag = BUL }
+	#		}
+	#		custom_trigger_tooltip = {
+	#			tooltip = has_invited_mio_tt
+	#			FROM = {
+	#				has_country_flag = has_invited_heinkel_mio_flag
+	#			}
+	#		}
+	#		FROM = { 
+	#			OR = {
+	#				is_subject = no
+	#				is_subject_of = GER
+	#			}
+	#			#is_in_faction_with = GER
+	#			NOT = { has_completed_focus = BUL_nationalization }
+	#		}
+	#	}
+	#	ELSE_IF = {
+	#		limit = {
+	#			FROM = { original_tag = NOR }
+	#		}
+	#		FROM = { has_completed_focus = NOR_invite_german_engineers }
+	#	}
 	}
 }
 
@@ -441,7 +412,8 @@ GER_dornier_organization = {
 	icon = GFX_idea_dornier
 	
 	allowed = {	
-		tag = GER 
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 }
 
@@ -462,22 +434,17 @@ GER_rheinmetall_organization = {
 	icon = GFX_idea_rheinmetall
 	
 	allowed = {	
-		OR = {
-			tag = GER 
-			AND = {
-				tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
 	}
 }
 
@@ -485,43 +452,38 @@ GER_mauser_organization = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_mauser
 	
-	allowed = {	 
-		OR = {
-			tag = GER 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-		}
+	allowed = {	
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 	
 	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
-		}
+	#	IF = {
+	#		limit = { FROM = { original_tag = ETH } }
+	#		FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
+	#	}
 	}
 	
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-
-		IF = {
-			limit = {
-				FROM = { NOT  = { original_tag = GER } }
-			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_GER_mauser_organization_flag
-				}
-			}
-		}
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+#
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT  = { original_tag = GER } }
+	#		}
+	#		custom_trigger_tooltip = {
+	#			tooltip = has_invited_mio_tt
+	#			FROM = {
+	#				has_country_flag = has_invited_GER_mauser_organization_flag
+	#			}
+	#		}
+	#	}
 	}
 }
 
@@ -530,48 +492,39 @@ GER_opel_organization = {
 	icon = GFX_idea_opel
 	
 	allowed = {	
-		OR = {
-			tag = GER
-			AND = {
-				tag = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			AND = {
-				tag = BUL
-				has_dlc = "Battle for the Bosporus"
-			}
-		}
+		tag = GER
+		has_dlc = "Arms Against Tyranny"
 	}
 	
 	available = {
-		# When in a Foreign MIO, countries need to be at peace with original country
-		IF = {
-			limit = {
-				FROM = { NOT = { original_tag = GER } }
-			}
-			FROM = { NOT = { has_war_with = GER } }
-		}
-
-		IF = {
-			limit = { FROM = { original_tag = BUL } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_opel_mio_flag
-				}
-			}
-			FROM = { 
-				OR = {
-					is_subject = no
-					is_subject_of = GER
-				}
-				#is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
-		}
-		IF = {
-			limit = { FROM = { original_tag = ROM } }
-			FROM = { has_country_flag = GER_mot_chosen }
-		}	
+	#	# When in a Foreign MIO, countries need to be at peace with original country
+	#	IF = {
+	#		limit = {
+	#			FROM = { NOT = { original_tag = GER } }
+	#		}
+	#		FROM = { NOT = { has_war_with = GER } }
+	#	}
+#
+	#	IF = {
+	#		limit = { FROM = { original_tag = BUL } }
+	#		custom_trigger_tooltip = {
+	#			tooltip = has_invited_mio_tt
+	#			FROM = {
+	#				has_country_flag = has_invited_opel_mio_flag
+	#			}
+	#		}
+	#		FROM = { 
+	#			OR = {
+	#				is_subject = no
+	#				is_subject_of = GER
+	#			}
+	#			#is_in_faction_with = GER
+	#			NOT = { has_completed_focus = BUL_nationalization }
+	#		}
+	#	}
+	#	IF = {
+	#		limit = { FROM = { original_tag = ROM } }
+	#		FROM = { has_country_flag = GER_mot_chosen }
+	#	}	
 	}
 }

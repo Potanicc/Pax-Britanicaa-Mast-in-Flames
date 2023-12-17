@@ -8,15 +8,49 @@
 
  #################### 
 
-MEX_tga_organization = {
-	include = generic_tank_organization
-	icon = GFX_idea_MEX_tga
+#MEX_tga_organization = {
+#	include = generic_tank_organization
+#	icon = GFX_idea_MEX_tga
+#	allowed = { 
+#		has_dlc = "Man the Guns"
+#		tag = MEX
+#	}
+#	available = {
+#		owner = { has_completed_focus = MEX_focus_tank_workshops }
+#	}
+#}
+
+PB_MEX_Panhard  = {
+	include = generic_infantry_tank_organization
+	icon = GFX_idea_PB_MEX_Panhard
 	allowed = { 
-		has_dlc = "Man the Guns"
+		has_dlc = "Arms Against Tyranny"
 		tag = MEX
 	}
 	available = {
-		owner = { has_completed_focus = MEX_focus_tank_workshops }
+		FRA = {
+			has_opinion = {
+				target = ROOT
+				value > 50
+			}
+		}
+	}
+}
+
+PB_MEX_Steyr = {
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_PB_MEX_Steyr
+	allowed = { 
+		has_dlc = "Arms Against Tyranny"
+		tag = MEX
+	}
+	available = {
+		GER = {
+			has_opinion = {
+				target = ROOT
+				value > 50
+			}
+		}
 	}
 }
 ### Foreign Subsidiaries
@@ -35,29 +69,42 @@ MEX_tga_organization = {
  
 #####################
 
-MEX_astimar_gulf_organization = {
-	include = generic_battle_line_ship_organization
-	icon = GFX_idea_MEX_astimar_gulf
+#MEX_astimar_gulf_organization = {
+#	include = generic_battle_line_ship_organization
+#	icon = GFX_idea_MEX_astimar_gulf
+#	allowed = { 
+#		has_dlc = "Man the Guns"
+#		tag = MEX
+#	}
+#	available = {
+#		owner = { has_completed_focus = MEX_focus_gulf_coast_naval_yards }
+#	}
+#}
+#
+#MEX_astimar_pacific_organization = {
+#	include = generic_task_force_ship_organization
+#	icon = GFX_idea_MEX_astimar_pacific
+#	allowed = { 
+#		has_dlc = "Man the Guns"
+#		tag = MEX
+#	}
+#	available = {
+#		owner = { has_completed_focus = MEX_focus_pacific_coast_naval_yards }
+#	}
+#}
+
+PB_MEX_Astimar = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_PB_MEX_Astimar
 	allowed = { 
-		has_dlc = "Man the Guns"
+		has_dlc = "Arms Against Tyranny"
 		tag = MEX
 	}
 	available = {
-		owner = { has_completed_focus = MEX_focus_gulf_coast_naval_yards }
+	#	owner = { has_completed_focus = MEX_focus_pacific_coast_naval_yards }
 	}
 }
 
-MEX_astimar_pacific_organization = {
-	include = generic_task_force_ship_organization
-	icon = GFX_idea_MEX_astimar_pacific
-	allowed = { 
-		has_dlc = "Man the Guns"
-		tag = MEX
-	}
-	available = {
-		owner = { has_completed_focus = MEX_focus_pacific_coast_naval_yards }
-	}
-}
 
 ###########################
 
@@ -69,15 +116,38 @@ MEX_astimar_pacific_organization = {
 
 ###########################
 
-MEX_tnca_organization = {
+#MEX_tnca_organization = {
+#	include = generic_general_aircraft_organization
+#	icon = GFX_idea_MEX_tnca
+#	allowed = { 
+#		has_dlc = "Man the Guns"
+#		tag = MEX
+#	}
+#	available = {
+#		owner = { has_completed_focus = MEX_focus_aviation_workshops }
+#	}
+#}
+#
+PB_MEX_Talleres = {
 	include = generic_general_aircraft_organization
-	icon = GFX_idea_MEX_tnca
+	icon = GFX_idea_PB_MEX_Talleres
 	allowed = { 
-		has_dlc = "Man the Guns"
+		has_dlc = "Arms Against Tyranny"
 		tag = MEX
 	}
 	available = {
-		owner = { has_completed_focus = MEX_focus_aviation_workshops }
+	#	owner = { has_completed_focus = MEX_focus_aviation_workshops }
+	}
+
+	initial_trait = {
+		name = MEX_talleres_range_buff
+
+		limit_to_equipment_type = { mio_cat_eq_all_small_plane mio_cat_eq_all_medium_plane }
+
+		equipment_bonus = {
+			air_range = 0.1
+			reliability = -0.1
+		}
 	}
 }
 
@@ -93,10 +163,19 @@ MEX_tnca_organization = {
 
 ###################################
 
-MEX_fabrica_nacional_armas_organization = {
+#EX_fabrica_nacional_armas_organization = {
+#	include = generic_infantry_equipment_organization
+#	icon = GFX_idea_generic_infantry_equipment_manufacturer_3
+#	allowed = { 
+#		tag = MEX
+#	}
+#
+
+PB_MEX_Mendoza = {
 	include = generic_infantry_equipment_organization
-	icon = GFX_idea_generic_infantry_equipment_manufacturer_3
+	icon = GFX_idea_PB_MEX_Mendoza
 	allowed = { 
+		has_dlc = "Arms Against Tyranny"
 		tag = MEX
 	}
 }
@@ -105,9 +184,21 @@ comesa_organization = {
 	include = generic_artillery_organization
 	icon = GFX_idea_generic_artillery_manufacturer_1
 	allowed = { 
+		has_dlc = "Man the Guns"
+		has_dlc = "Arms Against Tyranny"
 		tag = MEX
 	}
 }
+
+PB_MEX_Ramirez = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_PB_MEX_Ramirez
+	allowed = { 
+		has_dlc = "Arms Against Tyranny"
+		tag = MEX
+	}
+}
+
 
 ### Foreign Subsidiaries
 

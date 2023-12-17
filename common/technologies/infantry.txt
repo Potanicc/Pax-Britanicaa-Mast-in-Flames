@@ -1523,6 +1523,70 @@ technologies = {
 			}
 		}
 	}
+
+	tech_trucks = {
+
+		enable_subunits = {
+			mot_anti_tank_brigade
+			mot_artillery_brigade
+			mot_anti_air_brigade
+		}
+
+		enable_equipments = {
+			motorized_equipment_0
+		}
+
+		enable_equipment_modules = {
+			tank_wheeled_suspension
+		}
+
+		
+		path = {
+			leads_to_tech = motorised_infantry
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = armored_car1
+			research_cost_coeff = 1
+		} 
+
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = -1 }
+		}
+		
+		categories = {
+			motorized_equipment
+			#mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.75
+			}
+		}
+	}
 	
 	motorised_infantry = {
 
@@ -2581,6 +2645,10 @@ technologies = {
 
 	improved_inf_SCA = {
 
+		allow = {
+			always = no
+		}
+
 		research_cost = 1
 		start_year = 1933
 
@@ -2595,7 +2663,7 @@ technologies = {
 		elite_infantry = {
 			defense = 0.025
 		}
-		militia_infantry = {
+		militia = {
 			defense = 0.025
 		}
 		motorized = {
@@ -2618,12 +2686,16 @@ technologies = {
 
 	improved_mar_AME = {
 
+		allow = {
+			always = no
+		}
+
 		research_cost = 1
 		start_year = 1933
 
 		marine = {
 			defense = 0.1
-			attack = 0.1
+			soft_attack = 0.1
 		}
 		
 		categories = {

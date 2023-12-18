@@ -965,7 +965,8 @@
   HWI_jc_party:0 "Republican"
   HWI_ds_party:0 "Independent"
   
-  OMA_ds_party:0 "Al Said Dynasty"
+  OMA_cn_party:0 "Al BuSaid Dynasty"
+  UGS_cn_party:0 "Emiri Council"
 
   YEM_cn_party:0 "Rassids Dynasty"
   YEM_ds_party:0 "Rassids Dynasty"
@@ -976,8 +977,8 @@
   HEJ_cn_party:0 "Hashemite Dynasty"
   HEJ_ds_party:0 "Hashemite Dynasty"
 
-  JBS_cn_party:0 "Rashid Dynasty"
-  JBS_ds_party:0 "Rashid Dynasty"
+  JBS_cn_party:0 "Hashemite Dynasty"
+  JBS_ds_party:0 "Hashemite Dynasty"
 
   JOR_cn_party:0 "Hashemite Dynasty"
   JOR_ds_party:0 "Hashemite Dynasty"  
@@ -988,8 +989,8 @@
   SYR_cn_party:0 "Hashemite Dynasty"
   SYR_ds_party:0 "Hashemite Dynasty"
 
-  MIQ_cn_party:0 "Hashemite Dynasty"
-  MIQ_ds_party:0 "Hashemite Dynasty"
+  MIQ_cn_party:0 "Royal Federation"
+  MIQ_ds_party:0 "Royal Federation"
 
   ALB_cn_party:0 "House of Wied-Neuwied"
   ALB_ds_party:0 "House of Wied-Neuwied"  

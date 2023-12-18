@@ -18,17 +18,14 @@ state={
 				naval_base = 5
 
 			}
-			2089 = {
-				naval_base = 2
-
-			}
+			
 
 		}
 
 	}
 
 	provinces={
-		2089 8085 
+		 8085 
 	}
 	manpower=80000
 	buildings_max_level_factor=1.000

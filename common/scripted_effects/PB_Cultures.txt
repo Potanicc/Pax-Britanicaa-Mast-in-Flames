@@ -1083,6 +1083,7 @@ PB_Setup_Cultures = {
 
 	### ---- Shia Arab Culture ---- ###
 
+	966 = { set_variable = { culture_id = 204 } }
 	291 = { set_variable = { culture_id = 204 } }
 	820 = { set_variable = { culture_id = 204 } }
 	413 = { set_variable = { culture_id = 204 } }

@@ -24,7 +24,6 @@ set_convoys = 5
 
 add_ideas = {
 MIQ_Shield_UAE
-MIQ_Forced_Sunnization
 
 PB_Parliamentary_Monarchy
 PB_NI_Order
@@ -32,26 +31,27 @@ PB_Govidea_State_Capitalism
 PB_Managed_Democracy
 PB_Limited_Censorship
 PB_Public_Meetings_Allowed
-PB_No_Womens_Legal_Protections
+PB_Limited_Womens_Rights
 PB_Limited_Autonomy
 PB_Law_Standard_Policing
 
 PB_14_Hour_Workday
 PB_Basic_Healthcare
 PB_Basic_Education
-PB_No_Welfare
+PB_Basic_Welfare
 PB_Sociogenetics_Allowed
 PB_Augmentation_No_Legislation
 
 PB_Widespread_Poverty
-PB_Agrarianism
-PB_Significant_Illiteracy
+PB_Industrialized
+PB_Basic_Education
 PB_Middling_Consumer_Confidence
-PB_Pre_Great_War_Army
+PB_Great_War_Military
 PB_Partially_Westernized
 }
 
 recruit_character = MIQ_Duumvirate
+recruit_character = MIQ_Abdullah
 
 set_politics = {
 	ruling_party = cn

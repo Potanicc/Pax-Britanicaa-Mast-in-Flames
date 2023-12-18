@@ -1,66 +1,66 @@
 characters = {
-	JBS_Faisal_Abdulaziz_Saud = {
+	JBS_Abdulhamid_Sharaf = {
 
-		name = "Emir Faisal bin Abdulaziz Al Saud"
+		name = "Emir Abdulhamid"
 
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_JBS_Faisal_Abdulaziz_Saud
+				large = "gfx/leaders/JBS/Portrait_JBS_Abdulhamid_Sharaf.dds"
 			}
 		}
 
 		country_leader = {
 			ideology = NI_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = DS_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = RC_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = CN_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = AN_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = LB_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = SS_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = JC_VARIANT_01
-			desc = JBS_Faisal_Abdulaziz_Saud_desc
+			desc = JBS_Abdulhamid_Sharaf_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}

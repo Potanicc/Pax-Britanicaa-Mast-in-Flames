@@ -64,7 +64,7 @@ set_popularities = {
 	jc = 1
 }
 
-recruit_character = OMA_Zaid_Hussein
+recruit_character = OMA_Said_bin_Taimur
 
 set_politics = {
 	ruling_party = ds

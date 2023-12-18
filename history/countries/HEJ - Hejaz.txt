@@ -29,32 +29,32 @@ HEJ = {
 }
 
 add_ideas = { 
-HEJ_Old_Man_UAE
 
-PB_Absolute_Monarchy
-PB_NI_Order
-PB_Govidea_Communal_Economy
 
-PB_No_Voting
+PB_Prussian_Constitutionalism
+PB_NI_Imperialism
+PB_Govidea_Welfare_Capitalism
+
+PB_Single_Party_State
 PB_State_Press
 PB_Public_Meetings_Monitored
-PB_Patriarchal_Society
-PB_Limited_Autonomy
+PB_No_Womens_Legal_Protections
+PB_Significant_Autonomy
 PB_Law_Standard_Policing
 
-PB_No_Limit_Workday
-PB_No_Healthcare
+PB_14_Hour_Workday
+PB_Basic_Healthcare
 PB_Basic_Education
-PB_No_Welfare
+PB_Basic_Welfare
 PB_Sociogenetics_Allowed
 PB_Augmentation_No_Legislation
 
-PB_Rampant_Poverty
-PB_Agrarianism
-PB_Rampant_Illiteracy
+PB_Significant_Poverty
+PB_Semi_Industrialized
+PB_Middling_Consumer_Confidence
 PB_Stagnating_Growth
-PB_Pre_Great_War_Army
-PB_Uncivilized_Nation 
+PB_Great_War_Military
+PB_Partially_Westernized 
 }
 
 set_stability = 0.5
@@ -123,7 +123,7 @@ if = {
 		puppet = OMA
 	}
 }
-
+recruit_character = HEJ_Abdulallah
 recruit_character =  HEJ_Abd_al_Ilah
 
 set_politics = {
@@ -211,28 +211,6 @@ YEM = {
 	set_cosmetic_tag = YEM_UAE
 }
 
-SYR = {
-	set_politics = {
-		ruling_party = cn
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		ni = 2
-		ds = 21
-		rc = 9
-		cn = 39
-		lb = 18
-		an = 3
-		ss = 8
-		jc = 0
-	}
-
-	set_cosmetic_tag = SYR_UAE
-}
-
 MIQ = {
 	set_politics = {
 		ruling_party = cn
@@ -253,28 +231,6 @@ MIQ = {
 	}
 
 	set_cosmetic_tag = MIQ_UAE
-}
-
-KUW = {
-	set_politics = {
-		ruling_party = cn
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		ni = 2
-		ds = 21
-		rc = 9
-		cn = 39
-		lb = 18
-		an = 3
-		ss = 8
-		jc = 0
-	}
-
-	set_cosmetic_tag = KUW_UAE
 }
 
 UGS = {

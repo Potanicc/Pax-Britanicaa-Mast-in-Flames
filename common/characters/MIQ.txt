@@ -10,57 +10,25 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = NI_VARIANT_01
+			ideology = JC_VARIANT_01
 			desc = MIQ_Duumvirate_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}
+	}
+	MIQ_Abdullah = {
 
-		country_leader = {
-			ideology = DS_VARIANT_01
-			desc = MIQ_Duumvirate_desc
-			expire = "1965.1.1.1"
-			id = -1
-		}
+		name = "Abdullah Al Sabah"
 
-		country_leader = {
-			ideology = RC_VARIANT_01
-			desc = MIQ_Duumvirate_desc
-			expire = "1965.1.1.1"
-			id = -1
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MIQ/Portrait_MIQ_Abdullah_Al_Sabah.dds"
+			}
 		}
 
 		country_leader = {
 			ideology = CN_VARIANT_01
-			desc = MIQ_Duumvirate_desc
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
-		country_leader = {
-			ideology = AN_VARIANT_01
-			desc = MIQ_Duumvirate_desc
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
-		country_leader = {
-			ideology = LB_VARIANT_01
-			desc = MIQ_Duumvirate_desc
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
-		country_leader = {
-			ideology = SS_VARIANT_01
-			desc = MIQ_Duumvirate_desc
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
-		country_leader = {
-			ideology = JC_VARIANT_01
-			desc = MIQ_Duumvirate_desc
+			desc = MIQ_Abdullah_desc
 			expire = "1965.1.1.1"
 			id = -1
 		}

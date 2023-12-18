@@ -1,4 +1,70 @@
 characters = {
+	HEJ_Abdulallah = {
+
+		name = "Abdullah I"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HEJ/Portrait_HEJ_Abdullah_I.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = NI_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = DS_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = RC_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = CN_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = AN_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = LB_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = SS_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
+			ideology = JC_VARIANT_01
+			desc = HEJ_Abdulallah_desc
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 	HEJ_Abd_al_Ilah = {
 
 		name = "Emir Abd al-Ilah"

@@ -1,0 +1,165 @@
+ideas = {
+
+	country = {
+		RUS_water_shortage = {
+
+			picture = 
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		RUS_malaria_troubles = {
+
+			picture = 
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		} 
+
+		RUS_conquerors_europe = {
+
+			picture = 
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		RUS_caucasian_famine = {
+
+			picture =
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		RUS_peacetime_economy = {
+
+			picture = 
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			} 
+		}
+
+		RUS_muddled_duma = {
+
+			picture = 
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			} 
+		}
+	}
+}

@@ -112,41 +112,16 @@ add_ideas = {
 }
 
 set_popularities = {
-	ni = 2
-	ds = 3
-	rc = 0
-	cn = 0
-	lb = 5
-	an = 0
-	ss = 10
-	jc = 80
+	lb = 100
 }
 
 set_politics = {
-	ruling_party = jc
+	ruling_party = lb
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-
-	set_autonomy = {
-		target = CRO
-		autonomous_state = autonomy_PB_Collaborator_State
-		freedom_level = 0.80
-	}
-
-	else = {
-		puppet = CRO
-	}
-}
 
 recruit_character = HUN_béla_vágó
 recruit_character = HUN_no_leader
@@ -154,23 +129,3 @@ recruit_character = HUN_bela_miklos
 recruit_character = HUN_mátyás_rákosi
 recruit_character = HUN_bela_kun
 recruit_character = HUN_tibor_szamuely
-
-CRO = {
-	set_politics = {
-		ruling_party = jc
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		ni = 0
-		ds = 0
-		rc = 0
-		cn = 0
-		lb = 20
-		an = 0
-		ss = 20
-		jc = 60
-	}
-}

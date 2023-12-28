@@ -52,3 +52,34 @@
  RNA_cn_ADJ:0 "Russo-Cypriot"
  RNA_an_ADJ:0 "Russo-Cypriot"
 
+ PRS_ds:0 "Russian Occupation of Prussia"
+ PRS_ds_DEF:0 "the Russian Occupation of Prussia"
+ PRS_ds_ADJ:0 "Prussia"
+
+ DDR_ds:0 "Free Republic of East Sorbia"
+ DDR_ds_DEF:0 "the Free Republic of East Sorbia"
+ DDR_ds_ADJ:0 "East-German"
+
+### IDEAS ###
+
+ RUS_water_shortage:0 "Central Asian Water Shortage"
+ RUS_water_shortage_desc:0 "As a result of the draining of both the Caspian and Aral sea, there’s been water shortages in the central asian Krais. This has to be dealt with by the Central Government otherwise it could lead to open rebellion and financial strain."
+ RUS_malaria_troubles:0 "The Malaria Troubles"
+ RUS_malaria_troubles_desc:0 "Unlike many western nations, Russia never embarked on the quest to fully eradicate the most deadly of illnesses. This is not only due to Russia’s immense size of Russia land and population wise, but also because of religious resistance. Thus mostly rural but also urban population centres are still rampant with Malaria and its consequences."
+ RUS_conquerors_europe:0 "The Conquerors of Europe"
+ RUS_conquerors_europe_desc:0 "As a result of our alliance with the French we were able to successfully conquer large swathes of land in Europe, with our most valuable conquest being the eastern parts of the former German kingdoms."
+ RUS_caucasian_famine:0 "The Caucasian Famine"
+ RUS_caucasian_famine_desc:0 "Because of the Caucasus Viceroyalties ruling class being mostly descendant from wealthy businessmen, the Viceroy's governance became oligarchic in nature. This caused very little money to trickle down to the peasant population of the rather large Viceroy. This combined with the reduction of rainfall due to land reclamation in both the Ukraine and the Caspian sea caused a famine to happen in the laters years of the second great war. Because of the recklessness and chaos caused by the governors of the Viceroy, it was annexed into the Russian Empire until the situation was properly dealt with."
+ RUS_peacetime_economy:0 "Transitioning to a Peacectime Economy"
+ RUS_peacetime_economy_desc:0 "Despite the second great war having been over for quite a number of years now, the Russian economy is still partially following a wartime agenda. Thus the Duma needs to pass bills to properly transition back to a peacetime economy. As of right now, inflation is at an all time high, unemployment from returning soldiers is skyrocketing, and with the ‘fine tuning’ of the economy by the Duma, the economy and the Russian people have only suffered since the war has passed them."
+ RUS_muddled_duma:0 "The Muddled Duma"
+ RUS_muddled_duma_desc:0 "Although on paper Russia is a democracy, the real situation is more murky. After the appointment of the semi-incompetent Vasily Chuikov the Duma became more divided than ever. What didn’t help the situation was mass rioting across Moscow by workers in 1955, which led to the socialist parties being unbanned in the Duma and causing all sorts of outrage by the other parties. As a result of this no bill has passed peacefully through the Duma in ages and nothing gets done, barely any issues are getting resolved within Russia. And answers are needed now more than ever in these trying times for the Russian citizens."
+
+
+
+
+
+
+
+
+

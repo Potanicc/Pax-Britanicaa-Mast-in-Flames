@@ -402,8 +402,32 @@ PB_Set_Max_State_Focus = yes
 set_convoys = 366
 
 set_autonomy = {
-	target = POL
-	autonomous_state = autonomy_PB_Imperial_Autonomy
+	target = SRB
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = PRS
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = DDR
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = CZE
+	autonomous_state = autonomy_client_state
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = PER
+	autonomous_state = autonomy_client_state
 	freedom_level = 0.7
 }
 
@@ -457,23 +481,8 @@ give_guarantee = ASK
 give_military_access = ASK
 give_guarantee = MAN
 give_military_access = MAN
-
-RUS = { 
-	add_opinion_modifier = { 
-		target = GER modifier = great_war_bitterness 
-	} 
-
-	add_opinion_modifier = { 
-		target = ENG modifier = great_war_bitterness 
-	}
-}
-
-FIN = {
-	declare_war_on = {
-		target = FFI
-		type = annex_everything
-	}
-}
+give_guarantee = ALB
+give_military_access = ALB
 
 add_ideas = {
 	RUS_PB_Pyotr_Stoylpin
@@ -505,6 +514,12 @@ add_ideas = {
 	PB_Middling_Consumer_Confidence
 	PB_Semi_Modern_Military
     PB_Fully_Westernized
+	RUS_peacetime_economy
+	RUS_muddled_duma
+	RUS_conquerors_europe
+	RUS_water_shortage
+	RUS_malaria_troubles
+	RUS_caucasian_famine
 }
 
 set_politics = {
@@ -526,7 +541,7 @@ set_popularities = {
 }
 
 create_faction = FACTION_VG
-add_to_faction = YUG
+add_to_faction = SER
 add_to_faction = HUN
 
 RUS = {
@@ -541,26 +556,6 @@ RUS = {
 	}
 }
 
-
-FIN = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 20
-        ds = 40
-        rc = 0
-        cn = 0
-        lb = 0
-        an = 0
-        ss = 0
-        jc = 40
-    }
-}
 
 TRS = {
     set_politics = {
@@ -619,26 +614,6 @@ POL = {
     an = 10
     ss = 0
     jc = 40
-    }
-}
-
-PRS = {
-    set_politics = {
-        ruling_party = ni
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 38
-        ds = 50
-        rc = 6
-        cn = 6
-        lb = 0
-        an = 0
-        ss = 0
-        jc = 0
     }
 }
 

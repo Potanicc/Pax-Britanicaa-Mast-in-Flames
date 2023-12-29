@@ -3,14 +3,13 @@ ideas = {
 	country = {
 		RUS_water_shortage = {
 
-			picture = 
+			picture = PB_SCA_Grain_Shortage
 
 			allowed = {
 
 			}
 
 			available = {
-
 			}
 
 			cancel = {
@@ -24,12 +23,17 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				monthly_population = -0.15
+				required_garrison_factor = 0.1
+				conscription_factor = -0.2
+				attrition = 0.08
+				custom_modifier_tooltip = water_shortage_tooltip_tt
 			}
 		}
 
 		RUS_malaria_troubles = {
 
-			picture = 
+			picture = PB_RUS_Russian_Nightmare
 
 
 			allowed = {
@@ -51,15 +55,20 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				consumer_goods_factor = 0.1
+				civilian_factory_use = 2
+				political_power_gain = -0.1
+				weekly_manpower = -100
 			}
 		} 
 
 		RUS_conquerors_europe = {
 
-			picture = 
+			picture = PB_RUS_False_Republic
 
 
 			allowed = {
+				
 
 			}
 
@@ -78,12 +87,16 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.15
+				surrender_limit = 0.2
+				army_attack_factor = 0.15
 			}
 		}
 
 		RUS_caucasian_famine = {
 
-			picture =
+			picture = RUS_Isolated_Villages	
 
 
 			allowed = {
@@ -110,7 +123,7 @@ ideas = {
 
 		RUS_peacetime_economy = {
 
-			picture = 
+			picture = Economy_Military_Austerity
 
 
 			allowed = {
@@ -132,12 +145,16 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.2
+				industrial_capacity_factory = -0.1 
 			} 
 		}
 
 		RUS_muddled_duma = {
 
-			picture = 
+			picture = PB_RUS_Anarchy
 
 
 			allowed = {
@@ -159,6 +176,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				political_power_gain = -0.1
+				cn_drift = 0.01
+				lb_drift = 0.01
 			} 
 		}
 	}

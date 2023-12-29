@@ -1,0 +1,30 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+ KAZ_ds:0 "Republic of Kazakhstan"
+ KAZ_ds_DEF:0 "the Republic of Kazakhstan"
+ KAZ_ds_ADJ:0 "Kazakh"
+
+ KOK_ds:0 "Turkmen Common Republic"
+ KOK_ds_DEF:0 "the Turkmen Common Republic"
+ KOK_ds_ADJ:0 "Turkmen"
+
+ UZB_ds:0 "Uzbek Khanate"
+ UZB_ds_DEF:0 "the Uzbek Khanate"
+ UZB_ds_ADJ:0 "Uzbek"
+
+ TAJ_ds:0 "Tajiki Free Republic"
+ TAJ_ds_DEF:0 "the Tajiki Free Republic"
+ TAJ_ds_ADJ:0 "Tajik"
+
+ KYR_ds:0 "Revolutionary Kyrgyzstani Republic"
+ KYR_ds_DEF:0 "the Revolutionary Kyrgyzstani Republicc"
+ KYR_ds_ADJ:0 "Kyrgyz"
+ 
+ water_shortage_tooltip_tt:0 "§YA mechanic will be unlocked in order to deal with these several groups.§!"
+
+
+
+
+

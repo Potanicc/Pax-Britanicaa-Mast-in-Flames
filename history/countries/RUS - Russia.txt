@@ -420,6 +420,12 @@ set_autonomy = {
 }
 
 set_autonomy = {
+	target = HES
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
 	target = CZE
 	autonomous_state = autonomy_client_state
 	freedom_level = 0.7
@@ -473,8 +479,6 @@ set_autonomy = {
 	freedom_level = 0.50
 }
 
-give_guarantee = PRS
-give_military_access = PRS
 give_guarantee = GRE
 give_military_access = GRE
 give_guarantee = ASK
@@ -482,7 +486,6 @@ give_military_access = ASK
 give_guarantee = MAN
 give_military_access = MAN
 give_guarantee = ALB
-give_military_access = ALB
 
 add_ideas = {
 	RUS_PB_Pyotr_Stoylpin
@@ -574,6 +577,28 @@ TRS = {
         an = 25
         ss = 0
         jc = 0
+    }
+}
+
+HES = {
+    set_politics = {
+        ruling_party = ds
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ds = 100
+    }
+}
+
+PRS = {
+    set_politics = {
+        ruling_party = ds
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ds = 100
     }
 }
 

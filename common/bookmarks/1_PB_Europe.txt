@@ -5,7 +5,7 @@ bookmarks = {
 		date = 1957.1.1.12
 		picture = GFX_select_date_1936
 
-		default_country = JAP
+		default_country = FRA
 		default = yes
 		
 		AME = {
@@ -28,6 +28,9 @@ bookmarks = {
 			history = "RUS_MAST_IN_FLAMES_DESC"
 			ideology = ds
 			ideas = {
+				RUS_conquerors_europe
+				RUS_caucasian_famine
+				RUS_water_shortage
 			}	
 			focuses = {
 			}			

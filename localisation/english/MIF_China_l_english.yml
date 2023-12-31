@@ -104,6 +104,27 @@
  KUM_cn_ADJ:0 "Hami"
  KUM_an_ADJ:0 "Hami"
 
+ SIK_ds:0 "Khanate of Sinkiang"
+ SIK_ds_DEF:0 "the Khanate of Sinkiang"
+ SIK_ds_ADJ:0 "East Turkestani"
+
+ ETR_rc:0 "East Turkestan"
+ ETR_rc_DEF:0 "East Turkestan"
+ ETR_rc_ADJ:0 "East Turkestani"
+
+ MON_ds:0 "United Mongolian Principalities"
+ MON_ds_DEF:0 "the United Mongolian Principalities"
+ MON_ds_ADJ:0 "Russo-Mongol"
+
+ MAN_ni:0 "Tsardom of Zheltorossiya"
+ MAN_ni_DEF:0 "the Tsardom of Zheltorossiya"
+ MAN_ni_ADJ:0 "Zheltorossiyan"
+
+ AFG_rc:0 "Kingdom of Afghanistan"
+ AFG_rc_DEF:0 "the Kingdom of Afghanistan"
+ AFG_rc_ADJ:0 "Afghan"
+
+
 
   ##########################
   # MINISTERS

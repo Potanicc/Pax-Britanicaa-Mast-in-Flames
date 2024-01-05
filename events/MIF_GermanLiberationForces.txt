@@ -3,367 +3,430 @@
 ###################
 
 add_namespace = GLF
-add_namespace = GLF_sac
-add_namespace = GLF_flavour
-add_namespace = GLF_postwarFeds
+add_namespace = GLF_News
 
 
 ### COUNTRY EVENTS ###
-	country_event = { #Jaunde Protests Start
+
+country_event = { #Jaunde Under Siege
 	id = GLF.1
 	title = GLF.1.t
 	desc = GLF.1.d
 	picture = GFX_PBNews_Papal_Conclave_1
 
     fire_only_once = yes
-
     is_triggered_only = yes
 	
-	option = {
+	option = { #German Failure
 		name = GLF.1.a
 
-		add_stability = -0.15
-
-		news_event = {
-			id = GLF_flavour.1
-			days = 2
-			}
+		ai_chance = {
+			factor = 50
 		}
+
+		hidden_effect = {
+			country_event = { id = GLF.4 days = 20 }
+
+			news_event = { id = GLF_News.2 days = 3 }
+
+			news_event = { id = GLF_News.1 days = 1 }
+		}
+
 	}
 
-	country_event = { #Triumvirate Takes Power
+	option = { #German Success
+		name = GLF.1.b
+
+		ai_chance = {
+			factor = 50
+		}
+
+		hidden_effect = {
+			country_event = { id = GLF.2 days = 20 }
+
+			news_event = { id = GLF_News.3 days = 3 }
+
+			news_event = { id = GLF_News.1 days = 1 }
+		}
+
+
+	}
+}
+
+country_event = {#Bombing in Kongo
 	id = GLF.2
 	title = GLF.2.t
 	desc = GLF.2.d
-	picture = GFX_PBNews_Papal_Conclave_1
+	picture = GFX_report_PB_Paris_Event
 
-    fire_only_once = yes
+	is_triggered_only = yes
+	fire_only_once = yes
 
-    is_triggered_only = yes
-	
 	option = {
 		name = GLF.2.a
 
-		set_politics = {
-			ruling_party = ds
-		}
-
-		news_event = {
-			id = GLF_flavour.2
-			days = 2
-			}
+		hidden_effect = {
+			news_event = { id = GLF_News.4 days = 1 }
 		}
 	}
+}
 
-	country_event = { #SA War - Independence Movements Rise Up
+country_event = {#Martial Law is Declared
 	id = GLF.3
 	title = GLF.3.t
 	desc = GLF.3.d
-	picture = GFX_PBNews_Papal_Conclave_1
+	picture = GFX_report_PB_Paris_Event
 
-    fire_only_once = yes
+	fire_only_once = yes
+	is_triggered_only = yes
 
-    is_triggered_only = yes
-	
 	option = {
 		name = GLF.3.a
 
-		CHA = {
-			transfer_state = 774
+		set_politics = {
+			ruling_party = ds	
 		}
-		CAR = {
-			transfer_state = 660
+
+		add_popularity = {
+			ideology = ds
+			popularity = 0.15
 		}
-		CMR = {
-			transfer_state = 773
-		}
-		GAB = {
-			transfer_state = 539
-		}
-		RCG = {
-			transfer_state = 295
-		}
-		ANG = {
-			transfer_state = 874
-			transfer_state = 873
-			transfer_state = 540
-		}
-		BOT = {
-			transfer_state = 542
-		}
-		RWA = {
-			transfer_state = 768
-		}
-		BRD = {
-			transfer_state = 769
-		SAC = {
-			transfer_state = 541
-			transfer_state = 783
-			add_state_core = 541
-			add_state_core = 783
-			}
-		hidden_effect = {
-			country_event = { id = GLF.4 days = 3}
-		}
+
+		country_event = { id = GLF.4 days = 65 }
+
+		news_event = { id = GLF_News.5 days = 1 }
 	}
 }
 
-	}
-
-	country_event = { #SA War - Everything Goes to Hell
+country_event = {#Government Falls
 	id = GLF.4
 	title = GLF.4.t
 	desc = GLF.4.d
-	picture = GFX_PBNews_Papal_Conclave_1
+	picture = GFX_report_PB_Paris_Event
 
-    fire_only_once = yes
+	fire_only_once = yes
+	is_triggered_only = yes
 
-    is_triggered_only = yes
-	
 	option = {
 		name = GLF.4.a
 
-	GLF = {
-		declare_war_on = {
-			target = CHA
-			type = annex_everything
+    	retire_country_leader = yes 
+
+    	add_country_leader_role = {
+    		character = GLF_Fallen_Government
+        	promote_leader = yes
+        	country_leader = {
+            	ideology = DS_VARIANT_01
+			}
 		}
-		declare_war_on = {
-			target = CAR
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = CMR
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = GAB
-			type = annex_everything
-		}
-	}
-	SAC = {
-		declare_war_on = {
-			target = BOT
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = ANG
-			type = annex_everything
-		}
-	}
-}
+
+	country_event = { id = GLF.5 days = 7 }
 
 	}
+ }
 
-	country_event = { #Government Falls
+country_event = {#Northern Secession
 	id = GLF.5
 	title = GLF.5.t
 	desc = GLF.5.d
-	picture = GFX_PBNews_Papal_Conclave_1
+	picture = GFX_report_PB_Paris_Event
 
-    fire_only_once = yes
+	fire_only_once = yes
+	is_triggered_only = yes
 
-    is_triggered_only = yes
-	
 	option = {
 		name = GLF.5.a
 
-	create_country_leader = {
-			name = "Fallen Government"
-			desc = "MIF_GLF_Fallen_Government_DESC"
-			picture = "Portrait_No_Leader.dds"
-			expire = "1965.1.1"
-			ideology = DS_VARIANT_01
-	}
-}
-
+	CHA = {
+		transfer_state = 774
+		set_cosmetic_tag = CHA_WOI
 	}
 
-	country_event = { #Power Struggle
-	id = GLF.6
-	title = GLF.6.t
-	desc = GLF.6.d
-	picture = GFX_report_PB_Secret_Documents
-
-	is_triggered_only = yes
-
-	fire_only_once = yes
-
-	option = { #Federalists
-		name = GLF.6.a
-
-		ai_chance = {
-			factor = 50
-			modifier = {
-				add = 1000
-				OR = {
-					has_game_rule = {
-						rule = MIF_GLF_PATH
-						option = GLF_FEDERALIST_PATH
-					}
-				}
-			}
-		}
-
-		set_politics = {
-			ruling_party = lb
-		}
-
-		add_popularity = {
-			ideology = lb
-			popularity = 0.15
-		}
-		add_popularity = {
-			ideology = an
-			popularity = 0.05
-		}
-
-		set_country_flag = MIF_Federalists_In_Power
-
-		hidden_effect = {
-			country_event = { id = GLF.7 days = 3 }
-		}
-
+	CMR = {
+		transfer_state = 773
+		set_cosmetic_tag = CMR_WOI
 	}
-
-	option = { #State Socialists
-		name = GLF.6.b
-
-		ai_chance = {
-			factor = 50
-			modifier = {
-				add = 1000
-				has_game_rule = {
-					rule = MIF_GLF_PATH
-					option = GLF_STATESOCIALISTS_PATH
-				}
-			}
-		}
-
-		set_politics = {
-			ruling_party = ss
-		}
-
-		add_popularity = {
-			ideology = ss
-			popularity = 0.15
-		}
-
-		set_country_flag = MIF_StateSocialists_In_Power
-
-	}
-
-
-	}
-
-	country_event = { #Anarcho-Liberal Coup Attempt
-	id = GLF.7
-	title = GLF.7.t
-	desc = GLF.7.d
-	picture = GFX_PBNews_Papal_Conclave_1
-
-    fire_only_once = yes
-
-    is_triggered_only = yes
-	
-	option = {
-		name = GLF.7.a
-
-	set_politics = {
-		ruling_party = an
-	}
-
-	add_popularity = {
-		ideology = an
-		popularity = 0.05
-	}
-	add_popularity = {
-		ideology = lb
-		popularity = -0.05
-	}
-
-	clr_country_flag = MIF_Federalists_In_Power
-
-	set_country_flag = MIF_AnarchoLibs_In_Power
-
-	}
-
-	option = {
-		name = GLF.7.b
-
-	add_popularity = {
-		ideology = an
-		popularity = -0.1
-	}
-	add_popularity = {
-		ideology = lb
-		popularity = 0.1
-	}
-
-	}
-
-		}
-
-	country_event = { #Formation of the Federation
-	id = GLF_postwarFeds.1
-	title = GLF_postwarFeds.1.t
-	desc = GLF_postwarFeds.1.d
-	picture = GFX_PBNews_Papal_Conclave_1
-
-    fire_only_once = yes
-
-	trigger = {
-		NOT = {
-			country_exists = GAB
-			country_exists = CMR
-			country_exists = CHA
-			country_exists = CAR
-		}
-		GLF = {
-  		has_country_flag = MIF_Federalists_In_Power
-		}
-	}
-	
-	option = {
-		name = GLF_postwarFeds.1.a
-
-	set_cosmetic_tag = GLF_Federation
-
-	puppet = GAB
-	puppet = CMR
-	puppet = CHA
-	puppet = CAR
 
 	GAB = {
 		transfer_state = 539
-		set_cosmetic_tag = GAB_autonomous
-		set_politics = {
-			ruling_party = lb
-		}
+		set_cosmetic_tag = GAB_WOI
 	}
-	CMR = {
-		transfer_state = 773
-		set_cosmetic_tag = CMR_autonomous
-		set_politics = {
-			ruling_party = lb
-		}
-	}
-	CHA = {
-		transfer_state = 774
-		set_cosmetic_tag = CHA_autonomous
-		set_politics = {
-			ruling_party = lb
-		}
-	}
+
 	CAR = {
 		transfer_state = 660
-		set_cosmetic_tag = CAR_autonomous
-		set_politics = {
-			ruling_party = lb
-		}
+		set_cosmetic_tag = CAR_WOI
 	}
 
-	clr_country_flag = MIF_Federalists_In_Power
+	country_event = { id = GLF.6 days = 3 }
 
+	}
+ }
+
+country_event = {#South Declares Independence (hey ive heard that one before)
+	id = GLF.6
+	title = GLF.6.t
+	desc = GLF.6.d
+	picture = GFX_report_PB_Paris_Event
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GLF.6.a
+
+	ANG = {
+		transfer_state = 873
+		transfer_state = 874
+		transfer_state = 540
+
+		set_cosmetic_tag = ANG
+	}
+
+	BOT =  {
+		transfer_state = 542
+		set_cosmetic_tag = BOT_WOI
+	}
+
+	SAC = {
+		transfer_state = 541
+		transfer_state = 783
+	}
+
+	country_event = { id = GLF.7 }
+
+	}
+ }
+
+country_event = {#Tanganyikan Secession (and also Congo)
+	id = GLF.7
+	title = GLF.7.t
+	desc = GLF.7.d
+	picture = GFX_report_PB_Paris_Event
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+
+	AZA = {
+		transfer_state = 768
+		transfer_state = 769
+	}
+
+	TGY = {
+		transfer_state = 870
+		transfer_state = 871
+		transfer_state = 546
+	}
+
+	ZAN = {
+		transfer_state = 869
+	}
+
+	RCG = {
+		transfer_state = 875
+
+		set_cosmetic_tag = RCG_Kivu
+	}
+
+	country_event = { id = GLF.8 days = 7 }
+
+ 	}
+}
+
+
+country_event = {#The War Begins
+	id = GLF.8
+	title = GLF.8.t
+	desc = GLF.8.d
+	picture = GFX_report_PB_Paris_Event
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GLF.8.a
+
+		CMR = {
+			declare_war_on = {
+				target = GLF
+				type = annex_everything
+			}
+		}
+		GAB = {
+			declare_war_on = {
+				target = GLF
+				type = annex_everything
+			}
+		}
+		CAR = {
+			declare_war_on = {
+				target = GLF
+				type = annex_everything
+			}
+		}
+		CHA = {
+			declare_war_on = {
+				target = GLF
+				type = annex_everything
+			}
+		}
+		RCG = {
+			declare_war_on = {
+				target = GLF
+				type = annex_everything
+			}
+		}
+
+		country_event = { GLF.9 days = 24 }
+	}
+}
+
+country_event = {#Mercenaries Restore Control in Kiva
+	id = GLF.9
+	title = GLF.9.t
+	desc = GLF.9.d
+	picture = GFX_report_PB_Paris_Event
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GLF.9.a
+
+		RCG = {
+			drop_cosmetic_tag = yes
+		}
+
+		COG = {
+			transfer_state = 875
+
+			set_politics = {
+				ruling_party = ds
+			}
+		}
+
+		GLF = {
+			set_autonomy = {
+				target = COG
+				autonomous_state = autonomy_MIF_Military_Government
+				freedom_level = 0.50
+			}
+		}
+
+	}
+}
+
+
+
+
+
+### NEWS EVENTS ###
+
+news_event = {
+	id = GLF_News.1
+	title = GLF_News.1.t
+	desc = GLF_News.1.d
+	picture = GFX_Jaunde_Under_Siege
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GLF_News.1.a
+		trigger = {
+			NOT = {
+				has_government = ni
+				has_government = jc
+			}
+		}
+	}
+	option = {
+		name = GLF_News.1.b
+		trigger = { 
+			has_government = jc
+		}
+	}
+	option = {
+		name = GLF_News.1.c
+		trigger = {
+			has_government = ni
+		}
+	}
+}
+
+news_event = {
+	id = GLF_News.2
+	title = GLF_News.2.t
+	desc = GLF_News.2.d
+	picture = GFX_Jaunde_Under_Siege
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GLF_News.2.a
+	}
+}
+
+news_event = {
+	id = GLF_News.3
+	title = GLF_News.3.t
+	desc = GLF_News.3.d
+	picture = GFX_Jaunde_Under_Siege
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GLF_News.3.a
+	}
+}
+
+news_event = {
+	id = GLF_News.4
+	title = GLF_News.4.t
+	desc = GLF_News.4.d
+	picture = GFX_Jaunde_Under_Siege
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GLF_News.4.a
+	}
+}
+
+news_event = {
+	id = GLF_News.5
+	title = GLF_News.5.t
+	desc = GLF_News.5.d
+	picture = GFX_Jaunde_Under_Siege
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GLF_News.4.a
+	}
+}
+
+news_event = {
+	id = GLF_News.6
+	title = GLF_News.6.t
+	desc = GLF_News.6.d
+	picture = GFX_Jaunde_Under_Siege
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GLF_News.6.a
 	}
 }

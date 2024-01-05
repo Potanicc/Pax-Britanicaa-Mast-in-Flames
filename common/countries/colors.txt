@@ -450,8 +450,8 @@ MAN = {
 	color_ui = rgb { 47 112 67 }
 }
 ANG = {
-	color = rgb { 107 92 36 }
-	color_ui = rgb { 107 92 36 }
+	color = rgb { 99 58 52 }
+	color_ui = rgb { 99 58 52 }
 }
 MZB = {
 	color = rgb { 114 39 41 }
@@ -466,8 +466,8 @@ ZIM = {
 	color_ui = rgb { 193 212 229 }
 }
 BOT = {
-	color = rgb { 141 82 47 }
-	color_ui = rgb { 141 82 47 }
+	color = rgb { 157 189 196 }
+	color_ui = rgb { 157 189 196 }
 }
 PAK = {
 	color = rgb { 21 38 66 }
@@ -1056,8 +1056,8 @@ VOL = {
 }
 
 CMR = {
-	color = rgb { 103 89 64 }
-	color_ui = rgb { 103 89 64 }
+	color = rgb { 163 0 0 }
+	color_ui = rgb { 163 0 0 }
 }
 
 CHA = {
@@ -1106,8 +1106,8 @@ GAR = {
 }
 
 TGY = {
-	color = rgb { 253 177 64 }
-	color_ui = rgb { 253 177 64 }
+	color = rgb { 76 63 86 }
+	color_ui = rgb { 76 63 86 }
 }
 
 UGA = {
@@ -1116,13 +1116,13 @@ UGA = {
 }
 
 ZAN = {
-	color = rgb { 82 69 92 }
-	color_ui = rgb { 82 69 92 }
+	color = rgb { 97 153 125 }
+	color_ui = rgb { 97 153 125 }
 }
 
 BAR = {
-	color = rgb { 80 175 80 }
-	color_ui = rgb { 80 175 80 }
+	color = rgb { 175 117 124 }
+	color_ui = rgb { 175 117 124 }
 }
 
 ZAM = {
@@ -1811,8 +1811,8 @@ APA = {
 }
 
 MEI = {
-	color = rgb { 234 208 54 }
-	color_ui = rgb { 234 208 54 }
+	color = rgb { 114 32 41 }
+	color_ui = rgb { 114 32 41 }
 }
 
 TAB = {
@@ -1877,4 +1877,8 @@ SRB = {
 RNA = {
 	color = rgb { 30 69 42 }
 	color_ui = rgb { 30 69 42 }
+}
+SAC = {
+	color = rgb { 117 108 69 }
+	color_ui = rgb { 117 108 69 }
 }

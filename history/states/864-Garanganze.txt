@@ -6,7 +6,6 @@ state={
 	}
 	history={
 		owner = GAR
-		add_claim_by = COG
 		add_claim_by = PEF
 		add_core_of = GAR
 		buildings = {

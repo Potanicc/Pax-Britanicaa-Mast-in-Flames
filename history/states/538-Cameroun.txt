@@ -9,6 +9,7 @@ state={
 
 	history={
 		owner = GLF
+		add_core_of = GLF
 		add_core_of = RCG
 		buildings = {
 			infrastructure = 1

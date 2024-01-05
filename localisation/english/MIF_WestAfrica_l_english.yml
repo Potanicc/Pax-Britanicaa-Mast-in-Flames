@@ -78,8 +78,8 @@
 
  FUL_ni:0 "Fulani Republic"
  FUL_ni_DEF:0 "The Fulani Republic"
- FUL_ds:0 "Wassoulou Empire"
- FUL_ds_DEF:0 "The Wassoulou Empire"
+ FUL_ds:0 "Fulani Republic"
+ FUL_ds_DEF:0 "The Fulani Republic"
  FUL_rc:0 "Fulani Republic"
  FUL_rc_DEF:0 "The Fulani Republic"
  FUL_an:0 "Fulani Republic"
@@ -151,7 +151,30 @@
  MRT_cn_ADJ:0 "Mauritanian"
  MRT_an_ADJ:0 "Mauritanian"
 
-
+ GAB_ni:0 "Gabonese Republic"
+ GAB_ni_DEF:0 "The Gabonese Republic"
+ GAB_ds:0 "Gabonese Republic"
+ GAB_ds_DEF:0 "The Gabonese Republic"
+ GAB_rc:0 "Gabonese Republic"
+ GAB_rc_DEF:0 "The Gabonese Republic"
+ GAB_an:0 "Gabonese Republic"
+ GAB_an_DEF:0 "The Gabonese Republic"
+ GAB_cn:0 "Gabonese Republic"
+ GAB_cn_DEF:0 "The Gabonese Republic"
+ GAB_lb:0 "Gabonese Republic"
+ GAB_lb_DEF:0 "The Gabonese Republic"
+ GAB_ss:0 "Gabonese Workers' Republic"
+ GAB_ss_DEF:0 "The Gabonese Workers' Republic"
+ GAB_jc:0 "Gabonese Workers' Republic"
+ GAB_jc_DEF:0 "The Gabonese Workers' Republic"
+ GAB_ni_ADJ:0 "Gabonese"
+ GAB_rc_ADJ:0 "Gabonese"
+ GAB_lb_ADJ:0 "Gabonese"
+ GAB_ss_ADJ:0 "Gabonese"
+ GAB_jc_ADJ:0 "Gabonese"
+ GAB_ds_ADJ:0 "Gabonese"
+ GAB_cn_ADJ:0 "Gabonese"
+ GAB_an_ADJ:0 "Gabonese"
 
   ##########################
   # MINISTERS

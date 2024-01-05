@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+
+		MIF_IRE_Franco_Irish_Friendship = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+				political_power_gain = -0.1
+                consumer_goods_factor = -0.025
+				production_speed_buildings_factor = 0.1
+			}
+		}
+	}
+}

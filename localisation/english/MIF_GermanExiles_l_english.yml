@@ -1,0 +1,68 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+ GLF_ni:0 "German Liberation Forces"
+ GLF_ni_DEF:0 "the German Liberation Forces"
+ GLF_ds:0 "German Liberation Forces"
+ GLF_ds_DEF:0 "the German Liberation Forces"
+ GLF_rc:0 "German Liberation Forces"
+ GLF_rc_DEF:0 "the German Liberation Forces"
+ GLF_an:0 "German Liberation Forces"
+ GLF_an_DEF:0 "the German Liberation Forces"
+ GLF_cn:0 "German Liberation Forces"
+ GLF_cn_DEF:0 "the German Liberation Forces"
+ GLF_lb:0 "German Liberation Forces"
+ GLF_lb_DEF:0 "the German Liberation Forces"
+ GLF_ss:0 "German Liberation Forces"
+ GLF_ss_DEF:0 "the German Liberation Forces"
+ GLF_jc:0 "German Liberation Forces"
+ GLF_jc_DEF:0 "the German Liberation Forces"
+ GLF_ni_ADJ:0 "German Exile"
+ GLF_rc_ADJ:0 "German Exile"
+ GLF_lb_ADJ:0 "German Exile"
+ GLF_ss_ADJ:0 "German Exile"
+ GLF_jc_ADJ:0 "German Exile"
+ GLF_ds_ADJ:0 "German Exile"
+ GLF_cn_ADJ:0 "German Exile"
+ GLF_an_ADJ:0 "German Exile"
+
+ SAC_ni:0 "Southern Army Command"
+ SAC_ni_DEF:0 "the Southern Army Command"
+ SAC_ds:0 "Southern Army Command"
+ SAC_ds_DEF:0 "the Southern Army Command"
+ SAC_rc:0 "Southern Army Command"
+ SAC_rc_DEF:0 "the Southern Army Command"
+ SAC_an:0 "Southern Army Command"
+ SAC_an_DEF:0 "the Southern Army Command"
+ SAC_cn:0 "Southern Army Command"
+ SAC_cn_DEF:0 "the Southern Army Command"
+ SAC_lb:0 "Southern Army Command"
+ SAC_lb_DEF:0 "the Southern Army Command"
+ SAC_ss:0 "Southern Army Command"
+ SAC_ss_DEF:0 "the Southern Army Command"
+ SAC_jc:0 "Southern Army Command"
+ SAC_jc_DEF:0 "the Southern Army Command"
+ SAC_ni_ADJ:0 "German Exile"
+ SAC_rc_ADJ:0 "German Exile"
+ SAC_lb_ADJ:0 "German Exile"
+ SAC_ss_ADJ:0 "German Exile"
+ SAC_jc_ADJ:0 "German Exile"
+ SAC_ds_ADJ:0 "German Exile"
+ SAC_cn_ADJ:0 "German Exile"
+ SAC_an_ADJ:0 "German Exile"
+
+ ### IDEAS ###
+
+ GLF_Sinking_Ship:0 "Sinking Ship"
+ GLF_Sinking_Ship_desc:0 ""
+
+ GLF_Broken_Promise:0 "Broken Promise"
+ GLF_Broken_Promise_desc:0 ""
+
+ GLF_Party_Of_Plutocrats:0 "Party of Plutocrats"
+ GLF_Party_Of_Plutocrats_desc:0 ""
+
+ GLF_Native_Resistance:0 "Native Resistance"
+ GLF_Native_Resistance_desc:0 ""
+

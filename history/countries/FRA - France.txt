@@ -5,6 +5,21 @@ oob = "FRA_1933"
 set_fuel_ratio = 0.4
 starting_train_buffer = 2
 
+### PUPPETS ###
+
+set_autonomy = {
+		target = OBR
+		autonomous_state = autonomy_MIF_Protected_Republic
+}
+set_autonomy = {
+		target = SCO
+		autonomous_state = autonomy_MIF_Protected_Republic
+}
+set_autonomy = {
+		target = WLS
+		autonomous_state = autonomy_MIF_Protected_Republic
+}
+
 # Accepted Cultures
 
 set_variable = { PB_main_culture = 7 }
@@ -17,7 +32,6 @@ add_to_array = { PB_accepted_cultures = 10 }
 
 
 puppet = LON
-puppet = OBR
 puppet = GER
 puppet = CRW
 puppet = WLS

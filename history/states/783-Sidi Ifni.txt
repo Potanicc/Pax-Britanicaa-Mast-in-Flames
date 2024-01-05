@@ -4,7 +4,7 @@ state={
 	name="STATE_783"
 
 	history={
-		owner = ENG
+		owner = GLF
 		add_core_of = NMB
 		buildings = {
 			infrastructure = 2

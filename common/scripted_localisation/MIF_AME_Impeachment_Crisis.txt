@@ -1,22 +1,307 @@
 defined_text = {
-    name = get_AME_Phase_Clamps
+    name = get_Impeachment_Progress_phase
     
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_One_Clamp
+            has_country_flag = AME_IP_Phase_One_Clamp
         }
-        localization_key = "AME_Phase_One_Clamp_loc"
+        localization_key = "AME_IP_Phase_One_Clamp_loc"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Two_Clamp
+            has_country_flag = AME_IP_Phase_Two_Clamp
         }
-        localization_key = "AME_Phase_Two_Clamp_loc"
+        localization_key = "AME_IP_Phase_Two_Clamp_loc"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_IP_Phase_Three_Clamp
+        }
+        localization_key = "AME_IP_Phase_Three_Clamp_loc"
+    } 
+}
+
+defined_text = {
+    name = get_public_outrage_phase
+    
+    text = { 
+        trigger = {
+            has_country_flag = AME_PO_Phase_One_Clamp
+        }
+        localization_key = "AME_PO_Phase_One_Clamp_loc"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_PO_Phase_Two_Clamp
+        }
+        localization_key = "AME_PO_Phase_Two_Clamp_loc"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_PO_Phase_Three_Clamp
+        }
+        localization_key = "AME_PO_Phase_Three_Clamp_loc"
+    }
+}
+
+defined_text = {
+    name = get_PO_icon_texture
+    
+    text = {
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_0"
     }
     text = { 
         trigger = {
             has_country_flag = AME_Phase_Three_Clamp
         }
-        localization_key = "AME_Phase_Three_Clamp_loc"
-    } 
-} 
+        localization_key = "GFX_AME_ic_po_5"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_10"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_15"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_20"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_25"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_30"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_35"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_40"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_45"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_50"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_55"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_60"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_65"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_70"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_75"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_80"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_85"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_90"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_95"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_po_100"
+    }
+}
+
+defined_text = {
+    name = get_IP_icon_texture
+    
+    text = {
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_0"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_5"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_10"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_15"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_20"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_25"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_30"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_35"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_40"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_45"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_50"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_55"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_60"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_65"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_70"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_75"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_80"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_85"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_90"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_95"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = AME_Phase_Three_Clamp
+        }
+        localization_key = "GFX_AME_ic_ip_100"
+    }
+}

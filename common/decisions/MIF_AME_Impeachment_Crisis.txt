@@ -1,68 +1,10 @@
 MIF_AME_Impeachment_Crisis = {
 	
-	##################
-	### FIRST TIER ###
-	##################
+	####################
+	### PO DECISIONS ###
+	####################
 
 	#GAIR DECISIONS#
-
-	AME_Oaths_Fealty = {
-
-		icon = generic_decision
-
-		cost = 0
-
-		visible = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			set_country_flag = AME_Oaths_Fealty_flag
-		}
-	}
-
-	AME_Fire_Unloyal_Officials = {
-
-		icon = generic_decision
-
-		cost = 0
-
-		visible = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			set_country_flag = AME_Fire_Unloyal_Officials_flag
-		}
-	}
 
 	AME_Support_Law_Order = {
 
@@ -72,12 +14,11 @@ MIF_AME_Impeachment_Crisis = {
 
 		visible = {
 			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_one_flag
+			has_country_flag = MIF_Public_Outrage_decisions_visible
 		}
 
 		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_one_flag
+
 		}
 
 		ai_will_do = {
@@ -89,85 +30,53 @@ MIF_AME_Impeachment_Crisis = {
 		days_remove = 30
 
 		remove_effect = {
-			set_country_flag = AME_Support_Law_Order_flag
+			
 		}
 	}
 
+	AME_Collaborate_Happening_World = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Public_Outrage_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
 
 	#CONGRESS DECISIONS#
 
-	AME_Filibuster_Congress = {
+	AME_Calm_Everyone_Down = {
 
 		icon = generic_decision
 
 		cost = 100
 
 		visible = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			set_country_flag = AME_Filibuster_Congress_flag
-		}
-	}
-
-	AME_Filibuster_Congress = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		visible = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_one_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-	AME_Filibuster_Congress = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
 			has_country_flag = AME_sided_with_congress
-			has_country_flag = AME_impeachment_tier_one
+			has_country_flag = MIF_Public_Outrage_decisions_visible
 		}
 
-		visible = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_one_flag
+		available = {
+
 		}
 
 		ai_will_do = {
@@ -184,11 +93,95 @@ MIF_AME_Impeachment_Crisis = {
 	}
 
 
-	###################
-	### SECOND TIER ###
-	###################
+	####################
+	### IP DECISIONS ###
+	####################
 
 	#GAIR DECISIONS#
+
+	AME_Scapegoat_Mcfarland = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Infiltrate_Republican_Guard = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Organize_Gair_Militia = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
 
 	AME_Destroy_Evidence = {
 
@@ -198,12 +191,11 @@ MIF_AME_Impeachment_Crisis = {
 
 		visible = {
 			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_two_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
 		}
 
 		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_two_flag
+
 		}
 
 		ai_will_do = {
@@ -227,12 +219,11 @@ MIF_AME_Impeachment_Crisis = {
 
 		visible = {
 			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_two_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
 		}
 
 		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_two_flag
+
 		}
 
 		ai_will_do = {
@@ -246,37 +237,7 @@ MIF_AME_Impeachment_Crisis = {
 		remove_effect = {
 			
 		}
-	}
-
-	AME_Collaborate_Happening_World = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_two_flag
-		}
-
-		visible = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_two_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
+	} 
 
 	#CONGRESS DECISIONS#
 
@@ -286,14 +247,13 @@ MIF_AME_Impeachment_Crisis = {
 
 		cost = 100
 
-		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_two_flag
-		}
-
 		visible = {
 			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_two_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
 		}
 
 		ai_will_do = {
@@ -315,169 +275,13 @@ MIF_AME_Impeachment_Crisis = {
 
 		cost = 100
 
-		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_two_flag
-		}
-
 		visible = {
 			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_two_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
 		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-	AME_Calm_Everyone_Down = {
-
-		icon = generic_decision
-
-		cost = 100
 
 		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_two_flag
-		}
 
-		visible = {
-			has_country_flag = AME_sided_with_congress
-			has_country_flag = AME_impeachment_tier_two
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-
-	##################
-	### THIRD TIER ###
-	##################
-
-	#GAIR DECISIONS#
-
-	AME_Scapegoat_Mcfarland = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		visible = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-	AME_Infiltrate_Republican_Guard = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		visible = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-	AME_Organize_Gair_Militia = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		visible = {
-			has_country_flag = AME_sided_with_gair_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-
-	#CONGRESS DECISIONS#
-
-	AME_Scapegoat_Gair = {
-
-		icon = generic_decision
-
-		cost = 100
-
-		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
-		visible = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_three_flag
 		}
 
 		ai_will_do = {
@@ -499,43 +303,13 @@ MIF_AME_Impeachment_Crisis = {
 
 		cost = 100
 
-		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
-
 		visible = {
 			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_three_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
 		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		fire_only_once = yes
-
-		days_remove = 30
-
-		remove_effect = {
-			
-		}
-	}
-
-	AME_Scapegoat_Gair = {
-
-		icon = generic_decision
-
-		cost = 100
 
 		available = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_three_flag
-		}
 
-		visible = {
-			has_country_flag = AME_sided_with_congress_flag
-			has_country_flag = AME_impeachment_tier_three_flag
 		}
 
 		ai_will_do = {

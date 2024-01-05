@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "MIF_AME_Impeachment_Crisis_Scripted_GUI_Window"
 		position = { x = 0 y = 0 }
-		size = { width = 100% height = 100% }
+		size = { width = 100% height = 500 }
 		moveable = yes 
 
 		iconType = {
@@ -22,7 +22,6 @@ guiTypes = {
 		containerWindowType = {
 		name = "MIF_AME_IC_Impeachment_Progress_button"
 		position = { x = 0 y = 40 }
-		size = { width = 100% height= 100% }
 
 			buttonType = {
 				name ="Impeachment_Progress_Display_Button"
@@ -46,7 +45,6 @@ guiTypes = {
 		containerWindowType = {
 		name = "MIF_AME_IC_Public_Outrage_button"
 		position = { x = 0 y = 40 }
-		size = { width = 100% height= 100% }
 
 			buttonType = {
 				name ="Public_Outrage_Display_Button"

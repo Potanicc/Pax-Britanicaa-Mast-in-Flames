@@ -37,6 +37,15 @@ set_popularities = {
     jc = 0
 }
 
+declare_war_on = {
+    target = ETR
+    type = annex_everything
+}
+
+add_ideas = {
+	SIK_sinkiang_war
+}
+
 create_country_leader = {
 	name = "Ivan Romanovsky"
 	desc = ""

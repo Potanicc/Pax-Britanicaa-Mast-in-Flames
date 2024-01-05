@@ -29,8 +29,8 @@ bookmarks = {
 			ideology = ds
 			ideas = {
 				RUS_conquerors_europe
-				RUS_caucasian_famine
 				RUS_water_shortage
+				RUS_caucasian_famine
 			}	
 			focuses = {
 			}			

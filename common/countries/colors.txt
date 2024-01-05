@@ -1201,8 +1201,8 @@ KAZ = {
 }
 
 UZB = {
-	color = rgb { 138 99 45 }
-	color_ui = rgb { 138 99 45 }
+	color = rgb { 58 90 113 }
+	color_ui = rgb { 58 90 113 }
 }
 
 ALT = {
@@ -1343,8 +1343,8 @@ BUK = {
 }
 
 KOK = {
-	color = rgb { 64 145 183 }
-	color_ui = rgb { 64 145 183 }
+	color = rgb { 67 113 83 }
+	color_ui = rgb { 67 113 83 }
 }
 
 ORE = {
@@ -1825,6 +1825,11 @@ NWA = {
 	color_ui = rgb { 99 142 106 }
 }
 
+TAJ = {
+	color = rgb { 113 199 158 }
+	color_ui = rgb { 113 199 158 }
+}
+
 LON = {
 	color = rgb { 45 70 125 }
 	color_ui = rgb { 45 70 125 }
@@ -1843,6 +1848,11 @@ MIT = {
 KKK = {
 	color = rgb { 173 173 173 }
 	color_ui = rgb { 173 173 173 }
+}
+
+KYR = {
+	color = rgb { 100 63 81 }
+	color_ui = rgb { 100 63 81 }
 }
 
 ATX = {

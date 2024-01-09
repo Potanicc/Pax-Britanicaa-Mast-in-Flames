@@ -5,7 +5,7 @@ on_actions = {
 
 	#Daily Variable Increases
 
-	on_daily_AME = {
+	on_weekly_AME = {
 		if = {
 			limit = {
 				has_country_flag = AME_Impeachment_Crisis_flag
@@ -13,13 +13,13 @@ on_actions = {
 			hidden_effect = {
 				add_to_variable = {
 					var = AME_Impeachment_Progress
-					value = 0.01
+					value = 0.05
 				}
 			}
 		}
 	}
 
-	on_daily_AME = {
+	on_weekly_AME = {
 		if = {
 			limit = {
 				has_country_flag = AME_Impeachment_Crisis_flag
@@ -27,7 +27,7 @@ on_actions = {
 			hidden_effect = {
 				add_to_variable = {
 					var = AME_Public_Outrage
-					value = 0.01
+					value = 0.05
 				}
 			}
 		}
@@ -50,7 +50,7 @@ on_actions = {
 					country_event = {
 						id = impeachment.1 #McFarland Assassinated
 					}
-					clr_country_flag = AME_impeachment_crisis_flag
+					clr_country_flag = AME_Impeachment_Crisis_flag
 				}
 			}
 		}
@@ -72,7 +72,7 @@ on_actions = {
 						id = impeachment.2 #Gair Assassinated
 					}
 				}
-				clr_country_flag = AME_impeachment_crisis_flag
+				clr_country_flag = AME_Impeachment_Crisis_flag
 			}
 		}
 	}
@@ -117,8 +117,108 @@ on_actions = {
 		}
 	}
 
-	#Phase Clamps
+	#Phase On Actions
 
+	#Public Outrage Phases
+	on_daily_AME = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = AME_Public_Outrage
+						value = 0
+						compare = greater_than_or_equals
+					}
+				}
+				hidden_effect = {
+					clamp_variable = {
+						var = AME_Public_Outrage
+						min = 0
+						max = 1
+					}
+					set_country_flag = AME_Phase_One_Clamp
+				}
+			}
+		}
+	}
+
+	on_daily_AME = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						check_variable = {
+							var = AME_Public_Outrage
+							value = 0.5
+							compare = greater_than_or_equals
+						}
+
+						NOT = {
+							check_variable = {
+								var = AME_Public_Outrage
+								value = 0.75
+								compare = greater_than_or_equals
+							}
+						}
+					}
+				}
+				hidden_effect = {
+					clamp_variable = {
+						var = AME_Public_Outrage
+						min = 0.5
+						max = 1
+					}
+					set_country_flag = AME_Phase_Two_Clamp
+					if = {
+						limit = {
+							OR = {
+								has_country_flag = AME_Phase_One_Clamp
+							}
+						}
+						hidden_effect = {
+							clr_country_flag = AME_Phase_One_Clamp
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_daily_AME = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = AME_Public_Outrage
+						value = 0.75
+						compare = greater_than_or_equals
+					}
+				}
+				hidden_effect = {
+					clamp_variable = {
+						var = AME_Public_Outrage
+						min = 0.75
+						max = 1
+					}
+					set_country_flag = AME_Phase_Three_Clamp
+					if = {
+						limit = {
+							OR = {
+								has_country_flag = AME_Phase_One_Clamp
+								has_country_flag = AME_Phase_Two_Clamp
+							}
+						}
+						hidden_effect = {
+							clr_country_flag = AME_Phase_One_Clamp
+							clr_country_flag = AME_Phase_Two_Clamp
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#Impeachment Progress Phases
 	on_daily_AME = {
 		effect = {
 			if = {

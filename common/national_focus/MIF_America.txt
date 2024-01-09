@@ -2063,11 +2063,13 @@ focus_tree = {
 		cost = 14
 
 		available = {
-			always = no
+
 		}
 
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
+		allow_branch = {
+			AME = {
+				has_country_flag = AME_Impeachment_Crisis_flag
+			}
 		}
 
 		bypass = {
@@ -2105,10 +2107,6 @@ focus_tree = {
 
 		mutually_exclusive = {
 			focus = AME_Gair_1
-		}
-
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		available = {
@@ -2160,10 +2158,6 @@ focus_tree = {
 			has_country_flag = AME_Support_Law_Order_flag
 		}
 
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
-		}
-
 		x = 0
 		y = 1
 
@@ -2204,10 +2198,6 @@ focus_tree = {
 		}
 
 		available = {
-		}
-
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = 0
@@ -2258,10 +2248,6 @@ focus_tree = {
 		available = {
 		}
 
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
-		}
-
 		x = -1
 		y = 1
 
@@ -2306,10 +2292,6 @@ focus_tree = {
 
 		}
 
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
-		}
-
 		x = 0
 		y = 1
 
@@ -2350,10 +2332,6 @@ focus_tree = {
 		}
 
 		available = {
-		}
-
-		visible = {
-			has_country_flag = AME_impeachment_crisis_flag
 		}
 
 		x = 0

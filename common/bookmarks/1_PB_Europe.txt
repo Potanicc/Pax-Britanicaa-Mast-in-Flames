@@ -9,12 +9,15 @@ bookmarks = {
 		default = yes
 		
 		AME = {
-			history = "RUS_MAST_IN_FLAMES_DESC"
+			history = "AME_MAST_IN_FLAMES_DESC"
 			ideology = lb
 			ideas = {
-			}	
+			}
 			focuses = {
-			}			
+				AME_Bear_Rooster_Sun
+				AME_Megacorp_Wars
+				AME_American_Solar_System
+			}
 		}
 		FRA = {
 			history = "FRA_MAST_IN_FLAMES_DESC"

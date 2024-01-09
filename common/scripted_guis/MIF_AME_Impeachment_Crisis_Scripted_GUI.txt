@@ -17,11 +17,11 @@ scripted_gui = {
 		}
 
 		effects = {
-			MIF_AME_IC_Impeachment_Progress_click = {
+			Impeachment_Progress_Display_Button_click = {
 				set_country_flag = MIF_Impeachment_Progress_decisions_visible
 				clr_country_flag = MIF_Public_Outrage_decisions_visible
 			}
-			MIF_AME_IC_Public_Outrage_click = {
+			Public_Outrage_Display_Button_click = {
 				set_country_flag = MIF_Public_Outrage_decisions_visible
 				clr_country_flag = MIF_Impeachment_Progress_decisions_visible
 			}

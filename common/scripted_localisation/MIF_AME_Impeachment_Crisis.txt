@@ -49,127 +49,211 @@ defined_text = {
     
     text = {
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 0
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_0"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 5
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_5"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 10
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_10"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 15
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_15"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 20
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_20"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 25
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_25"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 30
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_30"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 35
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_35"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 40
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_40"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 45
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_45"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 50
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_50"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 55
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_55"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 60
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_60"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 65
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_65"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 70
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_70"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 75
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_75"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 80
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_80"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 85
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_85"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 90
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_90"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 95
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_95"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Public_Outrage
+                value = 100
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_po_100"
     }
@@ -180,127 +264,211 @@ defined_text = {
     
     text = {
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 0
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_0"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 5
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_5"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 10
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_10"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 15
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_15"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 20
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_20"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 25
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_25"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 30
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_30"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 35
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_35"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 40
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_40"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+            check_variable = {
+                var = AME_Impeachment_Progress
+                value = 45
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_45"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 50
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_50"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 55
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_55"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 60
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_60"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 65
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_65"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 70
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_70"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 75
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_75"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 80
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_80"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 85
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_85"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 90
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_90"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 95
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_95"
     }
     text = { 
         trigger = {
-            has_country_flag = AME_Phase_Three_Clamp
+           check_variable = {
+                var = AME_Impeachment_Progress
+                value = 100
+                compare = equals
+            }
         }
         localization_key = "GFX_AME_ic_ip_100"
     }

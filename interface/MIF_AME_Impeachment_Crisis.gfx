@@ -1,116 +1,178 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_AME_ic_ip_display_box"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/AME_ic_ip_display_box.dds"
+	}
+	SpriteType = {
 		name = "GFX_AME_ic_po_display_box"
-		texturefile = "gfx/interface/AME_ic_po_display_box.png"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/AME_ic_po_display_box.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_phase_box"
-		texturefile = "gfx/interface/AME_ic_po_phase_box.png"
+		name = "GFX_AME_ic_po_0"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_0.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_hundred"
-		texturefile = "gfx/interface/AME_ic_po_bar_hundred.png"
+		name = "GFX_AME_ic_po_5"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_5.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_ninetyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_ninetyfive.png"
+		name = "GFX_AME_ic_po_10"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_10.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_ninety"
-		texturefile = "gfx/interface/AME_ic_po_bar_ninety.png"
+		name = "GFX_AME_ic_po_15"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_15.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_eightyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_eightyfive.png"
+		name = "GFX_AME_ic_po_20"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_20.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_eighty"
-		texturefile = "gfx/interface/AME_ic_po_bar_eighty.png"
+		name = "GFX_AME_ic_po_25"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_25.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_seventyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_seventyfive.png"
+		name = "GFX_AME_ic_po_30"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_30.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_seventy"
-		texturefile = "gfx/interface/AME_ic_po_bar_seventy.png"
+		name = "GFX_AME_ic_po_35"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_35.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_sixtyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_sixty.png"
+		name = "GFX_AME_ic_po_40"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_40.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_sixty"
-		texturefile = "gfx/interface/AME_ic_po_bar_sixty.png"
+		name = "GFX_AME_ic_po_45"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_45.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_fiftyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_fiftyfive.png"
+		name = "GFX_AME_ic_po_50"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_50.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_fifty"
-		texturefile = "gfx/interface/AME_ic_po_bar_fifty.png"
+		name = "GFX_AME_ic_po_55"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_55.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_fortyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_fortyfive.png"
+		name = "GFX_AME_ic_po_60"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_60.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_forty"
-		texturefile = "gfx/interface/AME_ic_po_bar_forty.png"
+		name = "GFX_AME_ic_po_65"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_65.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_thirtyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_thirtyfive.png"
+		name = "GFX_AME_ic_po_70"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_70.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_thirty"
-		texturefile = "gfx/interface/AME_ic_po_bar_thirty.png"
+		name = "GFX_AME_ic_po_75"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_75.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_twentyfive"
-		texturefile = "gfx/interface/AME_ic_po_bar_fortyfive.png"
+		name = "GFX_AME_ic_po_80"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_80.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_twenty"
-		texturefile = "gfx/interface/AME_ic_po_bar_forty.png"
+		name = "GFX_AME_ic_po_85"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_85.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_fifteen"
-		texturefile = "gfx/interface/AME_ic_po_bar_fifteen.png"
+		name = "GFX_AME_ic_po_90"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_90.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_ten"
-		texturefile = "gfx/interface/AME_ic_po_bar_ten.png"
+		name = "GFX_AME_ic_po_95"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_95.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_five"
-		texturefile = "gfx/interface/AME_ic_po_bar_five.png"
+		name = "GFX_AME_ic_po_100"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_100.dds"
 	}
-
 	SpriteType = {
-		name = "GFX_AME_ic_po_bar_zero"
-		texturefile = "gfx/interface/AME_ic_po_bar_zero.png"
+		name = "GFX_AME_ic_ip_0"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_5"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_10"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_10.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_15"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_15.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_20"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_20.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_25"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_25.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_30"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_30.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_35"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_35.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_40"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_40.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_45"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_50"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_55"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_55.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_60"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_65"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_65.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_70"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_75"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_75.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_80"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_85"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_85.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_90"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_90.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_95"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_95.dds"
+	}
+	SpriteType = {
+		name = "GFX_AME_ic_ip_100"
+		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_100.dds"
 	}
 }

@@ -34,6 +34,16 @@ add_to_array = { PB_accepted_cultures = 443 }
 
 complete_national_focus = AME_Boar_of_Philadelphia
 
+set_variable = {
+	var = AME_Impeachment_Progress
+	value = 0
+}
+
+set_variable = {
+	var = AME_Public_Outrage
+	value = 0
+}
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

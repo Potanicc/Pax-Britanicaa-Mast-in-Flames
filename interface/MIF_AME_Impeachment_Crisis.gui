@@ -7,14 +7,12 @@ guiTypes = {
 		iconType = {
 			name ="MIF_AME_IC_Public_Outrage_circle_bar"
 			position = { x = 50 y = 25 }
-			spriteType = GFX_AME_ic_po_display_box
 			Orientation = "CENTER"
 		}
 
 		iconType = {
 			name ="MIF_AME_IC_Impeachment_Progress_circle_bar"
 			position = { x = 50 y = 0 }
-			spriteType = GFX_AME_ic_po_display_box
 			Orientation = "CENTER"
 		}
 

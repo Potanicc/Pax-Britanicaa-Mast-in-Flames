@@ -164,4 +164,28 @@ spriteTypes = {
 		name = "GFX_report_event_rogers_oceania_trip"
 		texturefile = "gfx/event_pictures/report_event_rogers_oceania_trip.png"
 	}
+	spriteType = {
+		name = "GFX_MIF_news_event_MIFNews_GLF_Martial_Law"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_GLF_Martial_Law.dds"
+	}
+	spriteType = {
+		name = "GFX_MIF_news_event_MIFNews_Bush_War"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Bush_War.dds"
+	}
+	spriteType = {
+		name = "GFX_MIF_news_event_MIFNews_Congo_Bombing"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Congo_Bombing.dds"
+	}
+	spriteType = {
+		name = "GFX_MIF_news_event_MIFNews_Jaunde_Failure"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Jaunde_Failure.dds"
+	}
+	spriteType = {
+		name = "GFX_MIF_news_event_MIFNews_Jaunde_Siege"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Jaunde_Siege.dds"
+	}
+	spriteType = {
+		name = "GFX_MIF_news_event_MIFNews_Jaunde_Success"
+		texturefile = "gfx/event_pictures/news_event/MIF_News/MIFNews_Jaunde_Success.dds"
+	}
 }

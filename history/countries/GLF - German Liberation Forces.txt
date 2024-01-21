@@ -23,6 +23,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	GLF_Native_Resistance
+	GLF_Broken_Promise
+	GLF_Party_Of_Plutocrats
+	GLF_Sinking_Ship
+}
+
 set_popularities = {
     ni = 5
     ds = 16

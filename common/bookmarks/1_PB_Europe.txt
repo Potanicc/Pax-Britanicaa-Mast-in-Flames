@@ -9,7 +9,7 @@ bookmarks = {
 		default = yes
 		
 		AME = {
-			history = "RUS_MAST_IN_FLAMES_DESC"
+			history = "AME_MAST_IN_FLAMES_DESC"
 			ideology = lb
 			ideas = {
 			}	
@@ -28,7 +28,7 @@ bookmarks = {
 			history = "RUS_MAST_IN_FLAMES_DESC"
 			ideology = ds
 			ideas = {
-				RUS_conquerors_europe
+				RUS_conquerors_and_conquered
 				RUS_water_shortage
 				RUS_caucasian_famine
 			}	

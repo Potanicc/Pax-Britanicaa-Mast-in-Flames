@@ -1,0 +1,378 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+######################
+###ENTRY FOCUS TREE###
+######################
+
+focus_tree = {
+
+	id = russia_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = {
+		x = 2800
+		y = 2500
+	}
+
+	focus = {
+		
+		id = RUS_new_years_address
+
+		icon = GFX_focus_RUS_emperor_all_russians
+ 
+		x = 50
+		y = 0
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics
+
+		icon = GFX_KEM_An_Economy_for_the_Modern_Age
+ 
+		x = -8
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_russification
+
+		icon = GFX_BAS_Unleash_The_New_Russians
+ 
+		x = -6	
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_water_shortage_focus
+
+		icon = GFX_AKT_False_Kazakhs
+ 
+		x = -4
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_caucasian_famine_focus
+
+		icon = GFX_RUS_grabbing_the_food
+ 
+		x = -2
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_malaria_crisis
+
+		icon = GFX_focus_RUS_tend_to_the_masses
+ 
+		x = 0
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_michael_2_politics
+
+		icon = GFX_generic_russian_eagle
+ 
+		x = 2
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_foreign_policy
+
+		icon = GFX_Rus_wake_up
+ 
+		x = 4
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_1958_elections
+
+		icon = GFX_focus_generic_election
+ 
+		x = 6
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_military
+
+		icon = GFX_focus_RUS_one_leader_one_russia
+ 
+		x = 8
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_new_years_address }
+		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+}

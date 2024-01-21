@@ -8,6 +8,8 @@ oob = "RUS_1933"
 
 set_variable = { PB_main_culture = 66 }
 add_to_array = { PB_accepted_cultures = 66 }
+add_to_array = { PB_accepted_cultures = 29 }
+add_to_array = { PB_accepted_cultures = 61 }
 add_to_array = { PB_accepted_cultures = 64 }
 add_to_array = { PB_accepted_cultures = 62 }
 add_to_array = { PB_accepted_cultures = 77 }
@@ -190,6 +192,146 @@ recruit_character = RUS_leo_julius_philipp_von_haller
 
 set_convoys = 366
 
+#baltic state modifiers#
+
+952 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+13 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+190 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+953 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+12 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+189 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+11 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+188 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+191 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+#polish state modifiers#
+
+98 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+87 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+10 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+90 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+88 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+92 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+#ukrainian state modifiers#
+
+192 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+198 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+199 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+91 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+89 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+259 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+201 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+202 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+203 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+197 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+196 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+200 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+221 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+#caucasian famine state modifiers#
+
+229 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+231 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+230 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+354 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+353 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
 set_autonomy = {
 	target = SRB
 	autonomous_state = autonomy_PB_Occupied_State
@@ -226,28 +368,9 @@ set_autonomy = {
 	freedom_level = 0.7
 }
 
-
-set_autonomy = {
-	target = TRS
-	autonomous_state = autonomy_PB_Imperial_Autonomy
-	freedom_level = 0.7
-}
-
 set_autonomy = {
 	target = AFG
 	autonomous_state = autonomy_PB_Imperial_Autonomy
-	freedom_level = 0.7
-}
-
-set_autonomy = {
-	target = GLG
-	autonomous_state = autonomy_PB_Imperial_Autonomy
-	freedom_level = 0.7
-}
-
-set_autonomy = {
-	target = PGA
-	autonomous_state = autonomy_PB_Occupied_State
 	freedom_level = 0.7
 }
 
@@ -273,7 +396,7 @@ add_ideas = {
 	PB_RUS_Middle_Class_Rising
 
 	PB_NI_Russian_Stoicism
-	PB_Absolute_Monarchy
+	PB_Russian_Parliamentarism
     PB_Single_Party_State
     PB_State_Press
 	limited_conscription
@@ -294,7 +417,7 @@ add_ideas = {
 	PB_Stagnating_Growth
 	PB_Semi_Modern_Military
     PB_Fully_Westernized
-	RUS_conquerors_europe
+	RUS_conquerors_and_conquered
 	RUS_peacetime_economy
 	RUS_muddled_duma
 	RUS_water_shortage
@@ -303,22 +426,26 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = ds
-	last_election = "1936.1.1"
-	election_frequency = 48
+	ruling_party = cn
+	last_election = "1953.3.3"
 	elections_allowed = no
 }
 
 set_popularities = {
-	ni = 0
-	ds = 26
-	rc = 18
-	cn = 25
-	lb = 20
-	an = 0
-	ss = 11
-	jc = 0
+	ni = 2
+	ds = 13
+	rc = 4
+	cn = 26
+	lb = 23
+	an = 7
+	ss = 14
+	jc = 11
 }
+
+ban_party_jc = yes
+ban_party_ni = yes
+add_to_leading_coalition_cn = yes
+add_to_leading_coalition_lb = yes
 
 create_faction = FACTION_VG
 add_to_faction = SER

@@ -1,5 +1,13 @@
 ﻿l_english:
 
+
+### IDEAS ###
+
+RUS_BALTIC_RESISTANCE:0 "Baltic Resistance"
+RUS_POLISH_RESISTANCE:0 "Polish Resistance"
+RUS_UKRAINE_RESISTANCE:0 "Ukrainian Resistance"
+RUS_CAUCASIAN_FAMINE:0 "The Caucasian Famine"
+
 ### COUNTRY NAMES ###
 
  RUS_ni:0 "Russian Empire"
@@ -68,28 +76,40 @@
 
  SIK_sinkiang_war:0 "The War In Sinkiang"
 
+ PB_Russian_Parliamentarism:0 "Russian Parliamentarism"
+
  RUS_water_shortage:0 "Central Asian Water Shortage"
  RUS_water_shortage_desc:0 "The central asian plains and desert laid in peace for centuries, that was until the Russians showed up. They partially drained both the Caspian and Aral sea, causing a severe lack of water to the citizens of central asia. Now these citizens have started revolutionary groups to oppose the Russians in the region.\n\n§5The Kazakhs are the most peaceful ethnicity in the region, this is because only half of their population lives in the affected areas and thus many Kazakhs moved to those regions instead of staying in the dry and barren desert.§!\n\n§3The southern Turkmen have been affected the most by the draining. Many people that used to live on the coast suddenly found themselves far inland with little food and water. These peoples have now founded various Jacobin ‘republics’ across the Khwarezm province. They are more unified than one in the Russian government should hope.§!\n\n§1The Uzbeks in Bukhara are the least affected, but the ones in Transoxiana weren’t quite so lucky, and neither were the ones that used to live on the Aral sea and now live in a cold desert. The Uzbeks of the region are unified by an unknown man who proclaims himself Khan of the Uzbeks, and has been a formidable opponent to the Russian garrisons in the area.§!\n\n§9The Kyrgyzs have decided to ally themselves with the Chinese revolutionaries and frequently have border clashes with the Sinkiang Administration and also often loot Russian colonial and garrison towns. Making it a rather unattractive location for Russian settlers and newly recruited soldiers. Smuggling is also an issue as the Chinese often smuggle not only weapons but also humans out of and into the Kyrgyz provinces.§!\n\n§7The Tajiks are the smallest group but also the most radical. They have established so-called ‘Free Republics’ across the province. These republics are Anarchist and Jacobin in nature and have to be eradicated for the glory of Russia.§!"
  
  RUS_malaria_troubles:0 "The Malaria Troubles"
  RUS_malaria_troubles_desc:0 "Unlike many western nations, Russia never embarked on the quest to fully eradicate the most deadly of illnesses. This is not only due to Russia’s immense size of Russia land and population wise, but also because of religious resistance. Thus mostly rural but also urban population centres are still rampant with Malaria and its consequences."
  
- RUS_conquerors_europe:0 "The Conquerors of Europe"
- RUS_conquerors_europe_desc:0 "We were victorious. Our alliance with Paris paid off. We have conquered vast swathes of land on the European continent. We have established many puppet regimes on our western reaches. Russia has restored its glory at the price of many lives. The world stood still to an abruptly silenced bell.\n\n§YThe air is full of after-thunder freshness,\nAnd everything rejoices and revives.\nWith the whole outburst of its purple clusters\nThe lilac drinks the air of paradise.\n\nThe gutters overflow; the change of weather\nMakes all you see appear alive and new.\nMeanwhile the shades of sky are growing lighter,\nBeyond the blackest cloud the height is blue.\n\nIt is not revolutions and upheavals\nThat clear the road to new and better days,\nBut revelations, lavishness and torments\nOf someone's soul, inspired and ablaze.\n\n-Boris Pasternak, After The Storm.§!"
+ RUS_conquerors_and_conquered:0 "The Conquerors and Conquered"
+ RUS_conquerors_and_conquered_desc:0 "We were victorious. Our alliance with Paris paid off. We have conquered vast swathes of land on the European continent. We have established many puppet regimes on our western reaches. Russia has restored its glory at the price of many lives. The world stood still to an abruptly silenced bell.\n\nYet in the east the bells still toll. Defeated at the hands of the Japanese and their allies, who were fought viciously on the banks of the Amur and across the Pacific waves. The war was a victory and humiliation in one. The blood of Japanese soldiers will be on our hands once more in the future, and we will, in harmonious glory, stand triumphant on the biggest hill in Tokyo.\n§GFor the glory of Russia!§!\n\n§YThe air is full of after-thunder freshness,\nAnd everything rejoices and revives.\nWith the whole outburst of its purple clusters\nThe lilac drinks the air of paradise.\n\nIt is not revolutions and upheavals\nThat clear the road to new and better days,\nBut revelations, lavishness and torments\nOf someone's soul, inspired and ablaze.\n\n-Boris Pasternak, After The Storm.§!"
  
  RUS_caucasian_famine:0 "The Caucasian Famine"
  RUS_caucasian_famine_desc:0 "Because of the Caucasus Viceroyalties ruling class being mostly descendant from wealthy businessmen, the Viceroy's governance became oligarchic in nature. This caused very little money to trickle down to the peasant population of the rather large Viceroy. This combined with the reduction of rainfall due to land reclamation in both the Ukraine and the Caspian sea caused a famine to happen in the laters years of the second great war. Because of the recklessness and chaos caused by the governors of the Viceroy, it was annexed into the Russian Empire until the situation was properly dealt with."
  
  RUS_peacetime_economy:0 "Transitioning to a Peacectime Economy"
- RUS_peacetime_economy_desc:0 "Despite the second great war having been over for quite a number of years now, the Russian economy is still partially following a wartime agenda. Thus the Duma needs to pass bills to properly transition back to a peacetime economy. As of right now, inflation is at an all time high, unemployment from returning soldiers is skyrocketing, and with the ‘fine tuning’ of the economy by the Duma, the economy and the Russian people have only suffered since the war has passed them."
+ RUS_peacetime_economy_desc:0 "Despite the second great war having been over for quite a number of years now, the Russian economy is still partially following a wartime agenda. Thus the Duma needs to pass bills to properly transition back to a peacetime economy. As of right now, inflation is at an all time high, unemployment from returning soldiers is skyrocketing, and with the ‘fine tuning’ of the economy by the Duma, the economy and the Russian people have only suffered since the war has passed them.\n"
  
  RUS_muddled_duma:0 "The Muddled Duma"
  RUS_muddled_duma_desc:0 "Although on paper Russia is a democracy, the real situation is more murky. After the appointment of the semi-incompetent Vasily Chuikov the Duma became more divided than ever. What didn’t help the situation was mass rioting across Moscow by workers in 1955, which led to the socialist parties being unbanned in the Duma and causing all sorts of outrage by the other parties. As a result of this no bill has passed peacefully through the Duma in ages and nothing gets done, barely any issues are getting resolved within Russia. And answers are needed now more than ever in these trying times for the Russian citizens."
 
+### FOCUSES ###
 
+RUS_new_years_address:0 "New Year's Address"
+RUS_new_years_address_desc:0 "Willful and avid mind,-\nThe Russian mind is dangerous as flame:\nSo unrestrainable, so clear,\nA happy and a gloomy mind.\n\nLike the steady hand of a compass\nIt sees the pole through swells and fog;\nIt leads the timid will\nFrom distracted dreams to life.\n\nLike an eagle gazing through the mist\nTo survey the valley's dust\nIt soberly contemplates the earth,\nFloating in a mystic night.\n\n-Vyacheslav Ivanovich Ivanov"
 
-
-
+RUS_economics:0 "Matters of the Russian Economy"
+RUS_russification:0 "Start of the Russification Programs"
+RUS_water_shortage_focus:0 "Handling the Central Asian Water Shortage"
+RUS_caucasian_famine_focus:0 "Dealing with the Caucasian Famine"
+RUS_malaria_crisis:0 "Manage the Malaria Crisis"
+RUS_michael_2_politics:0 "Michael II's Politics"
+RUS_foreign_policy:0 "Russian Foreign Policy"
+RUS_1958_elections:0 "The 1958 Elections"
+RUS_military:0 "The Concerns of the Military"
 
 
 

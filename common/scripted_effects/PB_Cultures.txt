@@ -195,6 +195,8 @@ PB_Setup_Cultures = {
 	### ---- Silesian Culture ---- ###
 
 	66 = { set_variable = { culture_id = 24 } }
+	67 = { set_variable = { culture_id = 24 } }
+	762 = { set_variable = { culture_id = 24 } }
 
 	### ---- Danish Culture ---- ###
 
@@ -219,6 +221,7 @@ PB_Setup_Cultures = {
 
 	666 = { set_variable = { culture_id = 27 } }
 	722 = { set_variable = { culture_id = 27 } }
+	148 = { set_variable = { culture_id = 27 } }
 	
 	### ---- Norwegian Culture ---- ###
 
@@ -229,11 +232,9 @@ PB_Setup_Cultures = {
 
 	### ---- Finnish Culture ---- ###
 
-	148 = { set_variable = { culture_id = 29 } }
 	149 = { set_variable = { culture_id = 29 } }
 	150 = { set_variable = { culture_id = 29 } }
 	111 = { set_variable = { culture_id = 29 } }
-	146 = { set_variable = { culture_id = 29 } }
 
 	### ---- Karelian Culture ---- ###
 
@@ -384,12 +385,11 @@ PB_Setup_Cultures = {
 
 	81 = { set_variable = { culture_id = 54 } }
 	46 = { set_variable = { culture_id = 54 } }
-	79 = { set_variable = { culture_id = 54 } }
-	80 = { set_variable = { culture_id = 54 } }
 	84 = { set_variable = { culture_id = 54 } }
 	76 = { set_variable = { culture_id = 54 } }
 	83 = { set_variable = { culture_id = 54 } }
 	82 = { set_variable = { culture_id = 54 } }
+	766 = { set_variable = { culture_id = 54 } }
 
 	### ---- Hungarian Culture ---- ###
 
@@ -452,7 +452,8 @@ PB_Setup_Cultures = {
 	### ---- Moldovan Culture ---- ###
 
 	78 = { set_variable = { culture_id = 61 } }
-	766 = { set_variable = { culture_id = 61 } }
+	80 = { set_variable = { culture_id = 61 } }
+	79 = { set_variable = { culture_id = 61 } }
 
 	### ---- Malorussian Culture ---- ###
 
@@ -464,8 +465,6 @@ PB_Setup_Cultures = {
 
 	### ---- Polish Culture ---- ###
 
-	67 = { set_variable = { culture_id = 63 } }
-	762 = { set_variable = { culture_id = 63 } }
 	88 = { set_variable = { culture_id = 63 } }
 	90 = { set_variable = { culture_id = 63 } }
 	87 = { set_variable = { culture_id = 63 } }
@@ -483,10 +482,12 @@ PB_Setup_Cultures = {
 
 	11 = { set_variable = { culture_id = 65 } }
 	189 = { set_variable = { culture_id = 65 } }
+	188 = { set_variable = { culture_id = 65 } }
 
 	### ---- Russian Culture ---- ###
 
 	194 = { set_variable = { culture_id = 66 } }
+	146 = { set_variable = { culture_id = 66 } }
 	204 = { set_variable = { culture_id = 66 } }
 	95 = { set_variable = { culture_id = 66 } }
 	96 = { set_variable = { culture_id = 66 } }
@@ -613,11 +614,10 @@ PB_Setup_Cultures = {
 	### ---- Estonian Culture ---- ###
 
 	13 = { set_variable = { culture_id = 76 } }
+	191 = { set_variable = { culture_id = 76 } }
 
 	### ---- Russobaltic Culture ---- ###
     
-	188 = { set_variable = { culture_id = 77 } }
-	191 = { set_variable = { culture_id = 77 } }
 	784= { set_variable = { culture_id = 77 } }
 	949 = { set_variable = { culture_id = 77 } }
 	951 = { set_variable = { culture_id = 77 } }

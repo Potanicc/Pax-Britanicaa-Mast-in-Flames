@@ -1,0 +1,43 @@
+RUS_BALTIC_RESISTANCE = {
+	icon = GFX_modifiers_PB_RUS_Baltic_Unrest
+	
+	enable = { always = yes }
+	
+	local_manpower = -0.15
+	local_org_regain = -0.2
+	local_resources = -0.2
+	local_factories = -0.15
+} 
+RUS_POLISH_RESISTANCE = {
+	icon = GFX_idea_PB_RUS_Poland_Forever
+	
+	enable = { always = yes }
+	
+	local_manpower = -0.15
+	local_org_regain = -0.2
+	local_resources = -0.2
+	local_factories = -0.15
+} 
+RUS_UKRAINE_RESISTANCE = {
+	icon = GFX_idea_UKR_partyzanschyna
+	
+	enable = { always = yes }
+	
+	local_manpower = -0.15
+	local_org_regain = -0.2
+	local_resources = -0.2
+	local_factories = -0.15
+} 
+RUS_CAUCASIAN_FAMINE = {
+	icon = GFX_idea_RUS_Isolated_Villages
+	
+	enable = { always = yes }
+	
+	local_manpower = -0.30
+	local_org_regain = -0.25
+	local_resources = -0.15
+	local_factories = -0.1
+	recruitable_population = -0.02
+	state_resources_factor = -0.15
+	weekly_manpower = -100 
+} 

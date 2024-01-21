@@ -89,9 +89,9 @@ ideas = {
 			}
 		} 
 
-		RUS_conquerors_europe = {
+		RUS_conquerors_and_conquered = {
 
-			picture = PB_RUS_False_Republic
+			picture = PB_RUS_Monarchism_Defined
 
 
 			allowed = {
@@ -118,6 +118,9 @@ ideas = {
 				war_support_factor = 0.15
 				surrender_limit = 0.2
 				army_attack_factor = 0.15
+				army_defence_factor = -0.15
+				army_defence_against_major_factor = -0.1
+				army_core_defence_factor = 0.05
 			}
 		}
 
@@ -148,37 +151,6 @@ ideas = {
 			}
 		}
 
-		RUS_peacetime_economy = {
-
-			picture = Economy_Military_Austerity
-
-
-			allowed = {
-
-			}
-
-			available = {
-
-			}
-
-			cancel = {
-
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.15
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = -0.2
-				industrial_capacity_factory = -0.1 
-			} 
-		}
-
 		RUS_muddled_duma = {
 
 			picture = PB_RUS_Anarchy
@@ -204,7 +176,7 @@ ideas = {
 
 			modifier = {
 				political_power_gain = -0.1
-				cn_drift = 0.01
+				ss_drift = 0.01
 				lb_drift = 0.01
 			} 
 		}

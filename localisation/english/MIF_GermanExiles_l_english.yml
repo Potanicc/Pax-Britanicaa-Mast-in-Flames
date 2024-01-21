@@ -66,3 +66,24 @@
  GLF_Native_Resistance:0 "Native Resistance"
  GLF_Native_Resistance_desc:0 ""
 
+ ### EVENTS ###
+
+ GLF_News.1.t:0 "JAUNDE UNDER SIEGE"
+ GLF_News.1.d:0 "Jaunde, Kamerun has erupted in the most significant conflict witnessed on the African continent since the demise of the British Empire over a decade ago. Cameroonian Jacobins swiftly seized control from the local garrison, labeling themselves as the liberators of Africa, aiming to eradicate the final remnants of German imperialism. In rapid retaliation, the German Liberation Forces swiftly countered this unprecedented resistance with overpowering might. The GLF has already demanded an unconditional surrender, but the jacobin pride seems to be too large to accept such shameful end."
+ GLF_News.1.a:0 "A spark in sea of kindling."
+
+ GLF_News.2.t:0 "RED SUN OVER KAMERUN"
+ GLF_News.2.d:0 "In a surprising turn of events, the Jaunde rebels have defied all expectations, evading all the bullets and shells that have been thrown their way. Seemingly blessed by the spirit of Engels these revolutionaries have pushed back the GLF, causing significant losses to the opposing forces. Despite objections from militarists who fear that diplomacy is a sign of weakness, the GLF has initiated negotiations. The rebels, successful in their talks, secured near-complete autonomy for Kamerun, hailing the triumph as a cause for celebration throughout Africa"
+ GLF_News.2.a:0 "The house of cards begins to fall."
+
+ GLF_News.3.t:0 "GERMAN FORCES SECURE JAUNDE"
+ GLF_News.3.d:0 "Jaunde has been seized in a forceful assault orchestrated by GLF Hardsuits and Razormaidens. Waves of infantry then swiftly infiltrated the city, summarily executing many individuals regardless of their affiliations with the rebellion. Numerous leaders of the uprising have been slated for a public execution, while others have sought refuge in the African Workers’ Republic. The international community, through the League of Seven Continents, has vehemently criticized the GLF's actions, branding it as ‘the most egregious human rights violation in recent history’. Regional experts view this as a temporary setback to the unwavering spirit of independence and nationalism that prevails throughout the African continent"
+ GLF_News.3.a:0 "Not the first revolt, and certainly not the last."
+
+ GLF_News.4.t:0 "JOSEPHSTAD ATTACKS"
+ GLF_News.4.d:0 "The jubilation of victory in Jaunde has abruptly morphed into grief today, as Jacobin extremists from Cameroon claimed responsibility for a devastating assault on Josephstad, the very heart of the GLF. Disturbing reports detail hundreds dead and wounded, with distressing images of civilian casualties circulating globally, from Philadelphia to Tokyo. In response, the German Liberation Forces have announced plans for additional troop deployments to Kamerun. The global community has reacted with shock at the grim scenes, prompting numerous voices to advocate for peace in the beleaguered continent."
+ GLF_News.4.a:0 "Africa bleeds."
+
+ GLF_News.6.t:0 "GERMAN BUSH WAR"
+ GLF_News.6.d:0 "Following the declaration of independence by several African countries, the German army in exile has taken up arms and mobilized to deal with this internal threat. This conflict won't be easy for either side, as the jungle isn't exactly characterized as great terrain for such wars. The secessionists will fight hard against the Germans with guerrilla tactics. Who knows if the German will be able to efficiently deal with this threat as they aren't in the best position in any metric, the world will await what the future of Africa holds. "
+ GLF_News.6.a:0 "A German in the Hand is Worth Two Africans in the Bush"

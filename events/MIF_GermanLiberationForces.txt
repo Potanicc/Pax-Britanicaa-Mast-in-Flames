@@ -335,32 +335,14 @@ news_event = {
 	
 	option = {
 		name = GLF_News.1.a
-		trigger = {
-			NOT = {
-				has_government = ni
-				has_government = jc
-			}
-		}
-	}
-	option = {
-		name = GLF_News.1.b
-		trigger = { 
-			has_government = jc
-		}
-	}
-	option = {
-		name = GLF_News.1.c
-		trigger = {
-			has_government = ni
-		}
-	}
-}
+	} 
+} 
 
 news_event = {
 	id = GLF_News.2
 	title = GLF_News.2.t
 	desc = GLF_News.2.d
-	picture = GFX_Jaunde_Under_Siege
+	picture = GFX_MIF_news_event_MIFNews_Jaunde_Failure
 	
 	major = yes
 
@@ -375,7 +357,7 @@ news_event = {
 	id = GLF_News.3
 	title = GLF_News.3.t
 	desc = GLF_News.3.d
-	picture = GFX_Jaunde_Under_Siege
+	picture = GFX_MIF_news_event_MIFNews_Jaunde_Success
 	
 	major = yes
 
@@ -390,7 +372,7 @@ news_event = {
 	id = GLF_News.4
 	title = GLF_News.4.t
 	desc = GLF_News.4.d
-	picture = GFX_Jaunde_Under_Siege
+	picture = GFX_MIF_news_event_MIFNews_Congo_Bombing
 	
 	major = yes
 
@@ -405,7 +387,7 @@ news_event = {
 	id = GLF_News.5
 	title = GLF_News.5.t
 	desc = GLF_News.5.d
-	picture = GFX_Jaunde_Under_Siege
+	picture = GFX_MIF_news_event_MIFNews_GLF_Martial_Law
 	
 	major = yes
 
@@ -420,7 +402,7 @@ news_event = {
 	id = GLF_News.6
 	title = GLF_News.6.t
 	desc = GLF_News.6.d
-	picture = GFX_Jaunde_Under_Siege
+	picture = GFX_MIF_news_event_MIFNews_Bush_War
 	
 	major = yes
 

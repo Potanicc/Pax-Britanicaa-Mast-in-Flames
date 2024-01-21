@@ -55,16 +55,16 @@
  ### IDEAS ###
 
  GLF_Sinking_Ship:0 "Sinking Ship"
- GLF_Sinking_Ship_desc:0 ""
+ GLF_Sinking_Ship_desc:0 "The GLF grapples with myriad challenges, ranging from native rebellions and oligarchal influence to an unindustrialized society and a mutinous army. Virtually every aspect of the region appears to be either in a state of collapse or undergoing a tumultuous process of deterioration. Observers often marvel at the perceived miracle of the GLF's prolonged survival despite the overwhelming odds stacked against it. The ship of state is sinking; place your bets on how long it will take for it to completely vanish beneath the waves."
 
  GLF_Broken_Promise:0 "Broken Promise"
- GLF_Broken_Promise_desc:0 ""
+ GLF_Broken_Promise_desc:0 "The German Exiles were promised a return home. The army was promised the blood of Parisians as revenge and the people were promised a return to the good old days. Promises aren’t always kept however, and this one would be impossible to deliver. The GLF has no means of returning to Germany, they can neither fight their way across the Sahara and Southern Europe nor sail straight into Hamburg. Even if they could, they couldn’t possibly overcome the French advantage in both quality and quantity. Thus, a sort of despair has found its way into the heart of every exile. can no longer justify the killing of civilians as being ‘for the good of Germany’, the generals can no longer order bombing raids on innocent villages as being ‘for the good of Germany’, the people can no longer justify their work as being ‘for the good of Germany’. The mirage of a Sahara oasis is more real than Hamburg in mind of every exile."
 
  GLF_Party_Of_Plutocrats:0 "Party of Plutocrats"
- GLF_Party_Of_Plutocrats_desc:0 ""
+ GLF_Party_Of_Plutocrats_desc:0 "From the vast expanse of the Congo River Basin to the arid landscapes of the Namib Desert, the reins of authority are firmly gripped by those endowed with wealth. Indeed, in a region as impoverished as the GLF, the currency of power is unequivocally money. The rubber trade in the Congo finds itself under the ownership of a privileged few who wield unparalleled influence over the entire region. Meanwhile, Namibia's precious diamonds are meticulously overseen by a singular family, and the extensive gold reserves of Tanzania bow to the command of a lone individual.\n\nIn each distinct locale, an oligarch emerges as the puppeteer, skillfully manipulating the strings of power through their substantial material affluence. Men like Gerhard Schröder, who are supposedly the ones in charge, can only gawk at their influence as they follow their every command."
 
  GLF_Native_Resistance:0 "Native Resistance"
- GLF_Native_Resistance_desc:0 ""
+ GLF_Native_Resistance_desc:0 "The German Liberation Forces, a minority power in the region, exert dominance over a diverse majority encompassing various ethnicities, tribes, and cultures. Each group, with its distinct resistance methods, opposes the former colonizers. Having already contended with numerous native rebellions, the German Liberation Forces face the pressing question of how many more such uprisings they can withstand. The continuous challenge lies in managing resistance from diverse factions, each rooted in unique identities and grievances, raising concerns about the sustainability of their authority. The German Liberation Forces have already dealt with so many native rebellions, §Rhow many more can they take?§!"
 
  ### EVENTS ###
 

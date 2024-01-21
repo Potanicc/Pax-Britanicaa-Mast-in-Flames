@@ -28,10 +28,6 @@ GLF_Party_Of_Plutocrats = {
 			political_power_factor = -0.3
 			consumer_goods_factor = -0.05
 			production_speed_buildings_factor = 0.1
-			add_popularity = {
-				ideology = cn
-				popularity = -0.02
-			}
 		}
 	}
 }
@@ -50,7 +46,9 @@ GLF_Native_Resistance = {
 		}
 
 		modifier = {
-			
+			resistance_damage_to_garrison = 0.1
+			resistance_target = 0.05
+			stability_factor = -0.1
 		}
 	}
 }

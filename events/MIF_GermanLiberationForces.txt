@@ -327,7 +327,7 @@ news_event = {
 	id = GLF_News.1
 	title = GLF_News.1.t
 	desc = GLF_News.1.d
-	picture = GFX_Jaunde_Under_Siege
+	picture = GFX_MIF_news_event_MIFNews_Jaunde_Siege
 	
 	major = yes
 

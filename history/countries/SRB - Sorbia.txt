@@ -2,7 +2,7 @@
 capital = 459
 
 oob = "SRB_1936"
-set_cosmetic_tag = SRB_occupied
+set_cosmetic_tag = SRB_Occupied
 RUS = {
 	if = {
 		limit= {

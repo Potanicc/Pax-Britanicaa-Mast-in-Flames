@@ -10,7 +10,7 @@ state={
 		steel=4
 	}
 	history={
-		owner = FIN
+		owner = RUS
 		victory_points = {
 			9056 2
 		}
@@ -28,7 +28,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = FIN
-		add_core_of = FFI
+		add_core_of = RUS
 	}
 
 	provinces={

@@ -295,8 +295,7 @@ set_popularities = {
 } 
 
 ### Foreign Policy ###
-create_faction = League_Of_Nations
-add_to_faction = ISR
+create_faction = FACTION_TDO
 add_to_faction = QUE
 add_to_faction = WAF
 add_to_faction = BCL

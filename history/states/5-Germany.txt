@@ -2,25 +2,30 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 3378108
-	state_category = rural
-
-        resources={
-		grain = 13
-        }
+	resources={
+		grain=13.000
+	}
 
 	history={
 		owner = PRS
-		victory_points = { 6375 1 }
+		victory_points = {
+			6375 1 
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		add_core_of = PRS
+		set_demilitarized_zone = yes
 
 	}
 
 	provinces={
-		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+		266 3295 3351 3380 6347 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
+	manpower=3378108
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

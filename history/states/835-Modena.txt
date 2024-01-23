@@ -1,26 +1,27 @@
+
 state={
 	id=835
 	name="STATE_835"
-	resources = {
-		grain = 31
+	resources={
+		grain=31.000
 	}
+
 	history={
 		owner = IST
-		victory_points = {
-			6606 3 
-		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 
 		}
-		add_core_of = ITA
 		add_core_of = IST
+
 	}
+
 	provinces={
-		3976 6606 6985 9752 
+		3976 9752 
 	}
 	manpower=3102401
-	state_category = town
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

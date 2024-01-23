@@ -243,6 +243,32 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
+		RUS_peacetime_economy = {
+			
+			
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            picture = Economy_Military_Austerity
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.2
+				industrial_capacity_factory = -0.1 
+			}
+			
+			cancel_if_invalid = no
+		}
 	}
 	
 	trade_laws = { 

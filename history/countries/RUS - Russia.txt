@@ -1,30 +1,6 @@
 ﻿starting_train_buffer = 2
 capital = 219
 
-set_country_flag = Tag_in_Russian_Sphere
-set_country_flag = Megacorp_Tesla_Dominant
-set_country_flag = PB_russiaupdate_content_country
-
-set_country_flag = RUS_OKH_Oziewicz_Leads_Resistance
-set_country_flag = RUS_OKH_Chruschiel_SubCommander_1
-set_country_flag = RUS_OKH_Karski_SubCommander_2
-set_country_flag = RUS_OKH_Makhno_Leads_Resistance
-set_country_flag = RUS_OKH_Petliura_SubCommander_1
-set_country_flag = RUS_OKH_Shumsky_SubCommander_2
-set_country_flag = RUS_OKH_Jaan_Leads_Resistance
-set_country_flag = RUS_OKH_Sprogis_Subcommander1
-set_country_flag = RUS_OKH_Celmins_Subcommander2
-set_country_flag = RUS_OKH_Kosola_Leads_Resistance
-set_country_flag = RUS_OKH_Osterman_Subcommander1
-set_country_flag = RUS_OKH_Hall_Subcommander2
-
-set_variable = { var = RUS_Okhrana_Resources value = 150 }
-set_variable = { var = RUS_Polish_Resistance_Power value = 40 }
-set_variable = { var = RUS_Ukraine_Resistance_Power value = 25 }
-set_variable = { var = RUS_Baltic_Resistance_Power value = 30 }
-set_variable = { var = RUS_Finnish_Resistance_Power value = 60 }
-
-set_variable = { var = RUS_Area_Zero_Assets value = 150 }
 
 oob = "RUS_1933"
 
@@ -32,6 +8,8 @@ oob = "RUS_1933"
 
 set_variable = { PB_main_culture = 66 }
 add_to_array = { PB_accepted_cultures = 66 }
+add_to_array = { PB_accepted_cultures = 29 }
+add_to_array = { PB_accepted_cultures = 61 }
 add_to_array = { PB_accepted_cultures = 64 }
 add_to_array = { PB_accepted_cultures = 62 }
 add_to_array = { PB_accepted_cultures = 77 }
@@ -212,216 +190,181 @@ recruit_character = RUS_leo_julius_philipp_von_haller
 #recruit_character = RUS_Valiko_Jugheli
 #recruit_character = RUS_Mannerheim
 
-
-### Annexation Stuff For Russia ###
-
-set_variable = {
-	var = RUS_BAL_ANNEX_PERCENT
-	value = 68
-}
-
-clamp_variable = {
-	var = RUS_BAL_ANNEX_PERCENT
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_POL_ANNEX_PERCENT
-	value = 34
-}
-
-clamp_variable = {
-	var = RUS_POL_ANNEX_PERCENT
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_FIN_ANNEX_PERCENT
-	value = 16
-}
-
-clamp_variable = {
-	var = RUS_FIN_ANNEX_PERCENT
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_TRS_ANNEX_PERCENT
-	value = 29
-}
-
-clamp_variable = {
-	var = RUS_TRS_ANNEX_PERCENT
-	min = 0
-	max = 100
-}
-
-### Social Class Satisfaction Vars ###
-
-set_variable = {
-	var = RUS_Nobility_Satisfaction
-	value = 80
-}
-
-clamp_variable = {
-	var = RUS_Nobility_Satisfaction
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_Elites_Satisfaction
-	value = 74
-}
-
-clamp_variable = {
-	var = RUS_Elites_Satisfaction
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_Military_Satisfaction
-	value = 57
-}
-
-clamp_variable = {
-	var = RUS_Military_Satisfaction
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_Workers_Satisfaction
-	value = 21
-}
-
-clamp_variable = {
-	var = RUS_Workers_Satisfaction
-	min = 0
-	max = 100
-}
-
-set_variable = {
-	var = RUS_Peasants_Satisfaction
-	value = 15
-}
-
-clamp_variable = {
-	var = RUS_Peasants_Satisfaction
-	min = 0
-	max = 100
-}
-
-### Social Class Satisfaction Monthly Vars ###
-
-set_variable = {
-	var = RUS_Nobility_Satisfaction_Growth
-	value = 0
-}
-
-clamp_variable = {
-	var = RUS_Nobility_Satisfaction_Growth
-	min = -1.5
-	max = 1.5
-}
-
-set_variable = {
-	var = RUS_Elites_Satisfaction_Growth
-	value = 0
-}
-
-clamp_variable = {
-	var = RUS_Elites_Satisfaction_Growth
-	min = -1.5
-	max = 1.5
-}
-
-set_variable = {
-	var = RUS_Military_Satisfaction_Growth
-	value = 0
-}
-
-clamp_variable = {
-	var = RUS_Military_Satisfaction_Growth
-	min = -1.5
-	max = 1.5
-}
-
-set_variable = {
-	var = RUS_Workers_Satisfaction_Growth
-	value = 0
-}
-
-clamp_variable = {
-	var = RUS_Workers_Satisfaction_Growth
-	min = -1.5
-	max = 1.5
-}
-
-set_variable = {
-	var = RUS_Peasants_Satisfaction_Growth
-	value = 0
-}
-
-clamp_variable = {
-	var = RUS_Peasants_Satisfaction_Growth
-	min = -1.5
-	max = 1.5
-}
-
-##
-
-set_variable = {
-	var = RUS_Political_Dissonance
-	value = 0.56
-}
-
-clamp_variable = {
-	var = RUS_Political_Dissonance
-	min = 0
-	max = 1
-}
-
-set_variable = {
-	var = RUS_Ethnic_Cohesion
-	value = 0.35
-}
-
-clamp_variable = {
-	var = RUS_Ethnic_Cohesion
-	min = 0
-	max = 1
-}
-
-PB_Set_Max_State_Focus = yes
-
 set_convoys = 366
 
+#baltic state modifiers#
+
+952 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+13 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+190 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+953 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+12 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+189 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+11 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+188 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+191 = {
+    add_dynamic_modifier = { modifier = RUS_BALTIC_RESISTANCE }
+}
+
+#polish state modifiers#
+
+98 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+87 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+10 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+90 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+88 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+92 = {
+    add_dynamic_modifier = { modifier = RUS_POLISH_RESISTANCE }
+}
+
+#ukrainian state modifiers#
+
+192 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+198 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+199 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+91 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+89 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+259 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+201 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+202 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+203 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+197 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+196 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+200 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+221 = {
+    add_dynamic_modifier = { modifier = RUS_UKRAINE_RESISTANCE }
+}
+
+#caucasian famine state modifiers#
+
+229 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+231 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+230 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+354 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
+353 = {
+    add_dynamic_modifier = { modifier = RUS_CAUCASIAN_FAMINE }
+}
+
 set_autonomy = {
-	target = POL
+	target = SRB
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = PRS
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = DDR
+	autonomous_state = autonomy_PB_Occupied_State
+	freedom_level = 0.7
+}
+
+set_autonomy = {
+	target = HES
 	autonomous_state = autonomy_PB_Imperial_Autonomy
 	freedom_level = 0.7
 }
 
 set_autonomy = {
-	target = BAL
-	autonomous_state = autonomy_PB_Imperial_Autonomy
+	target = CZE
+	autonomous_state = autonomy_client_state
 	freedom_level = 0.7
 }
 
 set_autonomy = {
-	target = TRS
-	autonomous_state = autonomy_PB_Imperial_Autonomy
-	freedom_level = 0.7
-}
-
-set_autonomy = {
-	target = FIN
-	autonomous_state = autonomy_PB_Imperial_Autonomy
+	target = PER
+	autonomous_state = autonomy_client_state
 	freedom_level = 0.7
 }
 
@@ -432,48 +375,17 @@ set_autonomy = {
 }
 
 set_autonomy = {
-	target = GLG
-	autonomous_state = autonomy_PB_Imperial_Autonomy
-	freedom_level = 0.7
-}
-
-set_autonomy = {
-	target = PGA
-	autonomous_state = autonomy_PB_Occupied_State
-	freedom_level = 0.7
-}
-
-set_autonomy = {
 	target = TUR
 	autonomous_state = autonomy_client_state
 	freedom_level = 0.50
 }
 
-give_guarantee = PRS
-give_military_access = PRS
-give_guarantee = GRE
 give_military_access = GRE
 give_guarantee = ASK
 give_military_access = ASK
 give_guarantee = MAN
 give_military_access = MAN
-
-RUS = { 
-	add_opinion_modifier = { 
-		target = GER modifier = great_war_bitterness 
-	} 
-
-	add_opinion_modifier = { 
-		target = ENG modifier = great_war_bitterness 
-	}
-}
-
-FIN = {
-	declare_war_on = {
-		target = FFI
-		type = annex_everything
-	}
-}
+give_guarantee = ALB
 
 add_ideas = {
 	RUS_PB_Pyotr_Stoylpin
@@ -484,7 +396,7 @@ add_ideas = {
 	PB_RUS_Middle_Class_Rising
 
 	PB_NI_Russian_Stoicism
-	PB_Absolute_Monarchy
+	PB_Russian_Parliamentarism
     PB_Single_Party_State
     PB_State_Press
 	limited_conscription
@@ -501,32 +413,45 @@ add_ideas = {
     PB_Govidea_State_Capitalism
 	PB_Significant_Poverty
 	PB_Industrialized
-	PB_Minor_Illiteracy
-	PB_Middling_Consumer_Confidence
+	PB_Significant_Illiteracy
+	PB_Stagnating_Growth
 	PB_Semi_Modern_Military
     PB_Fully_Westernized
+	RUS_conquerors_and_conquered
+	RUS_peacetime_economy
+	RUS_muddled_duma
+	RUS_water_shortage
+	RUS_malaria_troubles
+	RUS_caucasian_famine
 }
 
 set_politics = {
-	ruling_party = ds
-	last_election = "1936.1.1"
-	election_frequency = 48
+	ruling_party = cn
+	last_election = "1953.3.3"
 	elections_allowed = no
 }
 
 set_popularities = {
-	ni = 0
-	ds = 26
-	rc = 18
-	cn = 25
-	lb = 20
-	an = 0
-	ss = 11
-	jc = 0
+	ni = 2
+	ds = 13
+	rc = 4
+	cn = 26
+	lb = 23
+	an = 7
+	ss = 14
+	jc = 11
 }
 
-create_faction = RUS_fac
-add_to_faction = RUS
+ban_party_jc = yes
+ban_party_ni = yes
+add_to_leading_coalition_cn = yes
+add_to_leading_coalition_lb = yes
+
+create_faction = FACTION_VG
+add_to_faction = SER
+add_to_faction = HUN
+add_to_faction = MAN
+add_to_faction = SIK
 
 RUS = {
 	add_opinion_modifier = {
@@ -540,26 +465,6 @@ RUS = {
 	}
 }
 
-
-FIN = {
-    set_politics = {
-        ruling_party = ds
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 20
-        ds = 40
-        rc = 0
-        cn = 0
-        lb = 0
-        an = 0
-        ss = 0
-        jc = 40
-    }
-}
 
 TRS = {
     set_politics = {
@@ -578,6 +483,28 @@ TRS = {
         an = 25
         ss = 0
         jc = 0
+    }
+}
+
+HES = {
+    set_politics = {
+        ruling_party = ds
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ds = 100
+    }
+}
+
+PRS = {
+    set_politics = {
+        ruling_party = ds
+        elections_allowed = no
+    }
+
+    set_popularities = {
+        ds = 100
     }
 }
 
@@ -618,26 +545,6 @@ POL = {
     an = 10
     ss = 0
     jc = 40
-    }
-}
-
-PRS = {
-    set_politics = {
-        ruling_party = ni
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 38
-        ds = 50
-        rc = 6
-        cn = 6
-        lb = 0
-        an = 0
-        ss = 0
-        jc = 0
     }
 }
 

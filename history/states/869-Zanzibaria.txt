@@ -5,7 +5,6 @@ state={
 		owner = GLF
 		add_core_of = TGY
 		add_core_of = ZAN
-		add_core_of = AZA
 		victory_points = {
 			2196 10
 		}

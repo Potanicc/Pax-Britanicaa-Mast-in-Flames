@@ -45,6 +45,30 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
+		PB_Russian_Parliamentarism = { 
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			picture = PB_RUS_Russia_United
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.02
+			}
+			
+			cancel_if_invalid = no
+		}
+
 		PB_Prussian_Constitutionalism = { 
 						
 			cost = 0

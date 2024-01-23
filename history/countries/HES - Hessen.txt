@@ -17,20 +17,11 @@ set_war_support = 0.3
 set_convoys = 5
 
 set_popularities = {
-	ni = 0
-	ds = 10
-	rc = 10
-	cn = 10
-	lb = 40
-	an = 0
-	ss = 30
-	jc = 0
+	ds = 100
 }
 
 set_politics = {
-	ruling_party = ni
-	last_election = "1936.1.1"
-	election_frequency = 48
+	ruling_party = ds
 	elections_allowed = no
 }
 

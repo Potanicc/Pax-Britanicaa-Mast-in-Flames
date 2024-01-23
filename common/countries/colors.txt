@@ -7,8 +7,8 @@
 #if anyone is wondering, yes these are messages from base PB files and im too lazy to change them
 
 GER = {
-	color = rgb { 117 108 69 }
-	color_ui = rgb { 117 108 69 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 #ENG = {
 #	color = rgb { 201 56 93 }
@@ -27,8 +27,8 @@ RUS = {
 	color_ui = rgb { 30 69 42 }
 }
 SWE = {
-	color = rgb { 29 80 145 }
-	color_ui = rgb { 29 80 145 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 SCH = {
 	color = rgb { 192 64 64 }
@@ -115,12 +115,12 @@ ALB = {
 	color_ui = rgb { 123 71 99 }
 }
 NOR = {
-	color = rgb { 192 64 64 }
-	color_ui = rgb { 192 64 64 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 DEN = {
-	color = rgb { 192 64 64 }
-	color_ui = rgb { 192 64 64 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 BUL = {
 	color = rgb { 65 117 39 }
@@ -450,8 +450,8 @@ MAN = {
 	color_ui = rgb { 47 112 67 }
 }
 ANG = {
-	color = rgb { 107 92 36 }
-	color_ui = rgb { 107 92 36 }
+	color = rgb { 99 58 52 }
+	color_ui = rgb { 99 58 52 }
 }
 MZB = {
 	color = rgb { 114 39 41 }
@@ -466,8 +466,8 @@ ZIM = {
 	color_ui = rgb { 193 212 229 }
 }
 BOT = {
-	color = rgb { 141 82 47 }
-	color_ui = rgb { 141 82 47 }
+	color = rgb { 157 189 196 }
+	color_ui = rgb { 157 189 196 }
 }
 PAK = {
 	color = rgb { 21 38 66 }
@@ -486,8 +486,8 @@ CSA = {
 	color_ui = rgb { 186 205 219 }
 }
 PRS = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 46 102 63 }
+	color_ui = rgb { 46 102 63 }
 }
 
 RMX = {
@@ -911,18 +911,18 @@ MOR = {
 }
 
 OBR = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 SCO = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 WLS = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 SHN = {
@@ -1056,8 +1056,8 @@ VOL = {
 }
 
 CMR = {
-	color = rgb { 103 89 64 }
-	color_ui = rgb { 103 89 64 }
+	color = rgb { 163 0 0 }
+	color_ui = rgb { 163 0 0 }
 }
 
 CHA = {
@@ -1106,8 +1106,8 @@ GAR = {
 }
 
 TGY = {
-	color = rgb { 253 177 64 }
-	color_ui = rgb { 253 177 64 }
+	color = rgb { 76 63 86 }
+	color_ui = rgb { 76 63 86 }
 }
 
 UGA = {
@@ -1116,13 +1116,13 @@ UGA = {
 }
 
 ZAN = {
-	color = rgb { 82 69 92 }
-	color_ui = rgb { 82 69 92 }
+	color = rgb { 97 153 125 }
+	color_ui = rgb { 97 153 125 }
 }
 
 BAR = {
-	color = rgb { 80 175 80 }
-	color_ui = rgb { 80 175 80 }
+	color = rgb { 175 117 124 }
+	color_ui = rgb { 175 117 124 }
 }
 
 ZAM = {
@@ -1201,8 +1201,8 @@ KAZ = {
 }
 
 UZB = {
-	color = rgb { 138 99 45 }
-	color_ui = rgb { 138 99 45 }
+	color = rgb { 58 90 113 }
+	color_ui = rgb { 58 90 113 }
 }
 
 ALT = {
@@ -1343,8 +1343,8 @@ BUK = {
 }
 
 KOK = {
-	color = rgb { 64 145 183 }
-	color_ui = rgb { 64 145 183 }
+	color = rgb { 67 113 83 }
+	color_ui = rgb { 67 113 83 }
 }
 
 ORE = {
@@ -1380,16 +1380,6 @@ SBC = {
 BRU = {
 	color = rgb { 191 179 79 }
 	color_ui = rgb { 191 179 79 }
-}
-
-ADR = {
-	color = rgb { 191 111 79 }
-	color_ui = rgb { 191 111 79 }
-}
-
-MNC = {
-	color = rgb { 79 191 189 }
-	color_ui = rgb { 79 191 189 }
 }
 
 VAT = {
@@ -1706,8 +1696,8 @@ SCA = {
 }
 
 CRW = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 HAN = {
@@ -1721,8 +1711,8 @@ WEE = {
 }
 
 HES = {
-	color = rgb { 45 70 125 }
-	color_ui = rgb { 45 70 125 }
+	color = rgb { 46 102 63 }
+	color_ui = rgb { 46 102 63 }
 }
 
 WSP = {
@@ -1821,8 +1811,8 @@ APA = {
 }
 
 MEI = {
-	color = rgb { 234 208 54 }
-	color_ui = rgb { 234 208 54 }
+	color = rgb { 114 32 41 }
+	color_ui = rgb { 114 32 41 }
 }
 
 TAB = {
@@ -1835,9 +1825,14 @@ NWA = {
 	color_ui = rgb { 99 142 106 }
 }
 
+TAJ = {
+	color = rgb { 113 199 158 }
+	color_ui = rgb { 113 199 158 }
+}
+
 LON = {
-	color = rgb { 55 86 153 }
-	color_ui = rgb { 55 86 153 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 DER = {
@@ -1853,6 +1848,11 @@ MIT = {
 KKK = {
 	color = rgb { 173 173 173 }
 	color_ui = rgb { 173 173 173 }
+}
+
+KYR = {
+	color = rgb { 100 63 81 }
+	color_ui = rgb { 100 63 81 }
 }
 
 ATX = {
@@ -1873,12 +1873,22 @@ AZO = {
 PGA = {
 	color = rgb { 46 102 63 }
 	color_ui = rgb { 18 130 52 }
-} #Stuff below this is from PB:MIF
+} 
+
+#Stuff below this is from PB:MIF
 ALM = {
-	color = rgb { 97 117 145 }
-	color_ui = rgb { 97 117 145 }
+	color = rgb { 47 55 86 }
+	color_ui = rgb { 47 55 86 }
 }
 SRB = {
 	color = rgb { 72  73  126 }
 	color_ui = rgb { 72  73  126 }
+}
+RNA = {
+	color = rgb { 30 69 42 }
+	color_ui = rgb { 30 69 42 }
+}
+SAC = {
+	color = rgb { 117 108 69 }
+	color_ui = rgb { 117 108 69 }
 }

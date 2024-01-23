@@ -17,7 +17,7 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = ds
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,14 +26,7 @@ set_politics = {
 country_lock_all_division_template = yes
 
 set_popularities = {
-    ni = 5
-    ds = 16
-    rc = 10
-    cn = 56
-    lb = 8
-    an = 3
-    ss = 1
-    jc = 1
+    ds = 100
 }
 
 add_ideas = {

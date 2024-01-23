@@ -1,0 +1,89 @@
+﻿l_english:
+
+### COUNTRY NAMES ###
+
+ GLF_ni:0 "German Liberation Forces"
+ GLF_ni_DEF:0 "the German Liberation Forces"
+ GLF_ds:0 "German Liberation Forces"
+ GLF_ds_DEF:0 "the German Liberation Forces"
+ GLF_rc:0 "German Liberation Forces"
+ GLF_rc_DEF:0 "the German Liberation Forces"
+ GLF_an:0 "German Liberation Forces"
+ GLF_an_DEF:0 "the German Liberation Forces"
+ GLF_cn:0 "German Liberation Forces"
+ GLF_cn_DEF:0 "the German Liberation Forces"
+ GLF_lb:0 "German Liberation Forces"
+ GLF_lb_DEF:0 "the German Liberation Forces"
+ GLF_ss:0 "German Liberation Forces"
+ GLF_ss_DEF:0 "the German Liberation Forces"
+ GLF_jc:0 "German Liberation Forces"
+ GLF_jc_DEF:0 "the German Liberation Forces"
+ GLF_ni_ADJ:0 "German Exile"
+ GLF_rc_ADJ:0 "German Exile"
+ GLF_lb_ADJ:0 "German Exile"
+ GLF_ss_ADJ:0 "German Exile"
+ GLF_jc_ADJ:0 "German Exile"
+ GLF_ds_ADJ:0 "German Exile"
+ GLF_cn_ADJ:0 "German Exile"
+ GLF_an_ADJ:0 "German Exile"
+
+ SAC_ni:0 "Southern Army Command"
+ SAC_ni_DEF:0 "the Southern Army Command"
+ SAC_ds:0 "Southern Army Command"
+ SAC_ds_DEF:0 "the Southern Army Command"
+ SAC_rc:0 "Southern Army Command"
+ SAC_rc_DEF:0 "the Southern Army Command"
+ SAC_an:0 "Southern Army Command"
+ SAC_an_DEF:0 "the Southern Army Command"
+ SAC_cn:0 "Southern Army Command"
+ SAC_cn_DEF:0 "the Southern Army Command"
+ SAC_lb:0 "Southern Army Command"
+ SAC_lb_DEF:0 "the Southern Army Command"
+ SAC_ss:0 "Southern Army Command"
+ SAC_ss_DEF:0 "the Southern Army Command"
+ SAC_jc:0 "Southern Army Command"
+ SAC_jc_DEF:0 "the Southern Army Command"
+ SAC_ni_ADJ:0 "German Exile"
+ SAC_rc_ADJ:0 "German Exile"
+ SAC_lb_ADJ:0 "German Exile"
+ SAC_ss_ADJ:0 "German Exile"
+ SAC_jc_ADJ:0 "German Exile"
+ SAC_ds_ADJ:0 "German Exile"
+ SAC_cn_ADJ:0 "German Exile"
+ SAC_an_ADJ:0 "German Exile"
+
+ ### IDEAS ###
+
+ GLF_Sinking_Ship:0 "Sinking Ship"
+ GLF_Sinking_Ship_desc:0 "The GLF grapples with myriad challenges, ranging from native rebellions and oligarchal influence to an unindustrialized society and a mutinous army. Virtually every aspect of the region appears to be either in a state of collapse or undergoing a tumultuous process of deterioration. Observers often marvel at the perceived miracle of the GLF's prolonged survival despite the overwhelming odds stacked against it. The ship of state is sinking; place your bets on how long it will take for it to completely vanish beneath the waves."
+
+ GLF_Broken_Promise:0 "Broken Promise"
+ GLF_Broken_Promise_desc:0 "The German Exiles were promised a return home. The army was promised the blood of Parisians as revenge and the people were promised a return to the good old days. Promises aren’t always kept however, and this one would be impossible to deliver. The GLF has no means of returning to Germany, they can neither fight their way across the Sahara and Southern Europe nor sail straight into Hamburg. Even if they could, they couldn’t possibly overcome the French advantage in both quality and quantity. Thus, a sort of despair has found its way into the heart of every exile. can no longer justify the killing of civilians as being ‘for the good of Germany’, the generals can no longer order bombing raids on innocent villages as being ‘for the good of Germany’, the people can no longer justify their work as being ‘for the good of Germany’. The mirage of a Sahara oasis is more real than Hamburg in mind of every exile."
+
+ GLF_Party_Of_Plutocrats:0 "Party of Plutocrats"
+ GLF_Party_Of_Plutocrats_desc:0 "From the vast expanse of the Congo River Basin to the arid landscapes of the Namib Desert, the reins of authority are firmly gripped by those endowed with wealth. Indeed, in a region as impoverished as the GLF, the currency of power is unequivocally money. The rubber trade in the Congo finds itself under the ownership of a privileged few who wield unparalleled influence over the entire region. Meanwhile, Namibia's precious diamonds are meticulously overseen by a singular family, and the extensive gold reserves of Tanzania bow to the command of a lone individual.\n\nIn each distinct locale, an oligarch emerges as the puppeteer, skillfully manipulating the strings of power through their substantial material affluence. Men like Gerhard Schröder, who are supposedly the ones in charge, can only gawk at their influence as they follow their every command."
+
+ GLF_Native_Resistance:0 "Native Resistance"
+ GLF_Native_Resistance_desc:0 "The German Liberation Forces, a minority power in the region, exert dominance over a diverse majority encompassing various ethnicities, tribes, and cultures. Each group, with its distinct resistance methods, opposes the former colonizers. Having already contended with numerous native rebellions, the German Liberation Forces face the pressing question of how many more such uprisings they can withstand. The continuous challenge lies in managing resistance from diverse factions, each rooted in unique identities and grievances, raising concerns about the sustainability of their authority. The German Liberation Forces have already dealt with so many native rebellions, §Rhow many more can they take?§!"
+
+ ### EVENTS ###
+
+ GLF_News.1.t:0 "JAUNDE UNDER SIEGE"
+ GLF_News.1.d:0 "Jaunde, Kamerun has erupted in the most significant conflict witnessed on the African continent since the demise of the British Empire over a decade ago. Cameroonian Jacobins swiftly seized control from the local garrison, labeling themselves as the liberators of Africa, aiming to eradicate the final remnants of German imperialism. In rapid retaliation, the German Liberation Forces swiftly countered this unprecedented resistance with overpowering might. The GLF has already demanded an unconditional surrender, but the jacobin pride seems to be too large to accept such shameful end."
+ GLF_News.1.a:0 "A spark in sea of kindling."
+
+ GLF_News.2.t:0 "RED SUN OVER KAMERUN"
+ GLF_News.2.d:0 "In a surprising turn of events, the Jaunde rebels have defied all expectations, evading all the bullets and shells that have been thrown their way. Seemingly blessed by the spirit of Engels these revolutionaries have pushed back the GLF, causing significant losses to the opposing forces. Despite objections from militarists who fear that diplomacy is a sign of weakness, the GLF has initiated negotiations. The rebels, successful in their talks, secured near-complete autonomy for Kamerun, hailing the triumph as a cause for celebration throughout Africa"
+ GLF_News.2.a:0 "The house of cards begins to fall."
+
+ GLF_News.3.t:0 "GERMAN FORCES SECURE JAUNDE"
+ GLF_News.3.d:0 "Jaunde has been seized in a forceful assault orchestrated by GLF Hardsuits and Razormaidens. Waves of infantry then swiftly infiltrated the city, summarily executing many individuals regardless of their affiliations with the rebellion. Numerous leaders of the uprising have been slated for a public execution, while others have sought refuge in the African Workers’ Republic. The international community, through the League of Seven Continents, has vehemently criticized the GLF's actions, branding it as ‘the most egregious human rights violation in recent history’. Regional experts view this as a temporary setback to the unwavering spirit of independence and nationalism that prevails throughout the African continent"
+ GLF_News.3.a:0 "Not the first revolt, and certainly not the last."
+
+ GLF_News.4.t:0 "JOSEPHSTAD ATTACKS"
+ GLF_News.4.d:0 "The jubilation of victory in Jaunde has abruptly morphed into grief today, as Jacobin extremists from Cameroon claimed responsibility for a devastating assault on Josephstad, the very heart of the GLF. Disturbing reports detail hundreds dead and wounded, with distressing images of civilian casualties circulating globally, from Philadelphia to Tokyo. In response, the German Liberation Forces have announced plans for additional troop deployments to Kamerun. The global community has reacted with shock at the grim scenes, prompting numerous voices to advocate for peace in the beleaguered continent."
+ GLF_News.4.a:0 "Africa bleeds."
+
+ GLF_News.6.t:0 "GERMAN BUSH WAR"
+ GLF_News.6.d:0 "Following the declaration of independence by several African countries, the German army in exile has taken up arms and mobilized to deal with this internal threat. This conflict won't be easy for either side, as the jungle isn't exactly characterized as great terrain for such wars. The secessionists will fight hard against the Germans with guerrilla tactics. Who knows if the German will be able to efficiently deal with this threat as they aren't in the best position in any metric, the world will await what the future of Africa holds. "
+ GLF_News.6.a:0 "A German in the Hand is Worth Two Africans in the Bush"

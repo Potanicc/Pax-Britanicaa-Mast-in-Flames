@@ -11,6 +11,7 @@ state={
 	}
 	history={
 		owner = GLF
+		add_core_of = GLF
 		add_core_of = RCG
 		victory_points = {
 			8193 2

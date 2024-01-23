@@ -23,6 +23,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	GLF_Native_Resistance
+	GLF_Broken_Promise
+	GLF_Party_Of_Plutocrats
+	GLF_Sinking_Ship
+}
+
 set_popularities = {
     ni = 5
     ds = 16
@@ -57,9 +64,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "No Leader"
+	name = "Gerhard Schröder"
 	desc = ""
-	picture = "gfx/leaders/No_Leader_Portrait/Portrait_No_Leader.dds"
+	picture = "gfx/leaders/GLF/Portrait_GLF_Gerhard_Schroder.png"
 	ideology = CN_VARIANT_01
 }
 

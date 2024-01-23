@@ -1,5 +1,5 @@
 ﻿starting_train_buffer = 2
-capital = 677
+capital = 818
 
 oob = "NA_1936"
 
@@ -67,10 +67,10 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Juliette El-Mir Saade"
+	name = "Nuri Al Said"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_UAR_Juliette_Saade.dds"
-	ideology = JC_VARIANT_01
+	picture = "gfx/leaders/UAR/Portrait_UAR_Nuri_Said.dds"
+	ideology = JC_VARIANT_03
 }
 
 create_country_leader = {

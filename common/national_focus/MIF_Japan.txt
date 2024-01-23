@@ -21,7 +21,7 @@ focus_tree = {
 		y = 2500
 	}
 	initial_show_position = {
-		focus = MIF_JAP_Rising_Sun
+		focus = MIF_JAP_Marshals_Republic
 	}
 
 	##################
@@ -29,7 +29,7 @@ focus_tree = {
 	##################
 
 	focus = {
-		id = MIF_JAP_Rising_Sun
+		id = MIF_JAP_Marshals_Republic
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		x = 25
 		y = 1
@@ -40,28 +40,8 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
-		completion_reward = {
-			country_event = JapanProvisional.1
-		}
+
+		add_political_power = 50
+
 	}
-
-
-	focus = {
-		id = MIF_JAP_The_Blossom
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 25
-		y = 1
-		cost = 7
-		ai_will_do = {
-			factor = 100
-		}
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		completion_reward = {
-			country_event = JapanProvisional.1
-		}
-	}
-
-
 }

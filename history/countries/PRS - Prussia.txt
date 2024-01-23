@@ -169,21 +169,12 @@ add_ideas = {
 }
 
 set_politics = {
-    ruling_party = ni
-    last_election = "1936.1.1"
-    election_frequency = 48
+    ruling_party = ds
     elections_allowed = no
 }
 
 set_popularities = {
-    ni = 38
-    ds = 50
-    rc = 6
-    cn = 6
-    lb = 0
-    an = 0
-    ss = 0
-    jc = 0
+    ds = 100
 }
 recruit_character = PRS_philipp_bouhler
 recruit_character = PRS_alfred_rosenberg

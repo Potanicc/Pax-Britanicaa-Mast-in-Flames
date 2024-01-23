@@ -10,7 +10,6 @@ state = {
 	history = {
 		owner = FRA
 		add_core_of = GRE
-		add_core_of = CYR
 		buildings = {
 			infrastructure = 3
 

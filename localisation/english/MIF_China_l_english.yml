@@ -1,0 +1,184 @@
+﻿l_english:
+
+  ##########################
+  # COUNTRY NAMES
+  ##########################
+
+ CHI_ni:0 "Harmonious Empire of China"
+ CHI_ni_DEF:0 "the Harmonious Empire of China"
+ CHI_ds:0 "Harmonious Empire of China"
+ CHI_ds_DEF:0 "the Harmonious Empire of China"
+ CHI_rc:0 "Harmonious Empire of China"
+ CHI_rc_DEF:0 "the Harmonious Empire of China"
+ CHI_an:0 "Harmonious Empire of China"
+ CHI_an_DEF:0 "the Harmonious Empire of China"
+ CHI_cn:0 "Harmonious Empire of China"
+ CHI_cn_DEF:0 "the Harmonious Empire of China"
+ CHI_lb:0 "Harmonious Empire of China"
+ CHI_lb_DEF:0 "the Harmonious Empire of China"
+ CHI_ss:0 "Harmonious Empire of China"
+ CHI_ss_DEF:0 "the Harmonious Empire of China"
+ CHI_jc:0 "Harmonious Empire of China"
+ CHI_jc_DEF:0 "the Harmonious Empire of China"
+ CHI_ni_ADJ:0 "Chinese"
+ CHI_rc_ADJ:0 "Chinese"
+ CHI_lb_ADJ:0 "Chinese"
+ CHI_ss_ADJ:0 "Chinese"
+ CHI_jc_ADJ:0 "Chinese"
+ CHI_ds_ADJ:0 "Chinese"
+ CHI_cn_ADJ:0 "Chinese"
+ CHI_an_ADJ:0 "Chinese"
+
+ ROC_ni:0 "Revolutionary Chinese Association"
+ ROC_ni_DEF:0 "the Revolutionary Chinese Association"
+ ROC_ds:0 "Revolutionary Chinese Association"
+ ROC_ds_DEF:0 "the Revolutionary Chinese Association"
+ ROC_rc:0 "Revolutionary Chinese Association"
+ ROC_rc_DEF:0 "the Revolutionary Chinese Association"
+ ROC_an:0 "Revolutionary Chinese Association"
+ ROC_an_DEF:0 "the Revolutionary Chinese Association"
+ ROC_cn:0 "Revolutionary Chinese Association"
+ ROC_cn_DEF:0 "the Revolutionary Chinese Association"
+ ROC_lb:0 "Revolutionary Chinese Association"
+ ROC_lb_DEF:0 "the Revolutionary Chinese Association"
+ ROC_ss:0 "Revolutionary Chinese Association"
+ ROC_ss_DEF:0 "the Revolutionary Chinese Association"
+ ROC_jc:0 "Revolutionary Chinese Association"
+ ROC_jc_DEF:0 "the Revolutionary Chinese Association"
+ ROC_ni_ADJ:0 "Chinese"
+ ROC_rc_ADJ:0 "Chinese"
+ ROC_lb_ADJ:0 "Chinese"
+ ROC_ss_ADJ:0 "Chinese"
+ ROC_jc_ADJ:0 "Chinese"
+ ROC_ds_ADJ:0 "Chinese"
+ ROC_cn_ADJ:0 "Chinese"
+ ROC_an_ADJ:0 "Chinese"
+
+ XSM_ni:0 "United Islamic Armies"
+ XSM_ni_DEF:0 "the United Islamic Armies"
+ XSM_ds:0 "United Islamic Armies"
+ XSM_ds_DEF:0 "the United Islamic Armies"
+ XSM_rc:0 "United Islamic Armies"
+ XSM_rc_DEF:0 "the United Islamic Armies"
+ XSM_an:0 "United Islamic Armies"
+ XSM_an_DEF:0 "the United Islamic Armies"
+ XSM_cn:0 "United Islamic Armies"
+ XSM_cn_DEF:0 "the United Islamic Armies"
+ XSM_lb:0 "United Islamic Armies"
+ XSM_lb_DEF:0 "the United Islamic Armies"
+ XSM_ss:0 "United Islamic Armies"
+ XSM_ss_DEF:0 "the United Islamic Armies"
+ XSM_jc:0 "United Islamic Armies"
+ XSM_jc_DEF:0 "the United Islamic Armies"
+ XSM_ni_ADJ:0 "Chinese"
+ XSM_rc_ADJ:0 "Chinese"
+ XSM_lb_ADJ:0 "Chinese"
+ XSM_ss_ADJ:0 "Chinese"
+ XSM_jc_ADJ:0 "Chinese"
+ XSM_ds_ADJ:0 "Chinese"
+ XSM_cn_ADJ:0 "Chinese"
+ XSM_an_ADJ:0 "Chinese"
+
+ KUM_ni:0 "Hami Khanate"
+ KUM_ni_DEF:0 "the Hami Khanate"
+ KUM_ds:0 "Hami Khanate"
+ KUM_ds_DEF:0 "the Hami Khanate"
+ KUM_rc:0 "Hami Khanate"
+ KUM_rc_DEF:0 "the Hami Khanate"
+ KUM_an:0 "Hami Khanate"
+ KUM_an_DEF:0 "the Hami Khanate"
+ KUM_cn:0 "Hami Khanate"
+ KUM_cn_DEF:0 "the Hami Khanate"
+ KUM_lb:0 "Hami Khanate"
+ KUM_lb_DEF:0 "the Hami Khanate"
+ KUM_ss:0 "Hami Khanate"
+ KUM_ss_DEF:0 "the Hami Khanate"
+ KUM_jc:0 "UHami Khanate"
+ KUM_jc_DEF:0 "the Hami Khanate"
+ KUM_ni_ADJ:0 "Hami"
+ KUM_rc_ADJ:0 "Hami"
+ KUM_lb_ADJ:0 "Hami"
+ KUM_ss_ADJ:0 "Hami"
+ KUM_jc_ADJ:0 "Hami"
+ KUM_ds_ADJ:0 "Hami"
+ KUM_cn_ADJ:0 "Hami"
+ KUM_an_ADJ:0 "Hami"
+
+ SIK_ds:0 "Khanate of Sinkiang"
+ SIK_ds_DEF:0 "the Khanate of Sinkiang"
+ SIK_ds_ADJ:0 "East Turkestani"
+
+ ETR_rc:0 "East Turkestan"
+ ETR_rc_DEF:0 "East Turkestan"
+ ETR_rc_ADJ:0 "East Turkestani"
+
+ MON_ds:0 "United Mongolian Principalities"
+ MON_ds_DEF:0 "the United Mongolian Principalities"
+ MON_ds_ADJ:0 "Russo-Mongol"
+
+ MAN_ni:0 "Tsardom of Zheltorossiya"
+ MAN_ni_DEF:0 "the Tsardom of Zheltorossiya"
+ MAN_ni_ADJ:0 "Zheltorossiyan"
+
+ AFG_rc:0 "Kingdom of Afghanistan"
+ AFG_rc_DEF:0 "the Kingdom of Afghanistan"
+ AFG_rc_ADJ:0 "Afghan"
+
+
+
+  ##########################
+  # MINISTERS
+  ##########################
+
+  ##########################
+  # IMPERIAL CHINA FOCUSES
+  ##########################
+
+  ##########################
+  # IDEAS
+  ##########################
+    PB_CHI_Peking_Conference:0 "Legacy of the Peking Conference"
+    PB_CHI_Peking_Conference_desc:0 "The First Peking Conference was held in 1868 following the negotiated end of the Taiping Rebellion. The Conference was attended by a myriad of European powers, but most importantly it was another battleground between British and Russian influences. The most important part of the Conference was the official division of China under international law, with the Taiping Rebels and the Qing Empire forced to coexist as North and South China, officially referred to as “China-Peking” and “China-Tianjing”. Additionally, the Conference granted sweeping extraterritorial concessions to the European powers and forced both Chinas to acknowledge the independence of the Dali Sultanate.\n\nThis status quo was carefully maintained by the Chinese Reconstruction Administration, an organization managed by the principal European powers that first promulgated the Conference. Following the Russian invasion of Manchuria during the Great War, the CRA was reorganized into the Quadrilateral Commission, consisting of the United Kingdom, United Commonwealth, German Empire, and the Netherlands. The later collapse of the Qing Empire complicated affairs, however the intervention of Commission forces helped prevent the Revolutionaries from sweeping South into the moribund Southern empire."
+    PB_ROC_Dual_River_Campaign:0 "Victory in the Dual River Campaign"
+    PB_ROC_Dual_River_Campaign_desc:0 "In early December, when the Summer floods had long since vanished, we launched the Dual River Campaign, to capture the two cities of Wuhan and Nanjing and take control of the Yangtze. Our offensive was a resounding success, utilising our technological and tactical supremacy we routed the Taiping armies, trapping thousands in Shanghai, and after a hard fought battle crossed the Yangtze in Wuhan. We have now expelled the defeatism following the Southern Expedition Incident, victory is within sight and victorious Republicanism marches forwards."
+    PB_ROC_Japanese_Assistance:0 "The First Sister Republic"
+    PB_ROC_Japanese_Assistance_desc:0 "The Revolutionary Association is the second revolutionary state to emerge from Asia since the fall of the Japanese Empire. This places us in the unique position of being Tokyo’s favored son, at least for the moment. Japanese advisors are common throughout the military, as are Japanese investments and citizens. In a prior time, Beijing and Tokyo would have no common ground, but since the collapse of our respective autocrats, we’ve found common ground.\n\nThis isn’t to say the relationship is entirely born out of republican brotherhood.\n\nWhile Japan may be our allies for now, the future is uncertain, and we must ensure they do not become too comfortable lest they gain too much influence over the Directory. At the same time, the assistance of Japan is needed to modernize our fledgling military, and so we must simultaneously ensure that we do not upset the Japanese enough to force them to withdraw."
+    PB_CHI_Rengan_Reforms:0 "Legacy of the Rengan Reforms"
+    PB_CHI_Rengan_Reforms_desc:0 "Hong Rengan, cousin to the Harmonious Emperor, was a pivotal figure in the post-Peking era of the Harmonious Empire. Critically, he was well educated and his ties to the emperor granted him a unique position of strength within the court. Rengan’s ties to the West and less radical Christian views made him more palatable to Western observers than many of the Taiping military radicals. This fact later proved valuable when Rengan represented the Taiping Rebels in the First Peking Conference, during which he gained favorable terms for the post-war borders of the Empire, albeit with significant concessions to the West.\n\nFollowing the Conference, Rengan would be challenged by Li Xiucheng, who saw Rengan as a traitor for agreeing to concessions. Xiucheng launched a coup in Tianjing and aimed to arrest Rengan and repudiate the concessions of the Conference, but failed to arrest Rengan, who in turn rallied loyalist troops and forced Xiucheng to surrender.\n\nWith his power base consolidated and Xiucheng now mortally challenged, Rengan set about reforming the Harmonious Empire into a functional nation-state. Notably, this included the creation of a central bank, various government oversight agencies, and a decentralization of the national treasury. Alongside other minor reforms, the Rengan Reform period electrified the empire’s economy, aided by the infusion of western capital via the concessions."
+    PB_CHI_Righteous_Society_Of_Heavenly_Retribution:0 "The Righteous Society of Heavenly Retribution"
+    PB_CHI_Righteous_Society_Of_Heavenly_Retribution_desc:0 "Currently the largest secret society in China, the Righteous Society of Heavenly Retribution operates as a sort of radical Christian militia. Filled with zealots and rabid anti-jacobins, the Society's soldiers fight like tigers, but they also have a unfortunate tendency to lynch anyone they suspect to be heretical, entire villages even, have been destroyed by the Society. In fact, even those on the side of the Emperor are not safe from their aggression and their are even reports of Cannibalism, for now the Society is a useful asset to the Emperor in his fight against the North, but how long until they begin to dream bigger and bring their power-hungry bloodthirst to new heights?"
+    PB_CHI_Christmas_Rebellion:0 "The Christmas Rebellion"
+    PB_CHI_Christmas_Rebellion_desc:0 "The traitor, the red, the heretic; these are but a few of the many names flung at Mao Tse-Tung, or Wen Tse-Tung as he calls himself now. The son of a Qinq soldier and a Buddhist whore, it is no suprise he has now become a traitorous anarchist heretic. After our unfortunate losses in Wuhan and Nanjing, the once highly esteemed warrior priest has defected to the Republic's cause, and together with his traitorus army, siezed Fujian, on Christmas day no less. This is a grave insult to the Emperor and once we win this righteous war his lifeless body will be swinging in Beijing for all to see. Nevertheless, this unfortunate ordeal has brought to light the crisis of morale in our army, with defection being a common occurence and many viewing the war as already lost. We must prove to our people that the war is not lost and vanquish the Jacobin plague from China with righteous indignation...\n\nor else"
+  ##########################
+  # REPUBLICAN CHINA FOCUSES
+  ##########################
+
+  ##########################
+  # TOOLTIPS
+  ##########################
+
+  ##########################
+  # DECISIONS
+  ##########################
+
+  ##########################
+  # IMPERIAL CHINA EVENTS
+  ##########################
+ news.16.t:0 "Southern Victory In China"
+ news.16.d:0 "The Chinese Civil War has come to an end. Despite shocking gains, in the initial phases of the war, Republican forces have had their fortunes reversed, and have surrendered after the fall of their capital in Beijing. The Taiping forces have achieved victory, but at an incredible cost. China has been decimated by the conflict, with millions of civilian casualties. Famine, disease and banditry run rampant as the Imperial authorities take stock of their phyrric victory.\n\nDespite this, Chinese unity has become a reality and China has once again entered the world stage."
+ news.16.a:0 "And so ends the final chapter of Peking"
+ 
+  ##########################
+  # REPUBLICAN CHINA EVENTS
+  ##########################
+ news.15.t:0 "Northern Victory In China"
+ news.15.d:0 "The Chinese Civil War has come to an end. Following a lengthy campaign, Republican forces have soundly defeated the Heavenly Kingdom and successfully taken control of the South. The fall of the Taiping monarchy was predicted by many outside observers for nearly a decade since the end of the Second Great War and the Anglo-American Expeditionary Force withdrew. Even still, many are shocked to see the end of Imperial China.\n\nOne of the oldest and most ancient states in the world has been toppled by populist revolution, and the international community waits to see what will come of the new major power."
+ news.15.a:0 "Another victory for Jacobinism"
+ China.1.t:0 "China Requests The Pearl River"
+ China.1.d:0 "After the collapse of British imperialist interests in China, following the Second Great War, our government occupied the former territories of the Pearl River Dominion. However now that the Chinese Revolutionary Association has united China under its banner, they are requesting the transfer of these territories into their administration. This event has become a flashpoint for the already strained relationship between our two revolutionary republics and we must decide on what path to take."
+ China.1.a:0 "Refuse their foolish demands!"
+ China.1.b:0 "We will hand it over, but we won't forget this insult!"
+ China.1.c:0 "Of course, we are allies after all!"
+  ##########################
+  # TOOLTIPS
+  ##########################

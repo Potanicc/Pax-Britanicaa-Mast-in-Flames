@@ -127,6 +127,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+give_military_access = RUS
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

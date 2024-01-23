@@ -6,7 +6,6 @@ state={
 	history={
 		owner = GLF
 		add_core_of = TGY
-		add_core_of = AZA
 		buildings = {
 			infrastructure = 2
 

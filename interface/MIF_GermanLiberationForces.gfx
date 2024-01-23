@@ -1,0 +1,18 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_GLF_Native_Resistance"
+		texturefile = "gfx/interface/ideas/German_Liberation_Forces/idea_MIF_GLF_Native_Resistance"
+	}
+	SpriteType = {
+		name = "GFX_GLF_Sinking_Ship"
+		texturefile = "gfx/interface/ideas/German_Liberation_Forces/idea_MIF_GLF_Sinking_Ship"
+	}
+	SpriteType = {
+		name = "GFX_GLF_Broken_Promise"
+		texturefile = "gfx/interface/ideas/German_Liberation_Forces/idea_MIF_GLF_Broken_Promise"
+	}
+	SpriteType = {
+		name = "GFX_GLF_Party_Of_Plutocrats"
+		texturefile = "gfx/interface/ideas/German_Liberation_Forces/idea_MIF_GLF_Party_Of_Plutocrats"
+	}
+}

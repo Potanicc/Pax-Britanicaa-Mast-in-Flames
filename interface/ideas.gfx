@@ -6400,6 +6400,22 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_Strangers_Strange_Land"
-   		texturefile = "gfx/interface/ideas/BritishExiles/idea_ENG_Strangers_Strange_Land.png"
+		texturefile = "gfx/interface/ideas/BritishExiles/idea_ENG_Strangers_Strange_Land.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GLF_Sinking_Ship"
+		texturefile = "gfx/interface/ideas/GLF/idea_GLF_Sinking_Ship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GLF_Party_Of_Plutocrats"
+		texturefile = "gfx/interface/ideas/GLF/idea_GLF_Party_Of_Plutocrats.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GLF_Native_Resistance"
+		texturefile = "gfx/interface/ideas/GLF/idea_GLF_Native_Resistance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GLF_Broken_Promise"
+		texturefile = "gfx/interface/ideas/GLF/idea_GLF_Broken_Promise.dds"
 	}
 }

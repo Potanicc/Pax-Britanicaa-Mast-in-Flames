@@ -2,6 +2,7 @@
 
 ### COUNTRY NAMES ###
 
+#English National Republic
  OBR_ni:0 "English National Republic"
  OBR_ni_DEF:0 "the English National Republic"
  OBR_ds:0 "English National Republic"
@@ -27,6 +28,7 @@
  OBR_cn_ADJ:0 "English"
  OBR_an_ADJ:0 "English"
 
+#Republic of Scotland
  SCO_ni:0 "Republic of Scotland"
  SCO_ni_DEF:0 "the Republic of Scotland"
  SCO_ds:0 "Republic of Scotland"
@@ -52,6 +54,7 @@
  SCO_cn_ADJ:0 "Scottish"
  SCO_an_ADJ:0 "Scottish"
 
+#Cornwall
  CRW_ni:0 "Gouvernorat de Cornouailles"
  CRW_ni_DEF:0 "Le Gouvernorat de Cornouailles"
  CRW_ds:0 "Independent Republic of Cornwall"
@@ -77,6 +80,33 @@
  CRW_cn_ADJ:0 "Cornish"
  CRW_an_ADJ:0 "Cornish"
 
+#London
+ LON_ni:0 "Londres"
+ LON_ni_DEF:0 "Londres"
+ LON_ds:0 "Londres"
+ LON_ds_DEF:0 "Londres"
+ LON_rc:0 "Londres"
+ LON_rc_DEF:0 "Londres"
+ LON_an:0 "Londres"
+ LON_an_DEF:0 "Londres"
+ LON_cn:0 "Londres"
+ LON_cn_DEF:0 "Londres"
+ LON_lb:0 "Londres"
+ LON_lb_DEF:0 "Londres"
+ LON_ss:0 "Londres"
+ LON_ss_DEF:0 "Londres"
+ LON_jc:0 "Londres"
+ LON_jc_DEF:0 "Londres"
+ LON_ni_ADJ:0 "Londoner"
+ LON_rc_ADJ:0 "Londoner"
+ LON_lb_ADJ:0 "Londoner"
+ LON_ss_ADJ:0 "Londoner"
+ LON_jc_ADJ:0 "Londoner"
+ LON_ds_ADJ:0 "Londoner"
+ LON_cn_ADJ:0 "Londoner"
+ LON_an_ADJ:0 "Londoner"
+
+#Ireland
  IRE_ni:0 "Irish Republic"
  IRE_ni_DEF:0 "Le Irish Republic"
  IRE_ds:0 "Irish Republic"
@@ -101,3 +131,93 @@
  IRE_ds_ADJ:0 "Irish"
  IRE_cn_ADJ:0 "Irish"
  IRE_an_ADJ:0 "Irish"
+
+#Republic of Wales
+ WLS_ni:0 "Republic of Wales"
+ WLS_ni_DEF:0 "the Republic of Wales"
+ WLS_ds:0 "Republic of Wales"
+ WLS_ds_DEF:0 "the Republic of Wales"
+ WLS_rc:0 "Republic of Wales"
+ WLS_rc_DEF:0 "the Republic of Wales"
+ WLS_an:0 "Republic of Wales"
+ WLS_an_DEF:0 "the Republic of Wales"
+ WLS_cn:0 "Republic of Wales"
+ WLS_cn_DEF:0 "the Republic of Wales"
+ WLS_lb:0 "Republic of Wales"
+ WLS_lb_DEF:0 "the Republic of Wales"
+ WLS_ss:0 "Republic of Wales"
+ WLS_ss_DEF:0 "the Republic of Wales"
+ WLS_jc:0 "Republic of Wales"
+ WLS_jc_DEF:0 "the Republic of Wales"
+ WLS_ni_ADJ:0 "Welsh"
+ WLS_rc_ADJ:0 "Welsh"
+ WLS_lb_ADJ:0 "Welsh"
+ WLS_ss_ADJ:0 "Welsh"
+ WLS_jc_ADJ:0 "Welsh"
+ WLS_ds_ADJ:0 "Welsh"
+ WLS_cn_ADJ:0 "Welsh"
+ WLS_an_ADJ:0 "Welsh"
+
+ ULS_ni:0 "Ulster People's Army"
+ ULS_ni_DEF:0 "the Ulster People's Army"
+ ULS_ds:0 "Ulster People's Army"
+ ULS_ds_DEF:0 "the Ulster People's Army"
+ ULS_rc:0 "Ulster People's Army"
+ ULS_rc_DEF:0 "the Ulster People's Army"
+ ULS_an:0 "Ulster People's Army"
+ ULS_an_DEF:0 "the Ulster People's Army"
+ ULS_cn:0 "Ulster People's Army"
+ ULS_cn_DEF:0 "the Ulster People's Army"
+ ULS_lb:0 "Ulster People's Army"
+ ULS_lb_DEF:0 "the Ulster People's Army"
+ ULS_ss:0 "Ulster People's Army"
+ ULS_ss_DEF:0 "the Ulster People's Army"
+ ULS_jc:0 "Ulster People's Army"
+ ULS_jc_DEF:0 "the Ulster People's Army"
+ ULS_ni_ADJ:0 "Northern Irish"
+ ULS_rc_ADJ:0 "Northern Irish"
+ ULS_lb_ADJ:0 "Northern Irish"
+ ULS_ss_ADJ:0 "Northern Irish"
+ ULS_jc_ADJ:0 "Northern Irish"
+ ULS_ds_ADJ:0 "Northern Irish"
+ ULS_cn_ADJ:0 "Northern Irish"
+ ULS_an_ADJ:0 "Northern Irish"
+
+ ### COSMETIC TAGS ###
+ 
+ #British Revolt
+ OBR_Revolt:0 "HMFRC"
+ OBR_Revolt_DEF:0 "Her Majesty's Finest Rifle Corps"
+ OBR_Revolt_ADJ:0 "English"
+
+ SCO_Revolt:0 "Scottish People's Army"
+ SCO_Revolt_DEF:0 "the Scottish People's Army"
+ SCO_Revolt_ADJ:0 "Scottish"
+
+ WLS_Revolt:0 "Welsh Free Army"
+ WLS_Revolt_DEF:0 "the Welsh Free Army"
+ WLS_Revolt_ADJ:0 "Welsh"
+
+ LON_Revolt:0 "London"
+ LON_Revolt_DEF:0 "Revolutionary Workers' Army of London"
+ LON_Revolt_ADJ:0 "Londoner"
+
+ ### PARTIES ###
+
+#
+ OBR_jc_party:0 "United Front - Far Left"
+ OBR_jc_party_long:0 "United Front - Far Left"
+ OBR_ss_party:0 "United Front"
+ OBR_ss_party_long:0 "United Front"
+ OBR_lb_party:0 "Free Reformists"
+ OBR_lb_party_long:0 "Free Reformists Party"
+ OBR_cn_party:0 "National Tories"
+ OBR_cn_party_long:0 "National Conservative Party"
+ OBR_an_party:0 "FIF"
+ OBR_an_party_long:0 "Free Independents Front"
+ OBR_rc_party:0 "National Reorganization Party"
+ OBR_rc_party_long:0 "National Reorganization Party"
+ OBR_ds_party:0 "National Reorganization Party"
+ OBR_ds_party_long:0 "National Reorganization Party"
+ OBR_ni_party:0 "National Unity Party"
+ OBR_ni_party_long:0 "National Unity Party"

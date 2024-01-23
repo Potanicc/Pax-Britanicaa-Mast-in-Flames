@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = TRS
+		owner = RUS
 		
 		victory_points = {
 			9932 3 
@@ -22,7 +22,8 @@ state={
 			}
 		}
 		add_core_of = TUR
-		add_core_of = TRS
+		add_core_of = RUS
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

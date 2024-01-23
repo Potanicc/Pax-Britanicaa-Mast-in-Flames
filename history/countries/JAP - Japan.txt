@@ -111,7 +111,7 @@ set_research_slots = 4
 
 ### FOREIGN POLICY ###
 
-create_faction = CPS
+create_faction = FACTION_CPS
 add_to_faction = INS
 
 create_intelligence_agency = {

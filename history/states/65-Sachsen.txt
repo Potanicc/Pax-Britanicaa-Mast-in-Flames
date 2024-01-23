@@ -2,14 +2,10 @@
 state={
 	id=65
 	name="STATE_65"
-	manpower = 5592576
 	resources={
-		steel=90
-		tungsten=5
+		steel=90.000
+		tungsten=5.000
 	}
-
-	state_category = metropolis
-
 
 	history={
 		owner = SRB
@@ -17,19 +13,24 @@ state={
 			infrastructure = 7
 			arms_factory = 3
 			industrial_complex = 7
+
 		}
 		victory_points = {
 			514 5 
 		}
 		victory_points = {
-			3535 10
+			3535 10 
 		}
 		add_core_of = SRB
 		add_claim_by = GLF
-		
+
 	}
 
 	provinces={
-		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+		478 514 573 3438 3514 3535 3572 6441 6559 6595 9441 9471 9496 9535 11415 11481 11517 11545 
 	}
+	manpower=5592576
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
 }

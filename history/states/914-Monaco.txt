@@ -6,15 +6,14 @@ state={
 	}
 	manpower=28320
 	history={
-		owner = MNC
+		owner = FRA
 		victory_points = { 13217 15 }
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 6
 		}
-		add_core_of = MNC
-		add_extra_state_shared_building_slots = 3
+		add_core_of = FRA
 	}
 	state_category = city
 }

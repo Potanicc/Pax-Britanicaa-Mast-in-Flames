@@ -6,19 +6,27 @@ guiTypes = {
 
 		iconType = {
 			name ="MIF_AME_IC_Public_Outrage_circle_bar"
+<<<<<<< Updated upstream
 			position = { x = 50 y = 25 }
+=======
+			position = { x = 125 y = -75 }
+>>>>>>> Stashed changes
 			Orientation = "CENTER"
 		}
 
 		iconType = {
 			name ="MIF_AME_IC_Impeachment_Progress_circle_bar"
+<<<<<<< Updated upstream
 			position = { x = 50 y = 0 }
+=======
+			position = { x = 75 y = -75 }
+>>>>>>> Stashed changes
 			Orientation = "CENTER"
 		}
 
 		containerWindowType = {
 		name = "MIF_AME_IC_Impeachment_Progress_button"
-		position = { x = 25 y = 25 }
+		position = { x = 10 y = 0 }
 
 			buttonType = {
 				name ="Impeachment_Progress_Display_Button"
@@ -41,12 +49,12 @@ guiTypes = {
 
 		containerWindowType = {
 		name = "MIF_AME_IC_Public_Outrage_button"
-		position = { x = 25 y = 50 }
+		position = { x = 10 y = 120 }
 
 			buttonType = {
 				name ="Public_Outrage_Display_Button"
 				position = { x = 0 y = 0 }
-				spriteType = GFX_AME_ic_po_phase_box
+				spriteType = GFX_AME_ic_po_display_box
 				Orientation = "CENTER"
 			}
 

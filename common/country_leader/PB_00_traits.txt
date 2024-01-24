@@ -83,6 +83,29 @@ leader_traits = {
 		}
 	}
 
+	### MIF RUSSIA
+
+	MIF_Great_Reformer = {
+
+		stability_factor = 0.05
+		political_power_gain = 0.05
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MIF_Senile_Tsar = {
+
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 	### SCA
 

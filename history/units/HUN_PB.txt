@@ -16,27 +16,10 @@
 	}
 }
 
-division_template = {
-	name = "Cavalry Battalion"
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		light_armor = { x = 1 y = 0 }
-
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-	}
-	
-	priority = 0
-}
-
 units = {
 	
 	division = {
-		name = "1st Independent Battalion"
+		name = "1st A Királyi Zászlóaljak"
 		location = 9660
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -44,7 +27,7 @@ units = {
 	}
 
 	division = {
-		name = "2nd Independent Battalion"
+		name = "2nd A Királyi Zászlóaljak"
 		location = 9660
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -52,7 +35,7 @@ units = {
 	}
 
 	division = {
-		name = "3rd Independent Battalion"
+		name = "3rd A Királyi Zászlóaljak"
 		location = 9660
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -60,7 +43,7 @@ units = {
 	}
 
 	division = {
-		name = "4th Independent Battalion"
+		name = "4th A Királyi Zászlóaljak"
 		location = 11610
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -68,7 +51,7 @@ units = {
 	}
 
 	division = {
-		name = "5th Independent Battalion"
+		name = "5th A Királyi Zászlóaljak"
 		location = 11610
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -76,7 +59,7 @@ units = {
 	}
 
 	division = {
-		name = "6th Independent Battalion"
+		name = "6th A Királyi Zászlóaljak"
 		location = 11630
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -84,7 +67,7 @@ units = {
 	}
 
 	division = {
-		name = "7th Independent Battalion"
+		name = "7th A Királyi Zászlóaljak"
 		location = 3700
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -92,31 +75,49 @@ units = {
 	}
 
 	division = {
-		name = "8th Independent Battalion"
-		location = 6682
+		name = "8th A Királyi Zászlóaljak"
+		location = 9661
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
 	}
 	division = {
-		name = "9th Independent Battalion"
-		location = 6682
+		name = "9th A Királyi Zászlóaljak"
+		location = 6672
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
 	}
 
 	division = {
-		name = "10th Independent Battalion"
+		name = "10th A Királyi Zászlóaljak"
+		location = 3581
+		division_template = "Independent Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "11th A Királyi Zászlóaljak"
+		location = 6573
+		division_template = "Independent Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+
+
+	division = {
+		name = "12th A Királyi Zászlóaljak"
 		location = 11659
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
 	}
 
+
 	division = {
-		name = "11th Independent Battalion"
-		location = 11659
+		name = "13th A Királyi Zászlóaljak"
+		location = 9692
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
@@ -124,25 +125,7 @@ units = {
 
 
 	division = {
-		name = "12th Independent Battalion"
-		location = 11659
-		division_template = "Independent Battalion"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
-	}
-
-
-	division = {
-		name = "13th Independent Battalion"
-		location = 6711
-		division_template = "Independent Battalion"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
-	}
-
-
-	division = {
-		name = "14th Independent Battalion"
+		name = "14th A Királyi Zászlóaljak"
 		location = 3617
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -150,7 +133,7 @@ units = {
 	}
 
 	division = {
-		name = "15th Independent Battalion"
+		name = "15th A Királyi Zászlóaljak"
 		location = 9563
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -158,7 +141,7 @@ units = {
 	}
 
 	division = {
-		name = "16th Independent Battalion"
+		name = "16th A Királyi Zászlóaljak"
 		location = 11691
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
@@ -166,16 +149,16 @@ units = {
 	}
 
 	division = {
-		name = "17th Independent Battalion"
-		location = 727
+		name = "17th A Királyi Zászlóaljak"
+		location = 11539
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
 	}
 
 	division = {
-		name = "18th Independent Battalion"
-		location = 11622
+		name = "18th A Királyi Zászlóaljak"
+		location = 6700
 		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
@@ -183,17 +166,17 @@ units = {
 
 
 	division = {
-		name = "19th Independent Battalion"
-		location = 9660
-		division_template = "Cavalry Battalion"
+		name = "19th A Királyi Zászlóaljak"
+		location = 701
+		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 
 	division = {
-		name = "20th Independent Battalion"
+		name = "20th A Királyi Zászlóaljak"
 		location = 3670
-		division_template = "Cavalry Battalion"
+		division_template = "Independent Battalion"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}

@@ -70,7 +70,7 @@ units = {
 	}
 	division= {	
 		name = "6. Divisione di Fanteria Regolare"
-		location = 9909
+		location = 6606
 		division_template = "Republican Regulars"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8

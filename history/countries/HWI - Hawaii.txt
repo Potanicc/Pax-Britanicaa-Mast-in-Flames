@@ -48,10 +48,6 @@ PB_Great_War_Military
 PB_Partially_Westernized
 }
 
-ENG = {
-	give_guarantee = HWI
-}
-
 set_popularities = {
 	ni = 0
 	ds = 0

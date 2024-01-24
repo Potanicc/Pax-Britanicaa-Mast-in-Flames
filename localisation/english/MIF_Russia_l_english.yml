@@ -1,12 +1,18 @@
 ﻿l_english:
 
 
-### IDEAS ###
+### STATE MODIFIERS ###
 
 RUS_BALTIC_RESISTANCE:0 "Baltic Resistance"
 RUS_POLISH_RESISTANCE:0 "Polish Resistance"
 RUS_UKRAINE_RESISTANCE:0 "Ukrainian Resistance"
 RUS_CAUCASIAN_FAMINE:0 "The Caucasian Famine"
+
+### LEADER STUFF ###
+
+Michael_II_desc:0 "I wipe my arse."
+MIF_Great_Reformer:0 "The Great Reformer"
+MIF_Senile_Tsar:0 "Senile"
 
 ### COUNTRY NAMES ###
 

@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = HOL
-		add_core_of = HOL
+		owner = SAF
+		add_core_of = SAF
 		add_claim_by = ANC
 		buildings = {
 			infrastructure = 6

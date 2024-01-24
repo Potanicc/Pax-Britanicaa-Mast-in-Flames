@@ -111,91 +111,91 @@ units = {
 
 	division= {	
 		name = "2. Automat Division"
-		location = 9559
+		location = 6524
 		division_template = "Automat Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "1. Infanterie-Division"
-		location = 9559
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "2. Infanterie-Division"
-		location = 11502
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "3. Infanterie-Division"
-		location = 3629
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "4. Infanterie-Division"
-		location = 1346
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "5. Infanterie-Division"
-		location = 6529
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "6. Infanterie-Division"
-		location = 9559
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "7. Infanterie-Division"
-		location = 11502
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "8. Infanterie-Division"
-		location = 3629
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "9. Infanterie-Division"
-		location = 1346
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "10. Infanterie-Division"
-		location = 6529
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "11. Infanterie-Division"
-		location = 678
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "12. Infanterie-Division"
-		location = 678
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
@@ -209,42 +209,42 @@ units = {
 
 	division= {	
 		name = "Stiglitz' Strasbourgers"
-		location = 9503
+		location = 6524
 		division_template = "Motorisierte Infanterie"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "Armee von Luxemburg"
-		location = 6583
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 
 	division= {	
 		name = "Armee von Köln"
-		location = 587
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 
 	division= {	
 		name = "Dortmunder Armee"
-		location = 495
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 
 	division= {	
 		name = "Bremer Armee"
-		location = 3326
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 
 	division= {	
 		name = "Hannover Höllenkämpfer"
-		location = 6377
+		location = 6524
 		division_template = "Motorisierte Infanterie"
 		start_experience_factor = 0.5
 	}
@@ -293,21 +293,21 @@ units = {
 
 	division= {	
 		name = "Tyroler Gebirgs-Brigade"
-		location = 9630
+		location = 6524
 		division_template = "Gebirgs-Brigade"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "Kraichgauer Infanterie Division"
-		location = 9627
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.2
 	}
 
 	division= {	
 		name = "Istrische Kavellerie-Brigade"
-		location = 6626
+		location = 6524
 		division_template = "Kavallerie-Brigade"
 		start_experience_factor = 0.3
 	}
@@ -328,105 +328,105 @@ units = {
 
 	division= {	
 		name = "1. Armee von Böhmen"
-		location = 11542
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "2. Armee von Böhmen"
-		location = 6418
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "3. Armee von Böhmen"
-		location = 11542
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "Brno Panzerkorps"
-		location = 3569
+		location = 6524
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "1. Armee von Preußen"
-		location = 6521
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "2. Armee von Preußen"
-		location = 6521
+		location = 6524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "1. Preußische Motorgewehre"
-		location = 321
+		location = 6524
 		division_template = "Motorisierte Infanterie"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "2. Preußische Motorgewehre"
-		location = 3522
+		location = 6524
 		division_template = "Motorisierte Infanterie"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "1. Preußisches Panzerkorps"
-		location = 6282
+		location = 6524
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "2. Preußisches Panzerkorps"
-		location = 6282
+		location = 6524
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "3. Preußisches Panzerkorps"
-		location = 9570
+		location = 6524
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "4. Preußisches Panzerkorps"
-		location = 11372
+		location = 6524
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "1. Baule Kolonialgarnison"
-		location = 10803
+		location = 6524
 		division_template = "Kolonialgarnison"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "Togoland Kolonialgarnison"
-		location = 1951
+		location = 6524
 		division_template = "Kolonialgarnison"
 		start_experience_factor = 0.5
 	}
 
 	division= {	
 		name = "2. Baule Kolonialgarnison"
-		location = 10762
+		location = 6524
 		division_template = "Kolonialgarnison"
 		start_experience_factor = 0.5
 	}

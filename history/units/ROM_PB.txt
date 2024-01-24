@@ -130,7 +130,7 @@ units = {
 
 	division = {
 		name = "13th Division"
-		location = 9548
+		location = 6711
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6

@@ -1,0 +1,217 @@
+ideas = {
+
+	country = {
+		PRS_konigsberg_ruins = {
+
+			picture = PB_PRS_Birthed_In_Fire
+
+			allowed = {
+
+			}
+
+			available = {
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		RUS_troop_presence = {
+
+			picture = Generic_Russian_Advisors
+
+			allowed = {
+
+			}
+
+			available = {
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		CZE_german_minority = {
+
+			picture = PB_Living_Under_Germanys_Shadow
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		} 
+
+		CZE_anti_government_riots = {
+
+			picture = PB_idea_generic_strike
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		} 
+
+		HES_silesian_nobles = {
+
+			picture = MOC_Casino_De_Monte_Carlo
+
+
+			allowed = {
+				
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		DDR_german_desires = {
+
+			picture = PB_PRS_United_In_Blood
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+
+		SRB_heated_border = {
+
+			picture = CAO_idea_tense_borders
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			} 
+		}
+
+		RUS_placeholder = {
+
+			picture =
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			} 
+		}
+	}
+}

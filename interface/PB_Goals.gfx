@@ -7699,5 +7699,13 @@ spriteTypes = {
 		name = "GFX_Focus_AME_Friends_in_Oceania"
 		texturefile = "gfx/interface/goals/MIF_Goals/AME_Friends_in_Oceania.png"
 	}
+	SpriteType = {
+		name = "GFX_Focus_MIF_AME_Hang_Mcfarland"
+		texturefile = "gfx/interface/goals/MIF_Goals/MIF_AME_Hang_Mcfarland.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_MIF_AME_Hang_Gair"
+		texturefile = "gfx/interface/goals/MIF_Goals/MIF_AME_Hang_Gair.dds"
+	}
 }
 

@@ -1,0 +1,84 @@
+MIF_Gair_IP_1 = {
+	AND = {
+		has_country_flag = AME_sided_with_gair_flag
+		has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		has_country_flag = AME_IP_Phase_One_Clamp
+	}
+}
+MIF_Gair_IP_2 = {
+	AND = {
+		has_country_flag = AME_sided_with_gair_flag
+		has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		has_country_flag = AME_IP_Phase_Two_Clamp
+	}
+}
+MIF_Gair_IP_3 = {
+	AND = {
+		has_country_flag = AME_sided_with_gair_flag
+		has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		has_country_flag = AME_IP_Phase_Three_Clamp
+	}
+}
+MIF_Gair_PO_1 = {
+	AND = {
+		has_country_flag = AME_sided_with_gair_flag
+		has_country_flag = MIF_Public_Outrage_decisions_visible
+		has_country_flag = AME_PO_Phase_One_Clamp
+	}
+}
+MIF_Gair_PO_2 = {
+	AND = {
+		has_country_flag = AME_sided_with_gair_flag
+		has_country_flag = MIF_Public_Outrage_decisions_visible
+		has_country_flag = AME_PO_Phase_Two_Clamp
+	}
+}
+MIF_Gair_PO_3 = {
+	AND = {
+		has_country_flag = AME_sided_with_gair_flag
+		has_country_flag = MIF_Public_Outrage_decisions_visible
+		has_country_flag = AME_PO_Phase_Three_Clamp
+	}
+}
+MIF_Congress_IP_1 = {
+	AND = {
+		has_country_flag = AME_sided_with_congress_flag
+		has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		has_country_flag = AME_IP_Phase_One_Clamp
+	}
+}
+MIF_Congress_IP_2 = {
+	AND = {
+		has_country_flag = AME_sided_with_congress_flag
+		has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		has_country_flag = AME_IP_Phase_Two_Clamp
+	}
+}
+MIF_Congress_IP_3 = {
+	AND = {
+		has_country_flag = AME_sided_with_congress_flag
+		has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		has_country_flag = AME_IP_Phase_Three_Clamp
+	}
+}
+MIF_Congress_PO_1 = {
+	AND = {
+		has_country_flag = AME_sided_with_congress_flag
+		has_country_flag = MIF_Public_Outrage_decisions_visible
+		has_country_flag = AME_PO_Phase_One_Clamp
+	}
+}
+MIF_Congress_PO_2 = {
+	AND = {
+		has_country_flag = AME_sided_with_congress_flag
+		has_country_flag = MIF_Public_Outrage_decisions_visible
+		has_country_flag = AME_PO_Phase_Two_Clamp
+	}
+}
+MIF_Congress_PO_3 = {
+	AND = {
+		has_country_flag = AME_sided_with_congress_flag
+		has_country_flag = MIF_Public_Outrage_decisions_visible
+		has_country_flag = AME_PO_Phase_Three_Clamp
+	}
+}

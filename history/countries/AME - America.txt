@@ -19,6 +19,7 @@ if = {
 set_country_flag = Tag_in_American_Sphere
 set_country_flag = Megacorp_EIEC_Dominant
 set_country_flag = PB_americaupdate_content_country 
+MIF_Impeachment_Decision_Cost_Startup = yes
 
 set_country_flag = PB_content_country
 

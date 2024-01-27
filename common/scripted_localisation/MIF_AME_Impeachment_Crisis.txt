@@ -473,3 +473,27 @@ defined_text = {
         localization_key = "GFX_AME_ic_ip_100"
     }
 }
+
+defined_text = {
+    name = get_AME_Public_Outrage_Reaches_100_icon_texture
+    
+    text = {
+        trigger = {
+            AME = {
+                has_country_flag = AME_sided_with_congress_flag
+            }
+        }
+        localization_key = "GFX_Focus_MIF_AME_Hang_Mcfarland"
+    }
+    text = {
+        trigger = {
+            AME = {
+                has_country_flag = AME_sided_with_gair_flag
+            }
+        }
+        localization_key = "GFX_Focus_MIF_AME_Hang_Gair"
+    }
+    text = {
+        localization_key = "GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription"
+    }
+}

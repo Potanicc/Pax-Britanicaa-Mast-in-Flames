@@ -48,22 +48,6 @@ add_ideas = {
 set_stability = 0.6
 set_war_support = 0.1
 
-ITA = {
-	give_guarantee = VAT
-}
-
-GER = {
-	give_guarantee = VAT
-}
-
-SPR = {
-	give_guarantee = VAT
-}
-
-POR = {
-	give_guarantee = VAT
-}
-
 set_popularities = {
 	ni = 0
 	ds = 60

@@ -477,6 +477,7 @@ PB_Setup_Cultures = {
 	97 = { set_variable = { culture_id = 64 } }
 	94 = { set_variable = { culture_id = 64 } }
 	93 = { set_variable = { culture_id = 64 } }
+	819 = { set_variable = { culture_id = 64 } }
 
 	### ---- Lithuanian Culture ---- ###
 
@@ -1098,7 +1099,6 @@ PB_Setup_Cultures = {
 	818 = { set_variable = { culture_id = 205 } }
 	554 = { set_variable = { culture_id = 205 } }
 	677 = { set_variable = { culture_id = 205 } }
-	819 = { set_variable = { culture_id = 205 } }
 
 	### ---- Yemen Culture ---- ###
 

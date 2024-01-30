@@ -103,7 +103,7 @@ focus_tree = {
 		icon = GFX_BAS_Unleash_The_New_Russians
  
 		x = -6	
-		y = 1
+		y = 4
 
 		cost = 7
 
@@ -124,6 +124,398 @@ focus_tree = {
 
         prerequisite = { focus = RUS_new_years_address }
 		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_out_krai
+
+		icon = GFX_goal_UKR_stabilise_west
+ 
+		x = -3
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_russification }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_trample_ukrainian_national_committee
+
+		icon = GFX_ORE_establish_the_planning_commission
+ 
+		x = -3
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_out_krai }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_pilsudskis_legacy
+
+		icon = GFX_goal_POL_flag
+ 
+		x = -1
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_russification }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_assist_pomerania
+
+		icon = GFX_goal_FRA_Foreign_Forces
+ 
+		x = -1
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_pilsudskis_legacy }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_russification_poland
+
+		icon = GFX_goal_POL_polish_king
+ 
+		x = -2
+		y = 3
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_assist_pomerania }
+		prerequisite = { focus = RUS_trample_ukrainian_national_committee }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_sons_of_the_forest
+
+		icon = GFX_RUS_reinforce_the_police
+ 
+		x = 3
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_russification }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_russification_estonia
+
+		icon = GFX_goal_EST_Estonian_Eagle_Focus
+ 
+		x = 1
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_sons_of_the_forest }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_russification_latvia
+
+		icon = GFX_goal_LAT_army
+ 
+		x = 3
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_sons_of_the_forest }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_russification_lithuania
+
+		icon = GFX_goal_lithuania
+ 
+		x = 5
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_sons_of_the_forest }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_establish_baltic_autonomies
+
+		icon = GFX_BAT_aut
+ 
+		x = 2
+		y = 3
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_russification_estonia }
+		prerequisite = { focus = RUS_russification_latvia }
+		prerequisite = { focus = RUS_russification_lithuania }
+		mutually_exclusive = { focus = RUS_finish_russification }
+		relative_position_id = RUS_russification
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_finish_russification
+
+		icon = GFX_BAT_germanisation
+ 
+		x = 4
+		y = 3
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_russification_estonia }
+		prerequisite = { focus = RUS_russification_latvia }
+		prerequisite = { focus = RUS_russification_lithuania }
+		mutually_exclusive = { focus = RUS_establish_baltic_autonomies }
+		relative_position_id = RUS_russification
 
 		cancel_if_invalid = yes
 		

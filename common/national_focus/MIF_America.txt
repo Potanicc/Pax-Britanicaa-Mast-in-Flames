@@ -2191,7 +2191,21 @@ focus_tree = {
 		
 		id = AME_Impeachment_Progress_1
 
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
 			focus = AME_Gair_1
@@ -2228,10 +2242,10 @@ focus_tree = {
 		completion_reward = {
 			AME = {
 				multiply_variable = {
-					IP_One_Decisions_Cost_var = 0.5 
+					IP_One_Decisions_Cost_var = 0.5
+					tooltip = AME_Impeachment_Progress_1_tt
 				}
 			}
-			custom_effect_tooltip = AME_Impeachment_Progress_1_tt
 		}
 	}
 
@@ -2239,7 +2253,21 @@ focus_tree = {
 		
 		id = AME_Impeachment_Progress_2
 
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
 			focus = AME_Gair_1
@@ -2276,10 +2304,10 @@ focus_tree = {
 		completion_reward = {
 			AME = {
 				multiply_variable = {
-					IP_Two_Decisions_Cost_var = 0.5 
+					IP_Two_Decisions_Cost_var = 0.5
+					tooltip = AME_Impeachment_Progress_2_tt
 				}
 			}
-			custom_effect_tooltip = AME_Impeachment_Progress_2_tt
 		}
 	}
 
@@ -2287,7 +2315,21 @@ focus_tree = {
 		
 		id = AME_Impeachment_Progress_3
 
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
 			focus = AME_Gair_1
@@ -2324,10 +2366,10 @@ focus_tree = {
 		completion_reward = {
 			AME = {
 				multiply_variable = {
-					IP_Three_Decisions_Cost_var = 0.5 
+					IP_Three_Decisions_Cost_var = 0.5
+					tooltip = AME_Impeachment_Progress_3_tt
 				}
 			}
-			custom_effect_tooltip = AME_Impeachment_Progress_3_tt
 		}
 	}
 
@@ -2335,7 +2377,21 @@ focus_tree = {
 		
 		id = AME_Public_Outrage_1
 
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
 			focus = AME_Gair_1
@@ -2373,9 +2429,9 @@ focus_tree = {
 			AME = {
 				multiply_variable = {
 					PO_One_Decisions_Cost_var = 0.5 
+					tooltip = AME_Public_Outrage_1_tt
 				}
 			}
-			custom_effect_tooltip = AME_Public_Outrage_1_tt
 		}
 	}
 
@@ -2383,7 +2439,21 @@ focus_tree = {
 		
 		id = AME_Public_Outrage_2
 
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
 			focus = AME_Gair_1
@@ -2421,9 +2491,9 @@ focus_tree = {
 			AME = {
 				multiply_variable = {
 					PO_Two_Decisions_Cost_var = 0.5 
+					tooltip = AME_Public_Outrage_2_tt
 				}
 			}
-			custom_effect_tooltip = AME_Public_Outrage_2_tt
 		}
 	}
 
@@ -2431,7 +2501,21 @@ focus_tree = {
 		
 		id = AME_Public_Outrage_3
 
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
 			focus = AME_Gair_1
@@ -2468,10 +2552,10 @@ focus_tree = {
 		completion_reward = {
 			AME = {
 				multiply_variable = {
-					PO_Three_Decisions_Cost_var = 0.5 
+					PO_Three_Decisions_Cost_var = 0.5
+					tooltip = AME_Public_Outrage_3_tt
 				}
 			}
-			custom_effect_tooltip = AME_Public_Outrage_3_tt
 		}
 	}
 
@@ -2479,14 +2563,48 @@ focus_tree = {
 		
 		id = AME_Public_Outrage_Reaches_100
 
-		icon = [get_AME_Public_Outrage_Reaches_100_icon_texture]
+		icon = {
+			trigger = AME_sided_with_gair_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = {
+			trigger = AME_sided_with_congress_flag
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		icon = { # Fallback
+			value = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		}
+
+		dynamic = yes
 		
 		prerequisite = {
-			focus = AME_Gair_1
+			focus = AME_Public_Outrage_1
+		}
+
+		prerequisite = {
+			focus = AME_Public_Outrage_2
+		}
+
+		prerequisite = {
+			focus = AME_Public_Outrage_3
+		}
+
+		prerequisite = {
+			focus = AME_Impeachment_Progress_1
+		}
+
+		prerequisite = {
+			focus = AME_Impeachment_Progress_2
+		}
+
+		prerequisite = {
+			focus = AME_Impeachment_Progress_3
 		}
 
 		available = {
-
+			always = no
 		}
 
 		x = -1
@@ -2524,7 +2642,27 @@ focus_tree = {
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		
 		prerequisite = {
-			focus = AME_Gair_1
+			focus = AME_Public_Outrage_1
+		}
+
+		prerequisite = {
+			focus = AME_Public_Outrage_2
+		}
+
+		prerequisite = {
+			focus = AME_Public_Outrage_3
+		}
+
+		prerequisite = {
+			focus = AME_Impeachment_Progress_1
+		}
+
+		prerequisite = {
+			focus = AME_Impeachment_Progress_2
+		}
+
+		prerequisite = {
+			focus = AME_Impeachment_Progress_3
 		}
 
 		available = {

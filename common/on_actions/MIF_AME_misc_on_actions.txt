@@ -1,0 +1,23 @@
+#######################
+### MISC ON ACTIONS ###
+#######################
+
+on_actions = {
+	on_weekly_AME = { # Fourth Branch of Government NatSpirit
+		if = {
+			limit = {
+				AME = {
+					has_idea = AME_Fourth_Branch_Government
+				}
+			}
+			hidden_effect = {
+				AME = {
+					add_to_variable = {
+						var = MIF_IBM_Megacorp_Influence
+						value = 0.01
+					}
+				}
+			}
+		}
+	}
+}

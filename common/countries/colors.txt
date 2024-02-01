@@ -286,14 +286,9 @@ AME = {
 	color = rgb { 66 55 120 }
 	color_ui = rgb { 66 55 120 }
 }
-#MON = {
-#	#color = HSV { 0.1 0.15 0.4 }
-#	color = rgb { 108 140 42 }
-#	color_ui = rgb { 209 247 133 }
-#}
 MON = {
-	color = rgb { 67 126 85 }
-	color_ui = rgb { 67 126 85 }
+	color = rgb { 153 42 42 }
+	color_ui = rgb { 153 42 42 }
 }
 
 MEN = {
@@ -446,8 +441,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 47 112 67 }
-	color_ui = rgb { 47 112 67 }
+	color = rgb { 153 42 42 }
+	color_ui = rgb { 153 42 42 }
 }
 ANG = {
 	color = rgb { 99 58 52 }
@@ -474,8 +469,8 @@ PAK = {
 	color_ui = rgb { 21 38 66 }
 }
 KOR = {
-	color = rgb { 63 80 164 }
-	color_ui = rgb { 63 80 164 }	
+	color = rgb { 153 42 42 }
+	color_ui = rgb { 153 42 42 }	
 }
 ISR = {
 	color = rgb { 0 36 125 }
@@ -891,8 +886,8 @@ CRO = {
 }
 
 BEF = {
-	color = rgb { 119 50 30 }
-	color_ui = rgb { 155 62 51 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 
 PEF = {
@@ -1891,4 +1886,12 @@ RNA = {
 SAC = {
 	color = rgb { 117 108 69 }
 	color_ui = rgb { 117 108 69 }
+}
+LOH = {
+	color = rgb { 47 55 86 }
+	color_ui = rgb { 47 55 86 }
+}
+ILB = {
+	color = rgb { 20 59 20 }
+	color_ui = rgb { 20 59 20 }
 }

@@ -461,3 +461,5 @@ SND = "countries/Scandinavia.txt"
 
 #Everything below is from PB:MIF
 SRB = "countries/Sorbia.txt"
+ILB = "countries/Colonial Libya.txt"
+LOH = "countries/Legion of Honor.txt"

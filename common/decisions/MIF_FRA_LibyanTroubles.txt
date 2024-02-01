@@ -1,0 +1,327 @@
+MIF_AME_Impeachment_Crisis = {
+	
+	####################
+	### PO DECISIONS ###
+	####################
+
+	#GAIR DECISIONS#
+
+	AME_Support_Law_Order = {
+
+		icon = generic_decision
+
+		cost = 0
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Public_Outrage_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Collaborate_Happening_World = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Public_Outrage_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	#CONGRESS DECISIONS#
+
+	AME_Calm_Everyone_Down = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_congress
+			has_country_flag = MIF_Public_Outrage_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+
+	####################
+	### IP DECISIONS ###
+	####################
+
+	#GAIR DECISIONS#
+
+	AME_Scapegoat_Mcfarland = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Infiltrate_Republican_Guard = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Organize_Gair_Militia = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Destroy_Evidence = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Witness_Retaliation = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_gair_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	} 
+
+	#CONGRESS DECISIONS#
+
+	AME_Fabricate_Evidence = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_congress_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Witness_Bribery = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_congress_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+
+	AME_Scapegoat_Gair = {
+
+		icon = generic_decision
+
+		cost = 100
+
+		visible = {
+			has_country_flag = AME_sided_with_congress_flag
+			has_country_flag = MIF_Impeachment_Progress_decisions_visible
+		}
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		fire_only_once = yes
+
+		days_remove = 30
+
+		remove_effect = {
+			
+		}
+	}
+}

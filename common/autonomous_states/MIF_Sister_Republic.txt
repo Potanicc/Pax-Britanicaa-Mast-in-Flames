@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_PB_Sister_Republic
+	id = autonomy_MIF_Sister_Republic
 
 	#NON-DEMOCRATIC
 	

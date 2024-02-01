@@ -3,6 +3,21 @@ capital = 282
 
 oob = "JAP_1933"
 
+### PUPPETS ###
+
+set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_MIF_Sister_Republic
+}
+set_autonomy = {
+		target = MAN 
+		autonomous_state = autonomy_MIF_Sister_Republic
+}
+set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_MIF_Sister_Republic
+}
+
 # Accepted Cultures
 
 set_variable = { PB_main_culture = 400 }

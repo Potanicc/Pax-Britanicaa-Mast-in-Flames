@@ -383,8 +383,6 @@ set_autonomy = {
 give_military_access = GRE
 give_guarantee = ASK
 give_military_access = ASK
-give_guarantee = MAN
-give_military_access = MAN
 give_guarantee = ALB
 
 add_ideas = {
@@ -450,7 +448,6 @@ add_to_leading_coalition_lb = yes
 create_faction = FACTION_VG
 add_to_faction = SER
 add_to_faction = HUN
-add_to_faction = MAN
 add_to_faction = SIK
 
 RUS = {

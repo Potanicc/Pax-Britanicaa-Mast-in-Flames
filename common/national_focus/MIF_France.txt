@@ -1,0 +1,2365 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+######################
+###ENTRY FOCUS TREE###
+######################
+
+focus_tree = {
+
+	id = america_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AME
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = {
+		x = 2800
+		y = 2500
+	}
+
+	initial_show_position = {
+		focus = AME_Boar_of_Philadelphia
+	} 
+
+	focus = {
+		
+		id = AME_Boar_of_Philadelphia
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+ 
+		x = 0
+		y = 0
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	###################
+	###COLD WAR FOCI###
+	###################
+
+	focus = {
+		
+		id = AME_Bear_Rooster_Sun
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Boar_of_Philadelphia
+		}
+
+		x = 20
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Boar_of_Philadelphia
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# FRANCE BRANCH
+
+	focus = {
+		
+		id = AME_Rooster
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear_Rooster_Sun
+		}
+
+		x = -5
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear_Rooster_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Black_Spot_Europe
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Rooster
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Rooster
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Old_Father_Bondage
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Rooster
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Rooster
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Reinforce_Greenland
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Black_Spot_Europe
+		}
+
+		prerequisite = {
+			focus = AME_Old_Father_Bondage
+		}
+
+		x = 0
+		y = 2
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Rooster
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# RUSSIA BRANCH
+
+	focus = {
+		
+		id = AME_Bear
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear_Rooster_Sun
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear_Rooster_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Novorossiya_Accords
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear
+		}
+
+		mutually_exclusive = {
+			focus = AME_Commitment_Freedom
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		} 
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Trans_Arctic_Telescreen
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Novorossiya_Accords
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Novorossiya_Accords
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Petrograd_Pepsi
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Trans_Arctic_Telescreen
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+			has_completed_focus = AME_Reach_Out_To_Edison
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Trans_Arctic_Telescreen
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Commitment_Freedom
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear
+		}
+
+		mutually_exclusive = {
+			focus = AME_Novorossiya_Accords
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Connections_Berlin
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Commitment_Freedom
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Commitment_Freedom
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Warming_Frozen_Curtain
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Connections_Berlin
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Connections_Berlin
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# JAPAN BRANCH
+
+	focus = {
+		
+		id = AME_Sun
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear_Rooster_Sun
+		}
+
+		x = 5
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear_Rooster_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Domestic_Jacobins
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Sun
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	} 
+
+	focus = {
+		
+		id = AME_Supplying_Nanjing
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Sun
+		}
+
+		x = 1
+		y = 1
+
+		cost = 28
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Friends_in_Oceania
+		
+		icon = GFX_Focus_AME_Friends_in_Oceania
+		
+		prerequisite = {
+			focus = AME_Domestic_Jacobins
+		}
+
+		prerequisite = {
+			focus = AME_Supplying_Nanjing
+		}
+
+		x = 0
+		y = 2
+
+		cost = 28
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+
+		select_effect = {
+			AME = {
+				country_event = {
+					id = america.1
+					days = 7
+				}
+			}
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = AME_Friends_in_Oceania_tt
+			hidden_effect = {
+				army_experience = 10
+				add_equipment_to_stockpile = {
+	    			type = infantry_equipment
+	    			amount = 1000
+				}
+				send_equipment = {
+	    			equipment = infantry_equipment
+	    			amount = 1000
+	    			target = VIC
+				}
+				add_equipment_to_stockpile = {
+	    			type = support_equipment
+	    			amount = 1000
+				}
+				send_equipment = {
+	    			equipment = support_equipment
+	    			amount = 1000
+	    			target = VIC
+				}
+			}
+		}
+	}
+
+	#EAGLE BRANCHES
+
+	focus = {
+		
+		id = AME_Eagle_Wings
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear_Rooster_Sun
+		}
+
+		x = -7
+		y = 3
+
+		cost = 10
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear_Rooster_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Eagle_Talons
+		
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Bear_Rooster_Sun
+		}
+
+		x = 7
+		y = 3
+
+		cost = 10
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear_Rooster_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# FINAL FOCUS
+
+	focus = {
+		
+		id = AME_Last_Light_Liberty
+
+		icon = GFX_Focus_AME_Last_Light_Liberty
+		
+		prerequisite = {
+			focus = AME_Friends_in_Oceania
+		}
+
+		prerequisite = {
+			focus = AME_Warming_Frozen_Curtain
+			focus = AME_Petrograd_Pepsi
+		} 
+
+		prerequisite = {
+			focus = AME_Reinforce_Greenland
+		}
+
+		prerequisite = {
+			focus = AME_Eagle_Wings
+		}
+
+		prerequisite = {
+			focus = AME_Eagle_Talons
+		}
+
+		x = 0
+		y = 5
+
+		cost = 4
+		
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Bear_Rooster_Sun
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	###################
+	###MEGACORP FOCI###
+	###################
+
+	focus = { 
+		
+		id = AME_Megacorp_Wars
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Boar_of_Philadelphia
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Boar_of_Philadelphia
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# EIEC
+
+	focus = {
+		
+		id = AME_Reach_Out_To_Edison
+
+		icon = GFX_Focus_AME_Reach_Out_To_Edison
+		
+		prerequisite = {
+			focus = AME_Megacorp_Wars
+		}
+
+		x = -10
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Burying_Hatchet
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Reach_Out_To_Edison
+		}
+
+		mutually_exclusive = {
+			focus = AME_Guiding_Hand_Third_Renaissance
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Reach_Out_To_Edison
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Guiding_Hand_Third_Renaissance
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Reach_Out_To_Edison
+		}
+
+		mutually_exclusive = {
+			focus = AME_Burying_Hatchet
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Reach_Out_To_Edison
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# IBM
+
+	focus = {
+		
+		id = AME_Stick_With_IBM
+
+		icon = GFX_Focus_AME_Stick_With_IBM
+		
+		prerequisite = {
+			focus = AME_Megacorp_Wars
+		}
+
+		x = -6
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Edge_of_Known_World
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Stick_With_IBM
+		}
+
+		mutually_exclusive = {
+			focus = AME_Marraige_IBM_Government
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = { 
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Stick_With_IBM
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Marraige_IBM_Government
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Stick_With_IBM
+		}
+
+		mutually_exclusive = {
+			focus = AME_Edge_of_Known_World
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Stick_With_IBM
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# Ford Motor
+
+	focus = {
+		
+		id = AME_Reach_Out_To_Ford
+
+		icon = GFX_Focus_AME_Reach_Out_To_Ford
+		
+		prerequisite = {
+			focus = AME_Megacorp_Wars
+		}
+
+		x = -2
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_New_Engine
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Reach_Out_To_Ford
+		}
+
+		mutually_exclusive = {
+			focus = AME_Car_In_Every_Home
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Reach_Out_To_Ford
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Car_In_Every_Home
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Reach_Out_To_Ford
+		}
+
+		mutually_exclusive = {
+			focus = AME_New_Engine
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Reach_Out_To_Ford
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# Standard Oil
+
+	focus = {
+		
+		id = AME_Oil_Must_Flow
+
+		icon = GFX_Focus_AME_Oil_Must_Flow
+		
+		prerequisite = {
+			focus = AME_Megacorp_Wars
+		}
+
+		x = 2
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_More_Than_Just_Oil
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Oil_Must_Flow
+		}
+
+		mutually_exclusive = {
+			focus = AME_Talk_With_Rockfellers
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Oil_Must_Flow
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Talk_With_Rockfellers
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Oil_Must_Flow
+		}
+
+		mutually_exclusive = {
+			focus = AME_More_Than_Just_Oil
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Oil_Must_Flow
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# Carnegie Steel
+
+	focus = {
+		
+		id = AME_Steel_Spine_Economy
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Megacorp_Wars
+		}
+
+		x = 6
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_More_Than_Just_Steel
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Steel_Spine_Economy
+		}
+
+		mutually_exclusive = {
+			focus = AME_Strengthen_Carnegia
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Steel_Spine_Economy
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Strengthen_Carnegia
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Steel_Spine_Economy
+		}
+
+		mutually_exclusive = {
+			focus = AME_More_Than_Just_Steel
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Steel_Spine_Economy
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# Intel
+
+	focus = {
+		
+		id = AME_Young_Blood
+
+		icon = GFX_Focus_AME_Young_Blood
+		
+		prerequisite = {
+			focus = AME_Megacorp_Wars
+		}
+
+		x = 10
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Staying_Afloat
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Young_Blood
+		}
+
+		mutually_exclusive = {
+			focus = AME_Trailblazers
+		}
+
+		x = 1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Young_Blood
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Trailblazers
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Young_Blood
+		}
+
+		mutually_exclusive = {
+			focus = AME_Staying_Afloat
+		}
+
+		x = -1
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Young_Blood
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	# Gairenomics Branch
+
+	focus = {
+		
+		id = AME_Gairenomics
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = { #EIEC Foci
+			focus = AME_Guiding_Hand_Third_Renaissance
+			focus = AME_Burying_Hatchet 
+		}
+
+		prerequisite = { #IBM Foci
+			focus = AME_Edge_of_Known_World
+			focus = AME_Marraige_IBM_Government
+		}
+
+		prerequisite = { #Ford Foci
+			focus = AME_Car_In_Every_Home
+			focus = AME_New_Engine
+		}
+
+		prerequisite = { #Standard Foci
+			focus = AME_Talk_With_Rockfellers
+			focus = AME_More_Than_Just_Oil
+		}
+
+		prerequisite = { #Carnegie Foci
+			focus = AME_Strengthen_Carnegia
+			focus = AME_More_Than_Just_Steel
+		}
+
+		prerequisite = { #Intel Foci
+			focus = AME_Staying_Afloat
+			focus = AME_Trailblazers
+		}
+
+		x = 0
+		y = 3
+
+		cost = 4
+		
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Megacorp_Wars
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_American_Megacorporation
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Gairenomics
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Gairenomics
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	#####################
+	###SPACE RACE FOCI###
+	#####################
+
+	focus = {
+		
+		id = AME_Increase_ASAA_Funding
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Boar_of_Philadelphia
+		}
+
+		x = -20
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Boar_of_Philadelphia
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_American_Shuttle_Program
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Increase_ASAA_Funding
+		}
+
+		x = 0
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Increase_ASAA_Funding
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Increase_Science_Funding
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Increase_ASAA_Funding
+		}
+
+		x = 2
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Increase_ASAA_Funding
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Expanding_Cape_Canaveral
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Increase_ASAA_Funding
+		}
+
+		x = -2
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Increase_ASAA_Funding
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Gairenomics_Space
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Increase_ASAA_Funding
+		}
+
+		available = {
+			has_completed_focus = AME_Gairenomics
+		}
+
+		x = 4
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Increase_ASAA_Funding
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_Space_Linkup
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Increase_ASAA_Funding
+		}
+
+		available = {
+			has_completed_focus = AME_Petrograd_Pepsi
+		}
+
+		x = -4
+		y = 1
+
+		cost = 4
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Increase_ASAA_Funding
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	focus = {
+		
+		id = AME_American_Solar_System
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_American_Shuttle_Program
+		}
+
+		prerequisite = {
+			focus = AME_Increase_Science_Funding
+		}
+
+		prerequisite = {
+			focus = AME_Expanding_Cape_Canaveral
+		}
+
+		prerequisite = {
+			focus = AME_Gairenomics_Space
+			focus = AME_Space_Linkup
+		}
+
+		x = 0
+		y = 2
+
+		cost = 4
+		
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Increase_ASAA_Funding
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+	######################
+	###IMPEACHMENT FOCI###
+	######################
+
+	focus = {
+		
+		id = AME_Impeachment_Crisis
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+ 
+		x = 35
+		y = 0
+
+		cost = 14
+
+		available = {
+
+		}
+
+		allow_branch = {
+			AME = {
+				has_country_flag = AME_Impeachment_Crisis_flag
+			}
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 20
+		}
+
+		relative_position_id = AME_Boar_of_Philadelphia
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+
+		}
+	}
+
+	#SIDE WITH CONGRESS#
+
+	focus = {
+		
+		id = AME_Congress_1
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Impeachment_Crisis
+		}
+
+		mutually_exclusive = {
+			focus = AME_Gair_1
+		}
+
+		available = {
+		}
+
+		x = 1
+		y = 1
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Impeachment_Crisis
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			set_country_flag = AME_sided_with_congress_flag
+			set_country_flag = AME_impeachment_tier_one_flag
+			custom_effect_tooltip = AME_Congress_1_effect_tt
+		}
+	}
+
+	focus = {
+		
+		id = AME_Congress_2
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Congress_1
+		}
+
+		available = {
+			has_country_flag = AME_Oaths_Fealty_flag
+			has_country_flag = AME_Fire_Unloyal_Officials_flag
+			has_country_flag = AME_Support_Law_Order_flag
+		}
+
+		x = 0
+		y = 1
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Congress_1
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			set_country_flag = AME_impeachment_tier_two_flag
+			custom_effect_tooltip = AME_Congress_2_effect_tt
+		}
+	}
+
+	focus = {
+		
+		id = AME_Congress_3
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Congress_2
+		}
+
+		available = {
+		}
+
+		x = 0
+		y = 1
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Congress_2
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			set_country_flag = AME_impeachment_tier_three_flag
+			custom_effect_tooltip = AME_Congress_3_effect_tt
+		}
+	}
+
+	#SIDE WITH GAIR#
+
+	focus = {
+		
+		id = AME_Gair_1
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Impeachment_Crisis
+		}
+
+		mutually_exclusive = {
+			focus = AME_Congress_1
+		}
+
+		available = {
+		}
+
+		x = -1
+		y = 1
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Impeachment_Crisis
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			set_country_flag = AME_sided_with_gair_flag
+			set_country_flag = AME_impeachment_tier_one_flag
+			custom_effect_tooltip = AME_Gair_1_effect_tt
+		}
+	}
+
+	focus = {
+		
+		id = AME_Gair_2
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Gair_1
+		}
+
+		available = {
+
+		}
+
+		x = 0
+		y = 1
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Gair_1
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			set_country_flag = AME_impeachment_tier_two_flag
+			custom_effect_tooltip = AME_Gair_2_effect_tt
+		}
+	}
+
+	focus = {
+		
+		id = AME_Gair_3
+
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		
+		prerequisite = {
+			focus = AME_Gair_2
+		}
+
+		available = {
+		}
+
+		x = 0
+		y = 1
+
+		cost = 14
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		relative_position_id = AME_Gair_2
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			set_country_flag = AME_impeachment_tier_three_flag
+			custom_effect_tooltip = AME_Gair_3_effect_tt
+		}
+	}
+}

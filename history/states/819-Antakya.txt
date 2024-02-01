@@ -1,22 +1,18 @@
+
 state={
 	id=819
 	name="STATE_819"
 
 	history={
-		owner = UAR
-		add_core_of = UAR
-		add_core_of = TUR
-
+		owner = RUS
+		add_core_of = RUS
+		add_claim_by = POL
 		victory_points = {
-			12029 1
+			11301 3 
 		}
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			12029 = {
-				naval_base = 1
-			}
 
 		}
 		add_core_of = TUR
@@ -24,9 +20,10 @@ state={
 	}
 
 	provinces={
-		12029
+		290 318 347 3281 11247 11301 
 	}
 	manpower=32481
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

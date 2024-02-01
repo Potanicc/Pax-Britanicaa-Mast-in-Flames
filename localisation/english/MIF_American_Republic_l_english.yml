@@ -32,49 +32,73 @@
  ########################
  ### NATIONAL SPIRITS ###
  ########################
+ AME_Army_Reform_Stage_Zero:0 "Army Reform - §YUninitiated§!"
+ AME_Army_Reform_Stage_Zero_desc:0 "American Natspirit Desc Here"
+ AME_Army_Reform_Stage_Zero_tt:0 "The Army can undergo §Greforms§! in the 'Army Reform' Decision Category."
+ AME_Fourth_Branch_Government:0 "Fourth Branch of Government"
+ AME_Fourth_Branch_Government_desc:0 "American Natspirit Desc Here"
+ AME_Fourth_Branch_Government_tt:0 "§Y+0.01§! Monthly £IBM_Logo_texticon §YMegacorp Influence§!"
+ AME_Eyes_In_West:0 "Eyes and Ears in the West"
+ AME_Eyes_In_West_desc:0 "American Natspirit Desc Here"
+ AME_Eyes_In_West_tt:0 "Smth Smth Smth; fuck around and find out; MIF more like MILF :friedlaugh:"
 
  #################
  ### DECISIONS ###
  #################
 
- #Gair Impeachment#
+ #Impeachmen Crisis Decisionst#
 
  #Decision Category
  MIF_AME_Impeachment_Crisis:0 "The Impeachment Crisis"
  MIF_AME_Impeachment_Crisis_desc:0 "\n\n\n\n\n\n\nGair has become the epicenter of intense internal conflict in the United American Republic due to his actions regarding America’s megacorporations. He faces serious accusations from Congress who claim he's involved in Bribery, Negligence of the Public Welfare, Subversion of Democratic Principles, and Obstruction of Justice. Gair has vehemently denied all charges, asserting that they’re fabrications.\n\nThe controversy has split the nation, sparking debates among intellectuals in universities and clashes between rioters and political hooligans in city streets. The Melbourne Stock Exchange reflects the turmoil, experiencing a continuous freefall amid the instability.\n\nThe American populace will not tolerate the endless continued clashes for much longer. In order to prevent the country from slipping into violence not seen since the Bonus Brigade Crisis, either Congress or Gair must act quickly and effectively to manage both the people and the Impeachment trial. The nation teeters on the edge, awaiting resolution amidst a sea of uncertainty and discontent.\n\nImpeachment Progress - [?AME_Impeachment_Progress|%C0] \n\nPublic Outrage - [?AME_Public_Outrage|%O0]"
 
- #Gair Decisions
+ #Gair - IP 1
  AME_Oaths_Fealty:0 "Demand Oaths of Fealty"
  AME_Oaths_Fealty_desc:0 "Many in the administration do not have any personal loyalties to the President, this is an issue that must rectified as soon as possible."
+ 
+ #Gair - IP 2
  AME_Fire_Unloyal_Officials:0 "Fire Unloyal Officials"
  AME_Fire_Unloyal_Officials_desc:0 "Many within the administration are known to be in contact, openly or covertly, with members of the AWP who are currently trying to cut the presidency of our esteemed President short. We must rapidly purge any elements of the government that do not meet the standards that we set."
+ 
+ #Gair - IP 3
  AME_Support_Law_Order:0 "Support Law and Order"
  AME_Support_Law_Order_desc:0 "The attempt to remove our esteemed President by the jacobins of the AWP has caused mass unrest in the streets. Violence has become commonplace and American law enforcement and pro-Gair militias are the only thing keeping this nation from slipping into the Jacobin abyss."
+ 
+ #Gair - PO 1
  AME_Destroy_Evidence:0 "Destroy Evidence"
  AME_Destroy_Evidence_desc:0 "President Gair has left a long paper trail of evidence. Good thing paper is flammable at 451℉."
+ 
+ #Gair - PO 2
  AME_Witness_Retaliation:0 "Witness Retaliation"
  AME_Witness_Retaliation_desc:0 "Many within our own administration have decided to betray our president. A few will pay, the rest will get the message."
+ 
+ #Gair - PO 3
  AME_Collaborate_Happening_World:0 "Collaborate With the Happening World"
  AME_Collaborate_Happening_World_desc:0 "Gair has reached out to EIEC to see if an agreement can be made about using the Happening World Brand to calm the public. They replied that they're open to making a deal if we’re open to paying their fee."
- AME_Scapegoat_Mcfarland:0 "Scapegoat Mcfarland"
- AME_Scapegoat_Mcfarland_desc:0 "Desc"
- AME_Infiltrate_Republican_Guard:0 "Scapegoat Mcfarland"
- AME_Infiltrate_Republican_Guard_desc:0 "Desc"
- AME_Organize_Gair_Militia:0 "Scapegoat Mcfarland"
- AME_Organize_Gair_Militia_desc:0 "Desc"
-
-
- #Congress Decisions
+ 
+ #Congress - IP 1
  AME_Fabricate_Evidence:0 "Fabricate Evidence"
  AME_Fabricate_Evidence_desc:0 "While some witnesses have been willing to tell us about Gair’s wrongdoings, none of them have had anything truly incriminating. Thankfully, a bit of cash can cause people to stretch the truth a little."
+ 
+ #Congress - IP 2
  AME_Witness_Bribery:0 "Witness Bribery"
  AME_Witness_Bribery_desc:0 "While some witnesses have been willing to tell us about Gair’s wrongdoings, none of them have had anything truly incriminating. Thankfully, a bit of cash can cause people to stretch the truth a little."
+ 
+ #Congress - IP 3
  AME_Calm_Everyone_Down:0 "Calm Everyone Down"
  AME_Calm_Everyone_Down_desc:0 "While we may not have the corporate backing of Gair, Congress can ease the tense situation by sending the representatives back to their home provinces to calm everyone down, unfortunately this has had the adverse effect of slowing impeachment due to the large number of absent legislators."
- AME_Scapegoat_Gair:0 "Scapegoat Gair"
- AME_Scapegoat_Gair_desc:0 "Desc" 
- AME_Calm_Everyone_Down:0 "Calm Everyone Down"
- AME_Calm_Everyone_Down_desc:0 "Desc"
+
+ #Congress - PO 1
+ AME_Scapegoat_Mcfarland:0 "Scapegoat Mcfarland"
+ AME_Scapegoat_Mcfarland_desc:0 "Desc"
+ 
+ #Congress - PO 2
+ AME_Infiltrate_Republican_Guard:0 "Scapegoat Mcfarland"
+ AME_Infiltrate_Republican_Guard_desc:0 "Desc"
+ 
+ #Congress - PO 3
+ AME_Organize_Gair_Militia:0 "Scapegoat Mcfarland"
+ AME_Organize_Gair_Militia_desc:0 "Desc"
 
  #Variable Tooltips
  add_10_to_AME_Public_Outrage_tt:0 "Increase Public Outrage by 10"
@@ -240,21 +264,33 @@
  AME_Congress_1:0 "Side With §tMcfarland§!"
  AME_Congress_1_desc:0 "Impeachment"
  AME_Congress_1_effect_tt:0 "We will support §tMcfarland and Congress§! in the coming storm. §ROur Republic will not fall.§!"
- AME_Congress_2:0 "A Modern Demothosnes"
- AME_Congress_2_desc:0 "Impeachment"
- AME_Congress_2_effect_tt:0 "§RWe will take more drastic measures, for the good of the Republic.§!"
- AME_Congress_3:0 "Sic Semper Tyrannis"
- AME_Congress_3_desc:0 "Impeachment" 
- AME_Congress_3_effect_tt:0 "§RWe will do whatever it takes to defend our Republic.§!"
  AME_Gair_1:0 "Side With §3Gair§!"
  AME_Gair_1_desc:0 "Impeachment"
  AME_Gair_1_effect_tt:0 "We will support §3Gair§! in the coming storm. §RAmerica will not descend into the hellscape of Jacobinism.§!"
- AME_Gair_2:0 "Crossing the Rubicon"
- AME_Gair_2_desc:0 "Impeachment"
- AME_Gair_2_effect_tt:0 "§RWe will take further actions to defend our American institutions.§!"
- AME_Gair_3:0 "America's Last Line of Defense"
- AME_Gair_3_desc:0 "Impeachment"
- AME_Gair_3_effect_tt:0 "§RWe will defend our President and our country to the last man.§!"
+ AME_Impeachment_Progress_1:0 "Stage One - Investigation"
+ AME_Impeachment_Progress_1_desc:0 "Impeachment"
+ AME_Impeachment_Progress_1_tt:0 "Halve the cost and number of days for §CStage 1 Impeachment Progress§! decisions."
+ AME_Impeachment_Progress_2:0 "Stage Two - Inquiry"
+ AME_Impeachment_Progress_2_desc:0 "Impeachment"
+ AME_Impeachment_Progress_2_tt:0 "Halve the cost and number of days for §CStage 2 Impeachment Progress§! decisions."
+ AME_Impeachment_Progress_3:0 "Stage Three - Trial"
+ AME_Impeachment_Progress_3_desc:0 "Impeachment"
+ AME_Impeachment_Progress_3_tt:0 "Halve the cost and number of days for §CStage 3 Impeachment Progress§! decisions."
+ AME_Public_Outrage_1:0 "Stage One - Worrying"
+ AME_Public_Outrage_1_desc:0 "Impeachment"
+ AME_Public_Outrage_1_tt:0 "Halve the cost and number of days for §RStage 1 Public Outrage§! decisions."
+ AME_Public_Outrage_2:0 "Stage Two - Dire"
+ AME_Public_Outrage_2_desc:0 "Impeachment"
+ AME_Public_Outrage_2_tt:0 "Halve the cost and number of days for §RStage 2 Public Outrage§! decisions."
+ AME_Public_Outrage_3:0 "Stage Three - Critical"
+ AME_Public_Outrage_3_desc:0 "Impeachment"
+ AME_Public_Outrage_3_tt:0 "Halve the cost and number of days for §RStage 3 Public Outrage§! decisions."
+ AME_Impeachment_Progress_Reaches_100:0 ""
+ AME_Impeachment_Progress_Reaches_100_desc:0 ""
+ AME_Impeachment_Progress_Reaches_100_tt:0 ""
+ AME_Public_Outrage_Reaches_100:0 ""
+ AME_Public_Outrage_Reaches_100_desc:0 ""
+ AME_Public_Outrage_Reaches_100_tt:0 ""
 
  ##########################
  ### IMPEACHMENT CRISIS ###

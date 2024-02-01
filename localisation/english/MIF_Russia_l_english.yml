@@ -41,43 +41,6 @@ MIF_Senile_Tsar:0 "Senile"
  RUS_cn_ADJ:0 "Russian"
  RUS_an_ADJ:0 "Russian"
 
- RNA_ni:0 "Russian Naval Administration"
- RNA_ni_DEF:0 "the Russian Naval Administration"
- RNA_ds:0 "Russian Naval Administration"
- RNA_ds_DEF:0 "the Russian Naval Administration"
- RNA_rc:0 "Russian Naval Administration"
- RNA_rc_DEF:0 "the Russian Naval Administration"
- RNA_an:0 "Russian Naval Administration"
- RNA_an_DEF:0 "the Russian Naval Administration"
- RNA_cn:0 "Russian Naval Administration"
- RNA_cn_DEF:0 "the Russian Naval Administration"
- RNA_lb:0 "Russian Naval Administration"
- RNA_lb_DEF:0 "the Russian Naval Administration"
- RNA_ss:0 "Russian Naval Administration"
- RNA_ss_DEF:0 "the Russian Naval Administration"
- RNA_jc:0 "Russian Naval Administration"
- RNA_jc_DEF:0 "the Russian Naval Administration"
- RNA_ni_ADJ:0 "Russo-Cypriot"
- RNA_rc_ADJ:0 "Russo-Cypriot"
- RNA_lb_ADJ:0 "Russo-Cypriot"
- RNA_ss_ADJ:0 "Russo-Cypriot"
- RNA_jc_ADJ:0 "Russo-Cypriot"
- RNA_ds_ADJ:0 "Russo-Cypriot"
- RNA_cn_ADJ:0 "Russo-Cypriot"
- RNA_an_ADJ:0 "Russo-Cypriot"
-
- PRS_ds:0 "Occupied Prussia"
- PRS_ds_DEF:0 "Occupied Prussia"
- PRS_ds_ADJ:0 "Prussian"
-
- DDR_ds:0 "Occupied Pomerania"
- DDR_ds_DEF:0 "Occupied Pomerania"
- DDR_ds_ADJ:0 "Pomeranian"
-
- HES_ds:0 "Duchy of Silesia"
- HES_ds_DEF:0 "the Duchy of Silesia"
- HES_ds_ADJ:0 "Silesian"
-
 ### IDEAS ###
 
  SIK_sinkiang_war:0 "The War In Sinkiang"
@@ -91,7 +54,7 @@ MIF_Senile_Tsar:0 "Senile"
  RUS_malaria_troubles_desc:0 "Unlike many western nations, Russia never embarked on the quest to fully eradicate the most deadly of illnesses. This is not only due to Russia’s immense size of Russia land and population wise, but also because of religious resistance. Thus mostly rural but also urban population centres are still rampant with Malaria and its consequences."
  
  RUS_conquerors_and_conquered:0 "The Conquerors and Conquered"
- RUS_conquerors_and_conquered_desc:0 "We were victorious. Our alliance with Paris paid off. We have conquered vast swathes of land on the European continent. We have established many puppet regimes on our western reaches. Russia has restored its glory at the price of many lives. The world stood still to an abruptly silenced bell.\n\nYet in the east the bells still toll. Defeated at the hands of the Japanese and their allies, who were fought viciously on the banks of the Amur and across the Pacific waves. The war was a victory and humiliation in one. The blood of Japanese soldiers will be on our hands once more in the future, and we will, in harmonious glory, stand triumphant on the biggest hill in Tokyo.\n§GFor the glory of Russia!§!\n\n§YThe air is full of after-thunder freshness,\nAnd everything rejoices and revives.\nWith the whole outburst of its purple clusters\nThe lilac drinks the air of paradise.\n\nIt is not revolutions and upheavals\nThat clear the road to new and better days,\nBut revelations, lavishness and torments\nOf someone's soul, inspired and ablaze.\n\n-Boris Pasternak, After The Storm.§!"
+ RUS_conquerors_and_conquered_desc:0 "We were victorious. Our alliance with Paris paid off. We have conquered vast swathes of land on the European continent. We have established many puppet regimes on our western reaches. Russia has restored its glory at the price of many lives. The world stood still to an abruptly silenced bell.\n\nYet in the east the bells still toll. Defeated at the hands of the Japanese and their allies, who were fought viciously on the banks of the Amur and across the Pacific waves. The war was a victory and humiliation in one. The blood of Japanese soldiers will be on our hands once more in the future, and we will, in harmonious glory, stand triumphant on the biggest hill in Tokyo.\nFor the glory of Russia!\n\n§YThe air is full of after-thunder freshness,\nAnd everything rejoices and revives.\nWith the whole outburst of its purple clusters\nThe lilac drinks the air of paradise.\n\nIt is not revolutions and upheavals\nThat clear the road to new and better days,\nBut revelations, lavishness and torments\nOf someone's soul, inspired and ablaze.\n\n-Boris Pasternak, After The Storm.§!"
  
  RUS_caucasian_famine:0 "The Caucasian Famine"
  RUS_caucasian_famine_desc:0 "Because of the Caucasus Viceroyalties ruling class being mostly descendant from wealthy businessmen, the Viceroy's governance became oligarchic in nature. This caused very little money to trickle down to the peasant population of the rather large Viceroy. This combined with the reduction of rainfall due to land reclamation in both the Ukraine and the Caspian sea caused a famine to happen in the laters years of the second great war. Because of the recklessness and chaos caused by the governors of the Viceroy, it was annexed into the Russian Empire until the situation was properly dealt with."
@@ -116,6 +79,20 @@ RUS_michael_2_politics:0 "Michael II's Politics"
 RUS_foreign_policy:0 "Russian Foreign Policy"
 RUS_1958_elections:0 "The 1958 Elections"
 RUS_military:0 "The Concerns of the Military"
+
+#russification
+RUS_sons_of_the_forest:0 "Sons of the Forest"
+RUS_pilsudskis_legacy:0 "Legacy of Piłsudski"
+RUS_out_krai:0 "The Southern Out-Krai"
+RUS_russification_estonia:0 "Russification of Estonia"
+RUS_russification_latvia:0 "Russification of Latvia"
+RUS_russification_lithuania:0 "Russification of Lithuania"
+RUS_establish_baltic_autonomies:0 "Establish Baltic Autonomies"
+RUS_finish_russification:0 "Total Baltic Russification"
+RUS_trample_ukrainian_national_committee:0 "Trample the Ukrainian National Committee"
+RUS_assist_pomerania:0 "Assist Pomeranian Integration Efforts"
+RUS_russification_poland:0 "Total Russification of Poland"
+
 
 
 

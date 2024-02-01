@@ -1,0 +1,8 @@
+spriteTypes = {
+	#American Texticons
+	spriteType = {
+		name = "GFX_IBM_Logo_texticon"
+		texturefile = "gfx/texticons/MIF/IBM_Logo_texticon.dds"
+		legacy_lazy_load = no
+	}
+}

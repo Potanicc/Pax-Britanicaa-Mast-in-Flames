@@ -1,0 +1,24 @@
+MIF_Impeachment_Decision_Cost_Startup = {
+	hidden_effect = {
+		AME = {
+			set_variable = {
+				IP_One_Decisions_Cost_var = 30
+			}
+			set_variable = {
+				IP_Two_Decisions_Cost_var = 30
+			}
+			set_variable = {
+				IP_Three_Decisions_Cost_var = 30
+			}
+			set_variable = {
+				PO_One_Decisions_Cost_var = 30
+			}
+			set_variable = {
+				PO_Two_Decisions_Cost_var = 30
+			}
+			set_variable = {
+				PO_Three_Decisions_Cost_var = 30
+			}
+		}
+	}
+} 

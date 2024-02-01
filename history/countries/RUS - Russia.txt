@@ -334,19 +334,19 @@ set_convoys = 366
 
 set_autonomy = {
 	target = SRB
-	autonomous_state = autonomy_PB_Occupied_State
+	autonomous_state = autonomy_PB_Autonomous_Dependency
 	freedom_level = 0.7
 }
 
 set_autonomy = {
 	target = PRS
-	autonomous_state = autonomy_PB_Occupied_State
+	autonomous_state = autonomy_PB_Autonomous_Dependency
 	freedom_level = 0.7
 }
 
 set_autonomy = {
 	target = DDR
-	autonomous_state = autonomy_PB_Occupied_State
+	autonomous_state = autonomy_PB_Autonomous_Dependency
 	freedom_level = 0.7
 }
 
@@ -358,13 +358,13 @@ set_autonomy = {
 
 set_autonomy = {
 	target = CZE
-	autonomous_state = autonomy_client_state
+	autonomous_state = autonomy_PB_Imperial_Autonomy
 	freedom_level = 0.7
 }
 
 set_autonomy = {
 	target = PER
-	autonomous_state = autonomy_client_state
+	autonomous_state = autonomy_PB_Imperial_Autonomy
 	freedom_level = 0.7
 }
 
@@ -376,14 +376,54 @@ set_autonomy = {
 
 set_autonomy = {
 	target = TUR
-	autonomous_state = autonomy_client_state
+	autonomous_state = autonomy_PB_Imperial_Autonomy
 	freedom_level = 0.50
+}
+
+set_autonomy = {
+	target = RNA
+	autonomous_state = autonomy_PB_Autonomous_Dependency
+	freedom_level = 0.50
+}
+
+diplomatic_relation = {
+	country = JAP
+	relation = non_aggression_pact
+	active = yes
+}
+
+diplomatic_relation = {
+	country = ROM
+	relation = non_aggression_pact
+	active = yes
+}
+
+diplomatic_relation = {
+	country = FRA
+	relation = non_aggression_pact
+	active = yes
+}
+
+diplomatic_relation = {
+	country = IST
+	relation = non_aggression_pact
+	active = yes
+}
+
+diplomatic_relation = {
+	country = SPR
+	relation = non_aggression_pact
+	active = yes
 }
 
 give_military_access = GRE
 give_guarantee = ASK
 give_military_access = ASK
 give_guarantee = ALB
+
+KRD = {
+	give_guarantee = RUS
+}
 
 add_ideas = {
 	RUS_PB_Pyotr_Stoylpin
@@ -462,27 +502,6 @@ RUS = {
 	}
 }
 
-
-TRS = {
-    set_politics = {
-        ruling_party = ni
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 25
-        ds = 50
-        rc = 0
-        cn = 0
-        lb = 0
-        an = 25
-        ss = 0
-        jc = 0
-    }
-}
-
 HES = {
     set_politics = {
         ruling_party = ds
@@ -502,46 +521,6 @@ PRS = {
 
     set_popularities = {
         ds = 100
-    }
-}
-
-BAL = {
-    set_politics = {
-        ruling_party = ni
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-        ni = 38
-        ds = 50
-        rc = 6
-        cn = 6
-        lb = 0
-        an = 0
-        ss = 0
-        jc = 0
-    }
-}
-
-POL = {
-    set_politics = {
-        ruling_party = ni
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
-
-    set_popularities = {
-    ni = 25
-    ds = 15
-    rc = 5
-    cn = 5
-    lb = 0
-    an = 10
-    ss = 0
-    jc = 40
     }
 }
 
@@ -583,25 +562,6 @@ AFG = {
         ss = 0
         jc = 0
     }
-}
-PGA = {
-	set_politics = {
-		ruling_party = ds
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		ni = 18
-		ds = 23
-		rc = 45
-		cn = 7
-		lb = 0
-		an = 0
-		ss = 0
-		jc = 7
-	}
 }
 GLG = {
 	set_popularities = {

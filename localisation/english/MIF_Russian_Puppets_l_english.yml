@@ -1,0 +1,60 @@
+﻿l_english:
+
+
+### STATE MODIFIERS ###
+
+### LEADER STUFF ###
+
+### COUNTRY NAMES ###
+
+ RNA_ni:0 "Russian Naval Administration"
+ RNA_ni_DEF:0 "the Russian Naval Administration"
+ RNA_ds:0 "Russian Naval Administration"
+ RNA_ds_DEF:0 "the Russian Naval Administration"
+ RNA_rc:0 "Russian Naval Administration"
+ RNA_rc_DEF:0 "the Russian Naval Administration"
+ RNA_an:0 "Russian Naval Administration"
+ RNA_an_DEF:0 "the Russian Naval Administration"
+ RNA_cn:0 "Russian Naval Administration"
+ RNA_cn_DEF:0 "the Russian Naval Administration"
+ RNA_lb:0 "Russian Naval Administration"
+ RNA_lb_DEF:0 "the Russian Naval Administration"
+ RNA_ss:0 "Russian Naval Administration"
+ RNA_ss_DEF:0 "the Russian Naval Administration"
+ RNA_jc:0 "Russian Naval Administration"
+ RNA_jc_DEF:0 "the Russian Naval Administration"
+ RNA_ni_ADJ:0 "Russo-Cypriot"
+ RNA_rc_ADJ:0 "Russo-Cypriot"
+ RNA_lb_ADJ:0 "Russo-Cypriot"
+ RNA_ss_ADJ:0 "Russo-Cypriot"
+ RNA_jc_ADJ:0 "Russo-Cypriot"
+ RNA_ds_ADJ:0 "Russo-Cypriot"
+ RNA_cn_ADJ:0 "Russo-Cypriot"
+ RNA_an_ADJ:0 "Russo-Cypriot"
+
+ PRS_ds:0 "Occupied Prussia"
+ PRS_ds_DEF:0 "Occupied Prussia"
+ PRS_ds_ADJ:0 "Prussian"
+
+ DDR_ds:0 "Occupied Pomerania"
+ DDR_ds_DEF:0 "Occupied Pomerania"
+ DDR_ds_ADJ:0 "Pomeranian"
+
+ HES_ds:0 "Duchy of Silesia"
+ HES_ds_DEF:0 "the Duchy of Silesia"
+ HES_ds_ADJ:0 "Silesian"
+
+### IDEAS ###
+
+ PRS_konigsberg_ruins:0 "The Ruins of Königsberg"
+ RUS_troop_presence:0 "Presence of Russian Troops"
+ CZE_german_minority:0 "Sudeten Minority Issues"
+ CZE_anti_government_riots:0 "Anti-Government Riots"
+ HES_silesian_nobles:0 "The Silesian Nobles"
+ DDR_german_desires:0 "German Desires"
+ SRB_heated_border:0 "The Heated Border"
+
+
+
+
+

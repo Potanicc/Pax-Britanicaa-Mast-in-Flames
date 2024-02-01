@@ -166,6 +166,8 @@ add_ideas = {
 	PB_Semi_Industrialized 
 	PB_Significant_Illiteracy
     PB_Market_Underperformance
+	RUS_troop_presence
+	PRS_konigsberg_ruins
 }
 
 set_politics = {
@@ -176,34 +178,6 @@ set_politics = {
 set_popularities = {
     ds = 100
 }
-recruit_character = PRS_philipp_bouhler
-recruit_character = PRS_alfred_rosenberg
-recruit_character = PRS_erwin_von_witzleben
-recruit_character = PRS_hermann_aschoff
-recruit_character = PRS_otto_wels
-recruit_character = PRS_karl_liebknecht
-recruit_character = PRS_werner_lorenz
-recruit_character = PRS_georg_von_küchler
-recruit_character = PRS_friedrich_von_rabenau
-recruit_character = PRS_walter_braemer
-recruit_character = PRS_august_schmidt
-recruit_character = PRS_albrecht_brandi
-recruit_character = PRS_oskar_von_hindenburg
-recruit_character = PRS_kurt_von_briesen
-recruit_character = PRS_bodewin_keitel
-recruit_character = PRS_siegfried_haenicke
-recruit_character = PRS_Walther_von_Hunersdorff
-recruit_character = PRS_Prince_August_Wilhelm
-recruit_character = PRS_Charles_Edward
-recruit_character = PRS_John_Amery
-recruit_character = PRS_Josef_Mengele
-recruit_character = PRS_Ernst_Udet
-recruit_character = PRS_Wolfram_von_Richthofen
-recruit_character = PRS_Theodor_Burchardi
-recruit_character = PRS_alfred_fletcher
-recruit_character = PRS_kurt_jahn
-recruit_character = PRS_Rudiger_von_der_Goltz
-recruit_character = PRS_Wessel_Freytag_von_Loringhoven
 
 if = {
 	limit = {

@@ -52,6 +52,44 @@
  HUN_cn_ADJ:0 "Hungarian"
  HUN_an_ADJ:0 "Hungarian"
 
+ MOL:0 "Principality of Moldavia"
+ MOL_DEF:0 "the Principality of Moldavia"
+ MOL_ADJ:0 "Moldavian"
+
+ TRY:0 "Principality of Transylvania"
+ TRY_DEF:0 "the Principality of Transylvania"
+ TRY_ADJ:0 "Transylvanian"
+
+ UKR:0 "Republic of Ukraine"
+ UKR_DEF:0 "the Republic of Ukraine"
+ UKR_ADJ:0 "Ukrainian"
+
+ POL:0 "Republic of Poland"
+ POL_DEF:0 "the Republic of Poland"
+ POL_ADJ:0 "Polish"
+
+ LIT:0 "Republic of Lithuania"
+ LIT_DEF:0 "the Republic of Lithuania"
+ LIT_ADJ:0 "Lithuanian"
+
+ LAT:0 "Republic of Latvia"
+ LAT_DEF:0 "the Republic of Latvia"
+ LAT_ADJ:0 "Latvian"
+ 
+ EST:0 "Republic of Estonia"
+ EST_DEF:0 "the Republic of Estonia"
+ EST_ADJ:0 "Estonian"
+
+ BLR:0 "Duchy of Belorussia"
+ BLR_DEF:0 "the Duchy of Belorussia"
+ BLR_ADJ:0 "Belorussian"
+
+ SLO:0 "Republic of Slovakia"
+ SL0_DEF:0 "the Republic of Slovakia"
+ SLO_ADJ:0 "Slovakian"
+
+ 
+
 
 
  

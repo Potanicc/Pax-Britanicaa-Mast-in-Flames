@@ -1,0 +1,90 @@
+ideas = {
+	country = {
+		AME_Army_Reform_Stage_Zero = {
+
+			picture = AME_Army_Reform_Stage_Zero
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				command_power_gain_mult = -0.25
+				experience_gain_army_factor = -0.25
+				land_doctrine_cost_factor = -0.50
+				custom_modifier_tooltip = AME_Army_Reform_Stage_Zero_tt
+			}
+		}
+
+		AME_Fourth_Branch_Government = {
+
+			picture = AME_Fourth_Branch_Government
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				custom_modifier_tooltip = AME_Fourth_Branch_Government_tt
+			}
+		}
+
+		AME_Eyes_In_West = {
+
+			picture = AME_Eyes_In_West
+
+
+			allowed = {
+
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				custom_modifier_tooltip = AME_Eyes_In_West_tt
+			}
+		}
+	}
+}

@@ -19,6 +19,7 @@ if = {
 set_country_flag = Tag_in_American_Sphere
 set_country_flag = Megacorp_EIEC_Dominant
 set_country_flag = PB_americaupdate_content_country 
+MIF_Impeachment_Decision_Cost_Startup = yes
 
 set_country_flag = PB_content_country
 
@@ -33,16 +34,6 @@ add_to_array = { PB_accepted_cultures = 133 }
 add_to_array = { PB_accepted_cultures = 443 }
 
 complete_national_focus = AME_Boar_of_Philadelphia
-
-set_variable = {
-	var = AME_Impeachment_Progress
-	value = 0
-}
-
-set_variable = {
-	var = AME_Public_Outrage
-	value = 0
-}
 
 if = {
 	limit = {
@@ -236,6 +227,10 @@ add_ideas = {
 	AME_William_Rogers
 	AME_Scott_Lucas
 	AME_James_Mcgranery
+
+	AME_Eyes_In_West
+	AME_Fourth_Branch_Government
+	AME_Army_Reform_Stage_Zero
 }
 
 if = {
@@ -317,16 +312,7 @@ AME = {
 	    target = RUS
 	    modifier = cold_war_contenders
 	}
-}
-
-set_variable = {
-	var = AME_Impeachment_Progress
-	value = 0
-}
-set_variable = {
-	var = AME_Public_Outrage
-	value = 0
-}
+} 
 
 if = {
 	limit = { NOT = { has_dlc = "Man the Guns" } }

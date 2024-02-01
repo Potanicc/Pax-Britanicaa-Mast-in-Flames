@@ -356,6 +356,7 @@ PB_Setup_Cultures = {
 
 	107 = { set_variable = { culture_id = 48 } }
 	108 = { set_variable = { culture_id = 48 } }
+	45 = { set_variable = { culture_id = 48 } }
 
 	### ---- Croatian Culture ---- ###
 
@@ -390,11 +391,10 @@ PB_Setup_Cultures = {
 	83 = { set_variable = { culture_id = 54 } }
 	82 = { set_variable = { culture_id = 54 } }
 	766 = { set_variable = { culture_id = 54 } }
+	764 = { set_variable = { culture_id = 54 } }
 
 	### ---- Hungarian Culture ---- ###
 
-	764 = { set_variable = { culture_id = 55 } }
-	45 = { set_variable = { culture_id = 55 } }
 	154 = { set_variable = { culture_id = 55 } }
 	43 = { set_variable = { culture_id = 55 } }
 	155 = { set_variable = { culture_id = 55 } }
@@ -477,6 +477,7 @@ PB_Setup_Cultures = {
 	97 = { set_variable = { culture_id = 64 } }
 	94 = { set_variable = { culture_id = 64 } }
 	93 = { set_variable = { culture_id = 64 } }
+	819 = { set_variable = { culture_id = 64 } }
 
 	### ---- Lithuanian Culture ---- ###
 
@@ -1098,7 +1099,6 @@ PB_Setup_Cultures = {
 	818 = { set_variable = { culture_id = 205 } }
 	554 = { set_variable = { culture_id = 205 } }
 	677 = { set_variable = { culture_id = 205 } }
-	819 = { set_variable = { culture_id = 205 } }
 
 	### ---- Yemen Culture ---- ###
 

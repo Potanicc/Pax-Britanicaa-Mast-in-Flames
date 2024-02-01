@@ -18,6 +18,8 @@ state={
 			9606 3 
 		}
 		add_core_of = ROM
+		add_core_of = TRY
+		add_claim_by = HUN
 
 	}
 

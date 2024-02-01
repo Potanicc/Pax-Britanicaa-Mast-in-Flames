@@ -30,7 +30,43 @@ set_popularities = {
 }
 
 add_ideas = {
+	PB_Ultranationalist_Dictatorship
+    PB_Prussian_Fatalism
 
+	PB_PRS_Prussonationalism
+	PB_PRS_Junker_Reliance
+	PB_PRS_Ethnic_Tensions
+    PB_Living_Under_Germanys_Shadow
+
+    PB_Great_War_Military
+    PRS_PB_Philipp_Bouhler
+    PRS_Robert_Ley
+    PRS_Martin_Bormann
+    PRS_Victor_Brack
+    PB_Aristocratic_Democracy
+    PB_State_Press
+    PB_Govidea_Planned_Economy
+    PB_Fully_Westernized
+
+    limited_conscription
+	closed_economy
+	civilian_economy
+	PB_Public_Meetings_Banned 
+	PB_Patriarchal_Society
+	PB_Limited_Autonomy
+	PB_Law_Secret_Police
+	PB_12_Hour_Workday
+	PB_Basic_Healthcare
+	PB_Basic_Education
+	PB_Basic_Welfare
+	PB_Sociogenetics_Allowed
+	PB_Augmentation_No_Legislation
+	PB_Widespread_Poverty
+	PB_Semi_Industrialized 
+	PB_Significant_Illiteracy
+    PB_Market_Underperformance
+	RUS_troop_presence
+	DDR_german_desires
 }
 
 

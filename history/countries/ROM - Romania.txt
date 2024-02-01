@@ -125,11 +125,11 @@ recruit_character = ROM_eugeniu_savulescu
 set_convoys = 25
 
 
-	set_popularities = {
-		ss = 100
+set_popularities = {
+		ni = 100
 		}
 set_politics = {
-	ruling_party = ss
+	ruling_party = ni
 	elections_allowed = no
 }
 

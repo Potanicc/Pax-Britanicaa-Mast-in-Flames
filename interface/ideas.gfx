@@ -6418,4 +6418,16 @@ spriteTypes = {
 		name = "GFX_idea_GLF_Broken_Promise"
 		texturefile = "gfx/interface/ideas/GLF/idea_GLF_Broken_Promise.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_AME_Army_Reform_Stage_Zero"
+		texturefile = "gfx/interface/ideas/AME/idea_AME_Army_Reform_Stage_Zero.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_Fourth_Branch_Government"
+		texturefile = "gfx/interface/ideas/AME/idea_AME_Fourth_Branch_Government.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AME_Eyes_In_West"
+		texturefile = "gfx/interface/ideas/AME/idea_AME_Eyes_In_West.dds"
+	}
 }

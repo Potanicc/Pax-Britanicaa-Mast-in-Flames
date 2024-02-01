@@ -11,8 +11,10 @@ state={
 
 	history={
 		owner = ROM
-		add_core_of = SER
-		add_core_of = SER
+		add_core_of = ROM
+		add_core_of = TRY
+		add_claim_by = SER
+		add_claim_by = HUN
         victory_points = {
 			11787 1
 		}

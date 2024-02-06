@@ -112,7 +112,7 @@
  ### AMERICAN EVENTS ###
  #######################
 
- #Flavor Events#
+ #Common Flavor Events#
  americaflavor.1.t:0 "Hoffen"
  americaflavor.1.d:0 ""Let's work on your English, Elisabeth,"" he gently encouraged.\n\nThe girl responded with a quiet nod, shifting her eyes from the cityscape to the page before her.\n\n"Wollon," he pronounced, emphasizing the word. "It means want."\n\nElisabeth concentrated, her small fingers tracing the letters. "Hoffen," she repeated softly, learning the word for hope.\n\n"Doctor," he enunciated, shifting to another word. "Ärztin," he added, providing the German equivalent.\n\nThe room was filled with a sense of quiet diligence, father and daughter engrossed in the language lesson. As Elisabeth's understanding grew, her confidence blossomed.\n\n"Can we joy the view, Vater?" she attempted, the sentence forming on her lips.\n\nHe smiled warmly at her progress. "Very close, my dear. It's 'Can we enjoy the view, Father.'"\n\nShe closed the book as Philadelphia stole their attention. The view of the city was breathtaking. Philadelphia gleamed like a city perched on a hill, a promised land they had long yearned for. It was the beacon that kept them going, even as others around them succumbed, whether at the hands of the SP or their own. They both struggled to forget. Memories of those left behind in Hamburg weighed on his mind; she held onto thoughts of her doll, taken by an SP officer as a cruel show of force, and her friend, found dead the night before they departed. Despite it all, they summoned the strength to cast these thoughts aside, focusing instead on the resplendent cityscape ahead — an emblem of hope amidst a world shrouded in darkness.\n\n"Let’s go, Elisabeth," the name always evoked thoughts of her mother. They disembarked the gangplank and, as if guided by an invisible hand, drew a deep breath. The air itself tasted different here, imbued with a taste of freedom."
  americaflavor.1.a:0 "The American Dream lives on."
@@ -143,7 +143,35 @@
  impeachment.3.d:0 "The Senate has voted to remove the President from power as per the constitution!"
  impeachment.3.a:0 "Bye Gair."
 
- #Focus Events#
+ #Boston Riots#
+ bostonriots.1.t:0 "Smoke and Blood"
+ bostonriots.1.d:0 "The air smelled like smoke. It was the first thing that Joseph Cunningham noticed as he fell out of his bunk.\n\nHe had been thrown into prison a mere few months ago for refusing to confess to Jacobin or neo-imperialist sympathies. Joseph, like so many others, was a victim of President Gair’s “national security reforms” that fired, blacklisted, and imprisoned tens of thousands in an attempt to purge Jacobinism and neo-imperialism in America. Any attempts that Joseph made at going through the proper legal channels were immediately rejected, and worst of all were the guards. The bastards never gave him any rest. He was constantly met by the brightest flashlight in the world in the dead of night as guards searched him thoroughly; what they were looking for was anyone’s guess. Perhaps they were searching for evidence of treason, or maybe they were simply harassing him until they managed to extract a confession. Either way, he wasn’t going to crack.\n\nTonight should have been like every other night, a bright light in his face followed by a pat-down as his eyes struggled to stay open. Instead, he was greeted by the smell of smoke and shouts, grunts, screams, and cheers of other prisoners. Before he could register the situation, his cell door swung open. Stepping out of the cell and looking over the railing, he could finally appreciate the orgy of violence that had erupted. Guards in hardsuits were dueling with augmented prisoners. Prisoners were creating makeshift weapons out of utensils, and guards were responding with high-voltage weapons. The grunt and scream of one man were enough to convince Joseph that getting hit would be a lethal affair. Every nerve and instinct in his body screamed to return to his cell and take cover until the anarchy ceased, but he knew that if he did, he would never see the light of day again. So, he did what no good prisoner should ever do; he launched himself into the fight."
+ bostonriots.1.a:0 "I should’ve grabbed a weapon..."
+ bostonriots.2.t:0 "Odyssey"
+ bostonriots.2.d:0 "Not grabbing a weapon was a mistake that Joseph was acutely aware of after he faced a charging guard in a hardsuit. Details of the hardsuit etched themselves into his mind. The scratches and dents in the right arm, likely from an earlier scuffle with prisoners, the blue heart painted onto the left side of the breastplate, the heavy breathing which Joseph could hear acutely, and the eyes that were filled with a murderous rage. His mind immediately contemplated what life would be like as a human pancake, a thought that would have been humorous in any other situation. His mind was saved from thinking about human waffles after a massive prisoner rammed the guard with enough speed to send the guard sprawling. In the bravest of fashion, Joseph rapidly ran away from what would likely be a bloody fight.\n\nThe riot seemed to last for days as Joseph navigated through the maze of brawls and clashes. Prisoners lashed out against each other to avenge personal grudges, guards fought and died as the predator was slain in a sea of prey, and gangs viciously attacked and murdered those on their list. In one harrowing moment, he felt the hairs of his body stand on end as an arc of electricity cut through a man right next to him. The smell of burning flesh and fried nerve endings was something Joseph never wanted to experience again. Then, he finally reached the destination of his great odyssey—the exit.\n\nThe prison yard was hardly an upgrade from the inside. Guards in watchtowers opened fire at anything that moved, and spotlights patrolled the area like starved tigers. However, in the distance, Joseph could see numerous holes in the razor-topped fence. If he could reach them, he would be free; he could slip away into the burning city and disappear forever. However, he could lose his life in the attempt. Getting hit by a thousand volts of electricity was enough to terrify anyone. He had to choose, either take a risk and gamble everything for a chance for freedom, or bide his time until his odds were better."
+ bostonriots.2.a:0 "A life in chains is not worth living."
+ bostonriots.2.b:0 "I’d rather live on my knees than die on my feet."
+ bostonriots.3.t:0 ""
+ bostonriots.3.d:0 ""
+ bostonriots.3.a:0 ""
+ bostonriots.3.b:0 ""
+ bostonriots.4.t:0 ""
+ bostonriots.4.d:0 ""
+ bostonriots.4.a:0 ""
+ bostonriots.5.t:0 ""
+ bostonriots.5.d:0 ""
+ bostonriots.5.a:0 ""
+ bostonriots.6.t:0 ""
+ bostonriots.6.d:0 ""
+ bostonriots.6.a:0 ""
+ bostonriots.7.t:0 ""
+ bostonriots.7.d:0 ""
+ bostonriots.7.a:0 ""
+ bostonriots.8.t:0 ""
+ bostonriots.8.d:0 ""
+ bostonriots.8.a:0 ""
+
+ #Focus Flavor Events#
  america.1.t:0 "A Trip to Oceania"
  america.1.d:0 "Stepping off the plane, Rogers immediately felt the sun’s scorching touch on his skin. He didn’t get a chance to enjoy the warmth as a mass of guards immediately surrounded him to protect him from any trouble that may arise. Descending from the aircraft, the swarm of inquisitive piranhas, more commonly known as journalists, began to part like the Red Sea of old. However, as soon as he stepped onto the tarmac, he was immediately bombarded by countless questions:\n\n“Will Oceania commence the initiation process to join the League of Nations?” queried one reporter. \n“Mr. Secretary, how do you respond to the recent series of PFA bombings across Oceania?” inquired another.\n“The PFA has labeled America an enemy of the Aotearoan people. What steps will America take in response?” shouted a third.\n\nAll the questions seemed to overlap and blend into one as the flood of noise bombarded his ears and the flashing lights from cameras began blind him. So instead of responding, he just did what he always did, he smiled and waved.\n\nSuddenly, a deafening boom ruptured his eardrums, followed swiftly by an intense heat akin to countless suns. He immediately felt the asphalt slam into his body and the sound of shrapnel whizzing through the air. He didn’t have enough time to process the scene though before his guards shuttled him into a car. He just remembered the piercing screams of the reporters that had previously asked him questions. As he drove away from the planned site of his grave, he pondered the life of the average Oceanian citizen. So this was life in Oceania, he thought, eat breakfast in the morning, lounge around with friends in the afternoon, and be home just in time for a PFA terrorist attack by supper. Saddened by the thought, he sank into his seat and watched as the smoke got further and further away."
  america.1.a:0 "First time in Oceania, Rogers?"

@@ -1,6 +1,7 @@
 add_namespace = americaflavor
 add_namespace = impeachment
 add_namespace = america
+add_namespace = bostonriots
 
 #############################
 ### American Focus Events ###
@@ -300,6 +301,176 @@ country_event = {
 	
 	option = {
 		name = impeachment.10.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+###########################
+### Boston Riots Events ###
+###########################
+
+# Boston Riots 1 - Smoke and Blood
+country_event = {
+	id = bostonriots.1
+	title = bostonriots.1.t
+	desc = bostonriots.1.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.1.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.2
+				days = 1
+			}
+		}
+	}
+}
+
+# Boston Riots 2 - The Odyssey
+country_event = {
+	id = bostonriots.2
+	title = bostonriots.2.t
+	desc = bostonriots.2.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bostonriots.2.a
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.3
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = bostonriots.2.b
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.4
+				days = 1
+			}
+		}
+	}
+}
+
+# Boston Riots 3 - WIP
+country_event = {
+	id = bostonriots.3
+	title = bostonriots.3.t
+	desc = bostonriots.3.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.5
+				days = 1
+			}
+		}
+	}
+}
+
+# Boston Riots 4 - WIP
+country_event = {
+	id = bostonriots.4
+	title = bostonriots.4.t
+	desc = bostonriots.4.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.4.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.6
+				days = 1
+			}
+		}
+	}
+}
+
+# Boston Riots 5 - WIP
+country_event = {
+	id = bostonriots.5
+	title = bostonriots.5.t
+	desc = bostonriots.5.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.5.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.7
+				days = 1
+			}
+		}
+	}
+}
+
+# Boston Riots 6 - WIP
+country_event = {
+	id = bostonriots.6
+	title = bostonriots.6.t
+	desc = bostonriots.6.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.6.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			country_event = {
+				id = bostonriots.8
+				days = 1
+			}
+		}
+	}
+}
+
+# Boston Riots 7 - WIP
+country_event = {
+	id = bostonriots.7
+	title = bostonriots.7.t
+	desc = bostonriots.7.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.7.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Boston Riots 8 - WIP
+country_event = {
+	id = bostonriots.8
+	title = bostonriots.8.t
+	desc = bostonriots.8.d
+	picture = GFX_report_event_elisabeth_and_erdmann
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bostonriots.8.a
 		ai_chance = { factor = 100 }
 	}
 }

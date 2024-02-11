@@ -1,0 +1,10 @@
+spriteTypes = {	
+	spriteType = {
+		name = "MIF_RUS_Caucasian_Famine"
+		texturefile = "gfx/interface/ideas/Russia/MIF_RUS_Caucasian_Famine.dds"
+	}
+	SpriteType = {
+		name = "MIF_RUS_Caucasian_Famine"
+		texturefile = "gfx/interface/ideas/Russia/MIF_RUS_Caucasian_Famine"
+	}
+}

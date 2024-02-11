@@ -126,7 +126,7 @@ ideas = {
 
 		RUS_caucasian_famine = {
 
-			picture = RUS_Isolated_Villages	
+			picture = MIF_RUS_Caucasian_Famine
 
 
 			allowed = {

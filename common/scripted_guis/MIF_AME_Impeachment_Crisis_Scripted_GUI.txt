@@ -9,10 +9,10 @@ scripted_gui = {
 
 		properties = {
 			MIF_AME_IC_Public_Outrage_circle_bar = {
-				image = "[get_PO_icon_texture]"
+				frame = AME_Public_Outrage
 			}
 			MIF_AME_IC_Impeachment_Progress_circle_bar = {
-				image = "[get_IP_icon_texture]"
+				frame = AME_Impeachment_Progress
 			}
 		}
 

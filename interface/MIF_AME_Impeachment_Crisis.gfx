@@ -7,172 +7,18 @@ spriteTypes = {
 		name = "GFX_AME_ic_po_display_box"
 		texturefile = "gfx/interface/ImpeachmentCrisisGUI/AME_ic_po_display_box.dds"
 	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_0"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_0.dds"
+	progressbartype = {
+		name = "GFX_AME_IC_IP_ring"
+		textureFile1 = "gfx/interface/ImpeachmentCrisisGUI/IC_IP_ring_full.dds"
+		textureFile2 = "gfx/interface/ImpeachmentCrisisGUI/IC_ring_empty.dds"
+		size = { x = 132 y = 134 }
+		effectFile = "gfx/FX/progress_radial.lua"
 	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_5"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_5.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_10"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_10.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_15"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_15.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_20"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_20.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_25"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_25.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_30"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_30.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_35"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_35.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_40"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_40.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_45"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_45.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_50"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_50.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_55"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_55.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_60"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_60.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_65"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_65.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_70"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_70.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_75"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_75.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_80"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_80.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_85"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_85.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_90"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_90.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_95"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_95.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_po_100"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_po_100.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_0"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_5"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_5.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_10"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_10.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_15"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_15.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_20"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_20.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_25"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_25.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_30"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_30.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_35"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_35.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_40"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_40.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_45"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_45.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_50"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_50.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_55"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_55.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_60"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_60.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_65"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_65.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_70"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_70.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_75"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_75.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_80"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_80.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_85"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_85.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_90"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_90.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_95"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_95.dds"
-	}
-	SpriteType = {
-		name = "GFX_AME_ic_ip_100"
-		texturefile = "gfx/interface/ImpeachmentCrisisGUI/Circle_Bar_AME_ic_ip_100.dds"
+	progressbartype = {
+		name = "GFX_AME_IC_PO_ring"
+		textureFile1 = "gfx/interface/ImpeachmentCrisisGUI/IC_PO_ring_full.dds"
+		textureFile2 = "gfx/interface/ImpeachmentCrisisGUI/IC_ring_empty.dds"
+		size = { x = 132 y = 134 }
+		effectFile = "gfx/FX/progress_radial.lua"
 	}
 }

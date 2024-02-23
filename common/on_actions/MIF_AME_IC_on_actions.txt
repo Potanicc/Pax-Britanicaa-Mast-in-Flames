@@ -13,7 +13,7 @@ on_actions = {
 			hidden_effect = {
 				add_to_variable = {
 					var = AME_Impeachment_Progress
-					value = 0.05
+					value = 5
 				}
 			}
 		}
@@ -27,7 +27,7 @@ on_actions = {
 			hidden_effect = {
 				add_to_variable = {
 					var = AME_Public_Outrage
-					value = 0.05
+					value = 5
 				}
 			}
 		}
@@ -40,7 +40,7 @@ on_actions = {
 			limit = {
 				AND = {
 					check_variable = {
-						AME_Public_Outrage = 1
+						AME_Public_Outrage = 100
 					}
 					has_country_flag = AME_sided_with_congress_flag
 				}
@@ -61,7 +61,7 @@ on_actions = {
 			limit = {
 				AND = {
 					check_variable = {
-						AME_Public_Outrage = 1
+						AME_Public_Outrage = 100
 					}
 					has_country_flag = AME_sided_with_gair_flag
 				}
@@ -82,7 +82,7 @@ on_actions = {
 			limit = {
 				AND = {
 					check_variable = {
-						AME_Impeachment_Progress = 1
+						AME_Impeachment_Progress = 100
 					}
 					has_country_flag = AME_sided_with_gair_flag
 				}
@@ -102,7 +102,7 @@ on_actions = {
 			limit = {
 				AND = {
 					check_variable = {
-						AME_Impeachment_Progress = 1
+						AME_Impeachment_Progress = 100
 					}
 					has_country_flag = AME_sided_with_congress_flag
 				}
@@ -133,7 +133,7 @@ on_actions = {
 						NOT = {
 							check_variable = {
 								var = AME_Public_Outrage
-								value = 0.5
+								value = 50
 								compare = greater_than_or_equals
 							}
 						}
@@ -143,7 +143,7 @@ on_actions = {
 					clamp_variable = {
 						var = AME_Public_Outrage
 						min = 0
-						max = 1
+						max = 100
 					}
 					set_country_flag = AME_PO_Phase_One_Clamp
 					clr_country_flag = AME_PO_Phase_Two_Clamp
@@ -160,13 +160,13 @@ on_actions = {
 					AND = {
 						check_variable = {
 							var = AME_Public_Outrage
-							value = 0.5
+							value = 50
 							compare = greater_than_or_equals
 						}
 						NOT = {
 							check_variable = {
 								var = AME_Public_Outrage
-								value = 0.75
+								value = 75
 								compare = greater_than_or_equals
 							}
 						}
@@ -175,8 +175,8 @@ on_actions = {
 				hidden_effect = {
 					clamp_variable = {
 						var = AME_Public_Outrage
-						min = 0.5
-						max = 1
+						min = 50
+						max = 100
 					}
 					set_country_flag = AME_PO_Phase_Two_Clamp
 					clr_country_flag = AME_PO_Phase_One_Clamp
@@ -192,15 +192,15 @@ on_actions = {
 				limit = {
 					check_variable = {
 						var = AME_Public_Outrage
-						value = 0.75
+						value = 75
 						compare = greater_than_or_equals
 					}
 				}
 				hidden_effect = {
 					clamp_variable = {
 						var = AME_Public_Outrage
-						min = 0.75
-						max = 1
+						min = 75
+						max = 100
 					}
 					set_country_flag = AME_PO_Phase_Three_Clamp
 					clr_country_flag = AME_PO_Phase_One_Clamp
@@ -224,7 +224,7 @@ on_actions = {
 						NOT = {
 							check_variable = {
 								var = AME_Impeachment_Progress
-								value = 0.5
+								value = 50
 								compare = greater_than_or_equals
 							}
 						}
@@ -234,7 +234,7 @@ on_actions = {
 					clamp_variable = {
 						var = AME_Impeachment_Progress
 						min = 0
-						max = 1
+						max = 100
 					}
 					set_country_flag = AME_IP_Phase_One_Clamp
 					clr_country_flag = AME_IP_Phase_Two_Clamp
@@ -251,13 +251,13 @@ on_actions = {
 					AND = {
 						check_variable = {
 							var = AME_Impeachment_Progress
-							value = 0.5
+							value = 5
 							compare = greater_than_or_equals
 						}
 						NOT = {
 							check_variable = {
 								var = AME_Impeachment_Progress
-								value = 0.75
+								value = 75
 								compare = greater_than_or_equals
 							}
 						}
@@ -266,7 +266,7 @@ on_actions = {
 				hidden_effect = {
 					clamp_variable = {
 						var = AME_Impeachment_Progress
-						min = 0.5
+						min = 5
 						max = 1
 					}
 					set_country_flag = AME_IP_Phase_Two_Clamp
@@ -283,14 +283,14 @@ on_actions = {
 				limit = {
 					check_variable = {
 						var = AME_Impeachment_Progress
-						value = 0.75
+						value = 75
 						compare = greater_than_or_equals
 					}
 				}
 				hidden_effect = {
 					clamp_variable = {
 						var = AME_Impeachment_Progress
-						min = 0.75
+						min = 75
 						max = 1
 					}
 					set_country_flag = AME_IP_Phase_Three_Clamp

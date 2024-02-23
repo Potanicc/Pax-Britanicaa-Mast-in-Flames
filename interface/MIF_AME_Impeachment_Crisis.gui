@@ -2,26 +2,18 @@ guiTypes = {
 	containerWindowType = {
 		name = "MIF_AME_Impeachment_Crisis_Scripted_GUI_Window"
 		position = { x = 0 y = 0 }
-		size = { width = 250 height = 500 }
+		size = { width = 250 height = 200 }
 
 		iconType = {
 			name ="MIF_AME_IC_Public_Outrage_circle_bar"
-<<<<<<< Updated upstream
-			position = { x = 50 y = 25 }
-=======
-			position = { x = 125 y = -75 }
->>>>>>> Stashed changes
-			Orientation = "CENTER"
+			position = { x = 350 y = 0 }
+			spriteType = GFX_AME_IC_PO_ring
 		}
 
 		iconType = {
 			name ="MIF_AME_IC_Impeachment_Progress_circle_bar"
-<<<<<<< Updated upstream
-			position = { x = 50 y = 0 }
-=======
-			position = { x = 75 y = -75 }
->>>>>>> Stashed changes
-			Orientation = "CENTER"
+			position = { x = 150 y = 0 }
+			spriteType = GFX_AME_IC_IP_ring
 		}
 
 		containerWindowType = {
@@ -37,10 +29,10 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name ="Impeachment_Progress_Display_Text"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = 75 }
 				pdx_tooltip = ""
 				font = "garamond_14"
-				text = "[get_Impeachment_Progress_phase]"
+				text = "[get_impeachment_progress_phase]"
 				format = center
 				maxHeight = 50
 				maxWidth = 150
@@ -49,7 +41,7 @@ guiTypes = {
 
 		containerWindowType = {
 		name = "MIF_AME_IC_Public_Outrage_button"
-		position = { x = 10 y = 120 }
+		position = { x = 10 y = 100 }
 
 			buttonType = {
 				name ="Public_Outrage_Display_Button"
@@ -60,7 +52,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name ="Public_Outrage_Display_Text"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = 75 }
 				pdx_tooltip = ""
 				font = "garamond_14"
 				text = "[get_public_outrage_phase]"

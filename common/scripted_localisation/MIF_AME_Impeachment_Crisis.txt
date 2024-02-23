@@ -1,5 +1,5 @@
 defined_text = {
-    name = get_Impeachment_Progress_phase
+    name = get_impeachment_progress_phase
     
     text = { 
         trigger = {

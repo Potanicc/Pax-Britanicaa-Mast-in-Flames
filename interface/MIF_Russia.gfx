@@ -1,10 +1,14 @@
 spriteTypes = {	
 	spriteType = {
-		name = "MIF_RUS_Caucasian_Famine"
-		texturefile = "gfx/interface/ideas/Russia/MIF_RUS_Caucasian_Famine.dds"
+		name = "GFX_idea_RUS_Caucasian_Famine"
+		texturefile = "gfx/interface/ideas/Russia/RUS_Caucasian_Famine.dds"
 	}
 	SpriteType = {
-		name = "MIF_RUS_Caucasian_Famine"
-		texturefile = "gfx/interface/ideas/Russia/MIF_RUS_Caucasian_Famine"
+		name = "GFX_idea_RUS_Water_Shortage"
+		texturefile = "gfx/interface/ideas/Russia/RUS_Water_Shortage.dds"
+	}
+	SpriteType = {
+		name = "GFX_MIF_RUS_Water_Shortage_state_modifier"
+		texturefile = "gfx/interface/state_modifiers/Russia_state_modifier_Caucasian_Famine.dds"
 	}
 }

@@ -67,7 +67,7 @@ focus_tree = {
 
 		icon = GFX_KEM_An_Economy_for_the_Modern_Age
  
-		x = -8
+		x = -30
 		y = 1
 
 		cost = 7
@@ -102,8 +102,8 @@ focus_tree = {
 
 		icon = GFX_BAS_Unleash_The_New_Russians
  
-		x = -6	
-		y = 4
+		x = -23
+		y = 1
 
 		cost = 7
 
@@ -529,7 +529,7 @@ focus_tree = {
 
 		icon = GFX_AKT_False_Kazakhs
  
-		x = -4
+		x = -9
 		y = 1
 
 		cost = 7
@@ -551,6 +551,372 @@ focus_tree = {
 
         prerequisite = { focus = RUS_new_years_address }
 		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_kazakhs_1
+
+		icon = GFX_BAS_acquire_subjects_kazhak
+ 
+		x = -4
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_water_shortage_focus }
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_turkmen_1
+
+		icon = GFX_BAS_acquire_subjects_urals
+ 
+		x = -2
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_water_shortage_focus }
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_uzbek_1
+
+		icon = GFX_GER_Roman_Soldier
+ 
+		x = 0
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_water_shortage_focus }
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_kyrgyz_1
+
+		icon = GFX_YUN_Mountain_People
+ 
+		x = 2
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_water_shortage_focus }
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_tajik_1
+
+		icon = GFX_BAS_acquire_subjects_bandit
+ 
+		x = 4
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_water_shortage_focus }
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		
+		id = RUS_grant_sovereignty
+
+		icon = GFX_Democacy_Saved
+ 
+		x = -3
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		available = { always = no }
+
+		mutually_exclusive = {
+			focus = RUS_construct_pipelines
+			focus = RUS_enforce_emigration
+			focus = RUS_peacekeeper_expeditions
+		}
+
+        prerequisite = {
+			focus = RUS_kazakhs_1
+			focus = RUS_turkmen_1
+			focus = RUS_uzbek_1
+			focus = RUS_kyrgyz_1
+			focus = RUS_tajik_1
+		}
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_construct_pipelines
+
+		icon = GFX_excavator_blue
+ 
+		x = -1
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		mutually_exclusive = {
+			focus = RUS_enforce_emigration
+			focus = RUS_peacekeeper_expeditions
+			focus = RUS_grant_sovereignty
+		}
+
+        prerequisite = {
+			focus = RUS_kazakhs_1
+			focus = RUS_turkmen_1
+			focus = RUS_uzbek_1
+			focus = RUS_kyrgyz_1
+			focus = RUS_tajik_1
+		}
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		
+		id = RUS_enforce_emigration
+
+		icon = URL_A_Comfortable_Barracks
+ 
+		x = 1
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		mutually_exclusive = {
+			focus = RUS_construct_pipelines
+			focus = RUS_peacekeeper_expeditions
+			focus = RUS_grant_sovereignty
+		}
+
+        prerequisite = {
+			focus = RUS_kazakhs_1
+			focus = RUS_turkmen_1
+			focus = RUS_uzbek_1
+			focus = RUS_kyrgyz_1
+			focus = RUS_tajik_1
+		}
+		relative_position_id = RUS_water_shortage_focus
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		
+		id = RUS_peacekeeper_expeditions
+
+		icon = GFX_ANG_keep_the_peace
+ 
+		x = 3
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		mutually_exclusive = {
+			focus = RUS_construct_pipelines
+			focus = RUS_enforce_emigration
+			focus = RUS_grant_sovereignty
+		}
+
+        prerequisite = {
+			focus = RUS_kazakhs_1
+			focus = RUS_turkmen_1
+			focus = RUS_uzbek_1
+			focus = RUS_kyrgyz_1
+			focus = RUS_tajik_1
+		}
+		relative_position_id = RUS_water_shortage_focus
 
 		cancel_if_invalid = yes
 		

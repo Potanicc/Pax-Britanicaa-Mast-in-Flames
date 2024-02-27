@@ -29,7 +29,7 @@ RUS_UKRAINE_RESISTANCE = {
 	local_factories = -0.15
 } 
 RUS_CAUCASIAN_FAMINE = {
-	icon = GFX_idea_RUS_Isolated_Villages
+	icon = GFX_MIF_RUS_Water_Shortage_state_modifier
 	
 	enable = { always = yes }
 	

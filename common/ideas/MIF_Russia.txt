@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		RUS_water_shortage = {
 
-			picture = PB_SCA_Grain_Shortage
+			picture = GFX_idea_RUS_Water_Shortage
 
 			allowed = {
 
@@ -126,7 +126,7 @@ ideas = {
 
 		RUS_caucasian_famine = {
 
-			picture = MIF_RUS_Caucasian_Famine
+			picture = GFX_idea_RUS_Caucasian_Famine
 
 
 			allowed = {

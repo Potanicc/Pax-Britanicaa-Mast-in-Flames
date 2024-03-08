@@ -96,7 +96,7 @@ RUS_russification_poland:0 "Total Russification of Poland"
 #water shortage
 RUS_kazakhs_1:0 "The Barren Blues"
 RUS_kazakhs_1_desc:0 "The Kazakhs are the most peaceful ethnicity in the region, this is because only half of their population lives in the affected areas and thus many Kazakhs moved to those regions instead of staying in the dry and barren desert."
-RUS_turkmen_1:0 "Handful of Rebbelious 'Republics'"
+RUS_turkmen_1:0 "Rebbelious 'Republics'"
 RUS_turkmen_1_desc:0 "The southern Turkmen have been affected the most by the draining. Many people that used to live on the coast suddenly found themselves far inland with little food and water. These peoples have now founded various Jacobin ‘republics’ across the Khwarezm province. They are more unified than one in the Russian government should hope."
 RUS_uzbek_1:0 "Bitter Bukharans"
 RUS_uzbek_1_desc:0 "The Uzbeks in Bukhara are the least affected, but the ones in Transoxiana weren’t quite so lucky, and neither were the ones that used to live on the Aral sea and now live in a cold desert. The Uzbeks of the region are unified by an unknown man who proclaims himself Khan of the Uzbeks, and has been a formidable opponent to the Russian garrisons in the area."
@@ -108,6 +108,18 @@ RUS_grant_sovereignty:0 "Grant Sovereignty"
 RUS_construct_pipelines:0 "Construct Pipelines"
 RUS_enforce_emigration:0 "Enforce Emigration"
 RUS_peacekeeper_expeditions:0 "'Peacekeeper' Expeditions"
+
+#economic
+RUS_economics_inflation:0 "The Ruble's Rising"
+RUS_economics_french_investors:0 "French Investment Scheme"
+RUS_economics_privitzation:0 "Privitization of Wartime Industries"
+RUS_economics_nationalisation:0 "Keep the Wartime Industries Nationalised"
+RUS_economics_rural_infastructure:0 "Rural Infastructure Development Plans"
+RUS_economics_trans_siberian_2:0 "From Arkhangelsk to Magadan"
+RUS_economics_trans_siberian_3:0 "From Murmansk to Trabzon"
+RUS_economics_trans_siberian_4:0 "From Rostov to Dushanbe"
+RUS_economics_rural_housing:0 "Modernize the Farming Estates"
+RUS_economics_georgist_policies:0 "Adopt Georgist Policies"
 
 
 

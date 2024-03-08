@@ -67,7 +67,7 @@ focus_tree = {
 
 		icon = GFX_KEM_An_Economy_for_the_Modern_Age
  
-		x = -30
+		x = -40
 		y = 1
 
 		cost = 7
@@ -89,6 +89,358 @@ focus_tree = {
 
         prerequisite = { focus = RUS_new_years_address }
 		relative_position_id = RUS_new_years_address
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_inflation
+
+		icon = GFX_endless_money
+ 
+		x = 1	
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_french_investors
+
+		icon = GFX_focus_chi_reach_out_to_france
+ 
+		x = -1	
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_privitzation
+
+		icon = GFX_GER_rebuild_factories
+ 
+		x = 3	
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics }
+		relative_position_id = RUS_economics
+		mutually_exclusive = { focus = RUS_economics_nationalisation }
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_nationalisation
+
+		icon = GFX_GER_kst_manufactories
+ 
+		x = 5
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics }
+		relative_position_id = RUS_economics
+		mutually_exclusive = { focus = RUS_economics_privitzation }
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_rural_infastructure
+
+		icon = GFX_MAG_Siberian_Factories
+ 
+		x = -3
+		y = 1
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_trans_siberian_2
+
+		icon = GFX_PAV_the_siberian_bear
+ 
+		x = -3
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics_rural_infastructure }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_trans_siberian_3
+
+		icon = GFX_RUS_national_comittee_of_resources
+ 
+		x = -5
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics_rural_infastructure }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		
+		id = RUS_economics_trans_siberian_4
+
+		icon = GFX_JAP_Rebuilding_the_Cities
+ 
+		x = -7
+		y = 2
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics_rural_infastructure }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_rural_housing
+
+		icon = GFX_CHI_New_Agricultural_Equipment
+ 
+		x = -3
+		y = 3
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics_trans_siberian_2 }
+		relative_position_id = RUS_economics
+
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		
+		id = RUS_economics_georgist_policies
+
+		icon = GFX_KIR_Imperial_Council
+ 
+		x = -3
+		y = 4
+
+		cost = 7
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+
+		ai_will_do = {
+			base = 5
+		}
+
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+        prerequisite = { focus = RUS_economics_rural_housing }
+		relative_position_id = RUS_economics
 
 		cancel_if_invalid = yes
 		
@@ -535,6 +887,7 @@ focus_tree = {
 		cost = 7
 
 		available = {
+			has_completed_focus = RUS_economics_trans_siberian_4
 		}
 
 		bypass = {
@@ -936,6 +1289,7 @@ focus_tree = {
 		cost = 7
 
 		available = {
+			has_completed_focus = RUS_economics_trans_siberian_3
 		}
 
 		bypass = {
@@ -971,6 +1325,7 @@ focus_tree = {
 		cost = 7
 
 		available = {
+			has_completed_focus = RUS_economics_rural_housing
 		}
 
 		bypass = {

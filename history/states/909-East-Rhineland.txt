@@ -1,18 +1,17 @@
+
 state={
 	id=909
 	name="STATE_909"
-	provinces={
-		587 3444 3488 3547 9522 
-	}
+
 	history={
 		victory_points = {
 			587 20 
 		}
 		victory_points = {
-			3547 5
+			3547 5 
 		}
 		victory_points = {
-			3488 3
+			3488 3 
 		}
 		buildings = {
 			infrastructure = 8
@@ -21,10 +20,17 @@ state={
 			air_base = 3
 
 		}
-		owner = FRA
+		owner = ALM
 		add_core_of = GER
+		add_core_of = ALM
+
 	}
-	manpower= 2017155 
+
+	provinces={
+		587 3444 9522 
+	}
+	manpower=2017155
 	buildings_max_level_factor=1.000
 	state_category=metropolis
+	local_supplies=0.000
 }

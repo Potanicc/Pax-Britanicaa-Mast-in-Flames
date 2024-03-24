@@ -1,13 +1,10 @@
+
 state={
 	id=56
 	name="STATE_56"
-	manpower = 2058467
-	
-	state_category = city
-
-        resources={
-                grain = 12
-	        }
+	resources={
+		grain=12.000
+	}
 
 	history={
 		owner = ALM
@@ -15,10 +12,10 @@ state={
 			241 5 
 		}
 		victory_points = {
-			309 3
+			309 3 
 		}
 		victory_points = {
-			11360 1
+			11360 1 
 		}
 		buildings = {
 			infrastructure = 6
@@ -33,10 +30,14 @@ state={
 		}
 		add_core_of = ALM
 		add_claim_by = GLF
-		
+
 	}
 
 	provinces={
-		241 247 309 336 3234 9281 11233 11264 11360 11388 
+		241 247 309 336 374 3234 3326 3395 9281 9309 9363 9403 11233 11264 11318 11360 11388 
 	}
+	manpower=2058467
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

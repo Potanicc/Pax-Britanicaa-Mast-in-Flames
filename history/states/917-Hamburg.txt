@@ -8,7 +8,7 @@ state= {
 		victory_points = {
 			9347 20
 		}
-		owner = ALM
+		owner = GER
 		buildings = {
 			infrastructure = 6
 			dockyard = 3
@@ -17,7 +17,7 @@ state= {
 				naval_base = 8
 			}
 		}
-		add_core_of = ALM
+		add_core_of = GER
 		add_claim_by = GLF
 	}
 

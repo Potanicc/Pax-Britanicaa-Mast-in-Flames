@@ -11,7 +11,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ALM
+		owner = GER
 		victory_points = {
 			3326 5 
 		}
@@ -24,7 +24,7 @@ state={
 			industrial_complex = 1
 			dockyard = 2
 		}
-		add_core_of = ALM
+		add_core_of = GER
 		add_claim_by = GLF
 	}
 

@@ -6,9 +6,8 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = JAP
-
-		add_core_of = CHI
+		owner = ROC
+		add_core_of = ROC
 		
 		buildings = {
 			infrastructure = 3

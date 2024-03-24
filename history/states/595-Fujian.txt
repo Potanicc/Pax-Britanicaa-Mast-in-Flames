@@ -5,11 +5,9 @@ state= {
 	state_category = city
 	history=
 	{
-		owner = CHI
-		add_core_of = CHI
-		ROC = {
-			set_province_controller = 4196
-		}
+		owner = ROC
+		add_core_of = ROC
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

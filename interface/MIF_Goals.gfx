@@ -1,0 +1,39 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Focus_AME_Reach_Out_To_Ford"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Reach_Out_To_Ford.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_AME_Reach_Out_To_Edison"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Reach_Out_To_Edison.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_AME_Stick_With_IBM"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Stick_With_IBM.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_AME_Oil_Must_Flow"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Oil_Must_Flow.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_AME_Young_Blood"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Young_Blood.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_AME_Last_Light_Liberty"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Last_Light_Liberty.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_AME_Friends_in_Oceania"
+		texturefile = "gfx/interface/goals/MIF_Goals/AME_Friends_in_Oceania.png"
+	}
+	SpriteType = {
+		name = "GFX_Focus_MIF_AME_Hang_Mcfarland"
+		texturefile = "gfx/interface/goals/MIF_Goals/MIF_AME_Hang_Mcfarland.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_MIF_AME_Hang_Gair"
+		texturefile = "gfx/interface/goals/MIF_Goals/MIF_AME_Hang_Gair.dds"
+	}
+}
+

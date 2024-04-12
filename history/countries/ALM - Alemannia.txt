@@ -37,3 +37,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+### CHARACTERS ###
+
+recruit_character = ALM_Leon_Degrelle

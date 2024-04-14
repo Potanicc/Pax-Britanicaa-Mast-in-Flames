@@ -22,6 +22,7 @@ PB_Setup_Cultures = {
 	703 = { set_variable = { culture_id = 1 } }
 	713 = { set_variable = { culture_id = 1 } }
 	965 = { set_variable = { culture_id = 1 } }
+	967 = { set_variable = { culture_id = 1 } }
 
 	### ---- North-English Culture ---- ###
 
@@ -206,6 +207,8 @@ PB_Setup_Cultures = {
 	337 = { set_variable = { culture_id = 25 } }
 	100 = { set_variable = { culture_id = 25 } }
 	101 = { set_variable = { culture_id = 25 } }
+	969 = { set_variable = { culture_id = 25 } }
+	968 = { set_variable = { culture_id = 25 } }
 
 	### ---- Swedish Culture ---- ###
 

@@ -1,0 +1,16 @@
+characters={
+	ALM_Leon_Degrelle={
+		name=ALM_Leon_Degrelle
+		portraits={
+			civilian={
+				large=GFX_portrait_ALM_Leon_Degrelle
+			}
+		}
+		country_leader={
+			ideology=NI_VARIANT_01
+			expire="1985.1.1.1"
+			id=-1
+		}
+	}
+}
+		

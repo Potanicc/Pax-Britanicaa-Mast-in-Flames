@@ -464,20 +464,13 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = cn
+	ruling_party = RUS_OL
 	last_election = "1953.3.3"
 	elections_allowed = no
 }
 
 set_popularities = {
-	ni = 2
-	ds = 13
-	rc = 4
-	cn = 26
-	lb = 23
-	an = 7
-	ss = 14
-	jc = 11
+	RUS_OL = 100
 }
 
 ban_party_jc = yes

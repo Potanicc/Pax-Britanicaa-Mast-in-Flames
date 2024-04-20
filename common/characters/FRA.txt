@@ -1,6 +1,6 @@
 characters={
 	FRA_Jacques_Doriot={
-		name=FRA_Jacques_Doriot
+		name="Jacques Doriot"
 		portraits={
 			civilian={
 				large="GFX_Portrait_FRA_Jacques_Doriot"

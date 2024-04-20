@@ -1,4 +1,11 @@
 spriteTypes = { 
+
+	#France
+	spriteType = {
+		name = "GFX_Portrait_FRA_Jacques_Doriot"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jacques_Doriot.dds"
+	}
+
 	spriteType = {
 		name = "GFX_Portrait_VIC_Robert_Muldoon"
 		texturefile = "gfx/leaders/VIC/Portrait_VIC_Robert_Muldoon.png"

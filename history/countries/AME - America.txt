@@ -272,21 +272,14 @@ NIC = {
 }
 
 set_politics = {
-    ruling_party = lb
+    ruling_party = AME_OL
     last_election = "1956.11.4"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    ni = 1
-	ds = 1
-	rc = 17
-	an = 2
-    cn = 28
-    lb = 33
-    ss = 17
-    jc = 1
+    AME_OL = 100
 } 
 
 ### Foreign Policy ###

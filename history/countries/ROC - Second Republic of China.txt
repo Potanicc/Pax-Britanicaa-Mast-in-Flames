@@ -39,11 +39,6 @@ set_popularities = {
 	jc = 50
 }
 
-declare_war_on = {
-    target = CHI
-    type = annex_everything
-}
-
 add_ideas = {
 	PB_Govidea_Communal_Economy
 	PB_NI_Revolution

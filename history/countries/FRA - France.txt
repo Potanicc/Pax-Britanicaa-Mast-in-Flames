@@ -292,7 +292,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = ni
+	ruling_party = FRA_OL
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -304,14 +304,7 @@ FRA = {
 }
 
 set_popularities = {
-	ni = 24
-	ds = 58
-	rc = 15
-	cn = 1
-	lb = 0
-	an = 0
-	ss = 0
-	jc = 2
+	FRA_OL = 100
 }
 
 FRA = {

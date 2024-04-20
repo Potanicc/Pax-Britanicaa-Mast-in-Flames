@@ -15,11 +15,11 @@ state = {
 						
 			industrial_complex = 1
 
-			13325 = {
+			13334 = {
 				naval_base = 5
 			}
 		}
 	}
 
-	provinces = { 253 13332 311 13334 13335}
+	provinces = { 253 13332 311 13334 13335 }
 } 

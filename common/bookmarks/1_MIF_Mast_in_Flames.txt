@@ -1,0 +1,57 @@
+bookmarks = {
+	bookmark = {
+		name = MAST_IN_FLAMES_NAME
+		desc = MAST_IN_FLAMES_DESC
+		date = 1957.1.1.12
+		picture = GFX_select_scenario_Mast_in_Flames
+
+		default_country = FRA
+		default = yes
+		
+		AME = {
+			history = "AME_MAST_IN_FLAMES_DESC"
+			ideology = lb
+			ideas = {
+				AME_Army_Reform_Stage_Zero
+				AME_Fourth_Branch_Government
+				AME_Eyes_In_West
+			}
+			focuses = {
+				AME_Bear_Rooster_Sun
+				AME_Megacorp_Wars
+				AME_American_Solar_System
+			}
+		}
+		FRA = {
+			history = "FRA_MAST_IN_FLAMES_DESC"
+			ideology = ni
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		RUS ={
+			history = "RUS_MAST_IN_FLAMES_DESC"
+			ideology = ds
+			ideas = {
+				RUS_conquerors_and_conquered
+				RUS_water_shortage
+				RUS_caucasian_famine
+			}	
+			focuses = {
+			}			
+		}
+		JAP ={
+			history = "JAP_MAST_IN_FLAMES_DESC"
+			ideology = jb
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

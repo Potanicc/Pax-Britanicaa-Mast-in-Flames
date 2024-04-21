@@ -61,10 +61,9 @@ guiTypes = {
 		size = { width = 256 height = 768}
 		Orientation = upper_right
 
-		iconType =
-		{
+		iconType = {
 			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
+			spriteType = "GFX_blank"
 			position = { x= 15 y = 15 }
 		}
 		

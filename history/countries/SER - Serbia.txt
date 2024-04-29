@@ -98,14 +98,7 @@ set_convoys = 23
 set_research_slots = 3
 
 set_popularities = {
-	ni = 12
-	ds = 70
-	rc = 16
-	cn = 2
-	lb = 0
-	an = 0
-	ss = 0
-	jc = 0
+	RUS_OL = 100
 }
 
 recruit_character = SER_alexander_i
@@ -118,7 +111,7 @@ recruit_character = SER_vladimir_cukavac
 recruit_character = SER_bogoljub_ilic
 
 set_politics = {
-	ruling_party = ds
+	ruling_party = RUS_OL
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

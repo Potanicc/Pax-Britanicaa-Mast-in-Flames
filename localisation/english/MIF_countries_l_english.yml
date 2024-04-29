@@ -23,3 +23,75 @@
  SPR:0 "Holy Communion of Iberia"
  SPR_DEF:0 "the Holy Communion of Iberia"
  SPR_ADJ:0 "Iberian"
+
+ GER:0 "German National Republic"
+ GER_DEF:0 "the German National Republic"
+ GER_ADJ:0 "German"
+
+ OBR:0 "English Popular Republic"
+ OBR_DEF:0 "the English Popular Republic"
+ OBR_ADJ:0 "English"
+
+ SCO:0 "Republic of Scotland"
+ SCO_DEF:0 "the Republic of Scotland"
+ SCO_ADJ:0 "Scottish"
+ 
+ WLS:0 "Republic of Wales"
+ WLS_DEF:0 "the Republic of Wales"
+ WLS_ADJ:0 "Welsh"
+
+ MEX:0 "Empire of Mexico"
+ MEX_DEF:0 "the Empire of Mexico"
+ MEX_ADJ:0 "Mexican"
+
+ GRE:0 "Kingdom of Greece"
+ GRE_DEF:0 "the Kingdom of Greece"
+ GRE_ADJ:0 "Greek"
+
+ SER:0 "Empire of Yugoslavia"
+ SER_DEF:0 "the Empire of Yugoslavia"
+ SER_ADJ:0 "Yugoslav"
+
+ HUN:0 "Kingdom of Hungary"
+ HUN_DEF:0 "the Kingdom of Hungary"
+ HUN_ADJ:0 "Hungarian"
+
+ ROM:0 "Kingdom of Romania" 
+ ROM_DEF:0 "the Kingdom of Romania"
+ ROM_ADJ:0 "Romanian"
+
+ KOR:0 "Korean Revolutionary Republic"
+ KOR_DEF:0 "the Korean Revolutionary Republic"
+ KOR_ADJ:0 "Korean"
+
+ MON:0 "Republic of Mongolia"
+ MON_DEF:0 "the Republic of Mongolia"
+ MON_ADJ:0 "Mongolian"
+ 
+ FER:0 "Far Eastern Republic"
+ FER_DEF:0 "the Far Eastern Republic"
+ FER_ADJ:0 "Far Eastern"
+
+ INS:0 "Republic of Indonesia"
+ INS_DEF:0 "the Republic of Indonesia"
+ INS_ADJ:0 "Indonesian"
+
+ IST:0 "Italian Social Republic"
+ IST_DEF:0 "the Italian Social Republic"
+ IST_ADJ:0 "Italian"
+
+ CZE:0 "Kingdom of Bohemia"
+ CZE_DEF:0 "the Kingdom of Bohemia"
+ CZE_ADJ:0 "Bohemian"
+
+ TIB:0 "Tibet"
+ TIB_DEF:0 "Tibet"
+ TIB_ADJ:0 "Tibetan"
+
+ PER:0 "Sublime State of Persia"
+ PER_DEF:0 "the Sublime State of Persia"
+ PER_ADJ:0 "Persian"
+
+ DEN:0 "Danish State"
+ DEN_DEF:0 "the Danish State"
+ DEN_ADJ:0 "Danish"

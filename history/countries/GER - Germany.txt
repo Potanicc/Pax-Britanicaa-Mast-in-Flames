@@ -297,34 +297,6 @@ PB_Set_Max_State_Focus = yes
 set_country_flag = PB_content_country
 set_country_flag = Tag_in_German_Sphere
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-
-	set_autonomy = {
-	    target = DAS
-	    autonomous_state = autonomy_PB_Autonomous_Colony
-	    freedom_level = 0.5
-    }
-	set_autonomy = {
-	    target = DAF
-	    autonomous_state = autonomy_PB_Autonomous_Colony
-	    freedom_level = 0.5
-    }
-	set_autonomy = {
-	    target = SDW
-	    autonomous_state = autonomy_PB_Autonomous_Colony
-	    freedom_level = 0.5
-    }
-	else = {
-		puppet = DAS
-		puppet = DAF
-		puppet = SDW
-	}
-}
-
-
 add_ideas = {
 	PB_Prussian_Constitutionalism
 	PB_NI_German_Efficiency
@@ -437,21 +409,14 @@ GER = {
 }
 
 set_politics = {
-	ruling_party = ni
+	ruling_party = FRA_OL
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	ni = 5
-	ds = 0
-	rc = 16
-	cn = 5
-	lb = 32
-	an = 0
-	ss = 40
-	jc = 2
+	FRA_OL = 100
 }
 
 add_to_leading_coalition_lb = yes

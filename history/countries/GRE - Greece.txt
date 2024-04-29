@@ -99,14 +99,7 @@ add_ideas = {
 	PB_Middling_Consumer_Confidence
 }
 set_popularities = {
-	ni = 5
-	ds = 50
-	rc = 5
-	cn = 20
-	lb = 20
-	an = 0
-	ss = 0
-	jc = 0
+	RUS_OL = 100
 }
 
 recruit_character = GRE_athanasios_klaras
@@ -121,7 +114,7 @@ recruit_character = GRE_georgios_kondylis
 recruit_character = GRE_ioannis_kotoulas
 
 set_politics = {
-	ruling_party = ds
+	ruling_party = RUS_OL
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

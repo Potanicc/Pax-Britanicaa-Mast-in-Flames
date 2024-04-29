@@ -6,8 +6,7 @@ state={
 	state_category = town
 
 	history={
-		owner = CHI
-		controller = ROC
+		owner = ROC
 		add_core_of = ROC
 		buildings = {
 			infrastructure = 3

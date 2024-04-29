@@ -29,14 +29,7 @@ set_convoys = 5
 
 
 set_popularities = {
-	ni = 0
-	ds = 0
-	rc = 0
-	cn = 0
-	lb = 10
-	an = 20
-	ss = 20
-	jc = 50
+	ROC_OL = 100
 }
 
 add_ideas = {

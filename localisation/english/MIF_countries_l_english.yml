@@ -95,3 +95,15 @@
  DEN:0 "Danish State"
  DEN_DEF:0 "the Danish State"
  DEN_ADJ:0 "Danish"
+
+ LON:0 "Londres"
+ LON_DEF:0 "Londres"
+ LON_ADJ:0 "Londoner"
+
+ EGY:0 "Egyptian Republic"
+ EGY_DEF:0 "the Egyptian Republic"
+ EGY_ADJ:0 "Egyptian"
+
+ VIN:0 "Republic of Vietnam"
+ VIN_DEF:0 "the Republic of Vietnam"
+ VIN_ADJ:0 "Vietnamese"

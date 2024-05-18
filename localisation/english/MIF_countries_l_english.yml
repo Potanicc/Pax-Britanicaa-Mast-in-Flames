@@ -28,17 +28,21 @@
  GER_DEF:0 "the German National Republic"
  GER_ADJ:0 "German"
 
- OBR:0 "English Popular Republic"
- OBR_DEF:0 "the English Popular Republic"
- OBR_ADJ:0 "English"
+ OBR:0 "British Federation"
+ OBR_DEF:0 "the British Federation"
+ OBR_ADJ:0 "British"
 
  SCO:0 "Republic of Scotland"
  SCO_DEF:0 "the Republic of Scotland"
  SCO_ADJ:0 "Scottish"
- 
- WLS:0 "Republic of Wales"
- WLS_DEF:0 "the Republic of Wales"
- WLS_ADJ:0 "Welsh"
+
+ VMC:0 "Valentia March"
+ VMC_DEF:0 "the Valentia March"
+ VMC_ADJ:0 "Valentian"
+
+ IRE:0 "Irish Republic"
+ IRE_DEF:0 "the Irish Republic"
+ IRE_ADJ:0 "Irish"
 
  MEX:0 "Empire of Mexico"
  MEX_DEF:0 "the Empire of Mexico"
@@ -107,3 +111,35 @@
  VIN:0 "Republic of Vietnam"
  VIN_DEF:0 "the Republic of Vietnam"
  VIN_ADJ:0 "Vietnamese"
+
+ SCH:0 "Kiel Canal Autonomous Zone"
+ SCH_DEF:0 "the Kiel Canal Autonomous Zone"
+ SCH_ADJ:0 "Kiel"
+
+ HOL:0 "Dutch Republic"
+ HOL_DEF:0 "the Dutch Republic"
+ HOL_ADJ:0 "Dutch"
+
+ ALB:0 "Albania"
+ ALB_DEF:0 "Albania"
+ ALB_ADL:0 "Albanian"
+
+ AZA:0 "Azawad"
+ AZA_DEF:0 "Azawad"
+ AZA_ADJ:0 "Tuareg"
+
+ SOK:0 "Sokoto Caliphate"
+ SOK_DEF:0 "the Sokoto Caliphate"
+ SOK_ADJ:0 "Sokoto"
+
+ AFG:0 "Durrani Empire"
+ AFG_DEF:0 "the Durrani Empire"
+ AFG_ADJ:0 "Durrani"
+
+ RAJ:0 "Republic of India"
+ RAJ_DEF:0 "the Republic of India"
+ RAJ_ADJ:0 "Indian"
+
+ JKM:0 "Jammu and Kashmir"
+ JKM_DEF:0 "Jammu and Kashmir"
+ JKM_ADJ:0 "Kashmir"

@@ -1,0 +1,122 @@
+ideas = {
+
+	country = {
+		OBR_Operation_Eleanor = {
+
+			picture = GFX_idea_OBR_Eleanor
+
+			allowed = {
+				tag = OBR
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.3
+				production_speed_buildings_factor = -0.3
+				war_support_factor = -0.3
+				industrial_capacity_factory = -0.5
+				surrender_limit = -0.1
+			}
+		}
+		OBR_Victorianism_ends = {
+
+			picture = GFX_idea_OBR_Victorianism_ends
+
+			allowed = {
+				tag = OBR
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				drift_defence_factor = -0.4
+				ni_drift = 0.01
+				rc_drift = 0.01
+				lb_drift = 0.01
+				ss_drift = 0.01
+				ss_drift = 0.01
+			}
+		}
+		OBR_Fed_act = {
+
+			picture = GFX_idea_OBR_Fed_act
+
+			allowed = {
+				tag = OBR
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.5
+				consumer_goods_factor = 0.1
+			}
+		}
+		OBR_Forgotten_corner = {
+
+			picture = GFX_idea_OBR_Forgotten_corner
+
+			allowed = {
+				tag = OBR
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.1
+				foreign_subversive_activities = 0.1
+			}
+		}
+	}
+}

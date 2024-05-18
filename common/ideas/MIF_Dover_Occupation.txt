@@ -1,0 +1,55 @@
+ideas = {
+
+	country = {
+	
+		DOC_Neverending_occupation = {
+
+			picture = none
+
+			allowed = {
+
+			}
+
+			available = {
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+		
+		DOC_Transit = {
+
+			picture = none
+
+			allowed = {
+
+			}
+
+			available = {
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+}

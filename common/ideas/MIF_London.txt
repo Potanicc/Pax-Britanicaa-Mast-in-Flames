@@ -1,0 +1,57 @@
+ideas = {
+
+	country = {
+	
+		LON_Megaprison = {
+
+			picture = none
+
+			allowed = {
+				tag = LON
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+		
+		LON_Warren = {
+
+			picture = none
+
+			allowed = {
+				tag = LON
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+}

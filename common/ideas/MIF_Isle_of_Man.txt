@@ -1,0 +1,56 @@
+ideas = {
+
+	country = {
+		IOM_Haven = {
+
+			picture = none
+
+			allowed = {
+				tag = IOM
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+		
+		IOM_Joint_admin = {
+
+			picture = none
+
+			allowed = {
+				tag = IOM
+			}
+
+			available = {
+
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+}

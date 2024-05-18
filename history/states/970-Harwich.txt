@@ -1,0 +1,24 @@
+state={
+	id=970
+	name="Harwich"
+	
+	provinces={
+		271 
+	}
+	
+	history={
+		owner = DOC
+		add_core_of = DOC
+		add_core_of = OBR
+		add_claim_by = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+	
+	manpower=49482
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -21,7 +21,7 @@ focus_tree = {
 		y = 2500
 	}
 	initial_show_position = {
-		focus = MIF_JAP_Marshals_Republic
+		focus = JAP_Fourth_Pan_Asian_Congress
 	}
 
 	##################
@@ -29,19 +29,18 @@ focus_tree = {
 	##################
 
 	focus = {
-		id = MIF_JAP_Marshals_Republic
+		id = JAP_Fourth_Pan_Asian_Congress
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		x = 25
 		y = 1
-		cost = 7
+		cost = 4
 		ai_will_do = {
 			factor = 100
 		}
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
-
-		add_political_power = 50
-
+		select_effect = {
+		}
 	}
 }

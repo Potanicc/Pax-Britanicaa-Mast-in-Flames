@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {
+
+		MIF_VMA_Antonine_n_Hadrian = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+			}
+		}
+		
+		MIF_VMA_Auto_admin = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+	}
+}

@@ -18,9 +18,11 @@
 #	CONTENTS:
 # 	
 #	1. Domestic Branch
-#	>
+#	>Dealing with SP
 #
 #
+#	2. Cold War Branch
+#	>European Matters
 
 focus_tree = {
 
@@ -94,11 +96,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_Jacobin_Containment
+		id = FRA_Legacy_of_Franks
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 5
+		x = 0
 		y = 1.7
-		cost = 14
+		cost = 7
 		available = {
 		}
 		bypass = {
@@ -115,16 +117,20 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 10
+			add_political_power = 50
+			country_event = {
+				id = FranceD_ColdWar.1
+				days = 1
+			}
 		}
 	}
 
 	focus = {
-		id = FRA_Vietnamese_Situation
+		id = FRA_Between_Seas
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = -2.5
-		y = 1
-		cost = 14
+		x = 0
+		y = 1.5
+		cost = 7
 		available = {
 		}
 		bypass = {
@@ -132,16 +138,15 @@ focus_tree = {
 		ai_will_do = {
 			base = 5
 		}
-		prerequisite = {
-			focus = FRA_Jacobin_Containment
-		}
-		relative_position_id = FRA_Jacobin_Containment
+		relative_position_id = FRA_Legacy_of_Franks
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
-
+		prerequisite = {
+			focus = FRA_Legacy_of_Franks
+		}
+		
 		completion_reward = {
-			add_political_power = 10
 		}
 	}
 

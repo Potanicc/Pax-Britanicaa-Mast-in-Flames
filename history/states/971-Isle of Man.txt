@@ -1,0 +1,22 @@
+state={
+	id=971
+	name="Isle of Man"
+	provinces={
+		3311 
+	}
+	history = {
+		owner = IOM
+		add_core_of = IOM
+		add_core_of = OBR
+		buildings = {
+			infrastructure = 3
+
+			3311 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=57000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

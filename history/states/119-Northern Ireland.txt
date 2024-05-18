@@ -6,10 +6,10 @@ state={
 	history={
 		owner = IRE
 		victory_points = {
-			3379 10
+			3379 10 
 		}
 		victory_points = {
-			385 2
+			385 2 
 		}
 		buildings = {
 			infrastructure = 6
@@ -19,15 +19,20 @@ state={
 			dockyard = 1
 			3379 = {
 				naval_base = 4
+
 			}
+
 		}
 		add_core_of = IRE
+		set_demilitarized_zone = yes
+
 	}
 
 	provinces={
-		276 385 3217 3242 3329 3379 11257 
+		276 385 3217 3242 3329 3379 
 	}
 	manpower=2397074
-	buildings_max_level_factor=1
-	state_category="city"
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

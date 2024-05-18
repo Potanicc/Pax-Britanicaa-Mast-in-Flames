@@ -2,19 +2,21 @@
 state={
 	id=125
 	name="STATE_125"
-	manpower = 1363174
-
-	resources = {
-		grain = 5
+	resources={
+		grain=5.000
 	}
-	
-	state_category = city
 
 	history={
 		owner = OBR
-		victory_points = { 322 5 }
-		victory_points = { 11253 5 }
-		victory_points = { 11221 7 }
+		victory_points = {
+			322 5 
+		}
+		victory_points = {
+			11253 5 
+		}
+		victory_points = {
+			11221 7 
+		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -24,13 +26,20 @@ state={
 			air_base = 10
 			271 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = OBR
 		add_claim_by = ENG
+
 	}
 
 	provinces={
-		221 271 296 322 3287 11221 11253 
+		221 296 322 3287 11221 11253 
 	}
+	manpower=1363174
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

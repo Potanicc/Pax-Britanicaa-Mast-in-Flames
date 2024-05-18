@@ -1,0 +1,77 @@
+ideas = {
+
+	country = {
+
+		SCO_Northern_star = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+			}
+		}
+		
+		SCO_Poet_presidency = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+			}
+		}
+		
+		SCO_Unionist_threat = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+			}
+		}
+		
+		SCO_Machine_threat = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_army_problems
+			
+			removal_cost = -1
+	
+			modifier = {
+			}
+		}
+	}
+}

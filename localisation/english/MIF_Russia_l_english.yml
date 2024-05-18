@@ -14,33 +14,6 @@ Michael_II_desc:0 "I wipe my arse."
 MIF_Great_Reformer:0 "The Great Reformer"
 MIF_Senile_Tsar:0 "Senile"
 
-### COUNTRY NAMES ###
-
- RUS_ni:0 "Russian Empire"
- RUS_ni_DEF:0 "the Russian Empire"
- RUS_ds:0 "Russian Empire"
- RUS_ds_DEF:0 "the Russian Empire"
- RUS_rc:0 "Russian Empire"
- RUS_rc_DEF:0 "the Russian Empire"
- RUS_an:0 "Russian Empire"
- RUS_an_DEF:0 "the Russian Empire"
- RUS_cn:0 "Russian Empire"
- RUS_cn_DEF:0 "the Russian Empire"
- RUS_lb:0 "Russian Empire"
- RUS_lb_DEF:0 "the Russian Empire"
- RUS_ss:0 "Russian Empire"
- RUS_ss_DEF:0 "the Russian Empire"
- RUS_jc:0 "Russian Empire"
- RUS_jc_DEF:0 "the Russian Empire"
- RUS_ni_ADJ:0 "Russian"
- RUS_rc_ADJ:0 "Russian"
- RUS_lb_ADJ:0 "Russian"
- RUS_ss_ADJ:0 "Russian"
- RUS_jc_ADJ:0 "Russian"
- RUS_ds_ADJ:0 "Russian"
- RUS_cn_ADJ:0 "Russian"
- RUS_an_ADJ:0 "Russian"
-
 ### IDEAS ###
 
  SIK_sinkiang_war:0 "The War In Sinkiang"

@@ -60,13 +60,6 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
-set_power_balance = {
-
-    id = RUS_power_balance
-
-    set_value = -0.1
-
-}
 
 set_research_slots = 4
 
@@ -470,13 +463,13 @@ set_politics = {
 }
 
 set_popularities = {
-	RUS_OL = 100
+	RUS_OL = 50
+	FRA_OL = 25
+	JAP_OL = 15
+	AME_OL = 5
+	ROC_OL = 2
+	NA = 3
 }
-
-ban_party_jc = yes
-ban_party_ni = yes
-add_to_leading_coalition_cn = yes
-add_to_leading_coalition_lb = yes
 
 create_faction = FACTION_VG
 add_to_faction = SER

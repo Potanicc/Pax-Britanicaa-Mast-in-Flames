@@ -35,19 +35,28 @@
  ############
  # REMOVE HASHES PRIOR TO USE
  ############
- # x_jc_party:0 
- # x_jc_party_long:0
- # x_ss_party:0 
- # x_ss_party_long:0
- # x_lb_party:0
- # x_lb_party_long:0
- # x_cn_party:0
- # x_cn_party_long:0
- # x_rc_party:0
- # x_rc_party_long:0
- # x_an_party:0
- # x_an_party_long:0
- # x_ds_party:0 
- # x_ds_party_long:0
- # x_ni_party:0
- # x_ni_party_long:0
+ # x_FRA_OL_party:0 
+ # x_FRA_OL_party_long:0
+ # x_RUS_OL_party:0 
+ # x_RUS_OL_party_long:0
+ # x_AME_OL_party:0
+ # x_AME_OL_party_long:0
+ # x_JAP_OL_party:0
+ # x_JAP_OL_party_long:0
+ # x_ROC_OL_party:0
+ # x_ROC_OL_party_long:0
+ # x_NA_party:0
+ # x_NA_party_long:0
+
+RUS_FRA_OL_party:0 "The Paris Diplomats"
+RUS_FRA_OL_party_long:0 "The Paris Diplomats"
+RUS_RUS_OL_party:0 "House of Romanov"
+RUS_RUS_OL_party_long:0 "House of Romanov"
+RUS_AME_OL_party:0 "Old Pacific Assembly"
+RUS_AME_OL_party_long:0 "Old Pacific Assembly"
+RUS_JAP_OL_party:0 "The Jacobin League"
+RUS_JAP_OL_party_long:0 "The Jacobin League"
+RUS_ROC_OL_party:0 "The Chinese Comrades"
+RUS_ROC_OL_party_long:0 "The Chinese Comrades"
+RUS_NA_party:0 "The Free Embassies"
+RUS_NA_party_long:0 "The Free Embassies"

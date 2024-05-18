@@ -10,7 +10,7 @@ characters={
 		}
 		country_leader={
 			desc="Michael_II_desc"
-			ideology=CN_VARIANT_02
+			ideology=DS_VARIANT_06
 			expire="1.1.1.1"
 			traits = { MIF_Great_Reformer MIF_Senile_Tsar }
 			id=-1

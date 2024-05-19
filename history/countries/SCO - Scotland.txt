@@ -16,15 +16,26 @@ set_war_support = 0.1
 
 set_convoys = 5
 
+add_ideas = {
+	SCO_Northern_star
+	SCO_Poet_presidency
+	SCO_Unionist_threat
+	SCO_Machine_threat
+}
+
 set_politics = {
-	ruling_party = FRA_OL
+	ruling_party = NA
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    FRA_OL = 100
+	NA = 64
+	JAP_OL = 7
+	RUS_OL = 14
+	AME_OL = 6
+    	FRA_OL = 9
 }
 
 create_country_leader = {

@@ -1,0 +1,32 @@
+capital = 459
+
+oob = "NA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_stability = 0.6
+set_war_support = 0.05
+
+set_convoys = 189
+
+add_ideas = {
+	IOM_Haven
+	IOM_Joint_admin
+}
+
+set_politics = {
+	ruling_party = FRA_OL
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+   	FRA_OL = 68
+	AME_OL = 6
+	NA = 26
+}

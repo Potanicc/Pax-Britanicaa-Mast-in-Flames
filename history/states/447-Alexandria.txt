@@ -7,7 +7,7 @@ state={ ###SUEZ CANAL
 	state_category = enclave
 
 	history={
-		owner = FRA
+		owner = EGY
 		buildings = {
 			infrastructure = 5
 			air_base = 3

@@ -1,9 +1,8 @@
-starting_train_buffer = 2
-capital = 128
+capital = 127
 
-oob = "OBR_Starter"
+oob = "DOC_Starter"
 
-set_research_slots = 4
+set_research_slots = 1
 
 # Starting tech
 set_technology = { 
@@ -84,24 +83,14 @@ if = {
 
 add_ideas = {
 	PB_NI_Order
-	OBR_Operation_Eleanor
-	OBR_Victorianism_ends
-	OBR_Fed_act
-	OBR_Forgotten_corner
-
-	MIF_OBR_In_The_Shadows
-
-	ENG_PB_Archibald_Ramsay_HOG
-	ENG_PB_Tom_Horabin_ECM
-	ENG_PB_Cynthia_Curzon_FAM
-	ENG_PB_John_Simon_IAM
-	PB_Puppet_Government
+	DOC_Neverending_occupation
+	DOC_Transit
 }
 
 set_stability = 0.5
 set_war_support = 0.5
 
-set_convoys = 200
+set_convoys = 70
 
 
 set_politics = {
@@ -112,32 +101,14 @@ set_politics = {
 }
 
 set_popularities = {
-	FRA_OL = 84
-	RUS_OL = 9
-	ROC_OL = 5
-	AME_OL = 2
+	FRA_OL = 99
+	NA = 1
 }
 
 create_country_leader = {
-	name = "Harold Soref"
+	name = "Mister Babadook"
 	desc = "No desc for now"
-	picture = "OBR_Harold_Soref.dds"
+	picture = " "
 	expire = "1965.1.1"
 	ideology = DS_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Harold Soref"
-	desc = "OBR_William_Joyce_Desc"
-	picture = "OBR_Harold_Soref.dds"
-	expire = "1965.1.1"
-	ideology = RC_VARIANT_01
-}
-
-create_country_leader = {
-	name = "Harold Soref"
-	desc = "OBR_William_Joyce_Desc"
-	picture = "OBR_Harold_Soref.dds" #Portrait_OBR_William_Joyce.dds (older portrait)
-	expire = "1965.1.1"
-	ideology = NI_VARIANT_01
 }

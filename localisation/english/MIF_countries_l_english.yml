@@ -143,3 +143,15 @@
  JKM:0 "Jammu and Kashmir"
  JKM_DEF:0 "Jammu and Kashmir"
  JKM_ADJ:0 "Kashmir"
+
+ DOC:0 "Dover Strategic Command"
+ DOC_DEF:0 "the Dover Strategic Command"
+ DOC_ADJ:0 "Franco-English"
+
+ IOM:0 "Isle of Man"
+ IOM_DEF:0 "the Crown Dependency of the Isle of Man"
+ IOM_ADJ:0 "Manx"
+
+ VMA:0 "Valentia March"
+ VMA_DEF:0 "the Valentia Autonomous Military Administration"
+ VMA_ADJ:0 "Valentian"

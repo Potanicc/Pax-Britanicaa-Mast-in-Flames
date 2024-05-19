@@ -12,11 +12,7 @@ set_autonomy = {
 		autonomous_state = autonomy_MIF_Protected_Republic
 }
 set_autonomy = {
-		target = SCO
-		autonomous_state = autonomy_MIF_Protected_Republic
-}
-set_autonomy = {
-		target = WLS
+		target = VMA
 		autonomous_state = autonomy_MIF_Protected_Republic
 }
 
@@ -33,8 +29,6 @@ add_to_array = { PB_accepted_cultures = 10 }
 
 puppet = LON
 puppet = GER
-puppet = CRW
-puppet = WLS
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }

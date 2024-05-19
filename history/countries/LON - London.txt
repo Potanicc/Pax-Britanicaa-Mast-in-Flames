@@ -130,6 +130,11 @@ set_war_support = 0.5
 
 set_convoys = 250
 
+add_ideas = {
+	LON_Megaprison
+	LON_Warren
+}
+
 set_politics = {
 	ruling_party = ds
 	last_election = "1936.1.1"

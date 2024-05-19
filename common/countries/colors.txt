@@ -27,8 +27,8 @@ RUS = {
 	color_ui = rgb { 30 69 42 }
 }
 SWE = {
-	color = rgb { 45 70 125 }
-	color_ui = rgb { 45 70 125 }
+	color = rgb { 46 102 63 }
+	color_ui = rgb { 46 102 63 }
 }
 SCH = {
 	color = rgb { 192 64 64 }
@@ -115,8 +115,8 @@ ALB = {
 	color_ui = rgb { 123 71 99 }
 }
 NOR = {
-	color = rgb { 98 164 74 }
-	color_ui = rgb { 98 164 74 }
+	color = rgb { 46 102 63 }
+	color_ui = rgb { 46 102 63 }
 }
 DEN = {
 	color = rgb { 45 70 125 }
@@ -1895,12 +1895,11 @@ ILB = {
 	color = rgb { 20 59 20 }
 	color_ui = rgb { 20 59 20 }
 }
-#added for Mast in Flames
 VMA = {
 	color = rgb { 47 46 64 }
 	color_ui = rgb { 47 46 64 }
 }
-IMA = {
+IOM = {
 	color = rgb { 74 105 179 }
 	color_ui = rgb { 74 105 179 }
 }

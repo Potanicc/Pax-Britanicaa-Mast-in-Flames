@@ -33,7 +33,9 @@ set_research_slots = 3
 
 
 set_popularities = {
-	FRA_OL = 100
+	FRA_OL = 59
+	AME_OL = 25
+	NA = 16
 }
 	
 set_politics = {

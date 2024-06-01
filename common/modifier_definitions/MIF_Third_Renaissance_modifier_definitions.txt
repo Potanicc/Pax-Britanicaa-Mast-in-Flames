@@ -1,4 +1,4 @@
-### Innovation & Third Renaissance
+### Innovation & Science Funding Modifiers
 
 innovation_monthly = {
 	color_type = good
@@ -10,6 +10,24 @@ innovation_monthly = {
 }
 
 innovation_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+	
+	category = country
+}
+
+science_funding_monthly = {
+	color_type = good
+	value_type = number
+	precision = 1
+	postfix = none
+	
+	category = country
+}
+
+science_funding_factor = {
 	color_type = good
 	value_type = percentage
 	precision = 2

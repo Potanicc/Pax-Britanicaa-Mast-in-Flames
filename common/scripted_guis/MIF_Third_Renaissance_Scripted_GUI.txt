@@ -1,0 +1,23 @@
+scripted_gui = {
+	MIF_Third_Renaissance_Scripted_GUI = { 
+		window_name = "MIF_Third_Renaissance_GUI"
+		context_type = player_context
+		parent_window_name = third_renaissance_folder
+
+		properties = {
+
+		}
+
+		effects = {
+
+		}
+
+		triggers = {
+			
+		}
+
+		dynamic_lists = {
+			
+		}
+	}
+}

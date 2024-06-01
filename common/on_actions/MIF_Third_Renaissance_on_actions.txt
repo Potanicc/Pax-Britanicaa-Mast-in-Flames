@@ -1,7 +1,17 @@
 on_actions = {
 	on_monthly = {
 		effect = {
-			# will be moved to one pulse scripted effect for cleanliness once the effects begin to pile up - sprinkleskid
+			# this will be moved to one pulse scripted effect for cleanliness once the effects begin to pile up - sprinkleskid
+
+			# Innovation Gain From Science Funding
+			set_temp_variable = { MIF_science_funding_factor = modifier@science_funding_factor }
+			add_to_temp_variable = { MIF_science_funding_factor = 1 }
+			set_temp_variable = { MIF_science_funding_flat_growth = modifier@science_funding_monthly }
+			multiply_temp_variable = { MIF_science_funding_flat_growth = MIF_science_funding_factor }
+			multiply_temp_variable = { MIF_science_funding_flat_growth = 100 }
+			add_to_variable = { MIF_innovation = MIF_science_funding_flat_growth }
+
+			# Innovation Gain From Direct Effects
 			set_temp_variable = { MIF_innovation_factor = modifier@innovation_factor }
 			add_to_temp_variable = { MIF_innovation_factor = 1 }
 			set_temp_variable = { MIF_innovation_flat_growth = modifier@innovation_monthly }

@@ -1,0 +1,20 @@
+technologies = {
+    third_renaissance_placeholder = {
+		
+		research_cost = 2
+		start_year = 1929
+
+		folder = {
+			name = third_renaissance_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		categories = {
+			third_renaissance
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

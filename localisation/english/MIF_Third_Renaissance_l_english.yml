@@ -1,5 +1,7 @@
 ﻿l_english:
 
 # Modifiers
-innovation_monthly: "£innovation_texticon Monthly Innovation Gain"
-innovation_factor: "£innovation_factor_texticon Innovation Gain Factor"
+innovation_monthly: "£innovation_texticon Monthly Innovation"
+innovation_factor: "£innovation_factor_texticon Innovation Gain"
+science_funding_monthly: "Monthly Science Funding"
+science_funding_factor: "Science Funding Gain"

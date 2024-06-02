@@ -1,0 +1,12 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			# will be moved to one pulse scripted effect for cleanliness once the effects begin to pile up - sprinkleskid
+			set_temp_variable = { MIF_innovation_factor = modifier@innovation_factor }
+			add_to_temp_variable = { MIF_innovation_factor = 1 }
+			set_temp_variable = { MIF_innovation_flat_growth = modifier@innovation_monthly }
+			multiply_temp_variable = { MIF_innovation_flat_growth = MIF_innovation_factor }
+			add_to_variable = { MIF_innovation = MIF_innovation_flat_growth }
+		}
+	}
+}

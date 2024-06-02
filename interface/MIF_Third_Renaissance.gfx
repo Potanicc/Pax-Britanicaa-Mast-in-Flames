@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_innovation_texticon"
+		texturefile = "gfx/texticons/innovation_texticon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_innovation_factor_texticon"
+		texturefile = "gfx/texticons/innovation_growth_texticon.png"
+		legacy_lazy_load = no
+	}
+}

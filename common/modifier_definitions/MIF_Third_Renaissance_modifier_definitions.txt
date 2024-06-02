@@ -1,0 +1,19 @@
+### Innovation & Third Renaissance
+
+innovation_monthly = {
+	color_type = good
+	value_type = number
+	precision = 1
+	postfix = none
+	
+	category = country
+}
+
+innovation_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+	
+	category = country
+}

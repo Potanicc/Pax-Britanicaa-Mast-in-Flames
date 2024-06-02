@@ -40,41 +40,46 @@ on_actions = {
 			}
 		}
 	}
-	on_monthly = {
+
+	on_monthly_AUS = {	# will be moved to debug country of ZZZ eventually
 		effect = {
 			# electricity tracking
-			set_temp_variable = { MIF_electricity_temp_value = modifier@electricity }
-			set_temp_variable = { MIF_electricity_factor_temp_value = modifier@electricity_factor }
-			add_to_temp_variable = { MIF_electricity_factor = 1 }
-			if = {
-				limit = {
-					check_variable = { MIF_electricity_temp_value > 0 }
+			every_country = {
+				set_temp_variable = { MIF_electricity_temp_value = modifier@electricity }
+				set_temp_variable = { MIF_electricity_factor_temp_value = modifier@electricity_factor }
+				add_to_temp_variable = { MIF_electricity_factor = 1 }
+				if = {
+					limit = {
+						check_variable = { MIF_electricity_temp_value > 0 }
+					}
+					multiply_temp_variable = { MIF_electricity_temp_value = MIF_electricity_factor }
 				}
-				multiply_temp_variable = { MIF_electricity_temp_value = MIF_electricity_factor }
+				else = {
+					divide_temp_variable = { MIF_electricity_temp_value = MIF_electricity_factor }
+				}
+				set_variable = { MIF_electricity = MIF_electricity_temp_value }
 			}
-			else = {
-				divide_temp_variable = { MIF_electricity_temp_value = MIF_electricity_factor }
-			}
-			set_variable = { MIF_electricity = MIF_electricity_temp_value }
 
 			# pollution tracking
-			set_temp_variable = { nuclear_pollution_building_temp_var = total_constructed_nuclear_power_plant }
-			set_temp_variable = { coal_pollution_building_temp_var = total_constructed_coal_power_plant }
-			multiply_temp_variable = { coal_pollution_building_temp_var = 5 }
-			set_temp_variable = { oil_pollution_building_temp_var = total_constructed_oil_power_plant }
-			multiply_temp_variable = { oil_pollution_building_temp_var = 2 }
-			set_temp_variable = { gas_pollution_building_temp_var = total_constructed_natural_gas_power_plant }
-			multiply_temp_variable = { gas_pollution_building_temp_var = 3 }
-			set_temp_variable = { MIF_pollution_buildings_temp_var = nuclear_pollution_building_temp_var }
-			add_to_temp_variable = { MIF_pollution_buildings_temp_var = coal_pollution_building_temp_var }
-			add_to_temp_variable = { MIF_pollution_buildings_temp_var = oil_pollution_building_temp_var }
-			add_to_temp_variable = { MIF_pollution_buildings_temp_var = gas_pollution_building_temp_var }
-			for_loop_effect = {
-				start = 0
-				end = MIF_pollution_buildings_temp_var
-				compare = less_than_or_equals
-				add = 1
-				add_to_variable = { global.MIF_greenhouse_gasses_pollution = 1 }
+			every_state = {
+				set_temp_variable = { nuclear_pollution_building_temp_var = building_level@nuclear_power_plant }
+				set_temp_variable = { coal_pollution_building_temp_var = building_level@coal_power_plant }
+				multiply_temp_variable = { coal_pollution_building_temp_var = 5 }
+				set_temp_variable = { oil_pollution_building_temp_var = building_level@oil_power_plant }
+				multiply_temp_variable = { oil_pollution_building_temp_var = 2 }
+				set_temp_variable = { gas_pollution_building_temp_var = building_level@natural_gas_power_plant }
+				multiply_temp_variable = { gas_pollution_building_temp_var = 3 }
+				set_temp_variable = { MIF_pollution_buildings_temp_var = nuclear_pollution_building_temp_var }
+				add_to_temp_variable = { MIF_pollution_buildings_temp_var = coal_pollution_building_temp_var }
+				add_to_temp_variable = { MIF_pollution_buildings_temp_var = oil_pollution_building_temp_var }
+				add_to_temp_variable = { MIF_pollution_buildings_temp_var = gas_pollution_building_temp_var }
+				for_loop_effect = {
+					start = 0
+					end = MIF_pollution_buildings_temp_var
+					compare = less_than_or_equals
+					add = 1
+					add_to_variable = { global.MIF_greenhouse_gasses_pollution = 1 }
+				}
 			}
 		}
 	}

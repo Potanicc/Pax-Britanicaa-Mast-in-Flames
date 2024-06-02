@@ -1,0 +1,39 @@
+guiTypes = { 
+	containerWindowType = {
+		name = "MIF_Electricty_GUI"
+		position = { x = 445 y = 11 }
+
+		iconType = {
+			name ="MIF_Electricty_background"
+			spriteType = "GFX_MIF_Electricty_background"
+			position = { x=-23 y=0 }
+		}
+
+		iconType = {
+			name ="MIF_Electricity_icon"
+			spriteType = "GFX_MIF_Electricity_icon"
+			position = { x = -18 y = 5 }
+		}
+
+		instantTextBoxType = {
+			name ="MIF_Electricty_display"
+			position = { x = 0 y = 9 }
+			text = "MIF_Electricty_display"
+			font = "hoi_18mbs"
+			format = center
+			maxWidth = 46 
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "MIF_Electricty_tt"
+			pdx_tooltip_delayed = "MIF_Electricty_tt_delayed"
+		}
+
+		iconType = {
+			name ="MIF_Electricity_help_icon"
+			spriteType = "GFX_MIF_Electricity_help_icon"
+			position = { x = -54 y = 2 }
+			pdx_tooltip = "MIF_Electricity_help_tt"
+			pdx_tooltip_delayed = "MIF_Electricity_help_tt_delayed"
+		}
+	}
+}

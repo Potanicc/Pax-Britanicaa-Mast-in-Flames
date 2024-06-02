@@ -1,0 +1,7 @@
+scripted_gui = {
+	MIF_Electricty_Scripted_GUI = { 
+		window_name = "MIF_Electricty_GUI"
+		context_type = player_context
+		parent_window_token = construction_tab
+	}
+}

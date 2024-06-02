@@ -1,0 +1,24 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_electricity_texticon"
+		texturefile = "gfx/texticons/electricity_texticon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_electricity_factor_texticon"
+		texturefile = "gfx/texticons/electricity_growth_texticon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_MIF_Electricity_help_icon"
+		texturefile = "gfx/interface/MIF_Electricity_help_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_MIF_Electricity_icon"
+		texturefile = "gfx/texticons/electricity_texticon.png"
+	}
+	spriteType = {
+		name = "GFX_MIF_Electricty_background"
+		texturefile = "gfx/interface/MIF_Electricty_background.png"
+	}
+}

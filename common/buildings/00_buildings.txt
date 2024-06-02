@@ -15,6 +15,9 @@ buildings = {
 		shares_slots = yes
 		value = 8
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -2
 	}
 
 	industrial_complex = {
@@ -27,6 +30,9 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -2
 	}
 
 	infrastructure = {
@@ -41,6 +47,9 @@ buildings = {
 		allied_build = yes
 
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -1
 	}
 
 	dockyard = {
@@ -55,6 +64,9 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -2
 	}
 
 	air_base = {
@@ -66,6 +78,9 @@ buildings = {
 		value = 1
 		damage_factor = 0.5
 		allied_build = yes
+		
+		show_modifier = yes
+		electricity = -0.5
 	}
 
 	naval_base = {
@@ -80,6 +95,9 @@ buildings = {
 		max_level = 10
 		value = 1
 		allied_build = yes
+		
+		show_modifier = yes
+		electricity = -0.5
 	}
 
 	bunker = {
@@ -93,6 +111,9 @@ buildings = {
 		land_fort = 1
 		max_level = 10
 		value = 1
+		
+		show_modifier = yes
+		electricity = -0.25
 	}
 
 	coastal_bunker = {
@@ -107,6 +128,9 @@ buildings = {
 		naval_fort = 1
 		max_level = 10
 		value = 1
+		
+		show_modifier = yes
+		electricity = -0.25
 	}
 
 	anti_air_building = {
@@ -119,6 +143,9 @@ buildings = {
 		max_level = 5 # This is the max unlock level
 		damage_factor = 0.1
 		value = 1
+		
+		show_modifier = yes
+		electricity = -0.25
 	}
 
 	synthetic_refinery = {
@@ -135,6 +162,9 @@ buildings = {
 		
 		show_modifier = yes
 		fuel_gain_from_states = 2.0 #per hour
+		
+		show_modifier = yes
+		electricity = -3
 	}
 
 	radar_station = {
@@ -146,6 +176,9 @@ buildings = {
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5
 		value = 4
+		
+		show_modifier = yes
+		electricity = -0.5
 	}
 
 	rocket_site = {
@@ -158,6 +191,9 @@ buildings = {
 		shares_slots = yes
 		value = 1
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -0.5
 	}
 
 	nuclear_reactor = {
@@ -170,6 +206,9 @@ buildings = {
 		shares_slots = yes
 		value = 10
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -4
 	}
 
 	fuel_silo = {
@@ -184,6 +223,9 @@ buildings = {
 		
 		show_modifier = yes
 		max_fuel_building = 100.0 #k
+		
+		show_modifier = yes
+		electricity = -0.5
 	}
 
 	supply_node = {
@@ -198,6 +240,9 @@ buildings = {
 		damage_factor = 0.1
 		allied_build = yes
 		always_shown = yes
+		
+		show_modifier = yes
+		electricity = -0.5
 	}	
 	
 	rail_way = {
@@ -219,6 +264,9 @@ buildings = {
         refinery = yes
 		value = 3
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -1
 	}
 
 	steel_mill = {
@@ -233,6 +281,9 @@ buildings = {
 		refinery = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		electricity = -3
 	}
 
 	medical_center = {
@@ -250,6 +301,9 @@ buildings = {
 		sickness_chance = -0.05
 		local_manpower = -0.05
 		local_supplies = -0.05
+		
+		show_modifier = yes
+		electricity = -1
 	}
 
 	tesla_tower = {
@@ -263,6 +317,9 @@ buildings = {
 		shares_slots = yes
 		show_modifier = yes
 		local_building_slots_factor = 0.3
+		
+		show_modifier = yes
+		electricity = -4
 	}
 
 	research_center = {
@@ -278,5 +335,77 @@ buildings = {
 		research_speed_factor = 0.005
 		local_manpower = -0.05
 		local_supplies = -0.05
+		
+		show_modifier = yes
+		electricity = -1
+	}
+
+	# ill make models for these when i eventually learn blender - sprinkleskid
+
+	coal_power_plant = {
+		show_on_map = 0
+		base_cost = 10000
+		icon_frame = 21
+		max_level = 3
+		value = 2
+		infrastructure_construction_effect = yes
+		local_resources_natural_coal = -1
+		
+		show_modifier = yes
+		
+		electricity = 2
+	}
+
+	oil_power_plant = {
+		show_on_map = 0
+		base_cost = 10000
+		icon_frame = 21
+		max_level = 3
+		value = 2
+		infrastructure_construction_effect = yes
+		local_resources_oil = -1
+		
+		show_modifier = yes
+		
+		electricity = 3
+	}
+
+	natural_gas_power_plant = {
+		show_on_map = 0
+		base_cost = 10000
+		icon_frame = 21
+		max_level = 3
+		value = 2
+		infrastructure_construction_effect = yes
+		local_resources_natural_gas = -1
+		
+		show_modifier = yes
+		
+		electricity = 3
+	}
+
+	nuclear_power_plant = {
+		base_cost = 25000
+		icon_frame = 21
+		max_level = 3
+		value = 2
+		infrastructure_construction_effect = yes
+		local_resources_uranium = -1
+		
+		show_modifier = yes
+		
+		electricity = 12
+	}
+
+	renewable_power_plant = {
+		base_cost = 25000
+		icon_frame = 21
+		max_level = 3
+		value = 2
+		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		
+		electricity = 4
 	}
 }

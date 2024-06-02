@@ -1,0 +1,19 @@
+### Electricity
+
+electricity = {
+	color_type = good
+	value_type = number
+	precision = 2
+	postfix = none
+	
+	category = all
+}
+
+electricity_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+	
+	category = all
+}

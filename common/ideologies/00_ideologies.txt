@@ -4,25 +4,22 @@ ideologies = {
 	
 		types = {
 		
-			NI_VARIANT_01 = { #BASELINE
+			FRA_OL_00 = { #Default
 			}
 
-			NI_VARIANT_02 = { #ULTRANATIONALISM
+			FRA_OL_01 = { #Parisian Pragmatism
 			}
 
-			NI_VARIANT_03 = { #NATIONAL SYNDICALISM
+			FRA_OL_02 = { #Techno-Feudalism 
 			}
 
-			NI_VARIANT_04 = { #CLERICAL ULTRANATIONALISM
+			FRA_OL_03 = { #Ultranationalism
 			}
 
-			NI_VARIANT_05 = { #REVOLUTIONARY ULTRANATIONALISM
+			FRA_OL_04 = { #Neo-Socialism
 			}
 
-			NI_VARIANT_06 = { #NEO COLONIALISM
-			}
-
-			NI_VARIANT_10 = { #BRITISH REVANCHISM
+			FRA_OL_05 = { #French-aligned Military Dictatorship
 			}
 		}
 		
@@ -63,28 +60,7 @@ ideologies = {
 	
 		types = {
 			
-			DS_VARIANT_01 = {#GENERIC DESPOTISM
-			}
-
-			DS_VARIANT_02 = {#ABSOLUTE MONARCHY
-			}
-
-			DS_VARIANT_03 = {#PAN-AFRICAN NATIONALISM
-			}
-
-			DS_VARIANT_04 = {#PAN-ARAB NATIONALISM
-			}
-
-			DS_VARIANT_05 = { #TECHNOCRACY
-			}
-
-			DS_VARIANT_06 = { #AUTHORITARIAN DEMOCRACY
-			}
-
-			DS_VARIANT_07 = { #BOLIVARIAN DEMOCRACY
-			}
-
-			DS_VARIANT_08 = { #DOMINANT PARTY DEMOCRACY - DESPOTIST
+			RUS_OL_00 = { #Default
 			}
 		}
 		
@@ -126,19 +102,7 @@ ideologies = {
 	
 		types = {
 			
-			RC_VARIANT_01 = { #GENERIC
-			}
-
-			RC_VARIANT_02 = { #RELIGIOUS FUNDAMENTALISTS
-			}
-
-			RC_VARIANT_03 = { #ETHNO-NATIONALISM
-			}
-
-			RC_VARIANT_04 = { #DOMINANT PARTY DEMOCRACY - REACTIONARY
-			}
-
-			RC_VARIANT_05 = { #SOCIAL CREDIT
+			AME_OL_00 = { #Default
 			}
 		}
 		
@@ -181,22 +145,7 @@ ideologies = {
 	
 		types = {
 			
-			AN_VARIANT_01 = { #BASELINE
-			}
-
-			AN_VARIANT_02 = { #MARKET CONSERVATIVE
-			}
-
-			AN_VARIANT_03 = { #Fordism
-			}
-
-			AN_VARIANT_04 = { #DOMINANT PARTY DEMOCRACY - ANLIB
-			}
-
-			AN_VARIANT_05 = { #EDISONIAN CONSERVATIVE
-			}
-
-			AN_VARIANT_06 = { #CORPORATOCRACY
+			JAP_OL_00 = { #Default
 			}
 		}
 		
@@ -242,22 +191,7 @@ ideologies = {
 	
 		types = {
 			
-			CN_VARIANT_01 = { #BASELINE
-			}
-
-			CN_VARIANT_02 = { #RIGHT POPULISM
-			}
-
-			CN_VARIANT_03 = { #PROGRESSIVE CONSERVATIVE
-			}
-
-			CN_VARIANT_04 = { #Dominant Party Democracy - Conservative
-			}
-
-			CN_VARIANT_05 = { #FISCAL CONSERVATISM
-			}
-
-			CN_VARIANT_06 = { #ZIONISM
+			ROC_OL = { #Default
 			}
 		}
 		
@@ -304,25 +238,13 @@ ideologies = {
 	
 		types = {
 			
-			LB_VARIANT_01 = { #BASELINE
+			NA_00 = { #Default
 			}
 
-			LB_VARIANT_02 = { #Dominant Party Democracy - Liberal
-			}	
-
-			LB_VARIANT_03 = { #National Liberalism
-			}	
-
-			LB_VARIANT_04 = { #Classical Liberalism
-			}	
-
-			LB_VARIANT_05 = { #Guangdong Liberalism
+			NA_01 = { #Absolute Monarchy
 			}
 
-			LB_VARIANT_06 = { #Market Liberalism
-			}
-
-			LB_VARIANT_07 = { #Islamic Liberalism
+			NA_02 = { #Military Dictatorship
 			}
 		}
 		

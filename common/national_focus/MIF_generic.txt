@@ -1,3 +1,5 @@
+#Leave this file empty
+
 focus_tree = {
 	id = generic_focus
 	

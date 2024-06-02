@@ -16,8 +16,8 @@
  JAP_DEF:0 "the Republic of Japan"
  JAP_ADJ:0 "Japanese"
 
- ROC:0 "Chinese Revolutionary Association"
- ROC_DEF:0 "the Chinese Revolutionary Association"
+ ROC:0 "Chinese Workers' and Peasants' Republic"
+ ROC_DEF:0 "the Chinese Workers' and Peasants' Republic"
  ROC_ADJ:0 "Chinese"
 
  SPR:0 "Holy Communion of Iberia"
@@ -112,6 +112,10 @@
  VIN_DEF:0 "the Republic of Vietnam"
  VIN_ADJ:0 "Vietnamese"
 
+ BCL:0 "Free Provinces of Borealia"
+ BCL_DEF:0 "the Free Provinces of Borealia"
+ BCL_ADJ:0 "Borealian"
+
  SCH:0 "Kiel Canal Autonomous Zone"
  SCH_DEF:0 "the Kiel Canal Autonomous Zone"
  SCH_ADJ:0 "Kiel"
@@ -123,14 +127,6 @@
  ALB:0 "Albania"
  ALB_DEF:0 "Albania"
  ALB_ADL:0 "Albanian"
-
- AZA:0 "Azawad"
- AZA_DEF:0 "Azawad"
- AZA_ADJ:0 "Tuareg"
-
- SOK:0 "Sokoto Caliphate"
- SOK_DEF:0 "the Sokoto Caliphate"
- SOK_ADJ:0 "Sokoto"
 
  AFG:0 "Durrani Empire"
  AFG_DEF:0 "the Durrani Empire"
@@ -155,3 +151,75 @@
  VMA:0 "Valentia March"
  VMA_DEF:0 "the Valentia Autonomous Military Administration"
  VMA_ADJ:0 "Valentian"
+
+ NOR:0 "Kingdom of Norway"
+ NOR_DEF:0 "the Kingdom of Norway"
+ NOR_ADJ:0 "Norwegian"
+
+ SWE:0 "Kingdom of Sweden"
+ SWE_DEF:0 "the Kingdom of Sweden"
+ SWE_ADJ:0 "Swedish"
+
+ ETH:0 "Ethiopian Empire"
+ ETH_DEF:0 "the Ethiopian Empire"
+ ETH_ADJ:0 "Ethiopian"
+
+ WAF:0 "Free State of Carnegia"
+ WAF_DEF:0 "the Free State of Carnegia"
+ WAF_ADJ:0 "Carnegian"
+
+ NIG:0 "United Nigerian Republic"
+ NIG_DEF:0 "the United Nigerian Republic"
+ NIG_ADJ:0 "Nigerian"
+
+ SOK:0 "Sokoto Caliphate"
+ SOK_DEF:0 "the Sokoto Caliphate"
+ SOK_ADJ:0 "Sokoto"
+
+ ASH:0 "Ashanti"
+ ASH_DEF:0 "Ashanthi"
+ ASH_ADJ:0 "Ashanti"
+
+ FUL:0 "Fulani Republic"
+ FUL_DEF:0 "the Fulani Republic"
+ FUL_ADJ:0 "Fulani"
+
+ MLI:0 "Mali Federation"
+ MLI_DEF:0 "the Mali Federation"
+ MLI_ADJ:0 "Malian"
+
+ AZA:0 "Tuareg Confederation of Azawad"
+ AZA_DEF:0 "the Tuareg Confederation of Azawad"
+ AZA_ADJ:0 "Tuareg"
+
+ NBT:0 "Republic of New Holland"
+ NBT_DEF:0 "the Republic of New Holland"
+ NBT_ADJ:0 "Australo-Dutch"
+
+ VIC:0 "Commonwealth of Oceania"
+ VIC_DEF:0 "the Commonwealth of Oceania"
+ VIC_ADJ:0 "Oceanian"
+
+ NWG:0 "Empire of Gran Colombia"
+ NWG_DEF:0 "the Empire of Gran Colombia"
+ NWG_ADJ:0 "Gran Colombian"
+
+ MNG:0 "Empire of Brazil"
+ MNG_DEF:0 "the Empire of Brazil"
+ MNG_ADJ:0 "Brazilian"
+
+ SLO:0 "Slovak Republic"
+ SLO_DEF:0 "the Slovak Republic"
+ SLO_ADJ:0 "Slovak"
+
+ POL:0 "Poland"
+ POL_DEF:0 "Poland"
+ POL_ADJ:0 "Polish"
+
+ GLF:0 "German Liberation Forces"
+ GLF_DEF:0 "the German Liberation Forces"
+ GLF_ADJ:0 "German Exile"
+
+ ENG:0 "British Salvation Government"
+ ENG_DEF:0 "the British Salvation Government"
+ ENG_ADJ:0 "British Exile"

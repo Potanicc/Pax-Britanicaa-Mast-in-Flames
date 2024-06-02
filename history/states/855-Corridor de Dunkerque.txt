@@ -16,7 +16,6 @@ state={
 			}
 		}
 		add_core_of = FRA
-		add_core_of = WLA
 		victory_points = {
 			575 10
 		}

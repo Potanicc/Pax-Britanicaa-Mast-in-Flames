@@ -21,9 +21,8 @@ state={
 				bunker = 2
 			}
 		}
-		owner = FRA
-		add_core_of = FRA
-		add_claim_by = HOL
+		owner = HOL
+		add_core_of = HOL
 	}
 	manpower=2700000
 	buildings_max_level_factor=1.000

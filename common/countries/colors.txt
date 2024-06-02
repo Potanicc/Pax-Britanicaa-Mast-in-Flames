@@ -55,8 +55,8 @@ WLA = {
 	color_ui = rgb { 163 88 126 }
 }
 HOL = {	
-	color = rgb { 192 127 64 }
-	color_ui = rgb { 192 127 64 }
+	color = rgb { 45 70 125 }
+	color_ui = rgb { 45 70 125 }
 }
 CZE = {	
 	color = rgb { 46 102 63 }

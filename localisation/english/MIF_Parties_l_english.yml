@@ -4,6 +4,12 @@
  FRA_OL:0 "Pro-French Outlook"
  FRA_OL_noun:0 "Pro-French Outlook"
  FRA_OL_desc:0 "Pro-French Government"
+
+ FRA_OL_01:0 "Parisian Pragmatism"
+ FRA_OL_01_desc:0 "WIP"
+
+ FRA_OL_02:0 "Techno-Feudalism"
+ FRA_OL_02_desc:0 "WIP"
  
  ### RUSSIAN OUTLOOK ###
  RUS_OL:0 "Pro-Russian Outlook"
@@ -47,16 +53,3 @@
  # x_ROC_OL_party_long:0
  # x_NA_party:0
  # x_NA_party_long:0
-
-RUS_FRA_OL_party:0 "The Paris Diplomats"
-RUS_FRA_OL_party_long:0 "The Paris Diplomats"
-RUS_RUS_OL_party:0 "House of Romanov"
-RUS_RUS_OL_party_long:0 "House of Romanov"
-RUS_AME_OL_party:0 "Old Pacific Assembly"
-RUS_AME_OL_party_long:0 "Old Pacific Assembly"
-RUS_JAP_OL_party:0 "The Jacobin League"
-RUS_JAP_OL_party_long:0 "The Jacobin League"
-RUS_ROC_OL_party:0 "The Chinese Comrades"
-RUS_ROC_OL_party_long:0 "The Chinese Comrades"
-RUS_NA_party:0 "The Free Embassies"
-RUS_NA_party_long:0 "The Free Embassies"

@@ -1,4 +1,21 @@
 ﻿l_english:
 
-
  
+### PARTIES ###
+FRA_FRA_OL_party:0 "FPF"
+FRA_FRA_OL_party_long:0 "Front Populaire Français"
+
+
+
+### FOCUSES ###
+FRA_Jacques_Doriot_Saviour:0 "Jacques Doriot, Saviour of France, the..."
+FRA_Jacques_Doriot_Saviour_desc:0 "WIP"
+
+FRA_Pawn_With_Crown:0 "Pawn with a Crown"
+FRA_Pawn_With_Crown_desc:0 "WIP"
+
+FRA_Bastard_In_Glasses:0 "Bastard in Glasses"
+FRA_Bastard_In_Glasses_desc:0 "WIP"
+
+FRA_Power_Hungry_Tyrant:0 "Power Hungry Tyrant"
+FRA_Power_Hungry_Tyrant_desc:0 "WIP"

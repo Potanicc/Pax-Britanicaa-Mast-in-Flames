@@ -21,8 +21,8 @@ state={
 
 		}
 		owner = ALM
-		add_core_of = GER
 		add_core_of = ALM
+		add_claim_by = GLF
 
 	}
 

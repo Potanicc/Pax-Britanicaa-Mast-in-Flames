@@ -44,11 +44,11 @@ focus_tree = {
 	}
 
 	initial_show_position = {
-		focus = FRA_Paris_Convention
+		focus = FRA_Jacques_Doriot_Saviour
 	} 
 
 	focus = {
-		id = FRA_Paris_Convention
+		id = FRA_Jacques_Doriot_Saviour
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		x = 25
 		y = 0
@@ -69,23 +69,110 @@ focus_tree = {
 		}
 	}
 
-
-
-	#### COLD WAR POLICY TREE ####
-
 	focus = {
-		id = FRA_One_World_Master
+		id = FRA_Pawn_With_Crown
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 9
-		y = 7.5
+		x = -8
+		y = 2
 		cost = 14
 		available = {
+		}
+		prerequisite = {
+			focus = FRA_Jacques_Doriot_Saviour
 		}
 		bypass = {
 		}
 		ai_will_do = {
 			base = 5
 		}
+		relative_position_id = FRA_Jacques_Doriot_Saviour
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = FRA_Bastard_In_Glasses
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		x = 0
+		y = 2
+		cost = 14
+		available = {
+		}
+		prerequisite = {
+			focus = FRA_Jacques_Doriot_Saviour
+		}
+		bypass = {
+		}
+		ai_will_do = {
+			base = 5
+		}
+		relative_position_id = FRA_Jacques_Doriot_Saviour
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = FRA_Power_Hungry_Tyrant
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		x = 8
+		y = 2
+		cost = 14
+		available = {
+		}
+		prerequisite = {
+			focus = FRA_Jacques_Doriot_Saviour
+		}
+		bypass = {
+		}
+		ai_will_do = {
+			base = 5
+		}
+		relative_position_id = FRA_Jacques_Doriot_Saviour
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
@@ -96,66 +183,116 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_Legacy_of_Franks
+		id = FRA_Pull_Strings
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 0
-		y = 1.7
-		cost = 7
+		x = -2
+		y = 1.5
+		cost = 14
 		available = {
+		}
+		prerequisite = {
+			focus = FRA_Power_Hungry_Tyrant
 		}
 		bypass = {
 		}
 		ai_will_do = {
 			base = 5
 		}
-		relative_position_id = FRA_One_World_Master
+		relative_position_id = FRA_Power_Hungry_Tyrant
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
-		prerequisite = {
-			focus = FRA_One_World_Master
-		}
 		
 		completion_reward = {
-			add_political_power = 50
-			country_event = {
-				id = FranceD_ColdWar.1
-				days = 1
-			}
+			add_political_power = 10
+		}
+	}
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = FRA_Expand_African_Foothold
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		x = 8.5
+		y = 1.5
+		cost = 14
+		available = {
+		}
+		prerequisite = {
+			focus = FRA_Power_Hungry_Tyrant
+		}
+		bypass = {
+		}
+		ai_will_do = {
+			base = 5
+		}
+		relative_position_id = FRA_Power_Hungry_Tyrant
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
 		}
 	}
 
 	focus = {
-		id = FRA_Between_Seas
+		id = FRA_Exploit_Useful_Idiots
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 0
+		x = 3
 		y = 1.5
-		cost = 7
+		cost = 14
 		available = {
+		}
+		prerequisite = {
+			focus = FRA_Expand_African_Foothold
 		}
 		bypass = {
 		}
 		ai_will_do = {
 			base = 5
 		}
-		relative_position_id = FRA_Legacy_of_Franks
+		relative_position_id = FRA_Expand_African_Foothold
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes
-		prerequisite = {
-			focus = FRA_Legacy_of_Franks
-		}
 		
 		completion_reward = {
+			add_political_power = 10
 		}
 	}
 
-
-
-
-
-
-
+	focus = {
+		id = FRA_Rifles_For_Ink
+		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
+		x = 0
+		y = 1.3
+		cost = 14
+		available = {
+		}
+		prerequisite = {
+			focus = FRA_Exploit_Useful_Idiots
+		}
+		bypass = {
+		}
+		ai_will_do = {
+			base = 5
+		}
+		relative_position_id = FRA_Exploit_Useful_Idiots
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
 
 
 }

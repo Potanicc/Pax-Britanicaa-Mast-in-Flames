@@ -6,18 +6,18 @@ guiTypes = {
 		iconType = {
 			name ="MIF_Electricty_background"
 			spriteType = "GFX_MIF_Electricty_background"
-			position = { x=-23 y=0 }
+			position = { x = -23 y = 0 }
 		}
 
 		iconType = {
 			name ="MIF_Electricity_icon"
 			spriteType = "GFX_MIF_Electricity_icon"
-			position = { x = -18 y = 5 }
+			position = { x = -18 y = 4 }
 		}
 
 		instantTextBoxType = {
 			name ="MIF_Electricty_display"
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = 7 }
 			text = "MIF_Electricty_display"
 			font = "hoi_18mbs"
 			format = center

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ACD
+		owner = AME
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = ACD
+		add_core_of = AME
 		victory_points = {
 			7552 10 
 		}

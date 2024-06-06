@@ -4,9 +4,9 @@ state={
 	name="STATE_806"
 
 	history={
-		owner = NIG
-		add_core_of = NGR
-		add_claim_by = SOK
+		owner = SOK
+		add_core_of = SOK
+		add_claim_by = NIG
 		buildings = {
 			infrastructure = 2
 		}

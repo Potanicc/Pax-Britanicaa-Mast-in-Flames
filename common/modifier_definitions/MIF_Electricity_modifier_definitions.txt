@@ -1,6 +1,6 @@
 ### Electricity
 
-electricity = {
+electricity_production = {
 	color_type = good
 	value_type = number
 	precision = 2
@@ -9,8 +9,26 @@ electricity = {
 	category = all
 }
 
-electricity_factor = {
+electricity_consumption = {
+	color_type = bad
+	value_type = number
+	precision = 2
+	postfix = none
+	
+	category = all
+}
+
+electricity_production_factor = {
 	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+	
+	category = all
+}
+
+electricity_consumption_factor = {
+	color_type = bad
 	value_type = percentage
 	precision = 2
 	postfix = none

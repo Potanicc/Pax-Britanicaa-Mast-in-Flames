@@ -1,0 +1,40 @@
+MIF_Calculate_Electricity = {
+	# leave these as reg vars as they need to be visible to the player
+	set_variable = { MIF_electricity_base_production = modifier@electricity_production }
+	set_variable = { MIF_electricity_production_factor = modifier@electricity_production_factor }
+	add_to_variable = { MIF_electricity_production_factor = 1 }
+	set_variable = { MIF_electricity_total_production = MIF_electricity_base_production }
+	multiply_variable = { MIF_electricity_total_production = MIF_electricity_production_factor }
+	set_variable = { MIF_electricity_base_consumption = modifier@electricity_consumption }
+	set_variable = { MIF_electricity_consumption_factor = modifier@electricity_consumption_factor }
+	add_to_variable = { MIF_electricity_consumption_factor = 1 }
+	set_variable = { MIF_electricity_total_consumption = MIF_electricity_base_consumption }
+	multiply_variable = { MIF_electricity_total_consumption = MIF_electricity_consumption_factor }
+	set_variable = { MIF_electricity = MIF_electricity_total_production }
+	subtract_from_variable = { MIF_electricity = MIF_electricity_total_consumption }
+
+	# needed for tooltip
+	subtract_from_variable = { MIF_electricity_production_factor = 1 }
+	subtract_from_variable = { MIF_electricity_consumption_factor = 1 }
+}
+
+MIF_Calculate_Pollution = {
+	set_temp_variable = { nuclear_pollution_building_temp_var = building_level@nuclear_power_plant }
+	set_temp_variable = { coal_pollution_building_temp_var = building_level@coal_power_plant }
+	multiply_temp_variable = { coal_pollution_building_temp_var = 5 }
+	set_temp_variable = { oil_pollution_building_temp_var = building_level@oil_power_plant }
+	multiply_temp_variable = { oil_pollution_building_temp_var = 2 }
+	set_temp_variable = { gas_pollution_building_temp_var = building_level@natural_gas_power_plant }
+	multiply_temp_variable = { gas_pollution_building_temp_var = 3 }
+	set_temp_variable = { MIF_pollution_buildings_temp_var = nuclear_pollution_building_temp_var }
+	add_to_temp_variable = { MIF_pollution_buildings_temp_var = coal_pollution_building_temp_var }
+	add_to_temp_variable = { MIF_pollution_buildings_temp_var = oil_pollution_building_temp_var }
+	add_to_temp_variable = { MIF_pollution_buildings_temp_var = gas_pollution_building_temp_var }
+	for_loop_effect = {
+		start = 0
+		end = MIF_pollution_buildings_temp_var
+		compare = less_than_or_equals
+		add = 1
+		add_to_variable = { global.MIF_greenhouse_gasses_pollution = 1 }
+	}
+}

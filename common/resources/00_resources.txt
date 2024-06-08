@@ -1,6 +1,24 @@
 resources = {
 
+	coal = {
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
+
 	oil = {
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	natural_gas = {
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	uranium = {
 		icon_frame = 1
 		cic = 0.125
 		convoys = 0.1

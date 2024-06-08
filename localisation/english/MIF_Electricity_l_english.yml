@@ -3,6 +3,15 @@
 ### Modifiers ###
 electricity: "£electricity_texticon Electricity"
 electricity_factor: "£electricity_factor_texticon Electricity Gain"
+electricity_production: "£electricity_factor_texticonElectricity Production"
+electricity_consumption: "Electricity Consumption"
+electricity_production_factor: "Electricity Production Factor"
+electricity_consumption_factor: "Electricity Consumption Factor"
+
+### Resources ###
+PRODUCTION_MATERIALS_COAL:0 "Coal"
+PRODUCTION_MATERIALS_NATURAL_GAS:0 "Natural Gas"
+PRODUCTION_MATERIALS_URANIUM:0 "Uranium"
 
 ### Buildings ###
 coal_power_plant: "Coal Power Plant"
@@ -43,7 +52,7 @@ modifier_state_production_renewable_power_plant_factor_desc:0 "Modifies the spee
 
 ### Construction Screen GUI ###
 MIF_Electricty_display: "[?MIF_electricity|Y]"
-MIF_Electricty_tt: "[ROOT.GetName] currently has £electricity_texticon [?MIF_electricity|Y] electricty."
-MIF_Electricty_tt_delayed: "insert cool desc later"
+MIF_Electricty_tt: "There is no such thing as an unlimited amount of electricity, there is only so much energy to go around. We must generate electricity by building power plants to meet our economy’s needs for power.\n\nNet Electricity: £electricity_texticon[?MIF_electricity|Y]"
+MIF_Electricty_tt_delayed: "Electricity Production: £electricity_production_texticon[?MIF_electricity_total_production]\nBase Electricity Production: £base_electricity_production_texticon[?MIF_electricity_base_production]\nElectricity Production Factor: £electricity_production_factor_texticon[?MIF_electricity_production_factor|%]\n\nElectricity Consumption: £electricity_consumption_texticon[?MIF_electricity_total_consumption]\nBase Electricity Consumption: £base_electricity_consumption_texticon[?MIF_electricity_base_consumption]\nElectricity Consumption Factor: £electricity_consumption_factor_texticon[?MIF_electricity_consumption_factor|%]"
 MIF_Electricity_help_tt: "help idk how tf to use this mechanic"
 MIF_Electricity_help_tt_delayed: "figure it out yourself moron"

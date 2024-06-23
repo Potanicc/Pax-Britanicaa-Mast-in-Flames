@@ -74,7 +74,7 @@ guiTypes = {
 	textBoxType={
 		name = "ToolTip"
 		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
-		font = "atompunk_sans"
+		font = "cg_16b"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
 		maxWidth = 400

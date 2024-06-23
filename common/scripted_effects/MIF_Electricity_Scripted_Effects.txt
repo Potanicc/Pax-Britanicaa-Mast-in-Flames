@@ -1,5 +1,5 @@
 MIF_Calculate_Electricity = {
-	# leave these as reg vars as they need to be visible to the player
+	# leave these as reg vars as they need to be visible to the player in the tooltip
 	set_variable = { MIF_electricity_base_production = modifier@electricity_production }
 	set_variable = { MIF_electricity_production_factor = modifier@electricity_production_factor }
 	add_to_variable = { MIF_electricity_production_factor = 1 }

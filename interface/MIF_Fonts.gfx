@@ -1,0 +1,20 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "atomic_age_16"
+		fontfiles = {
+			"gfx/fonts/Atomic_Age_16"
+		}
+	}
+	bitmapfont = {
+		name = "atomic_age_12"
+		fontfiles = {
+			"gfx/fonts/Atomic_Age_12"
+		}
+	}
+	bitmapfont = {
+		name = "atompunk_sans"
+		fontfiles = {
+			"gfx/fonts/atompunk_sans"
+		}
+	}
+}

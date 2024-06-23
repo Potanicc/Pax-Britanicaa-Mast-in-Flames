@@ -3,5 +3,11 @@ scripted_gui = {
 		window_name = "MIF_Electricty_GUI"
 		context_type = player_context
 		parent_window_token = construction_tab
+
+		triggers = {
+			MIF_Electricty_Construction_Blocker_visible = {
+				check_variable = { MIF_electricity < 0 }
+			}
+		}
 	}
 }

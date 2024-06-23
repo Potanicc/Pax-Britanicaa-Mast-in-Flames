@@ -35,5 +35,13 @@ guiTypes = {
 			pdx_tooltip = "MIF_Electricity_help_tt"
 			pdx_tooltip_delayed = "MIF_Electricity_help_tt_delayed"
 		}
+
+		iconType = {
+			name ="MIF_Electricty_Construction_Blocker"
+			spriteType = "GFX_MIF_Electricty_Construction_Blocker"
+			position = { x = 54 y = 175 }
+			pdx_tooltip = "MIF_Electricty_Construction_Blocker_tt"
+			pdx_tooltip_delayed = "MIF_Electricty_Construction_Blocker_tt_delayed"
+		}
 	}
 }

@@ -1,0 +1,68 @@
+scripted_map_modes = {
+	MIF_union_states_map_mode = {
+		top = {
+			type = country
+			#targets = {
+	 		#	target_trigger = {
+	 		#		OR = {
+			#			is_in_array = { MIF_United_American_Republic_Members = FROM }
+			#			# add rest of 
+			#		}
+	 		#	}
+	 		#}
+			color = {
+				FROM = {
+					set_temp_variable = { thickness = 10.0 }
+					# rgb channels are determined by faction, alpha channel is determined by level in faction - sprinkleskid
+					# rgb channels, check for faction here
+					if = {
+						limit = {
+							is_in_array = { MIF_United_American_Republic_Members = FROM }
+						}
+						set_temp_variable = { red = 0.071 }
+						set_temp_variable = { green = 0.310 }
+						set_temp_variable = { blue = 0.478 }
+					}
+					else = {
+						set_temp_variable = { red = 0.451 }
+						set_temp_variable = { green = 0.451 }
+						set_temp_variable = { blue = 0.451 }
+					}
+
+					# alpha channel
+					if = {
+						limit = {
+							is_in_array = { MIF_Union_Leaders = FROM }
+						}
+						set_temp_variable = { alpha = 1.0 }
+					}
+					else_if = {
+						limit = {
+							is_in_array = { MIF_Union_Members = FROM }
+						}
+						set_temp_variable = { alpha = 0.75 }
+					}
+					else_if = {
+						limit = {
+							is_in_array = { MIF_Union_Dependencies = FROM }
+						}
+						set_temp_variable = { alpha = 0.5 }
+					}
+					else = {
+						set_temp_variable = { alpha = 0.25 }
+					}
+				}
+			}
+			thickness = no
+		}
+
+		bottom = {
+			type = none
+		}
+
+		far_text = none
+		near_text = none
+
+		update_daily = yes
+	}
+}

@@ -1,0 +1,9 @@
+﻿l_english:
+ MAPMODE_COLD_WAR_MAP_MODE: "§YThe Cold War§!"
+ MAPMODE_COLD_WAR_MAP_MODE_NAME: "The Cold War"
+ MAPMODE_COLD_WAR_MAP_MODE_DESCRIPTION: "§YThe ongoing state of the Cold War.§!"
+ MAPMODE_MIF_UNION_STATES_MAP_MODE: "§YUnion States§!"
+ MAPMODE_MIF_UNION_STATES_MAP_MODE_NAME: "Union States"
+ MAPMODE_MIF_UNION_STATES_MAP_MODE_DESCRIPTION: "§The members of a Union State.§!"
+ MIF_union_states_map_mode_tooltip: "wip"
+ test_map_mode_tooltip_delayed: "wip"

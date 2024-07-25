@@ -1,6 +1,6 @@
-capital = 448
+capital = 775
 
-oob = "LOH_1933"
+#oob = "FFL_1957"
 
 set_fuel_ratio = 0.4
 starting_train_buffer = 2
@@ -168,59 +168,12 @@ clamp_variable = {
 	max = 999
 }
 
-add_to_leading_coalition_ds = yes
-add_to_farright_coalition_ni = yes
-add_to_farright_coalition_ds = yes
-ban_party_rc = yes
-ban_party_an = yes
-ban_party_cn = yes
-ban_party_lb = yes
-ban_party_ss = yes
-ban_party_jc = yes
-
-create_intelligence_agency = {
-	name = "Milice française"
-}
-
 set_research_slots = 4
 
 set_stability = 1
 set_war_support = 0.15
 
 set_convoys = 200
-
-add_manpower = 220000
-
-FRA = {
-	add_opinion_modifier = {
-		target = GER
-		modifier = great_war_bitterness
-	}
-	add_opinion_modifier = {
-		target = ENG
-		modifier = great_war_bitterness
-	}
-}
-
-set_variable = {
-	var = FRA_GLFP
-	value = 72
-}
-
-set_variable = {
-	var = FRA_unemployment_variable
-	value = 7
-}
-
-set_variable = {
-	var = FRA_Factionalism
-	value = 0.61
-}
-
-set_variable = {
-	var = FRA_Nationalistic_Fervour
-	value = 0.33
-}
 
 PB_Set_Max_State_Focus = yes
 
@@ -264,38 +217,14 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = ni
+	ruling_party = FRA_OL
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-FRA = {
-	set_country_flag = FRA_Charles_Nogues_Militarists
-	set_country_flag = FRA_Joseph_Darnand_SP
-}
-
 set_popularities = {
-	ni = 24
-	ds = 58
-	rc = 15
-	cn = 1
-	lb = 0
-	an = 0
-	ss = 0
-	jc = 2
-}
-
-FRA = {
-	add_opinion_modifier = {
-	    target = AME
-	    modifier = cold_war_contenders
-	}
-
-	add_opinion_modifier = {
-	    target = JAP
-	    modifier = cold_war_contenders
-	}
+	FRA_OL = 100
 }
 
 if = {
@@ -348,49 +277,6 @@ if = {
 		nationalities = { FRA ENG }
 	}
 }
-
-
-# CHARACTERS
-recruit_character = FRA_Hubert_Lyautey
-recruit_character = FRA_Maurice_Gamelin
-recruit_character = FRA_Henri_Giraud
-recruit_character = FRA_Maxime_Weygand
-recruit_character = FRA_Jean_Tassigny
-recruit_character = FRA_Francois_Darlan
-recruit_character = FRA_Laurent_Eynac
-recruit_character = FRA_Felix_dHerelle
-recruit_character = FRA_Alphonse_Juin
-recruit_character = FRA_Victor_Schweisguth
-recruit_character = FRA_Georges_Catroux
-recruit_character = FRA_Louis_Esperey
-recruit_character = FRA_Jean_Abrial
-recruit_character = FRA_Emile_Muselier
-recruit_character = FRA_Henri_Blehaut
-recruit_character = FRA_Gabriel_Auphan
-recruit_character = FRA_Jean_Decoux
-recruit_character = FRA_Rene_Godfrey
-recruit_character = FRA_Philippe_Kieffer
-recruit_character = FRA_Joseph_Bares
-recruit_character = FRA_Victor_Denain
-recruit_character = FRA_Joseph_Vuillemin
-recruit_character = FRA_Martin_Valin
-recruit_character = FRA_Pierre_Pouyade
-recruit_character = FRA_Jean_Jannekeyn
-recruit_character = FRA_Don_Marchetti
-recruit_character = FRA_jacques_doriot
-recruit_character = FRA_françois_de_la_rocque
-recruit_character = FRA_charles_de_gaulle
-recruit_character = FRA_rené_coty
-recruit_character = FRA_léon_blum
-recruit_character = FRA_benoit_frachon
-recruit_character = FRA_charles_noguès
-recruit_character = FRA_théophile_marie_brébant
-recruit_character = FRA_claire_lee_chennault
-recruit_character = FRA_charles_huntziger
-recruit_character = FRA_alphonse_joseph_georges
-recruit_character = FRA_paul_legentilhomme
-recruit_character = FRA_alphonse_pierre_juin
-recruit_character = FRA_daniel_ney_delchingen
 
 
 if = {

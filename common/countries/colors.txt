@@ -815,3 +815,18 @@ SAL = {
 	color = rgb { 48 52 99 }
 	color_ui = rgb { 48 52 99 }
 }
+
+FFL = {
+	color = rgb { 48 52 99 }
+	color_ui = rgb { 48 52 99 }
+}
+
+CTH = {
+	color = rgb { 114 118 160 }
+	color_ui = rgb { 114 118 160 }
+}
+
+IFA = {
+	color = rgb { 20 59 20 }
+	color_ui = rgb { 20 59 20 }
+}

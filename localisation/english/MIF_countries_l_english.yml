@@ -1,225 +1,95 @@
 ﻿l_english:
- 
+
+ ### WESTERN EUROPE ###
+
+ #France
  FRA:0 "National State of France"
  FRA_DEF:0 "the National State of France"
  FRA_ADJ:0 "French"
 
- RUS:0 "Russian Empire"
- RUS_DEF:0 "the Russian Empire"
- RUS_ADJ:0 "Russian"
-
- AME:0 "United American Republic"
- AME_DEF:0 "the United American Republic"
- AME_ADJ:0 "American"
-
- JAP:0 "Republic of Japan"
- JAP_DEF:0 "the Republic of Japan"
- JAP_ADJ:0 "Japanese"
-
- ROC:0 "Chinese Workers' and Peasants' Republic"
- ROC_DEF:0 "the Chinese Workers' and Peasants' Republic"
- ROC_ADJ:0 "Chinese"
-
+ #Iberia/Spain
  SPR:0 "Holy Communion of Iberia"
  SPR_DEF:0 "the Holy Communion of Iberia"
  SPR_ADJ:0 "Iberian"
 
- GER:0 "German National Republic"
- GER_DEF:0 "the German National Republic"
- GER_ADJ:0 "German"
-
+ #British Federation
  OBR:0 "British Federation"
  OBR_DEF:0 "the British Federation"
  OBR_ADJ:0 "British"
 
- SCO:0 "Republic of Scotland"
- SCO_DEF:0 "the Republic of Scotland"
- SCO_ADJ:0 "Scottish"
-
- VMC:0 "Valentia March"
- VMC_DEF:0 "the Valentia March"
- VMC_ADJ:0 "Valentian"
-
- IRE:0 "Irish Republic"
- IRE_DEF:0 "the Irish Republic"
- IRE_ADJ:0 "Irish"
-
- MEX:0 "Empire of Mexico"
- MEX_DEF:0 "the Empire of Mexico"
- MEX_ADJ:0 "Mexican"
-
- GRE:0 "Kingdom of Greece"
- GRE_DEF:0 "the Kingdom of Greece"
- GRE_ADJ:0 "Greek"
-
- SER:0 "Empire of Yugoslavia"
- SER_DEF:0 "the Empire of Yugoslavia"
- SER_ADJ:0 "Yugoslav"
-
- HUN:0 "Kingdom of Hungary"
- HUN_DEF:0 "the Kingdom of Hungary"
- HUN_ADJ:0 "Hungarian"
-
- ROM:0 "Kingdom of Romania" 
- ROM_DEF:0 "the Kingdom of Romania"
- ROM_ADJ:0 "Romanian"
-
- KOR:0 "Korean Revolutionary Republic"
- KOR_DEF:0 "the Korean Revolutionary Republic"
- KOR_ADJ:0 "Korean"
-
- MON:0 "Republic of Mongolia"
- MON_DEF:0 "the Republic of Mongolia"
- MON_ADJ:0 "Mongolian"
- 
- FER:0 "Far Eastern Republic"
- FER_DEF:0 "the Far Eastern Republic"
- FER_ADJ:0 "Far Eastern"
-
- INS:0 "Republic of Indonesia"
- INS_DEF:0 "the Republic of Indonesia"
- INS_ADJ:0 "Indonesian"
-
- IST:0 "Italian Social Republic"
- IST_DEF:0 "the Italian Social Republic"
- IST_ADJ:0 "Italian"
-
- CZE:0 "Kingdom of Bohemia"
- CZE_DEF:0 "the Kingdom of Bohemia"
- CZE_ADJ:0 "Bohemian"
-
- TIB:0 "Tibet"
- TIB_DEF:0 "Tibet"
- TIB_ADJ:0 "Tibetan"
-
- PER:0 "Sublime State of Persia"
- PER_DEF:0 "the Sublime State of Persia"
- PER_ADJ:0 "Persian"
-
- DEN:0 "Danish State"
- DEN_DEF:0 "the Danish State"
- DEN_ADJ:0 "Danish"
-
- LON:0 "Londres"
- LON_DEF:0 "Londres"
- LON_ADJ:0 "Londoner"
-
- EGY:0 "Egyptian Republic"
- EGY_DEF:0 "the Egyptian Republic"
- EGY_ADJ:0 "Egyptian"
-
- VIN:0 "Republic of Vietnam"
- VIN_DEF:0 "the Republic of Vietnam"
- VIN_ADJ:0 "Vietnamese"
-
- BCL:0 "Free Provinces of Borealia"
- BCL_DEF:0 "the Free Provinces of Borealia"
- BCL_ADJ:0 "Borealian"
-
- SCH:0 "Kiel Canal Autonomous Zone"
- SCH_DEF:0 "the Kiel Canal Autonomous Zone"
- SCH_ADJ:0 "Kiel"
-
- HOL:0 "Dutch Republic"
- HOL_DEF:0 "the Dutch Republic"
- HOL_ADJ:0 "Dutch"
-
- ALB:0 "Albania"
- ALB_DEF:0 "Albania"
- ALB_ADL:0 "Albanian"
-
- AFG:0 "Durrani Empire"
- AFG_DEF:0 "the Durrani Empire"
- AFG_ADJ:0 "Durrani"
-
- RAJ:0 "Republic of India"
- RAJ_DEF:0 "the Republic of India"
- RAJ_ADJ:0 "Indian"
-
- JKM:0 "Jammu and Kashmir"
- JKM_DEF:0 "Jammu and Kashmir"
- JKM_ADJ:0 "Kashmir"
-
+ #Dover
  DOC:0 "Dover Strategic Command"
  DOC_DEF:0 "the Dover Strategic Command"
  DOC_ADJ:0 "Franco-English"
 
+ #Isle of Man
  IOM:0 "Isle of Man"
- IOM_DEF:0 "the Crown Dependency of the Isle of Man"
+ IOM_DEF:0 "the Isle of Man"
  IOM_ADJ:0 "Manx"
 
+ #Valentia March
  VMA:0 "Valentia March"
- VMA_DEF:0 "the Valentia Autonomous Military Administration"
+ VMA_DEF:0 "Valentia March"
  VMA_ADJ:0 "Valentian"
 
- NOR:0 "Kingdom of Norway"
- NOR_DEF:0 "the Kingdom of Norway"
- NOR_ADJ:0 "Norwegian"
+ #Scotland
+ SCO:0 "Republic of Scotland"
+ SCO_DEF:0 "the Republic of Scotland"
+ SCO_ADJ:0 "Scottish"
 
- SWE:0 "Kingdom of Sweden"
- SWE_DEF:0 "the Kingdom of Sweden"
- SWE_ADJ:0 "Swedish"
+ #Ireland
+ IRE:0 "Irish Republic"
+ IRE_DEF:0 "the Irish Republic"
+ IRE_ADJ:0 "Irish"
 
- ETH:0 "Ethiopian Empire"
- ETH_DEF:0 "the Ethiopian Empire"
- ETH_ADJ:0 "Ethiopian"
+ #Netherlands
+ HOL:0 "Dutch Republic"
+ HOL_DEF:0 "the Dutch Republic"
+ HOL_ADJ:0 "Dutch"
 
- WAF:0 "Free State of Carnegia"
- WAF_DEF:0 "the Free State of Carnegia"
- WAF_ADJ:0 "Carnegian"
+ #Austrasia
+ ASU:0 "Austrasie"
+ ASU_DEF:0 "Austrasie"
+ ASU_ADJ:0 "Austrasian"
 
- NIG:0 "United Nigerian Republic"
- NIG_DEF:0 "the United Nigerian Republic"
- NIG_ADJ:0 "Nigerian"
+ #Salian Republic
+ SAL:0 "Salian Republic"
+ SAL_DEF:0 "the Salian Republic"
+ SAL_ADJ:0 "Salian"
 
- SOK:0 "Sokoto Caliphate"
- SOK_DEF:0 "the Sokoto Caliphate"
- SOK_ADJ:0 "Sokoto"
+ #Nuremberg Germany
+ WGR:0 "German National Republic"
+ WGR_DEF:0 "the German National Republic"
+ WGR_ADJ:0 "German"
+ 
+ #Cisleithenia
+ AUS:0 "Cisleithenia"
+ AUS_DEF:0 "Cisleithenia"
+ AUS_ADJ:0 "Cisleithanian"
 
- ASH:0 "Ashanti"
- ASH_DEF:0 "Ashanthi"
- ASH_ADJ:0 "Ashanti"
+ #Italian Social Republic
+ IST:0 "Italian Social Republic"
+ IST_DEF:0 "the Italian Social Republic"
+ IST_ADJ:0 "Italian"
 
- FUL:0 "Fulani Republic"
- FUL_DEF:0 "the Fulani Republic"
- FUL_ADJ:0 "Fulani"
+ 
+ ### EASTERN EUROPE ###
+ 
+ #Russia
+ RUS:0 "Russian Empire"
+ RUS_DEF:0 "the Russian Empire"
+ RUS_ADJ:0 "Russian"
 
- MLI:0 "Mali Federation"
- MLI_DEF:0 "the Mali Federation"
- MLI_ADJ:0 "Malian"
 
- AZA:0 "Tuareg Confederation of Azawad"
- AZA_DEF:0 "the Tuareg Confederation of Azawad"
- AZA_ADJ:0 "Tuareg"
+ ### NORTH AFRICA ###
+ CTH:0 "Carthage"
+ CTH_DEF:0 "Carthage"
+ CTH_ADJ:0 "Carthaginian"
 
- NBT:0 "Republic of New Holland"
- NBT_DEF:0 "the Republic of New Holland"
- NBT_ADJ:0 "Australo-Dutch"
+ FFL:0 "Légion Étrangère"
+ FFL_DEF:0 "Légion Étrangère"
+ FFL_ADJ:0 "Franco-African"
 
- VIC:0 "Commonwealth of Oceania"
- VIC_DEF:0 "the Commonwealth of Oceania"
- VIC_ADJ:0 "Oceanian"
-
- NWG:0 "Empire of Gran Colombia"
- NWG_DEF:0 "the Empire of Gran Colombia"
- NWG_ADJ:0 "Gran Colombian"
-
- MNG:0 "Empire of Brazil"
- MNG_DEF:0 "the Empire of Brazil"
- MNG_ADJ:0 "Brazilian"
-
- SLO:0 "Slovak Republic"
- SLO_DEF:0 "the Slovak Republic"
- SLO_ADJ:0 "Slovak"
-
- POL:0 "Poland"
- POL_DEF:0 "Poland"
- POL_ADJ:0 "Polish"
-
- GLF:0 "German Liberation Forces"
- GLF_DEF:0 "the German Liberation Forces"
- GLF_ADJ:0 "German Exile"
-
- ENG:0 "British Salvation Government"
- ENG_DEF:0 "the British Salvation Government"
- ENG_ADJ:0 "British Exile"
+ IFA:0 "Italian North Africa"
+ IFA_DEF:0 "Italian North Africa"
+ IFA_ADJ:0 "Italo-African"

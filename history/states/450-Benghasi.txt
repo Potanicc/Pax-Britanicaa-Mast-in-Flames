@@ -7,8 +7,9 @@ state={
 	state_category = enclave
 
 	history={
-		owner = SOK
-		add_core_of = SOK
+		owner = IFA
+		add_core_of = IFA
+		add_core_of = LBA
 		
 		victory_points = {
 			11954 5

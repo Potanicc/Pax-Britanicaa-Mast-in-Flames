@@ -21,6 +21,7 @@ CTH = "countries/Western European.txt" #Carthage
 FFL = "countries/Western European.txt" #French Foreign Legion
 WAF = "countries/Western European.txt" #Carnegia
 SWI = "countries/Western European.txt" #Switzerland
+IFA = "countries/Western European.txt" #Italian North Africa
 
 SPR = "countries/Western European.txt" #Iberia
  

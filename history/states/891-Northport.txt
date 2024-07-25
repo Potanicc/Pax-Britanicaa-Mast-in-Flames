@@ -5,8 +5,8 @@ state={
 		4296 7315 7386 10157 10242
 	}
 	history = {
-		owner = BCL
-		add_core_of = BCL
+		owner = AME
+		add_core_of = AME
 		buildings = {
 			infrastructure = 6
 			air_base = 1

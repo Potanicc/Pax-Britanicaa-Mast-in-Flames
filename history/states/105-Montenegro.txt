@@ -12,9 +12,10 @@ state={
 	}
 
 	history={
-		owner = SER
-		add_core_of = SER
+		owner = DNB
+		add_core_of = DNB
 		add_core_of = MNT
+		add_claim_by = SER
 		victory_points = { 9809 3 }
 		buildings = {
 			infrastructure = 4

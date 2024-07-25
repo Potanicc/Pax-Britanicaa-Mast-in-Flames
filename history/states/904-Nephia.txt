@@ -2,10 +2,8 @@ state={
 	id=904
 	name="Nephia"
 	history={
-		owner = SFE
-		#owner = FRE
-		add_core_of = SFE
-		#add_core_of = FRE
+		owner = AME
+		add_core_of = AME
 		victory_points = {
 			4742 1
 		}

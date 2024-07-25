@@ -10,11 +10,11 @@ state={
 	}
 
 	history={
-		owner = LAK
+		owner = AME
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = LAK
+		add_core_of = AME
 		victory_points = {
 			1866 5 
 		}

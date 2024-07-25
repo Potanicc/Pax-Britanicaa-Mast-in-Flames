@@ -6,8 +6,8 @@ state={
 		grain=51
 	}
 	history={
-		owner = GRN
-		add_core_of = GRN
+		owner = AME
+		add_core_of = AME
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

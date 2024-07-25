@@ -8,9 +8,8 @@ state={
 	}
 
 	history={
-		owner = WAF
-		add_core_of = WAF
-		#add_core_of = MOR
+		owner = SOK
+		add_core_of = SOK
 		buildings = {
 			infrastructure = 4
 

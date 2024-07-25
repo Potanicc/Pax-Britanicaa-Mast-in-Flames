@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = QUE
+		owner = AME
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -15,7 +15,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = QUE
+		add_core_of = AME
 		victory_points = {
 			10230 2 
 		}

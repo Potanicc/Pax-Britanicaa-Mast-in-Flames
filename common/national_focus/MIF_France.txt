@@ -17,12 +17,7 @@
 #
 #	CONTENTS:
 # 	
-#	1. Domestic Branch
-#	>Dealing with SP
-#
-#
-#	2. Cold War Branch
-#	>European Matters
+#	
 
 focus_tree = {
 
@@ -44,11 +39,11 @@ focus_tree = {
 	}
 
 	initial_show_position = {
-		focus = FRA_Jacques_Doriot_Saviour
+		focus = FRA_24_Years_FPF
 	} 
 
 	focus = {
-		id = FRA_Jacques_Doriot_Saviour
+		id = FRA_24_Years_FPF
 		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
 		x = 25
 		y = 0
@@ -60,231 +55,6 @@ focus_tree = {
 		ai_will_do = {
 			base = 5
 		}
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		id = FRA_Pawn_With_Crown
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = -8
-		y = 2
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Jacques_Doriot_Saviour
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Jacques_Doriot_Saviour
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	focus = {
-		id = FRA_Bastard_In_Glasses
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 0
-		y = 2
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Jacques_Doriot_Saviour
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Jacques_Doriot_Saviour
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	focus = {
-		id = FRA_Power_Hungry_Tyrant
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 8
-		y = 2
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Jacques_Doriot_Saviour
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Jacques_Doriot_Saviour
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		id = FRA_Pull_Strings
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = -2
-		y = 1.5
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Power_Hungry_Tyrant
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Power_Hungry_Tyrant
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-
-
-
-
-
-
-
-
-	focus = {
-		id = FRA_Expand_African_Foothold
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 8.5
-		y = 1.5
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Power_Hungry_Tyrant
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Power_Hungry_Tyrant
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		id = FRA_Exploit_Useful_Idiots
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 3
-		y = 1.5
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Expand_African_Foothold
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Expand_African_Foothold
-		available_if_capitulated = no
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		cancel_if_invalid = yes
-		
-		completion_reward = {
-			add_political_power = 10
-		}
-	}
-
-	focus = {
-		id = FRA_Rifles_For_Ink
-		icon = GFX_Focus_FRA_Reform_Military_Mass_Mobilization_Conscription
-		x = 0
-		y = 1.3
-		cost = 14
-		available = {
-		}
-		prerequisite = {
-			focus = FRA_Exploit_Useful_Idiots
-		}
-		bypass = {
-		}
-		ai_will_do = {
-			base = 5
-		}
-		relative_position_id = FRA_Exploit_Useful_Idiots
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		cancel_if_invalid = yes

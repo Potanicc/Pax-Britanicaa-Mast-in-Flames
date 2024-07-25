@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = NRT
+		owner = AME
 		buildings = {
 			infrastructure = 2
 		}
@@ -22,7 +22,7 @@ state={
 		victory_points = {
 			12516 3
 		}
-		add_core_of = NRT
+		add_core_of = AME
 
 	}
 

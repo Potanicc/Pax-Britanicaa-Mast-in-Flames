@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = LAK
-		add_core_of = LAK
+		owner = AME
+		add_core_of = AME
 
 	}
 

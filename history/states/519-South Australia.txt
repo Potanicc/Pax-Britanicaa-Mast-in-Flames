@@ -11,7 +11,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = NBT
+		owner = NHL
 		buildings = {
 			infrastructure = 2
 			2219 = {
@@ -21,7 +21,7 @@ state={
 		victory_points = {
 			2219 1
 		}
-		add_core_of = NBT
+		add_core_of = NHL
 	}
 
 	provinces={

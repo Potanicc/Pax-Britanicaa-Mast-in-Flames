@@ -6,10 +6,9 @@ state={
 	impassable = yes
 
 	history={
-		owner = AZA
-		add_core_of = AZA
-		add_claim_by = MLI
-		
+		owner = SOK
+		add_core_of = SOK
+	
 		buildings = {
 			infrastructure = 0
 

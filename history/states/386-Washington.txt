@@ -8,11 +8,11 @@ state={
 	}
 
 	history={
-		owner = BCL
+		owner = AME
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BCL
+		add_core_of = AME
 		victory_points = {
 			10271 3
 		}

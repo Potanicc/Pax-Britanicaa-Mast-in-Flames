@@ -15,10 +15,8 @@ state={
 				naval_base = 3
 			}
 		}
-		owner = FUL
-		add_core_of = BAF
-		add_claim_by = SIE
-		add_core_of = FUL
+		owner = SOK
+		add_core_of = SOK
 	}
 
 	provinces={

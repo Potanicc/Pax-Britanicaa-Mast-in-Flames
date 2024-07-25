@@ -8,7 +8,7 @@ state={
 
 
 	history={
-		owner = SER
+		owner = DNB
 		victory_points = {
 			3924 3 
 		}
@@ -32,8 +32,9 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = SER
+		add_core_of = DNB
 		add_core_of = CRO
+		add_claim_by = SER
 	}
 
 	provinces={

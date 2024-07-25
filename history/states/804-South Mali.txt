@@ -7,10 +7,8 @@ state={
 	}
 
 	history={
-		owner = SIE
-		add_core_of = SIE
-		add_claim_by = MLI
-		add_core_of = WAT
+		owner = SOK
+		add_core_of = SOK
 		buildings = {
 			infrastructure = 3
 

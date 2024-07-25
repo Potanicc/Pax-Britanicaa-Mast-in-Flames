@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = QUE
+		owner = AME
 		buildings = {
 			infrastructure = 2
 			3691 = {
@@ -16,7 +16,7 @@ state={
 			}
 
 		}
-		add_core_of = QUE
+		add_core_of = AME
 
 	}
 

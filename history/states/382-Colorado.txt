@@ -11,7 +11,7 @@ state={ #quivira alta
 	state_category = town
 
 	history={
-		owner = GRN
+		owner = AME
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -19,7 +19,7 @@ state={ #quivira alta
 		victory_points = {
 			12024 5
 		}
-		add_core_of = GRN
+		add_core_of = AME
 	}
 
 	provinces={

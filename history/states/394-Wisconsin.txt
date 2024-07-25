@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = QUE
+		owner = AME
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 
 		}
-		add_core_of = QUE
+		add_core_of = AME
 		victory_points = {
 			12357 5 
 		}

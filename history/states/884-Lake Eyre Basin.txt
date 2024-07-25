@@ -2,8 +2,8 @@ state={
 	id=884
 	name="STATE_884"
 	history={
-		owner = NBT
-		add_core_of = NBT
+		owner = NHL
+		add_core_of = NHL
 	}
 	provinces={
 		7623 12906

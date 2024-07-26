@@ -19,10 +19,10 @@ state={
 		}
 		add_core_of = AME
 		victory_points = {
-			6855 5 
+			6855 10 
 		}
 		victory_points = {
-			6890 25
+			6890 40
 		}
 
 	}

@@ -1,4 +1,23 @@
-MIF_AME_Impeachment_Crisis = {
+#MIF_AME_Impeachment_Crisis = {
+#
+#	icon = GFX_decision_category_bonus_brigade
+#	
+#	allowed = {
+#		original_tag = AME
+#	}
+#
+#	visible = {
+#		has_country_flag = AME_impeachment_crisis_flag
+#	}
+#
+#	visible_when_empty = yes
+#
+#	scripted_gui = MIF_AME_Impeachment_Crisis_Scripted_GUI
+#
+#	picture = GFX_decision_cat_AME_Bonus_Brigade
+#}
+
+MIF_AME_the_Sandstone_Curtain = {
 
 	icon = GFX_decision_category_bonus_brigade
 	
@@ -7,14 +26,29 @@ MIF_AME_Impeachment_Crisis = {
 	}
 
 	visible = {
-		has_country_flag = AME_impeachment_crisis_flag
+		NOT = {
+			has_variable = MIF_Mexican_American_Tensions	# temp trigger until i set up the escalation system
+		}
 	}
 
 	visible_when_empty = yes
 
-	scripted_gui = MIF_AME_Impeachment_Crisis_Scripted_GUI
+	scripted_gui = MIF_AME_the_Sandstone_Curtain_Scripted_GUI
 
 	picture = GFX_decision_cat_AME_Bonus_Brigade
+}
 
-	priority = 1000
+MIF_AME_an_Army_of_Monsters = {
+
+	icon = GFX_decision_category_bonus_brigade
+	
+	allowed = {
+		original_tag = AME
+	}
+
+	visible_when_empty = yes
+
+	scripted_gui = MIF_AME_an_Army_of_Monsters_Scripted_GUI
+
+	picture = GFX_decision_cat_AME_Bonus_Brigade
 }

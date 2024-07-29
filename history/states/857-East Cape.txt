@@ -5,7 +5,7 @@ state={
 		1833 4584 4696 4822 
 	}
 	history={
-		owner = SAF
+		owner = NRP
 		add_claim_by = ANC
 		add_core_of = SAF
 		buildings = {

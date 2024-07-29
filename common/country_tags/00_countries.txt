@@ -38,6 +38,7 @@ PRS = "countries/Western European.txt" #Prussia
 
 AME = "countries/Western European.txt" #America
 NHL = "countries/Western European.txt" #New Holland
+USA = "countries/Western European.txt" #USA
 
 GER = "countries/Western European.txt" #Independent Germany
 POR = "countries/Western European.txt" #Portugal
@@ -75,6 +76,8 @@ AZR = "countries/Eastern European.txt" #Azerbaijan
 ARM = "countries/Eastern European.txt" #Armenia
 SLO = "countries/Eastern European.txt" #Slovakia
 
+SOV = "countries/Eastern European.txt" #Soviet Union
+
 # /: ASIAN :\ #
 JAP = "countries/Asian.txt" #Japan
 KOR = "countries/Asian.txt" #Korea
@@ -101,6 +104,10 @@ NEP = "countries/Asian.txt" #Nepal
 BHU = "countries/Asian.txt" #Bhutan
 
 CHI = "countries/Asian.txt" #Republic of China (Japanese)
+
+PRC = "countries/Asian.txt" #Mao China
+MEN = "countries/Asian.txt" #Mengukuo
+MAN = "countries/Asian.txt" #Machukuo
 
 # /: AFRICAN :\ #
 ALG = "countries/African.txt" #Algeria
